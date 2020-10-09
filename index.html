@@ -12,9 +12,9 @@
             <img src="images/logo/ohmyfood@2x.svg" alt="ohmyfood">
         </div>
 
-        <div id="barre_recherche">
+        <div id="barre-recherche">
             <img src="images/logo/1490793853-user-interface22_82349.svg">
-            <form class="bouton_rose">
+            <form class="bouton-rose">
                 <input type="text" class="search" placeholder="">
                 <h1>Réservez le menu qui vous convient</h1>
                 <h3>Découvrez des restaurants d'exception, sélectionnés par nos soins.</h3>
@@ -22,9 +22,9 @@
             </form>
         </div>
 
-        <section id="navigation">
+        <section id="navigation">  <!--test BEM. Ici navigation sera le block. Les élements descendants seront donc les elements. Selon la nomenclature il faudra écrire navigation_element-->>
             <h2>Fonctionnement</h2>
-            <div id="choix">
+            <div id="navigation_choix">
                 <nav>
                     <ul>
                         <p>1</p>
@@ -32,7 +32,7 @@
                     </ul>
                 </nav>
             </div>
-            <div id="composition">
+            <div id="navigation_composition">
                 <nav>
                     <ul>
                         <p>2</p>
@@ -40,7 +40,7 @@
                     </ul>
                 </nav>
             </div>
-            <div id="dégustation">
+            <div id="navigation_dégustation">
                 <nav>
                     <ul>
                         <p>3</p>
@@ -50,16 +50,17 @@
             </div>
         </section>
         
-        <section id="restaurants">
+        <section id="restaurants">    <!--block-->
             <h2>Restaurants</h2>
-            <div id="palette">
+            <div id="restaurants_palette">   <!--élément ?-->
                 <a href=""><article>
                     <h5>Nouveau</h5>
-                    <div class="overlay">
+                    <div class="restaurants--overlay">   <!--BEM test. Ici, si on peut effectivement considerer l'overlay comme un modificateur il s'agira de l'écrire en conséquence: restaurants--overlay.-->
                         <h3>La palette du goût</h3>
                         <h4>Ménilmontant</h4>
-                        <input id="toggle-heart" type="checkbox"/>
+                        <input id="toggle-heart" type="checkbox"/> <!-- de ce que j'ai vu, le seul moyen de simuler des effets de click sans javascript est à travers le type checkbox et le label. Suite du commentaire dans le sass-->
                         <label for="toggle-heart">&#9825;</label>
+
                     </div>
 
                 </article>
