@@ -3,7 +3,23 @@
     padding: 0;
 }
 
-#logo {
-    height: 30em;
-    width: auto;
+
+@media screen and (min-width: 280px) and (max-width: 500px)
+{
+    #logo img{
+        height: 2.5em;
+        width: auto;
+    }
+    
+    .fa {
+        color: white;
+    }
+    #barre-recherche {
+        img {
+            height: 1em;
+            
+        }
+        
+           
+    }
 }
