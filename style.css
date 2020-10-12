@@ -21,11 +21,10 @@
   }
   #header .button-pink #search-bar {
     padding-left: 5em;
-    padding-right: 4em;
     margin-top: -0.5em;
     background-color: #EAEAEA;
     border-top-style: hidden;
-    box-shadow: 0em -0.1em 0em 0em;
+    box-shadow: 0em -0.1em 0em 0em gray;
   }
   #header .button-pink #search-bar .search {
     background-color: #EAEAEA;
