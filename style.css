@@ -4,14 +4,39 @@
 }
 
 @media screen and (min-width: 280px) and (max-width: 500px) {
+  #logo {
+    display: flex;
+    justify-content: center;
+  }
   #logo img {
     height: 2.5em;
     width: auto;
+    padding-bottom: 1em;
   }
-}
-#barre-recherche .fas {
-  color: red;
-  font-size: 1em;
+
+  #barre-recherche {
+    background-color: #F6F6F6;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    display: flex;
+  }
+  #barre-recherche .fas {
+    color: red;
+    font-size: 1em;
+  }
+  #barre-recherche .bouton-rose .search {
+    margin-left: 4em;
+    text-align: center;
+    height: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-top: solid;
+    border-left: transparent;
+    border-right: transparent;
+  }
+  #barre-recherche .bouton-rose h1 {
+    font-size: 2em;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
