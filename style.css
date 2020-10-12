@@ -9,8 +9,9 @@
     width: auto;
   }
 
-  .fa {
+  .fa-map {
     color: white;
+    height: 2em;
   }
 
   #barre-recherche img {
