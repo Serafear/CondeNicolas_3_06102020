@@ -17,26 +17,32 @@
         }
     }
 
-    #barre-recherche {
+    #header {
        background-color: #F6F6F6;
-       padding: 0.5em 0.5em 0.5em 0.5em;
+       padding: 0.5em 0em 0.5em 0em;
        display: flex;
-        .fas {
-            color: red;
-            font-size: 1em;
-        }
-        .bouton-rose {
-            
-            .search {
-                margin-left: 4em;
-                text-align: center;
-                height: 3em;
-                padding-left: 2em;
-                padding-right: 2em;
-                border-top: solid;
-                border-left: transparent;
-                border-right: transparent;
+        
+        .button-pink {
+
+            #search-bar {
+                padding-left: 5em;
+                padding-right: 4em;
+                margin-top: -0.5em;
+                background-color: #EAEAEA;  
+                border-top-style: hidden;
+                box-shadow: 0em -0.1em 0em 0em;  
+                 
+                .search {
+                    background-color: #EAEAEA;
+                    height: 3em;
+                    border-style: none;
+                }
+                .fas {
+                    color: #323232;
+                    font-size: 1em;     
+                }
             }
+            
             h1 {
                 font-size: 2em;
                 text-align: center;
