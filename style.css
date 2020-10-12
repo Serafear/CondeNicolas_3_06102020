@@ -8,15 +8,10 @@
     height: 2.5em;
     width: auto;
   }
-
-  .fa-map {
-    color: white;
-    height: 2em;
-  }
-
-  #barre-recherche img {
-    height: 1em;
-  }
+}
+#barre-recherche .fas {
+  color: red;
+  font-size: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */
