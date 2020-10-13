@@ -65,6 +65,7 @@
                 }
             }
             
+            
             h1 {
                 font-size: 1.5em;
                 font-weight: bolder;
@@ -93,9 +94,50 @@
                 border-style: hidden;
                 padding: 0.8em 0.8em 0.8em 0.8em;
                 background: linear-gradient(-10deg, $purple 30%, $pink);
-            }
+                &:hover {
+                    color: black;
+                    cursor: pointer;
+                }
+                
+                
+            }   
+        }   
+    }  
+
+    #navigation {
+        padding-top: 3em;
+        font-family: $font-text;
+        display: flex;
+        flex-direction: column;
+        
+        h2 {
+            font-weight: bolder;
+            
         }
-    }    
+        nav {
+        
+            ul {
+                list-style-type: none;
+                
+            }
+                .fas {
+                    padding-right: 1em;
+                }
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        font-weight: bold;
+                        
+                    }
+                        li{
+                            border-style: solid;
+                            border-radius: 20px;
+                            margin-left: 4em;
+                            margin-right: 4em;
+                            padding: 1em 1em 1em 1em;
+                        }
+        }
+    }  
 }
       
 

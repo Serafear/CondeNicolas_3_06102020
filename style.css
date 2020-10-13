@@ -78,6 +78,38 @@
     padding: 0.8em 0.8em 0.8em 0.8em;
     background: linear-gradient(-10deg, #9356DC 30%, #FF79DA);
   }
+  #header .button-pink button:hover {
+    color: black;
+    cursor: pointer;
+  }
+
+  #navigation {
+    padding-top: 3em;
+    font-family: "roboto";
+    display: flex;
+    flex-direction: column;
+  }
+  #navigation h2 {
+    font-weight: bolder;
+  }
+  #navigation nav ul {
+    list-style-type: none;
+  }
+  #navigation nav .fas {
+    padding-right: 1em;
+  }
+  #navigation nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  #navigation nav li {
+    border-style: solid;
+    border-radius: 20px;
+    margin-left: 4em;
+    margin-right: 4em;
+    padding: 1em 1em 1em 1em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
