@@ -4,10 +4,12 @@
 }
 
 @media screen and (min-width: 280px) and (max-width: 500px) {
-  #body {
-    font-family: hrikhand;
+  @font-face {
+    font-family: "shrikhand";
+    src: url("fonts/shrikhand/Shrikhand-Regular.ttf");
+    font-family: "roboto";
+    src: url("fonts/roboto/Roboto-Regular.ttf");
   }
-
   #logo {
     display: flex;
     justify-content: center;
@@ -16,6 +18,7 @@
     height: 2.5em;
     width: auto;
     padding-bottom: 1em;
+    padding-top: 0.5em;
   }
 
   #header {
@@ -49,11 +52,13 @@
     text-align: center;
     padding-bottom: 0.7em;
     padding-top: 1em;
+    font-family: "shrikhand";
   }
   #header .button-pink h3 {
     text-align: center;
     font-size: 1em;
     padding-bottom: 2em;
+    font-family: "roboto";
   }
 }
 
