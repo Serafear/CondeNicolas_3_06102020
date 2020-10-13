@@ -26,6 +26,9 @@
     padding: 0.5em 0em 0.5em 0em;
     display: flex;
   }
+  #header .button-pink {
+    padding-bottom: 3em;
+  }
   #header .button-pink #search-bar {
     padding-left: 5em;
     margin-top: -0.5em;
@@ -48,17 +51,29 @@
     padding-right: 1em;
   }
   #header .button-pink h1 {
-    font-size: 2em;
+    font-size: 1.5em;
+    font-weight: bolder;
     text-align: center;
     padding-bottom: 0.7em;
     padding-top: 1em;
-    font-family: "shrikhand";
+    font-family: "roboto";
+    padding-right: 1em;
+    padding-left: 1em;
   }
   #header .button-pink h3 {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.1em;
+    font-weight: lighter;
     padding-bottom: 2em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
     font-family: "roboto";
+  }
+  #header .button-pink button {
+    margin-left: 5.2em;
+    font-size: 1em;
+    border-radius: 25px;
+    padding: 0.8em 0.8em 0.8em 0.8em;
   }
 }
 
