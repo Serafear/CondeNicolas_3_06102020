@@ -78,10 +78,6 @@
     padding: 0.8em 0.8em 0.8em 0.8em;
     background: linear-gradient(-10deg, #9356DC 30%, #FF79DA);
   }
-  #header .button-pink button:hover {
-    color: black;
-    cursor: pointer;
-  }
 
   #navigation {
     padding-top: 3em;
