@@ -4,6 +4,10 @@
 }
 
 @media screen and (min-width: 280px) and (max-width: 500px) {
+  #body {
+    font-family: hrikhand;
+  }
+
   #logo {
     display: flex;
     justify-content: center;
@@ -30,14 +34,26 @@
     background-color: #EAEAEA;
     height: 3em;
     border-style: none;
+    font-weight: bolder;
+  }
+  #header .button-pink #search-bar textarea:focus, #header .button-pink #search-bar input:focus {
+    outline: none;
   }
   #header .button-pink #search-bar .fas {
     color: #323232;
     font-size: 1em;
+    padding-right: 1em;
   }
   #header .button-pink h1 {
     font-size: 2em;
     text-align: center;
+    padding-bottom: 0.7em;
+    padding-top: 1em;
+  }
+  #header .button-pink h3 {
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 2em;
   }
 }
 
