@@ -82,29 +82,41 @@
   #navigation {
     padding-top: 3em;
     font-family: "roboto";
-    display: flex;
-    flex-direction: column;
+    list-style-type: none;
   }
   #navigation h2 {
     font-weight: bolder;
+    padding-left: 1em;
   }
-  #navigation nav ul {
-    list-style-type: none;
+  #navigation #navigation_choix {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
   }
-  #navigation nav .fas {
-    padding-right: 1em;
-  }
-  #navigation nav a {
+  #navigation #navigation_choix a {
     text-decoration: none;
-    color: black;
-    font-weight: bold;
+    padding-left: 1em;
   }
-  #navigation nav li {
-    border-style: solid;
-    border-radius: 20px;
-    margin-left: 4em;
-    margin-right: 4em;
-    padding: 1em 1em 1em 1em;
+  #navigation #navigation_choix li {
+    border-style: hidden;
+    background-color: #F6F6F6;
+    padding: 1em 3em 1em 3em;
+    box-shadow: 0em 0.1em 0em 0em #EAEAEA;
+    border-radius: 25px;
+  }
+  #navigation #navigation_choix .fas {
+    color: gray;
+  }
+  #navigation #navigation_choix p {
+    position: relative;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: -1em;
+    border-style: hidden;
+    border-radius: 50%;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    background-color: #9356DC;
+    color: white;
   }
 }
 

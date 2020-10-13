@@ -94,7 +94,6 @@
                 border-style: hidden;
                 padding: 0.8em 0.8em 0.8em 0.8em;
                 background: linear-gradient(-10deg, $purple 30%, $pink);
-                
             }   
         }   
     }  
@@ -102,35 +101,41 @@
     #navigation {
         padding-top: 3em;
         font-family: $font-text;
-        display: flex;
-        flex-direction: column;
+        list-style-type: none;
         
         h2 {
             font-weight: bolder;
-            
+            padding-left: 1em;
         }
-        nav {
-        
-            ul {
-                list-style-type: none;
-                
+        #navigation_choix {
+            display: flex;
+            justify-content: center;
+            padding-top: 1em;
+            a {
+                text-decoration: none;
+                padding-left: 1em;
             }
-                .fas {
-                    padding-right: 1em;
-                }
-                    a {
-                        text-decoration: none;
-                        color: black;
-                        font-weight: bold;
-                        
-                    }
-                        li{
-                            border-style: solid;
-                            border-radius: 20px;
-                            margin-left: 4em;
-                            margin-right: 4em;
-                            padding: 1em 1em 1em 1em;
-                        }
+            li {
+                border-style: hidden;
+                background-color: $gray-light;
+                padding: 1em 3em 1em 3em;
+                box-shadow: 0em 0.1em 0em 0em $gray-darker;
+                border-radius: 25px;
+            }
+            .fas {
+                color: gray;
+            }
+            p {
+                position: relative;
+                margin-top: 1em;
+                margin-bottom: 1em;
+                margin-right: -1em;
+                border-style: hidden;
+                border-radius: 50%;
+                padding: 0.2em 0.5em 0.2em 0.5em;
+                background-color: $purple;
+                color: white;
+            }
         }
     }  
 }
