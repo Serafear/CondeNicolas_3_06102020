@@ -88,8 +88,11 @@
             button {
                 margin-left: 5.2em;
                 font-size: 1em;
+                color: white;
                 border-radius: 25px;
+                border-style: hidden;
                 padding: 0.8em 0.8em 0.8em 0.8em;
+                background: linear-gradient(-10deg, $purple 30%, $pink);
             }
         }
     }    

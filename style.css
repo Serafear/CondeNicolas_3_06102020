@@ -72,8 +72,11 @@
   #header .button-pink button {
     margin-left: 5.2em;
     font-size: 1em;
+    color: white;
     border-radius: 25px;
+    border-style: hidden;
     padding: 0.8em 0.8em 0.8em 0.8em;
+    background: linear-gradient(-10deg, #9356DC 30%, #FF79DA);
   }
 }
 
