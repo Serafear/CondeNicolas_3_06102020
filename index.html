@@ -46,8 +46,8 @@
             <div id="restaurants_palette">   <!--élément ?-->
                 <a href=""><article>
                     <h5>Nouveau</h5>
-                    <div class="restaurants_palette--overlay">   <!--BEM test. Ici, si on peut effectivement considerer l'overlay comme un modificateur il s'agira de l'écrire en conséquence: restaurants--overlayou plutot...-->
-                        <h3>La palette du goût</h3>
+                    <div class="overlay">   <!--BEM test. Ici, si on peut effectivement considerer l'overlay comme un modificateur il s'agira de l'écrire en conséquence: restaurants--overlayou plutot...-->
+                        <h3>La palette du goût</h3>               <!--update ! On this specific project, to use a mixin and syntetize the amount of scss code, i will need to remove the naming and just put overlay-->
                         <h4>Ménilmontant</h4>          <!--ici, il me semble que la ville doit être tirée de la base de donnée. En l'absence de cette possibilité, j'utiliserai simplement un h-->
                         <input id="toggle-heart" type="checkbox"/> <!-- de ce que j'ai vu, le seul moyen de simuler des effets de click sans javascript est à travers le type checkbox et le label. Suite du commentaire dans le sass-->
                         <label for="toggle-heart">&#9825;</label>
@@ -58,7 +58,7 @@
             <div id="restaurants_lanote">
                 <a href=""><article>
                     <h5>Nouveau</h5>
-                    <div class="restaurants_lanote--overlay">
+                    <div class="overlay">
                         <h3>La note enchantée</h3>
                         <h4>Charonne</h4>
                         <input id="toggle-heart" type="checkbox"/>
@@ -70,7 +70,7 @@
             <div id="restaurants_alafrançaise">
                 <a href=""><article>
                     <h5>Nouveau</h5>
-                    <div class="restaurants_alafrançaise--overlay">
+                    <div class="overlay">
                         <h3>À la française</h3>
                         <h4>Cité Rouge</h4>
                         <input id="toggle-heart" type="checkbox"/>
@@ -82,7 +82,7 @@
             <div id="restaurants_délice">
                 <a href=""><article>
                     <h5>Nouveau</h5>
-                    <div class="restaurants_délice--overlay">
+                    <div class="overlay">
                         <h3>Le délice des sens</h3>
                         <h4>Folie-Méricourt</h4>
                         <input id="toggle-heart" type="checkbox"/>
