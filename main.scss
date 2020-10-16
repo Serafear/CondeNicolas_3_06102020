@@ -163,11 +163,12 @@
     #restaurants {
         background-color: $gray-light;
         font-family: $font-text;
-            h2 {
+        h2 {
             padding-left: 1em;
             font-family: $font-text;
             font-weight: bolder;
             padding-top: 2em;
+            
         }
         #restaurants_palette {
             padding-top: 1em;
@@ -179,7 +180,7 @@
                 text-decoration: none;
                 color: black;
                 
-            }
+            
                 article {
                     background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg); background-size: contain; background-repeat: no-repeat;
                     height: 13.5em;
@@ -199,27 +200,40 @@
                         background-color: $green;
                         font-weight: lighter;
                     }
+                    
                     .overlay {
                         background-color: white;
                         opacity: 1;
                         margin-top: 9.8em;
+                        display: flex;
+                        justify-content: space-around;
+                        #texte {
+                            flex-direction: column;
+                            padding-bottom: 1em;
+                        }
                         h3 {
                             font-size: 1.1em;
-                            padding: 1em 0em 0.5em 1em;
+                            padding: 1em 0em 0.5em 0em;
                         }
                         h4 {
                             font-size: 1em;
                             font-weight: 100;
-                            padding: 0em 0em 0em 1em;
-                            
+                            padding: 0em 0em 0em 0em;   
                         }
-                       
+                        input {
+                            
+                        
+                        }
+                        label {
+                            font-size: 2.5em;
+                        }
                         
                     }
                 }
-        }
-        
+            }        
+        }   
     }
 }
+
       
 
