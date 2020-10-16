@@ -143,19 +143,26 @@
             font-weight: bolder;
             padding-left: 1em;
         }
-        #navigation_choix {
+        #navigation__choix {
         @include nav-settings;
         }
-        #navigation_composition {
+        #navigation__composition {
             @include nav-settings;
             a {
                 padding-right: 0.6em;
             }
         }
-        #navigation_dégustation {
+        #navigation__dégustation {
             @include nav-settings;
             a {
                 padding-left: 1em;
+            }
+            .fas {
+                color: $purple;
+            }
+            li {
+                background-color: lighten($purple, $amount: 35);
+                
             }
         }
     }
@@ -170,7 +177,7 @@
             padding-top: 2em;
             
         }
-        #restaurants_palette {
+        #restaurants__palette {
             padding-top: 1em;
             padding-bottom: 5em;
             padding-left: 1.5em;
@@ -221,11 +228,12 @@
                             padding: 0em 0em 0em 0em;   
                         }
                         input {
-                            
+                            margin-top: 1.5em;
                         
                         }
                         label {
                             font-size: 2.5em;
+                            
                         }
                         
                     }

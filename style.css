@@ -90,28 +90,28 @@
     font-weight: bolder;
     padding-left: 1em;
   }
-  #navigation #navigation_choix {
+  #navigation #navigation__choix {
     display: flex;
     justify-content: center;
     padding-top: 1em;
   }
-  #navigation #navigation_choix a {
+  #navigation #navigation__choix a {
     text-decoration: none;
     padding-left: 1em;
     color: black;
     font-weight: bold;
   }
-  #navigation #navigation_choix li {
+  #navigation #navigation__choix li {
     border-style: hidden;
     background-color: #F6F6F6;
     padding: 1.4em 3em 1.2em 3em;
     box-shadow: 0em 0.1em 0em 0em #EAEAEA;
     border-radius: 20px;
   }
-  #navigation #navigation_choix .fas {
+  #navigation #navigation__choix .fas {
     color: gray;
   }
-  #navigation #navigation_choix p {
+  #navigation #navigation__choix p {
     position: relative;
     margin-top: 1em;
     margin-bottom: 1.2em;
@@ -122,28 +122,28 @@
     background-color: #9356DC;
     color: white;
   }
-  #navigation #navigation_composition {
+  #navigation #navigation__composition {
     display: flex;
     justify-content: center;
     padding-top: 1em;
   }
-  #navigation #navigation_composition a {
+  #navigation #navigation__composition a {
     text-decoration: none;
     padding-left: 1em;
     color: black;
     font-weight: bold;
   }
-  #navigation #navigation_composition li {
+  #navigation #navigation__composition li {
     border-style: hidden;
     background-color: #F6F6F6;
     padding: 1.4em 3em 1.2em 3em;
     box-shadow: 0em 0.1em 0em 0em #EAEAEA;
     border-radius: 20px;
   }
-  #navigation #navigation_composition .fas {
+  #navigation #navigation__composition .fas {
     color: gray;
   }
-  #navigation #navigation_composition p {
+  #navigation #navigation__composition p {
     position: relative;
     margin-top: 1em;
     margin-bottom: 1.2em;
@@ -154,31 +154,31 @@
     background-color: #9356DC;
     color: white;
   }
-  #navigation #navigation_composition a {
+  #navigation #navigation__composition a {
     padding-right: 0.6em;
   }
-  #navigation #navigation_dégustation {
+  #navigation #navigation__dégustation {
     display: flex;
     justify-content: center;
     padding-top: 1em;
   }
-  #navigation #navigation_dégustation a {
+  #navigation #navigation__dégustation a {
     text-decoration: none;
     padding-left: 1em;
     color: black;
     font-weight: bold;
   }
-  #navigation #navigation_dégustation li {
+  #navigation #navigation__dégustation li {
     border-style: hidden;
     background-color: #F6F6F6;
     padding: 1.4em 3em 1.2em 3em;
     box-shadow: 0em 0.1em 0em 0em #EAEAEA;
     border-radius: 20px;
   }
-  #navigation #navigation_dégustation .fas {
+  #navigation #navigation__dégustation .fas {
     color: gray;
   }
-  #navigation #navigation_dégustation p {
+  #navigation #navigation__dégustation p {
     position: relative;
     margin-top: 1em;
     margin-bottom: 1.2em;
@@ -189,8 +189,14 @@
     background-color: #9356DC;
     color: white;
   }
-  #navigation #navigation_dégustation a {
+  #navigation #navigation__dégustation a {
     padding-left: 1em;
+  }
+  #navigation #navigation__dégustation .fas {
+    color: #9356DC;
+  }
+  #navigation #navigation__dégustation li {
+    background-color: #f2eafb;
   }
 
   #restaurants {
@@ -203,18 +209,18 @@
     font-weight: bolder;
     padding-top: 2em;
   }
-  #restaurants #restaurants_palette {
+  #restaurants #restaurants__palette {
     padding-top: 1em;
     padding-bottom: 5em;
     padding-left: 1.5em;
     padding-right: 1.5em;
   }
-  #restaurants #restaurants_palette a {
+  #restaurants #restaurants__palette a {
     /*the text-decoration : none, work only with the a, in case an a exist ?*/
     text-decoration: none;
     color: black;
   }
-  #restaurants #restaurants_palette a article {
+  #restaurants #restaurants__palette a article {
     background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -225,7 +231,7 @@
     border-top-left-radius: 15px;
     padding-top: 2em;
   }
-  #restaurants #restaurants_palette a article h5 {
+  #restaurants #restaurants__palette a article h5 {
     display: flex;
     justify-content: flex-end;
     color: green;
@@ -236,27 +242,30 @@
     background-color: #99E2D0;
     font-weight: lighter;
   }
-  #restaurants #restaurants_palette a article .overlay {
+  #restaurants #restaurants__palette a article .overlay {
     background-color: white;
     opacity: 1;
     margin-top: 9.8em;
     display: flex;
     justify-content: space-around;
   }
-  #restaurants #restaurants_palette a article .overlay #texte {
+  #restaurants #restaurants__palette a article .overlay #texte {
     flex-direction: column;
     padding-bottom: 1em;
   }
-  #restaurants #restaurants_palette a article .overlay h3 {
+  #restaurants #restaurants__palette a article .overlay h3 {
     font-size: 1.1em;
     padding: 1em 0em 0.5em 0em;
   }
-  #restaurants #restaurants_palette a article .overlay h4 {
+  #restaurants #restaurants__palette a article .overlay h4 {
     font-size: 1em;
     font-weight: 100;
     padding: 0em 0em 0em 0em;
   }
-  #restaurants #restaurants_palette a article .overlay label {
+  #restaurants #restaurants__palette a article .overlay input {
+    margin-top: 1.5em;
+  }
+  #restaurants #restaurants__palette a article .overlay label {
     font-size: 2.5em;
   }
 }
