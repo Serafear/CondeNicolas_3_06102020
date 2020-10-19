@@ -62,6 +62,7 @@
     }
 
 
+
     #logo {
         display: flex;
         justify-content: center;
@@ -235,16 +236,21 @@
                         .overlay--heart {
                             input {
                                 margin-top: 2.5em;
+                                @include fa-icon;
                                 &+label {
+                                    font-size: 2em;
+                                    @extend .far;
+                                    &::before {
+                                        content: fa-content($fa-var-heart);
+                                    }
+                                }
+                                &:checked+label {
                                     font-size: 2em;
                                     @include fa-icon;
                                     @extend .fas;
                                     &::before {
-                                        content: fa-content($fa-var-bell);
+                                       content: fa-content($fa-var-heart);
                                     }
-                                }
-                                &:checked+label {
-                                   content: \f004;
                                 } 
                             }
                         }
