@@ -6134,6 +6134,14 @@
     font-weight: 400;
   }
 
+  @keyframes color-swap {
+    from {
+      color: #FF79DA;
+    }
+    to {
+      color: #9356DC;
+    }
+  }
   #logo {
     display: flex;
     justify-content: center;
@@ -6406,7 +6414,9 @@
   }
   #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label::before {
     content: "";
-    color: red;
+    color: #9356DC;
+    animation-name: color-swap;
+    animation-duration: 2s;
   }
 }
 

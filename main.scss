@@ -26,6 +26,12 @@
     $font-title: 'shrikhand';
     $font-text: 'roboto';
 
+    @keyframes color-swap {
+        from {color: $pink;}
+        to {color: $purple;}
+    }
+
+
     @mixin nav-settings {
        
         display: flex;
@@ -249,7 +255,10 @@
                                     @extend .fas;
                                     &::before {
                                        content: fa-content($fa-var-heart);
-                                       color: red;
+                                       color: $purple;
+                                       animation-name: color-swap;
+                                       animation-duration: 2s;
+                                       
                                     }
                                 } 
                             }
