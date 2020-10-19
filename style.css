@@ -6403,16 +6403,10 @@
   }
   #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label {
     font-size: 2em;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
   }
   #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label::before {
     content: "";
+    color: red;
   }
 }
 

@@ -246,10 +246,10 @@
                                 }
                                 &:checked+label {
                                     font-size: 2em;
-                                    @include fa-icon;
                                     @extend .fas;
                                     &::before {
                                        content: fa-content($fa-var-heart);
+                                       color: red;
                                     }
                                 } 
                             }
