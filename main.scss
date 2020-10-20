@@ -25,6 +25,7 @@
     $purple: #9356DC;
     $font-title: 'shrikhand';
     $font-text: 'roboto';
+    
 
     @keyframes color-swap {
         from {color: $pink;}
@@ -243,13 +244,24 @@
                             input {
                                 margin-top: 2.5em;
                                 @include fa-icon;
+                                
                                 &+label {
                                     font-size: 2em;
-                                    @extend .far;
+                                    position: relative;
+                                   
                                     &::before {
-                                        content: fa-content($fa-var-heart);
+                                        @extend .fas;
+                                        content: fa-content($fa-var-heart);  /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
+                                        background: -webkit-linear-gradient(#eee, #333);
+                                        -webkit-background-clip: text;
+                                        -webkit-text-fill-color: transparent;
                                     }
+                                    &::after {
+                                        
+                                    }
+                                   
                                 }
+                        
                                 &:checked+label {
                                     font-size: 2em;
                                     @extend .fas;

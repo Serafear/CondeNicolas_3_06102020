@@ -18,8 +18,8 @@
   .fa,
 .fas,
 #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label,
+#restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label::before,
 .far,
-#restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label,
 .fal,
 .fad,
 .fab {
@@ -124,16 +124,18 @@
 
   .fa.fa-pull-left,
 .fas.fa-pull-left,
+#restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label.fa-pull-left,
+#restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label.fa-pull-left::before,
 .far.fa-pull-left,
-#restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label.fa-pull-left,
 .fal.fa-pull-left,
 .fab.fa-pull-left {
     margin-right: 0.3em;
   }
   .fa.fa-pull-right,
 .fas.fa-pull-right,
+#restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label.fa-pull-right,
+#restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label.fa-pull-right::before,
 .far.fa-pull-right,
-#restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label.fa-pull-right,
 .fal.fa-pull-right,
 .fab.fa-pull-right {
     margin-left: 0.3em;
@@ -6095,7 +6097,8 @@
   }
   .fa,
 .fas,
-#restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label {
+#restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label,
+#restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
   }
@@ -6112,7 +6115,7 @@
     src: url("../webfonts/fa-regular-400.eot");
     src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
   }
-  .far, #restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label {
+  .far {
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
   }
@@ -6177,7 +6180,7 @@
   #header .button-pink #search-bar textarea:focus, #header .button-pink #search-bar input:focus {
     outline: none;
   }
-  #header .button-pink #search-bar .fas, #header .button-pink #search-bar #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #header .button-pink #search-bar input:checked + label {
+  #header .button-pink #search-bar .fas, #header .button-pink #search-bar #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #header .button-pink #search-bar input:checked + label, #header .button-pink #search-bar #restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label::before, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #header .button-pink #search-bar input + label::before {
     color: #323232;
     font-size: 1em;
     padding-right: 1em;
@@ -6239,7 +6242,7 @@
     box-shadow: 0em 0.1em 0em 0em #EAEAEA;
     border-radius: 20px;
   }
-  #navigation #navigation__choix .fas, #navigation #navigation__choix #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #navigation #navigation__choix input:checked + label {
+  #navigation #navigation__choix .fas, #navigation #navigation__choix #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #navigation #navigation__choix input:checked + label, #navigation #navigation__choix #restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label::before, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #navigation #navigation__choix input + label::before {
     color: gray;
   }
   #navigation #navigation__choix p {
@@ -6271,7 +6274,7 @@
     box-shadow: 0em 0.1em 0em 0em #EAEAEA;
     border-radius: 20px;
   }
-  #navigation #navigation__composition .fas, #navigation #navigation__composition #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #navigation #navigation__composition input:checked + label {
+  #navigation #navigation__composition .fas, #navigation #navigation__composition #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #navigation #navigation__composition input:checked + label, #navigation #navigation__composition #restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label::before, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #navigation #navigation__composition input + label::before {
     color: gray;
   }
   #navigation #navigation__composition p {
@@ -6306,7 +6309,7 @@
     box-shadow: 0em 0.1em 0em 0em #EAEAEA;
     border-radius: 20px;
   }
-  #navigation #navigation__dégustation .fas, #navigation #navigation__dégustation #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #navigation #navigation__dégustation input:checked + label {
+  #navigation #navigation__dégustation .fas, #navigation #navigation__dégustation #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #navigation #navigation__dégustation input:checked + label, #navigation #navigation__dégustation #restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label::before, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #navigation #navigation__dégustation input + label::before {
     color: gray;
   }
   #navigation #navigation__dégustation p {
@@ -6323,7 +6326,7 @@
   #navigation #navigation__dégustation a {
     padding-left: 1em;
   }
-  #navigation #navigation__dégustation .fas, #navigation #navigation__dégustation #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #navigation #navigation__dégustation input:checked + label {
+  #navigation #navigation__dégustation .fas, #navigation #navigation__dégustation #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #navigation #navigation__dégustation input:checked + label, #navigation #navigation__dégustation #restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label::before, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #navigation #navigation__dégustation input + label::before {
     color: #9356DC;
   }
   #navigation #navigation__dégustation li {
@@ -6405,9 +6408,14 @@
   }
   #restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label {
     font-size: 2em;
+    position: relative;
   }
   #restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label::before {
     content: "";
+    /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label {
     font-size: 2em;
