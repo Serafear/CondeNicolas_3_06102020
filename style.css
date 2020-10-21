@@ -17,9 +17,15 @@
    */
   .fa,
 .fas,
-#restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label::before,
+#restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before,
+#restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before,
+#restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before,
+#restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before,
 .far,
-#restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label::before,
+#restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input + label::before,
+#restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input + label::before,
+#restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input + label::before,
+#restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input + label::before,
 .fal,
 .fad,
 .fab {
@@ -125,7 +131,10 @@
   .fa.fa-pull-left,
 .fas.fa-pull-left,
 .far.fa-pull-left,
-#restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label.fa-pull-left::before,
+#restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input + label.fa-pull-left::before,
+#restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input + label.fa-pull-left::before,
+#restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input + label.fa-pull-left::before,
+#restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input + label.fa-pull-left::before,
 .fal.fa-pull-left,
 .fab.fa-pull-left {
     margin-right: 0.3em;
@@ -133,7 +142,10 @@
   .fa.fa-pull-right,
 .fas.fa-pull-right,
 .far.fa-pull-right,
-#restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label.fa-pull-right::before,
+#restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input + label.fa-pull-right::before,
+#restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input + label.fa-pull-right::before,
+#restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input + label.fa-pull-right::before,
+#restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input + label.fa-pull-right::before,
 .fal.fa-pull-right,
 .fab.fa-pull-right {
     margin-left: 0.3em;
@@ -6095,7 +6107,10 @@
   }
   .fa,
 .fas,
-#restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label::before {
+#restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before,
+#restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before,
+#restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before,
+#restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
   }
@@ -6112,7 +6127,7 @@
     src: url("../webfonts/fa-regular-400.eot");
     src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
   }
-  .far, #restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label::before {
+  .far, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input + label::before, #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input + label::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
   }
@@ -6216,7 +6231,7 @@
   #header .button-pink #search-bar textarea:focus, #header .button-pink #search-bar input:focus {
     outline: none;
   }
-  #header .button-pink #search-bar .fas, #header .button-pink #search-bar #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label::before, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #header .button-pink #search-bar input:checked + label::before {
+  #header .button-pink #search-bar .fas, #header .button-pink #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #header .button-pink #search-bar input:checked + label::before, #header .button-pink #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #header .button-pink #search-bar input:checked + label::before, #header .button-pink #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #header .button-pink #search-bar input:checked + label::before, #header .button-pink #search-bar #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before, #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 #header .button-pink #search-bar input:checked + label::before {
     color: #323232;
     font-size: 1em;
     padding-right: 1em;
@@ -6278,7 +6293,7 @@
     box-shadow: 0em 0.1em 0em 0em #EAEAEA;
     border-radius: 20px;
   }
-  #navigation #navigation__choix .fas, #navigation #navigation__choix #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label::before, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #navigation #navigation__choix input:checked + label::before {
+  #navigation #navigation__choix .fas, #navigation #navigation__choix #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #navigation #navigation__choix input:checked + label::before, #navigation #navigation__choix #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #navigation #navigation__choix input:checked + label::before, #navigation #navigation__choix #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #navigation #navigation__choix input:checked + label::before, #navigation #navigation__choix #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before, #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 #navigation #navigation__choix input:checked + label::before {
     color: gray;
   }
   #navigation #navigation__choix p {
@@ -6310,7 +6325,7 @@
     box-shadow: 0em 0.1em 0em 0em #EAEAEA;
     border-radius: 20px;
   }
-  #navigation #navigation__composition .fas, #navigation #navigation__composition #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label::before, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #navigation #navigation__composition input:checked + label::before {
+  #navigation #navigation__composition .fas, #navigation #navigation__composition #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #navigation #navigation__composition input:checked + label::before, #navigation #navigation__composition #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #navigation #navigation__composition input:checked + label::before, #navigation #navigation__composition #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #navigation #navigation__composition input:checked + label::before, #navigation #navigation__composition #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before, #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 #navigation #navigation__composition input:checked + label::before {
     color: gray;
   }
   #navigation #navigation__composition p {
@@ -6345,7 +6360,7 @@
     box-shadow: 0em 0.1em 0em 0em #EAEAEA;
     border-radius: 20px;
   }
-  #navigation #navigation__dégustation .fas, #navigation #navigation__dégustation #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label::before, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #navigation #navigation__dégustation input:checked + label::before {
+  #navigation #navigation__dégustation .fas, #navigation #navigation__dégustation #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before, #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 #navigation #navigation__dégustation input:checked + label::before {
     color: gray;
   }
   #navigation #navigation__dégustation p {
@@ -6362,7 +6377,7 @@
   #navigation #navigation__dégustation a {
     padding-left: 1em;
   }
-  #navigation #navigation__dégustation .fas, #navigation #navigation__dégustation #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label::before, #restaurants #restaurants__palette a article .overlay--text .overlay--heart #navigation #navigation__dégustation input:checked + label::before {
+  #navigation #navigation__dégustation .fas, #navigation #navigation__dégustation #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before, #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 #navigation #navigation__dégustation input:checked + label::before {
     color: #9356DC;
   }
   #navigation #navigation__dégustation li {
@@ -6391,15 +6406,13 @@
     color: black;
   }
   #restaurants #restaurants__palette a article {
-    background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
     height: 13.5em;
     width: auto;
     border-style: hidden;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     padding-top: 2em;
+    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
   }
   #restaurants #restaurants__palette a article h5 {
     display: flex;
@@ -6412,27 +6425,32 @@
     background-color: #99E2D0;
     font-weight: lighter;
   }
-  #restaurants #restaurants__palette a article .overlay--text {
+  #restaurants #restaurants__palette .overlay__text--1 {
     background-color: white;
     opacity: 1;
+    width: 100%;
     margin-top: 9.8em;
     display: flex;
     justify-content: space-around;
+    border-style: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
   }
-  #restaurants #restaurants__palette a article .overlay--text #texte {
+  #restaurants #restaurants__palette .overlay__text--1 #texte {
     flex-direction: column;
     padding-bottom: 1em;
   }
-  #restaurants #restaurants__palette a article .overlay--text h3 {
+  #restaurants #restaurants__palette .overlay__text--1 h3 {
     font-size: 1.1em;
     padding: 1em 0em 0.5em 0em;
   }
-  #restaurants #restaurants__palette a article .overlay--text h4 {
+  #restaurants #restaurants__palette .overlay__text--1 h4 {
     font-size: 1em;
     font-weight: 100;
     padding: 0em 0em 0em 0em;
   }
-  #restaurants #restaurants__palette a article .overlay--text .overlay--heart input {
+  #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input {
     margin-top: 2.5em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -6441,19 +6459,21 @@
     font-variant: normal;
     font-weight: normal;
     line-height: 1;
+    display: none;
   }
-  #restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label {
+  #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input + label {
     font-size: 2rem;
-    position: relative;
+    position: absolute;
+    margin-top: 0.5em;
   }
-  #restaurants #restaurants__palette a article .overlay--text .overlay--heart input + label::before {
+  #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input + label::before {
     content: "";
     /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
   }
-  #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label {
+  #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label {
     font-size: 2rem;
   }
-  #restaurants #restaurants__palette a article .overlay--text .overlay--heart input:checked + label::before {
+  #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before {
     content: "";
     will-change: font-size;
     background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
@@ -6462,6 +6482,294 @@
     animation-name: color-swap;
     animation-duration: 1s;
     transition: ease-in-out;
+  }
+  #restaurants #restaurants__palette article {
+    background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  #restaurants #restaurants__lanote {
+    padding-top: 1em;
+    padding-bottom: 5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  #restaurants #restaurants__lanote a {
+    /*the text-decoration : none, work only with the a, in case an a exist ?*/
+    text-decoration: none;
+    color: black;
+  }
+  #restaurants #restaurants__lanote a article {
+    height: 13.5em;
+    width: auto;
+    border-style: hidden;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding-top: 2em;
+    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
+  }
+  #restaurants #restaurants__lanote a article h5 {
+    display: flex;
+    justify-content: flex-end;
+    color: green;
+    margin-right: 1em;
+    margin-left: 18.5em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-style: hidden;
+    background-color: #99E2D0;
+    font-weight: lighter;
+  }
+  #restaurants #restaurants__lanote .overlay__text--2 {
+    background-color: white;
+    opacity: 1;
+    width: 100%;
+    margin-top: 9.8em;
+    display: flex;
+    justify-content: space-around;
+    border-style: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
+  }
+  #restaurants #restaurants__lanote .overlay__text--2 #texte {
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+  #restaurants #restaurants__lanote .overlay__text--2 h3 {
+    font-size: 1.1em;
+    padding: 1em 0em 0.5em 0em;
+  }
+  #restaurants #restaurants__lanote .overlay__text--2 h4 {
+    font-size: 1em;
+    font-weight: 100;
+    padding: 0em 0em 0em 0em;
+  }
+  #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input {
+    margin-top: 2.5em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    display: none;
+  }
+  #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input + label {
+    font-size: 2rem;
+    position: absolute;
+    margin-top: 0.5em;
+  }
+  #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input + label::before {
+    content: "";
+    /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
+  }
+  #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label {
+    font-size: 2rem;
+  }
+  #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before {
+    content: "";
+    will-change: font-size;
+    background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: color-swap;
+    animation-duration: 1s;
+    transition: ease-in-out;
+  }
+  #restaurants #restaurants__lanote article {
+    background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -6em;
+  }
+  #restaurants #restaurants__alafrançaise {
+    padding-top: 1em;
+    padding-bottom: 5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  #restaurants #restaurants__alafrançaise a {
+    /*the text-decoration : none, work only with the a, in case an a exist ?*/
+    text-decoration: none;
+    color: black;
+  }
+  #restaurants #restaurants__alafrançaise a article {
+    height: 13.5em;
+    width: auto;
+    border-style: hidden;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding-top: 2em;
+    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
+  }
+  #restaurants #restaurants__alafrançaise a article h5 {
+    display: flex;
+    justify-content: flex-end;
+    color: green;
+    margin-right: 1em;
+    margin-left: 18.5em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-style: hidden;
+    background-color: #99E2D0;
+    font-weight: lighter;
+  }
+  #restaurants #restaurants__alafrançaise .overlay__text--3 {
+    background-color: white;
+    opacity: 1;
+    width: 100%;
+    margin-top: 9.8em;
+    display: flex;
+    justify-content: space-around;
+    border-style: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
+  }
+  #restaurants #restaurants__alafrançaise .overlay__text--3 #texte {
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+  #restaurants #restaurants__alafrançaise .overlay__text--3 h3 {
+    font-size: 1.1em;
+    padding: 1em 0em 0.5em 0em;
+  }
+  #restaurants #restaurants__alafrançaise .overlay__text--3 h4 {
+    font-size: 1em;
+    font-weight: 100;
+    padding: 0em 0em 0em 0em;
+  }
+  #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input {
+    margin-top: 2.5em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    display: none;
+  }
+  #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input + label {
+    font-size: 2rem;
+    position: absolute;
+    margin-top: 0.5em;
+  }
+  #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input + label::before {
+    content: "";
+    /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
+  }
+  #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label {
+    font-size: 2rem;
+  }
+  #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before {
+    content: "";
+    will-change: font-size;
+    background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: color-swap;
+    animation-duration: 1s;
+    transition: ease-in-out;
+  }
+  #restaurants #restaurants__alafrançaise article {
+    background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  #restaurants #restaurants__délice {
+    padding-top: 1em;
+    padding-bottom: 5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  #restaurants #restaurants__délice a {
+    /*the text-decoration : none, work only with the a, in case an a exist ?*/
+    text-decoration: none;
+    color: black;
+  }
+  #restaurants #restaurants__délice a article {
+    height: 13.5em;
+    width: auto;
+    border-style: hidden;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding-top: 2em;
+    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
+  }
+  #restaurants #restaurants__délice a article h5 {
+    display: flex;
+    justify-content: flex-end;
+    color: green;
+    margin-right: 1em;
+    margin-left: 18.5em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-style: hidden;
+    background-color: #99E2D0;
+    font-weight: lighter;
+  }
+  #restaurants #restaurants__délice .overlay__text--4 {
+    background-color: white;
+    opacity: 1;
+    width: 100%;
+    margin-top: 9.8em;
+    display: flex;
+    justify-content: space-around;
+    border-style: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
+  }
+  #restaurants #restaurants__délice .overlay__text--4 #texte {
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+  #restaurants #restaurants__délice .overlay__text--4 h3 {
+    font-size: 1.1em;
+    padding: 1em 0em 0.5em 0em;
+  }
+  #restaurants #restaurants__délice .overlay__text--4 h4 {
+    font-size: 1em;
+    font-weight: 100;
+    padding: 0em 0em 0em 0em;
+  }
+  #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input {
+    margin-top: 2.5em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    display: none;
+  }
+  #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input + label {
+    font-size: 2rem;
+    position: absolute;
+    margin-top: 0.5em;
+  }
+  #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input + label::before {
+    content: "";
+    /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
+  }
+  #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label {
+    font-size: 2rem;
+  }
+  #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before {
+    content: "";
+    will-change: font-size;
+    background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: color-swap;
+    animation-duration: 1s;
+    transition: ease-in-out;
+  }
+  #restaurants #restaurants__délice article {
+    background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
 

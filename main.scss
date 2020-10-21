@@ -117,6 +117,273 @@
         
     }
 
+    @mixin article__setting {
+        padding-top: 1em;
+        padding-bottom: 5em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+
+            a {        /*the text-decoration : none, work only with the a, in case an a exist ?*/
+                text-decoration: none;
+                color: black;    
+                article {
+                    height: 13.5em;
+                    width: auto;
+                    border-style: hidden;
+                    border-top-right-radius: 15px;
+                    border-top-left-radius: 15px;
+                    padding-top: 2em;
+                    box-shadow: 0.1em 0.1em 1em 0.5em $gray-darker;
+                    
+                    h5 {
+                        display: flex;
+                        justify-content: flex-end;
+                        color: green;
+                        margin-right: 1em;
+                        margin-left: 18.5em;
+                        padding: 0.5em 0.5em 0.5em 0.5em;
+                        border-style: hidden;
+                        background-color: $green;
+                        font-weight: lighter;
+                    }
+                    
+                }
+            }  
+    }
+    @mixin article__setting--1{
+        .overlay__text--1 {
+            background-color: white;
+            opacity: 1;
+            width: 100%;
+            margin-top: 9.8em;
+            display: flex;
+            justify-content: space-around;
+            border-style: hidden;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 0.1em 0.1em 1em 0.5em $gray-darker;
+            #texte {
+                flex-direction: column;
+                padding-bottom: 1em;
+            }
+            h3 {
+                font-size: 1.1em;
+                padding: 1em 0em 0.5em 0em;
+            }
+            h4 {
+                font-size: 1em;
+                font-weight: 100;
+                padding: 0em 0em 0em 0em;   
+            }
+            .overlay__heart--1 {
+                input {
+                    margin-top: 2.5em;
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        font-size: 2rem;
+                        position: absolute;
+                        margin-top: 0.5em;
+                        &::before {
+                            @extend .far;
+                            content: fa-content($fa-var-heart);  /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
+                        }
+                    }
+                    &:checked+label {
+                        font-size: 2rem;
+                        &::before {
+                            @extend .fas;
+                            content: fa-content($fa-var-heart);
+                            will-change: font-size;
+                            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            animation-name: color-swap;
+                            animation-duration: 1s;
+                            transition: ease-in-out;
+                        }
+                    } 
+                }
+            }
+            
+        }
+    }
+    @mixin article__setting--2 {
+        .overlay__text--2 {
+            background-color: white;
+            opacity: 1;
+            width: 100%;
+            margin-top: 9.8em;
+            display: flex;
+            justify-content: space-around;
+            border-style: hidden;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 0.1em 0.1em 1em 0.5em $gray-darker;
+            #texte {
+                flex-direction: column;
+                padding-bottom: 1em;
+            }
+            h3 {
+                font-size: 1.1em;
+                padding: 1em 0em 0.5em 0em;
+            }
+            h4 {
+                font-size: 1em;
+                font-weight: 100;
+                padding: 0em 0em 0em 0em;   
+            }
+            .overlay__heart--2 {
+                input {
+                    margin-top: 2.5em;
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        font-size: 2rem;
+                        position: absolute;
+                        margin-top: 0.5em;
+                        &::before {
+                            @extend .far;
+                            content: fa-content($fa-var-heart);  /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
+                        }
+                    }
+                    &:checked+label {
+                        font-size: 2rem;
+                        &::before {
+                            @extend .fas;
+                            content: fa-content($fa-var-heart);
+                            will-change: font-size;
+                            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            animation-name: color-swap;
+                            animation-duration: 1s;
+                            transition: ease-in-out;
+                        }
+                    } 
+                }
+            }
+            
+        }
+    }    
+    @mixin article__setting--3 {
+        .overlay__text--3 {
+            background-color: white;
+            opacity: 1;
+            width: 100%;
+            margin-top: 9.8em;
+            display: flex;
+            justify-content: space-around;
+            border-style: hidden;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 0.1em 0.1em 1em 0.5em $gray-darker;
+            #texte {
+                flex-direction: column;
+                padding-bottom: 1em;
+            }
+            h3 {
+                font-size: 1.1em;
+                padding: 1em 0em 0.5em 0em;
+            }
+            h4 {
+                font-size: 1em;
+                font-weight: 100;
+                padding: 0em 0em 0em 0em;   
+            }
+            .overlay__heart--3 {
+                input {
+                    margin-top: 2.5em;
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        font-size: 2rem;
+                        position: absolute;
+                        margin-top: 0.5em;
+                        &::before {
+                            @extend .far;
+                            content: fa-content($fa-var-heart);  /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
+                        }
+                    }
+                    &:checked+label {
+                        font-size: 2rem;
+                        &::before {
+                            @extend .fas;
+                            content: fa-content($fa-var-heart);
+                            will-change: font-size;
+                            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            animation-name: color-swap;
+                            animation-duration: 1s;
+                            transition: ease-in-out;
+                        }
+                    } 
+                }
+            }
+            
+        }
+    }
+    @mixin article__setting--4{
+        .overlay__text--4 {
+            background-color: white;
+            opacity: 1;
+            width: 100%;
+            margin-top: 9.8em;
+            display: flex;
+            justify-content: space-around;
+            border-style: hidden;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 0.1em 0.1em 1em 0.5em $gray-darker;
+            #texte {
+                flex-direction: column;
+                padding-bottom: 1em;
+            }
+            h3 {
+                font-size: 1.1em;
+                padding: 1em 0em 0.5em 0em;
+            }
+            h4 {
+                font-size: 1em;
+                font-weight: 100;
+                padding: 0em 0em 0em 0em;   
+            }
+            .overlay__heart--4 {
+                input {
+                    margin-top: 2.5em;
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        font-size: 2rem;
+                        position: absolute;
+                        margin-top: 0.5em;
+                        &::before {
+                            @extend .far;
+                            content: fa-content($fa-var-heart);  /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
+                        }
+                    }
+                    &:checked+label {
+                        font-size: 2rem;
+                        &::before {
+                            @extend .fas;
+                            content: fa-content($fa-var-heart);
+                            will-change: font-size;
+                            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            animation-name: color-swap;
+                            animation-duration: 1s;
+                            transition: ease-in-out;
+                        }
+                    } 
+                }
+            }
+            
+        }
+    }
+
+    
 
 
     #logo {
@@ -239,93 +506,34 @@
             
         }
         #restaurants__palette {
-            padding-top: 1em;
-            padding-bottom: 5em;
-            padding-left: 1.5em;
-            padding-right: 1.5em;
-
-            a {        /*the text-decoration : none, work only with the a, in case an a exist ?*/
-                text-decoration: none;
-                color: black;
-                
-            
-                article {
-                    background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg); background-size: contain; background-repeat: no-repeat;
-                    height: 13.5em;
-                    width: auto;
-                    border-style: hidden;
-                    border-top-right-radius: 15px;
-                    border-top-left-radius: 15px;
-                    padding-top: 2em;
-                    h5 {
-                        display: flex;
-                        justify-content: flex-end;
-                        color: green;
-                        margin-right: 1em;
-                        margin-left: 18.5em;
-                        padding: 0.5em 0.5em 0.5em 0.5em;
-                        border-style: hidden;
-                        background-color: $green;
-                        font-weight: lighter;
-                    }
-                    
-                    .overlay--text {
-                        background-color: white;
-                        opacity: 1;
-                        margin-top: 9.8em;
-                        display: flex;
-                        justify-content: space-around;
-                        #texte {
-                            flex-direction: column;
-                            padding-bottom: 1em;
-                        }
-                        h3 {
-                            font-size: 1.1em;
-                            padding: 1em 0em 0.5em 0em;
-                        }
-                        h4 {
-                            font-size: 1em;
-                            font-weight: 100;
-                            padding: 0em 0em 0em 0em;   
-                        }
-                        
-                        .overlay--heart {
-                            input {
-                                margin-top: 2.5em;
-                                @include fa-icon;
-                                
-                                &+label {
-                                    font-size: 2rem;
-                                    position: relative;
-                                   
-                                    &::before {
-                                        @extend .far;
-                                        content: fa-content($fa-var-heart);  /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
-                                    }
-                                   
-                                }
-                        
-                                &:checked+label {
-                                    font-size: 2rem;
-                                    &::before {
-                                        @extend .fas;
-                                        content: fa-content($fa-var-heart);
-                                        will-change: font-size;
-                                        background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
-                                        -webkit-background-clip: text;
-                                        -webkit-text-fill-color: transparent;
-                                        animation-name: color-swap;
-                                        animation-duration: 1s;
-                                        transition: ease-in-out;
-                                    }
-                                } 
-                            }
-                        }
-                        
-                    }
-                }
-            }        
-        }   
+            @include article__setting;
+            @include article__setting--1;
+            article {
+                background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg); background-size: contain; background-repeat: no-repeat;
+            }
+        }
+        #restaurants__lanote {
+            @include article__setting;
+            @include article__setting--2;
+            article {
+                background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
+                background-position-y: -6em;
+            }
+        }
+        #restaurants__alafrançaise {
+            @include article__setting;
+            @include article__setting--3;
+            article {
+                background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg); background-size: contain; background-repeat: no-repeat;
+            }
+        }  
+        #restaurants__délice {
+            @include article__setting;
+            @include article__setting--4;
+            article {
+                background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg); background-size: contain; background-repeat: no-repeat;
+            }
+        } 
     }
 }
 
