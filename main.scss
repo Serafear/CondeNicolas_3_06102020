@@ -28,8 +28,57 @@
     
 
     @keyframes color-swap {
-        from {color: $pink;}
-        to {color: $purple;}
+        0% {
+            
+            content: fa-content($fa-var-heart);
+        }
+        5% {
+            
+            content: fa-content($fa-var-heart);
+            font-size: 0rem;
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        6% {
+            
+            content: fa-content($fa-var-heart);
+            font-size: 0.5rem;
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        70% {
+            
+            content: fa-content($fa-var-heart);
+            font-size: 2rem;
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        90% {
+            
+            content: fa-content($fa-var-heart);
+            font-size: 2.3rem;
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        95% {
+            content: fa-content($fa-var-heart);
+            font-size: 2.1rem;
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        100% {
+            font-size: 2rem;
+            
+            content: fa-content($fa-var-heart);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
     }
 
 
@@ -246,31 +295,28 @@
                                 @include fa-icon;
                                 
                                 &+label {
-                                    font-size: 2em;
+                                    font-size: 2rem;
                                     position: relative;
                                    
                                     &::before {
-                                        @extend .fas;
+                                        @extend .far;
                                         content: fa-content($fa-var-heart);  /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
-                                        background: -webkit-linear-gradient(#eee, #333);
-                                        -webkit-background-clip: text;
-                                        -webkit-text-fill-color: transparent;
-                                    }
-                                    &::after {
-                                        
                                     }
                                    
                                 }
                         
                                 &:checked+label {
-                                    font-size: 2em;
-                                    @extend .fas;
+                                    font-size: 2rem;
                                     &::before {
-                                       content: fa-content($fa-var-heart);
-                                       color: $purple;
-                                       animation-name: color-swap;
-                                       animation-duration: 2s;
-                                       
+                                        @extend .fas;
+                                        content: fa-content($fa-var-heart);
+                                        will-change: font-size;
+                                        background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+                                        -webkit-background-clip: text;
+                                        -webkit-text-fill-color: transparent;
+                                        animation-name: color-swap;
+                                        animation-duration: 1s;
+                                        transition: ease-in-out;
                                     }
                                 } 
                             }
