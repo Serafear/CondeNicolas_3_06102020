@@ -13,6 +13,7 @@
   },
   "author": "",
   "license": "ISC",
+  "browserlist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/Serafear/CondeNicolas_3_06102020/issues"
   },
