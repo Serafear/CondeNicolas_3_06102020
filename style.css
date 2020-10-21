@@ -8,6 +8,8 @@
   @font-face {
     font-family: "shrikhand";
     src: url("fonts/shrikhand/Shrikhand-Regular.ttf");
+  }
+  @font-face {
     font-family: "roboto";
     src: url("fonts/roboto/Roboto-Regular.ttf");
   }
@@ -6771,6 +6773,22 @@
     background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+  }
+
+  footer {
+    padding: 1em 1em 1em 1em;
+    background-color: #2b2b2b;
+    color: white;
+    font-size: 1.2em;
+    font-family: "roboto";
+    font-weight: bolder;
+  }
+  footer #logo__footer {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    font-family: "shrikhand";
+    font-weight: 900;
+    text-decoration: none;
   }
 }
 

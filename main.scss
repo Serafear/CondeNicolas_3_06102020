@@ -7,10 +7,12 @@
 @media screen and (min-width: 280px) and (max-width: 500px)
 {
     @font-face {
-        font-family: 'shrikhand';
-        src: url('fonts/shrikhand/Shrikhand-Regular.ttf');
-        font-family: 'roboto';
-        src: url('fonts/roboto/Roboto-Regular.ttf');
+        font-family: "shrikhand";
+        src: url("fonts/shrikhand/Shrikhand-Regular.ttf");
+    }
+    @font-face {
+        font-family: "roboto";
+        src: url("fonts/roboto/Roboto-Regular.ttf");
     }
     @import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
     @import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
@@ -23,8 +25,8 @@
     $pink: #FF79DA;
     $green: #99E2D0;
     $purple: #9356DC;
-    $font-title: 'shrikhand';
-    $font-text: 'roboto';
+    $font-title: "shrikhand";
+    $font-text: "roboto";
     
 
     @keyframes color-swap {
@@ -534,6 +536,24 @@
                 background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg); background-size: contain; background-repeat: no-repeat;
             }
         } 
+    }
+
+    footer {
+        padding: 1em 1em 1em 1em;
+        background-color: darken($gray-darker, $amount: 75%);
+        color: white;
+        font-size: 1.2em;
+        font-family: $font-text;
+        font-weight: bolder;
+        
+        #logo__footer {
+            font-size: 2em;
+            padding-bottom: 0.5em;
+            font-family: $font-title;
+            font-weight: 900;
+            text-decoration: none;
+        }
+
     }
 }
 
