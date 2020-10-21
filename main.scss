@@ -196,7 +196,7 @@
                             content: fa-content($fa-var-heart);
                             will-change: font-size;
                             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
-                            -webkit-background-clip: text;
+                            -webkit-background-clip: text;  /*i dont undersant what to do for now. Ill check it when ill finish the first page*/
                             -webkit-text-fill-color: transparent;
                             animation-name: color-swap;
                             animation-duration: 1s;

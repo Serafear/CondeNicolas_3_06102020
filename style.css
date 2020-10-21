@@ -6478,6 +6478,7 @@
     will-change: font-size;
     background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
     -webkit-background-clip: text;
+    /*i dont undersant what to do for now. Ill check it when ill finish the first page*/
     -webkit-text-fill-color: transparent;
     animation-name: color-swap;
     animation-duration: 1s;
