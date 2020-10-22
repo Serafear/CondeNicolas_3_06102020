@@ -19,6 +19,8 @@
    */
   .fa,
 .fas,
+footer #line2 h6::before,
+footer #line1 h6::before,
 #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before,
 #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before,
 #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before,
@@ -132,6 +134,8 @@
 
   .fa.fa-pull-left,
 .fas.fa-pull-left,
+footer #line2 h6.fa-pull-left::before,
+footer #line1 h6.fa-pull-left::before,
 .far.fa-pull-left,
 #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input + label.fa-pull-left::before,
 #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input + label.fa-pull-left::before,
@@ -143,6 +147,8 @@
   }
   .fa.fa-pull-right,
 .fas.fa-pull-right,
+footer #line2 h6.fa-pull-right::before,
+footer #line1 h6.fa-pull-right::before,
 .far.fa-pull-right,
 #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input + label.fa-pull-right::before,
 #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input + label.fa-pull-right::before,
@@ -6109,6 +6115,8 @@
   }
   .fa,
 .fas,
+footer #line2 h6::before,
+footer #line1 h6::before,
 #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before,
 #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before,
 #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before,
@@ -6233,7 +6241,7 @@
   #header .button-pink #search-bar textarea:focus, #header .button-pink #search-bar input:focus {
     outline: none;
   }
-  #header .button-pink #search-bar .fas, #header .button-pink #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #header .button-pink #search-bar input:checked + label::before, #header .button-pink #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #header .button-pink #search-bar input:checked + label::before, #header .button-pink #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #header .button-pink #search-bar input:checked + label::before, #header .button-pink #search-bar #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before, #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 #header .button-pink #search-bar input:checked + label::before {
+  #header .button-pink #search-bar .fas, #header .button-pink #search-bar footer #line2 h6::before, footer #line2 #header .button-pink #search-bar h6::before, #header .button-pink #search-bar footer #line1 h6::before, footer #line1 #header .button-pink #search-bar h6::before, #header .button-pink #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #header .button-pink #search-bar input:checked + label::before, #header .button-pink #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #header .button-pink #search-bar input:checked + label::before, #header .button-pink #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #header .button-pink #search-bar input:checked + label::before, #header .button-pink #search-bar #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before, #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 #header .button-pink #search-bar input:checked + label::before {
     color: #323232;
     font-size: 1em;
     padding-right: 1em;
@@ -6295,7 +6303,7 @@
     box-shadow: 0em 0.1em 0em 0em #EAEAEA;
     border-radius: 20px;
   }
-  #navigation #navigation__choix .fas, #navigation #navigation__choix #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #navigation #navigation__choix input:checked + label::before, #navigation #navigation__choix #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #navigation #navigation__choix input:checked + label::before, #navigation #navigation__choix #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #navigation #navigation__choix input:checked + label::before, #navigation #navigation__choix #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before, #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 #navigation #navigation__choix input:checked + label::before {
+  #navigation #navigation__choix .fas, #navigation #navigation__choix footer #line2 h6::before, footer #line2 #navigation #navigation__choix h6::before, #navigation #navigation__choix footer #line1 h6::before, footer #line1 #navigation #navigation__choix h6::before, #navigation #navigation__choix #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #navigation #navigation__choix input:checked + label::before, #navigation #navigation__choix #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #navigation #navigation__choix input:checked + label::before, #navigation #navigation__choix #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #navigation #navigation__choix input:checked + label::before, #navigation #navigation__choix #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before, #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 #navigation #navigation__choix input:checked + label::before {
     color: gray;
   }
   #navigation #navigation__choix p {
@@ -6327,7 +6335,7 @@
     box-shadow: 0em 0.1em 0em 0em #EAEAEA;
     border-radius: 20px;
   }
-  #navigation #navigation__composition .fas, #navigation #navigation__composition #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #navigation #navigation__composition input:checked + label::before, #navigation #navigation__composition #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #navigation #navigation__composition input:checked + label::before, #navigation #navigation__composition #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #navigation #navigation__composition input:checked + label::before, #navigation #navigation__composition #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before, #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 #navigation #navigation__composition input:checked + label::before {
+  #navigation #navigation__composition .fas, #navigation #navigation__composition footer #line2 h6::before, footer #line2 #navigation #navigation__composition h6::before, #navigation #navigation__composition footer #line1 h6::before, footer #line1 #navigation #navigation__composition h6::before, #navigation #navigation__composition #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #navigation #navigation__composition input:checked + label::before, #navigation #navigation__composition #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #navigation #navigation__composition input:checked + label::before, #navigation #navigation__composition #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #navigation #navigation__composition input:checked + label::before, #navigation #navigation__composition #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before, #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 #navigation #navigation__composition input:checked + label::before {
     color: gray;
   }
   #navigation #navigation__composition p {
@@ -6362,7 +6370,7 @@
     box-shadow: 0em 0.1em 0em 0em #EAEAEA;
     border-radius: 20px;
   }
-  #navigation #navigation__dégustation .fas, #navigation #navigation__dégustation #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before, #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 #navigation #navigation__dégustation input:checked + label::before {
+  #navigation #navigation__dégustation .fas, #navigation #navigation__dégustation footer #line2 h6::before, footer #line2 #navigation #navigation__dégustation h6::before, #navigation #navigation__dégustation footer #line1 h6::before, footer #line1 #navigation #navigation__dégustation h6::before, #navigation #navigation__dégustation #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before, #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 #navigation #navigation__dégustation input:checked + label::before {
     color: gray;
   }
   #navigation #navigation__dégustation p {
@@ -6379,7 +6387,7 @@
   #navigation #navigation__dégustation a {
     padding-left: 1em;
   }
-  #navigation #navigation__dégustation .fas, #navigation #navigation__dégustation #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before, #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 #navigation #navigation__dégustation input:checked + label::before {
+  #navigation #navigation__dégustation .fas, #navigation #navigation__dégustation footer #line2 h6::before, footer #line2 #navigation #navigation__dégustation h6::before, #navigation #navigation__dégustation footer #line1 h6::before, footer #line1 #navigation #navigation__dégustation h6::before, #navigation #navigation__dégustation #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before, #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 #navigation #navigation__dégustation input:checked + label::before {
     color: #9356DC;
   }
   #navigation #navigation__dégustation li {
@@ -6467,6 +6475,7 @@
     font-size: 2rem;
     position: absolute;
     margin-top: 0.5em;
+    margin-left: -1.5rem;
   }
   #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input + label::before {
     content: "";
@@ -6562,6 +6571,7 @@
     font-size: 2rem;
     position: absolute;
     margin-top: 0.5em;
+    margin-left: -0.8em;
   }
   #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input + label::before {
     content: "";
@@ -6657,6 +6667,7 @@
     font-size: 2rem;
     position: absolute;
     margin-top: 0.5em;
+    margin-left: -0.7em;
   }
   #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input + label::before {
     content: "";
@@ -6751,6 +6762,7 @@
     font-size: 2rem;
     position: absolute;
     margin-top: 0.5em;
+    margin-left: -1em;
   }
   #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input + label::before {
     content: "";
@@ -6778,17 +6790,49 @@
   footer {
     padding: 1em 1em 1em 1em;
     background-color: #2b2b2b;
+    width: 89.1%;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-family: "roboto";
-    font-weight: bolder;
+    font-weight: bold;
+    filter: blur(0);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
   }
   footer #logo__footer {
-    font-size: 2em;
+    font-size: 1.5em;
     padding-bottom: 0.5em;
     font-family: "shrikhand";
-    font-weight: 900;
+    font-weight: bolder;
     text-decoration: none;
+  }
+  footer #line1 h6 {
+    padding-bottom: 0.7em;
+  }
+  footer #line1 h6::before {
+    content: "";
+    font-size: 0.8em;
+    padding-right: 1em;
+  }
+  footer #line2 h6 {
+    padding-bottom: 0.7em;
+  }
+  footer #line2 h6::before {
+    content: "";
+    font-size: 0.7em;
+    padding-right: 0.8em;
+  }
+  footer #contact {
+    padding-top: 0.5em;
+  }
+  footer #contact a {
+    text-decoration: none;
+    color: white;
   }
 }
 

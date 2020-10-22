@@ -186,6 +186,7 @@
                         font-size: 2rem;
                         position: absolute;
                         margin-top: 0.5em;
+                        margin-left: -1.5rem;
                         &::before {
                             @extend .far;
                             content: fa-content($fa-var-heart);  /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
@@ -244,9 +245,11 @@
                         font-size: 2rem;
                         position: absolute;
                         margin-top: 0.5em;
+                        margin-left: -0.8em;
                         &::before {
                             @extend .far;
                             content: fa-content($fa-var-heart);  /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
+                            
                         }
                     }
                     &:checked+label {
@@ -302,6 +305,7 @@
                         font-size: 2rem;
                         position: absolute;
                         margin-top: 0.5em;
+                        margin-left: -0.7em;
                         &::before {
                             @extend .far;
                             content: fa-content($fa-var-heart);  /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
@@ -360,6 +364,7 @@
                         font-size: 2rem;
                         position: absolute;
                         margin-top: 0.5em;
+                        margin-left: -1em;
                         &::before {
                             @extend .far;
                             content: fa-content($fa-var-heart);  /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
@@ -382,6 +387,53 @@
                 }
             }
             
+        }
+    }
+    @mixin footer__settings {
+        padding: 1em 1em 1em 1em;
+        background-color: darken($gray-darker, $amount: 75%);
+        width: 89.1%;
+        color: white;
+        font-size: 1.3em;
+        font-family: $font-text;
+        font-weight: bold;
+        filter: blur(0);
+        @include fa-icon;
+        #logo__footer {
+            font-size: 1.5em;
+            padding-bottom: 0.5em;
+            font-family: $font-title;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+        #line1 {
+            h6 {
+                padding-bottom: 0.7em;
+                &::before {
+                    @extend .fas;
+                    content: "\f2e7";
+                    font-size: 0.8em;
+                    padding-right: 1em;
+                }
+            }
+        }
+        #line2 {
+            h6 {
+                padding-bottom: 0.7em;
+                &::before {
+                    @extend .fas;
+                    content: "\f4c4";
+                    font-size: 0.7em;
+                    padding-right: 0.8em;
+                }
+            }
+        }
+        #contact {
+            padding-top: 0.5em;
+            a {
+                text-decoration: none;
+                color: white;
+            }
         }
     }
 
@@ -539,21 +591,7 @@
     }
 
     footer {
-        padding: 1em 1em 1em 1em;
-        background-color: darken($gray-darker, $amount: 75%);
-        color: white;
-        font-size: 1.2em;
-        font-family: $font-text;
-        font-weight: bolder;
-        
-        #logo__footer {
-            font-size: 2em;
-            padding-bottom: 0.5em;
-            font-family: $font-title;
-            font-weight: 900;
-            text-decoration: none;
-        }
-
+        @include footer__settings
     }
 }
 
