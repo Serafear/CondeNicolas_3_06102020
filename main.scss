@@ -31,52 +31,54 @@
 
     @keyframes color-swap {
         0% {
-            
-            content: fa-content($fa-var-heart);
+            font-weight: normal;  /*i dont need to telle anything about the fa content because it is sayed in the ::before, below in the css code*/
         }
         5% {
-            
-            content: fa-content($fa-var-heart);
-            font-size: 0rem;
-            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            font-weight: normal;  /*the precision in the font weight is to switch between the far and te fas. Here : normal = far, because thats what i put in the ::before*/
+            -webkit-transform: scale(0.5);
+             transform: scale(0.5);
         }
-        6% {
-            
-            content: fa-content($fa-var-heart);
-            font-size: 0.5rem;
+        10% {  
+            font-weight: normal;
+            -webkit-transform: scale(0.1);  /*the best way to animate a growth for exemple is to use the transform scale*/
+            transform: scale(0.1);
+        }
+        15%{
+            font-weight: 600;  /*here is the tansition between the far and the fas*/
+            -webkit-transform: scale(0.5);
+            transform: scale(0.5);
             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         70% {
-            
-            content: fa-content($fa-var-heart);
-            font-size: 2rem;
+            font-weight: 600;
+            -webkit-transform: scale(1);
+            transform: scale(1);
             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         90% {
-            
-            content: fa-content($fa-var-heart);
-            font-size: 2.3rem;
+            font-weight: 600;
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         95% {
-            content: fa-content($fa-var-heart);
-            font-size: 2.1rem;
+            font-weight: 600;
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         100% {
-            font-size: 2rem;
-            
-            content: fa-content($fa-var-heart);
+            font-weight: 600;
+            -webkit-transform: scale(1);
+            transform: scale(1);
             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -195,8 +197,9 @@
                     &:checked+label {
                         font-size: 2rem;
                         &::before {
-                            @extend .fas;
+                            @extend .far;
                             content: fa-content($fa-var-heart);
+                            font-weight: 600;
                             will-change: font-size;
                             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
                             -webkit-background-clip: text;  /*i dont undersant what to do for now. Ill check it when ill finish the first page*/
