@@ -6845,6 +6845,8 @@ footer #line1 h6::before,
   footer #contact a {
     text-decoration: none;
     color: white;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
 }
 
