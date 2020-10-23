@@ -6847,6 +6847,7 @@ footer #line1 h6::before,
     color: white;
     outline: none;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
   }
 }
 
