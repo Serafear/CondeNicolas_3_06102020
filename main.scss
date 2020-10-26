@@ -29,23 +29,20 @@
     $font-text: "roboto";
     
 
-    @keyframes color-swap {
+    @-webkit-keyframes color-swap {
         0% {
             font-weight: normal;  /*i dont need to telle anything about the fa content because it is sayed in the ::before, below in the css code*/
         }
         5% {
             font-weight: normal;  /*the precision in the font weight is to switch between the far and te fas. Here : normal = far, because thats what i put in the ::before*/
-            -webkit-transform: scale(0.5);
-             transform: scale(0.5);
+            transform: scale(0.5);
         }
         10% {  
-            font-weight: normal;
-            -webkit-transform: scale(0.1);  /*the best way to animate a growth for exemple is to use the transform scale*/
+            font-weight: normal;  /*the best way to animate a growth for exemple is to use the transform scale*/
             transform: scale(0.1);
         }
         15%{
             font-weight: 600;  /*here is the tansition between the far and the fas*/
-            -webkit-transform: scale(0.5);
             transform: scale(0.5);
             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
             -webkit-background-clip: text;
@@ -53,7 +50,6 @@
         }
         70% {
             font-weight: 600;
-            -webkit-transform: scale(1);
             transform: scale(1);
             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
             -webkit-background-clip: text;
@@ -61,7 +57,6 @@
         }
         90% {
             font-weight: 600;
-            -webkit-transform: scale(1.2);
             transform: scale(1.2);
             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
             -webkit-background-clip: text;
@@ -69,7 +64,6 @@
         }
         95% {
             font-weight: 600;
-            -webkit-transform: scale(1.1);
             transform: scale(1.1);
             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
             -webkit-background-clip: text;
@@ -77,7 +71,56 @@
         }
         100% {
             font-weight: 600;
-            -webkit-transform: scale(1);
+            transform: scale(1);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    
+
+    @keyframes color-swap {
+        0% {
+            font-weight: normal;  /*i dont need to telle anything about the fa content because it is sayed in the ::before, below in the css code*/
+        }
+        5% {
+            font-weight: normal;  /*the precision in the font weight is to switch between the far and te fas. Here : normal = far, because thats what i put in the ::before*/
+            transform: scale(0.5);
+        }
+        10% {  
+            font-weight: normal;  /*the best way to animate a growth for exemple is to use the transform scale*/
+            transform: scale(0.1);
+        }
+        15%{
+            font-weight: 600;  /*here is the tansition between the far and the fas*/
+            transform: scale(0.5);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        70% {
+            font-weight: 600;
+            transform: scale(1);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        90% {
+            font-weight: 600;
+            transform: scale(1.2);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        95% {
+            font-weight: 600;
+            transform: scale(1.1);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        100% {
+            font-weight: 600;
             transform: scale(1);
             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
             -webkit-background-clip: text;
@@ -204,8 +247,10 @@
                             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
                             -webkit-background-clip: text;  /*i dont undersant what to do for now. Ill check it when ill finish the first page*/
                             -webkit-text-fill-color: transparent;
-                            animation-name: color-swap;
-                            animation-duration: 1s;
+                            -webkit-animation-name: color-swap;
+                                    animation-name: color-swap;
+                            -webkit-animation-duration: 1s;
+                                    animation-duration: 1s;
                             transition: ease-in-out;
                         }
                     } 
@@ -264,8 +309,10 @@
                             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
                             -webkit-background-clip: text;
                             -webkit-text-fill-color: transparent;
-                            animation-name: color-swap;
-                            animation-duration: 1s;
+                            -webkit-animation-name: color-swap;
+                                    animation-name: color-swap;
+                            -webkit-animation-duration: 1s;
+                                    animation-duration: 1s;
                             transition: ease-in-out;
                         }
                     } 
@@ -323,8 +370,10 @@
                             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
                             -webkit-background-clip: text;
                             -webkit-text-fill-color: transparent;
-                            animation-name: color-swap;
-                            animation-duration: 1s;
+                            -webkit-animation-name: color-swap;
+                                    animation-name: color-swap;
+                            -webkit-animation-duration: 1s;
+                                    animation-duration: 1s;
                             transition: ease-in-out;
                         }
                     } 
@@ -382,8 +431,10 @@
                             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
                             -webkit-background-clip: text;
                             -webkit-text-fill-color: transparent;
-                            animation-name: color-swap;
-                            animation-duration: 1s;
+                            -webkit-animation-name: color-swap;
+                                    animation-name: color-swap;
+                            -webkit-animation-duration: 1s;
+                                    animation-duration: 1s;
                             transition: ease-in-out;
                         }
                     } 
@@ -400,7 +451,8 @@
         font-size: 1.3em;
         font-family: $font-text;
         font-weight: bold;
-        filter: blur(0);
+        -webkit-filter: blur(0);
+                filter: blur(0);
         @include fa-icon;
         #logo__footer {
             font-size: 1.5em;
