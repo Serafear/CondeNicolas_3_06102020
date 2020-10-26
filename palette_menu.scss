@@ -27,21 +27,44 @@
     $font-title: "shrikhand";
     $font-text: "roboto";
 
-
-    #logo {
+    @mixin logo-back {
         display: flex;
         justify-content: center;
         flex-direction: row-reverse;
+        padding-bottom: 0.5em;
         a {
             @include fa-icon;
             padding: 1em;
             font-size: 1em;
-            padding-right: 2em;
+            padding-right: 3em;
+            margin-left: -5em;   
             &::before {
                 @extend .fas;
                 content: fa-content($fa-var-arrow-left);
                 color: black;
             }
         }
+    }
+    @mixin photo-menu {
+        article {
+            background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 16em;
+            width: auto;
+        }
+    }
+
+
+    #logo {
+        @include logo-back
+    }
+    #palette-image {
+      @include photo-menu
+    }
+
+    #menu {
+        background-color: $gray-darker;
+        padding-top: 0.5em;
     }
 }    
