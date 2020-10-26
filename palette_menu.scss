@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 280px) and (max-width: 500px)
+{
+    @font-face {
+        font-family: "shrikhand";
+        src: url("fonts/shrikhand/Shrikhand-Regular.ttf");
+    }
+    @font-face {
+        font-family: "roboto";
+        src: url("fonts/roboto/Roboto-Regular.ttf");
+    }
+    @import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+    @import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+    @import "node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+    @import "node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+
+    
+    $gray-light: #F6F6F6;
+    $gray-darker: #EAEAEA;
+    $pink: #FF79DA;
+    $green: #99E2D0;
+    $purple: #9356DC;
+    $font-title: "shrikhand";
+    $font-text: "roboto";
+
+
+    #logo {
+        @include fa-icon;
+        .button {
+            @extend .far;
+            &::before {
+                content: fa-content(fa-var-arrow-left);
+            }
+        }
+    }
+}    
