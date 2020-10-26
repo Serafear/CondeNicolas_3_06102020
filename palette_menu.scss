@@ -29,11 +29,18 @@
 
 
     #logo {
-        @include fa-icon;
-        .button {
-            @extend .far;
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        a {
+            @include fa-icon;
+            padding: 1em;
+            font-size: 1em;
+            padding-right: 2em;
             &::before {
-                content: fa-content(fa-var-arrow-left);
+                @extend .fas;
+                content: fa-content($fa-var-arrow-left);
+                color: black;
             }
         }
     }
