@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./main.scss:./style.css ./palette_menu.scss:./style.css",
-    "prefix": "postcss ./style.css --use autoprefixer  -c ./prefixed/"
+    "prefix": "postcss ./style.css --use autoprefixer -d ./prefixed/"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   },
   "author": "",
   "license": "ISC",
-  "browserlist": "last 4 versions",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/Serafear/CondeNicolas_3_06102020/issues"
   },
