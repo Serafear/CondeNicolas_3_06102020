@@ -6547,6 +6547,7 @@ footer #line1 h6::before,
     background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
     -webkit-background-clip: text;
     /*i dont undersant what to do for now. Ill check it when ill finish the first page*/
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation-name: color-swap;
     animation-name: color-swap;
@@ -6644,6 +6645,7 @@ footer #line1 h6::before,
     will-change: font-size;
     background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation-name: color-swap;
     animation-name: color-swap;
@@ -6742,6 +6744,7 @@ footer #line1 h6::before,
     will-change: font-size;
     background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation-name: color-swap;
     animation-name: color-swap;
@@ -6839,6 +6842,7 @@ footer #line1 h6::before,
     will-change: font-size;
     background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation-name: color-swap;
     animation-name: color-swap;
