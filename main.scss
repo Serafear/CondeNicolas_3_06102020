@@ -241,7 +241,7 @@
                         font-size: 2rem;
                         &::before {
                             @extend .far;
-                            content: fa-content($fa-var-heart);
+                            content: "\f004";
                             font-weight: 600;
                             will-change: font-size;
                             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
