@@ -60,11 +60,44 @@
         @include logo-back
     }
     #palette-image {
-      @include photo-menu
+      @include photo-menu;
+      padding-bottom: 4em;
+      .overlay__menu--1 {
+        margin-top: 12em;
+            #palette__title {
+                opacity: 1;
+                background-color: $gray-light;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                border-style: hidden;
+                border-top-right-radius: 20px;
+                border-top-left-radius: 20px;
+                h3 {
+                    font-family: $font-title;
+                    font-size: 1.7em;
+                    padding: 1em 1em 1em 0.5em;
+                }
+                input {
+                    @include fa-icon;
+                    
+                    &+label {
+                        margin-top: 1.1em;
+                        font-size: 1.7em;
+                        padding-right: 1em;
+                        &::before {
+                            @extend .far;
+                            content: fa-content($fa-var-heart);
+                        }
+                    }
+                }
+            }
+        }
     }
 
     #menu {
-        background-color: $gray-darker;
+        background-color: $gray-light;
         padding-top: 0.5em;
     }
 }    
