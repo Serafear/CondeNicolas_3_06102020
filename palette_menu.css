@@ -6191,6 +6191,15 @@
       -webkit-text-fill-color: transparent;
     }
   }
+  @keyframes checked-ok--menu {
+    0% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(3turn);
+      transition: transform 300ms ease-in-out;
+    }
+  }
   #logo {
     display: flex;
     justify-content: center;
@@ -6350,6 +6359,10 @@
   #menu #palette__entrées #palette__entrées--1 input:checked + label::after {
     content: "";
     font-size: 2rem;
+    animation-name: checked-ok--menu;
+    -webkit-animation-name: checked-ok--menu;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
     border-style: hidden;
     background-color: #99E2D0;
     position: absolute;

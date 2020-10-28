@@ -54,7 +54,60 @@
             width: auto;
         }
     }
+    @mixin checked-ok {
+        display: flex;
+        flex-direction: row;
+        h3 {
+        white-space: nowrap;
+        }
+        h4 {
+        white-space: nowrap;
+        font-weight: lighter;
+        }
+        h5 {
+        margin-left: -1em;
+        }
+        &::after {
+            @extend .fas;
+            content: fa-content($fa-var-check-circle);
+            font-size: 2rem;
+            animation-name: checked-ok--menu;
+            -webkit-animation-name: checked-ok--menu;
+            animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+            border-style: hidden;
+            background-color: $green;
+            position: absolute;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            margin-left: 17.1rem;
+            margin-top: -0.92rem;
+            padding: 1.3rem 1.25rem 1.3rem 1.25rem;
+            color: white;
+          
+        }
+    }
 
+    @mixin toggle__heart--menu {
+        font-size: 1.7rem;
+        padding-right: 1em;
+        margin-top: 1.1em;
+        &::before {
+            @extend .far;
+            content: "\f004";
+            font-weight: 600;
+            will-change: font-size;
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;  
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-animation-name: color-swap--menu;
+            animation-name: color-swap--menu;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            transition: ease-in-out;
+        }
+    }
     @keyframes color-swap--menu {
         0% {
             font-weight: normal;  
@@ -68,7 +121,7 @@
             transform: scale(0.1);
         }
         15%{
-            font-weight: 600; 
+            font-weight: 600;  
             transform: scale(0.5);
             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
             -webkit-background-clip: text;
@@ -101,6 +154,15 @@
             background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+        }
+    }
+    @keyframes checked-ok--menu {
+        0% {
+            transform: rotate(360deg);
+        }
+        100%{
+            transform: rotate(3turn);
+            transition: transform 300ms ease-in-out;
         }
     }
 
@@ -143,24 +205,7 @@
                         }
                     }
                     &:checked+label {
-                        font-size: 1.7rem;
-                        padding-right: 1em;
-                        margin-top: 1.1em;
-                        &::before {
-                            @extend .far;
-                            content: "\f004";
-                            font-weight: 600;
-                            will-change: font-size;
-                            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
-                            -webkit-background-clip: text;  
-                            background-clip: text;
-                            -webkit-text-fill-color: transparent;
-                            -webkit-animation-name: color-swap--menu;
-                                    animation-name: color-swap--menu;
-                            -webkit-animation-duration: 1s;
-                                    animation-duration: 1s;
-                            transition: ease-in-out;
-                        }
+                        @include toggle__heart--menu;
                     } 
                 }
             }
@@ -211,32 +256,7 @@
                        
                     }
                     &:checked+label {
-                        display: flex;
-                        flex-direction: row;
-                        h3 {
-                            white-space: nowrap;
-                        }
-                        h4 {
-                            white-space: nowrap;
-                            font-weight: lighter;
-                        }
-                        h5 {
-                            margin-left: -1em;
-                        }
-                        &::after {
-                            @extend .fas;
-                            content: fa-content($fa-var-check-circle);
-                            font-size: 2rem;
-                            border-style: hidden;
-                            background-color: $green;
-                            position: absolute;
-                            border-top-right-radius: 20px;
-                            border-bottom-right-radius: 20px;
-                            margin-left: 17.1rem;
-                            margin-top: -0.92rem;
-                            padding: 1.3rem 1.25rem 1.3rem 1.25rem;
-                            color: white;
-                        }
+                        @include checked-ok; 
                     }
                 }
             }
