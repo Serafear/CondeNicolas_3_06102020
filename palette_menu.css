@@ -19,9 +19,9 @@
    */
   .fa,
 .fas,
+#menu #palette__entrées #palette__entrées--1 input:checked + label::after,
 #logo a::before,
 .far,
-#menu #palette__entrées #palette__entrées--1 input + label::after,
 #palette-image .overlay__menu--1 #palette__title input:checked + label::before,
 #palette-image .overlay__menu--1 #palette__title input + label::before,
 .fal,
@@ -128,9 +128,9 @@
 
   .fa.fa-pull-left,
 .fas.fa-pull-left,
+#menu #palette__entrées #palette__entrées--1 input:checked + label.fa-pull-left::after,
 #logo a.fa-pull-left::before,
 .far.fa-pull-left,
-#menu #palette__entrées #palette__entrées--1 input + label.fa-pull-left::after,
 #palette-image .overlay__menu--1 #palette__title input + label.fa-pull-left::before,
 .fal.fa-pull-left,
 .fab.fa-pull-left {
@@ -138,9 +138,9 @@
   }
   .fa.fa-pull-right,
 .fas.fa-pull-right,
+#menu #palette__entrées #palette__entrées--1 input:checked + label.fa-pull-right::after,
 #logo a.fa-pull-right::before,
 .far.fa-pull-right,
-#menu #palette__entrées #palette__entrées--1 input + label.fa-pull-right::after,
 #palette-image .overlay__menu--1 #palette__title input + label.fa-pull-right::before,
 .fal.fa-pull-right,
 .fab.fa-pull-right {
@@ -6103,6 +6103,7 @@
   }
   .fa,
 .fas,
+#menu #palette__entrées #palette__entrées--1 input:checked + label::after,
 #logo a::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
@@ -6120,7 +6121,7 @@
     src: url("../webfonts/fa-regular-400.eot");
     src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
   }
-  .far, #menu #palette__entrées #palette__entrées--1 input + label::after, #palette-image .overlay__menu--1 #palette__title input:checked + label::before, #palette-image .overlay__menu--1 #palette__title input + label::before {
+  .far, #palette-image .overlay__menu--1 #palette__title input:checked + label::before, #palette-image .overlay__menu--1 #palette__title input + label::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
   }
@@ -6332,17 +6333,32 @@
   #menu #palette__entrées #palette__entrées--1 input + label h5 {
     margin-left: -1em;
   }
-  #menu #palette__entrées #palette__entrées--1 input + label::after {
+  #menu #palette__entrées #palette__entrées--1 input:checked + label {
+    display: flex;
+    flex-direction: row;
+  }
+  #menu #palette__entrées #palette__entrées--1 input:checked + label h3 {
+    white-space: nowrap;
+  }
+  #menu #palette__entrées #palette__entrées--1 input:checked + label h4 {
+    white-space: nowrap;
+    font-weight: lighter;
+  }
+  #menu #palette__entrées #palette__entrées--1 input:checked + label h5 {
+    margin-left: -1em;
+  }
+  #menu #palette__entrées #palette__entrées--1 input:checked + label::after {
     content: "";
     font-size: 2rem;
     border-style: hidden;
-    background: #99E2D0;
+    background-color: #99E2D0;
     position: absolute;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-left: 17.1rem;
-    margin-top: -0.915rem;
-    padding: 1.219rem 1.25rem 1.219rem 1.25rem;
+    margin-top: -0.92rem;
+    padding: 1.3rem 1.25rem 1.3rem 1.25rem;
+    color: white;
   }
   #menu #palette__entrées #palette__entrées--2 {
     margin-top: 1em;

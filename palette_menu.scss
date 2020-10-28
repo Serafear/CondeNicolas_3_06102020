@@ -208,19 +208,34 @@
                         h5 {
                             margin-left: -1em;
                         }
+                       
+                    }
+                    &:checked+label {
+                        display: flex;
+                        flex-direction: row;
+                        h3 {
+                            white-space: nowrap;
+                        }
+                        h4 {
+                            white-space: nowrap;
+                            font-weight: lighter;
+                        }
+                        h5 {
+                            margin-left: -1em;
+                        }
                         &::after {
-                            @extend .far;
+                            @extend .fas;
                             content: fa-content($fa-var-check-circle);
                             font-size: 2rem;
                             border-style: hidden;
-                            background: $green;
+                            background-color: $green;
                             position: absolute;
                             border-top-right-radius: 20px;
                             border-bottom-right-radius: 20px;
                             margin-left: 17.1rem;
-                            margin-top: -0.915rem;
-                            padding: 1.219rem 1.25rem 1.219rem 1.25rem;
-                            
+                            margin-top: -0.92rem;
+                            padding: 1.3rem 1.25rem 1.3rem 1.25rem;
+                            color: white;
                         }
                     }
                 }
