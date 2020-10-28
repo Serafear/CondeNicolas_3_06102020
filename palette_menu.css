@@ -21,6 +21,8 @@
 .fas,
 #logo a::before,
 .far,
+#menu #palette__entrées #palette__entrées--1 input + label::after,
+#palette-image .overlay__menu--1 #palette__title input:checked + label::before,
 #palette-image .overlay__menu--1 #palette__title input + label::before,
 .fal,
 .fad,
@@ -128,6 +130,7 @@
 .fas.fa-pull-left,
 #logo a.fa-pull-left::before,
 .far.fa-pull-left,
+#menu #palette__entrées #palette__entrées--1 input + label.fa-pull-left::after,
 #palette-image .overlay__menu--1 #palette__title input + label.fa-pull-left::before,
 .fal.fa-pull-left,
 .fab.fa-pull-left {
@@ -137,6 +140,7 @@
 .fas.fa-pull-right,
 #logo a.fa-pull-right::before,
 .far.fa-pull-right,
+#menu #palette__entrées #palette__entrées--1 input + label.fa-pull-right::after,
 #palette-image .overlay__menu--1 #palette__title input + label.fa-pull-right::before,
 .fal.fa-pull-right,
 .fab.fa-pull-right {
@@ -6116,7 +6120,7 @@
     src: url("../webfonts/fa-regular-400.eot");
     src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
   }
-  .far, #palette-image .overlay__menu--1 #palette__title input + label::before {
+  .far, #menu #palette__entrées #palette__entrées--1 input + label::after, #palette-image .overlay__menu--1 #palette__title input:checked + label::before, #palette-image .overlay__menu--1 #palette__title input + label::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
   }
@@ -6138,6 +6142,54 @@
     font-weight: 400;
   }
 
+  @keyframes color-swap--menu {
+    0% {
+      font-weight: normal;
+    }
+    5% {
+      font-weight: normal;
+      transform: scale(0.5);
+    }
+    10% {
+      font-weight: normal;
+      transform: scale(0.1);
+    }
+    15% {
+      font-weight: 600;
+      transform: scale(0.5);
+      background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    70% {
+      font-weight: 600;
+      transform: scale(1);
+      background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    90% {
+      font-weight: 600;
+      transform: scale(1.2);
+      background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    95% {
+      font-weight: 600;
+      transform: scale(1.1);
+      background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    100% {
+      font-weight: 600;
+      transform: scale(1);
+      background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
   #logo {
     display: flex;
     justify-content: center;
@@ -6183,8 +6235,8 @@
     flex-direction: row;
     justify-content: space-around;
     border-style: hidden;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
   }
   #palette-image .overlay__menu--1 #palette__title h3 {
     font-family: "shrikhand";
@@ -6199,19 +6251,116 @@
     font-variant: normal;
     font-weight: normal;
     line-height: 1;
+    margin-top: 2.8em;
+    display: none;
   }
   #palette-image .overlay__menu--1 #palette__title input + label {
     margin-top: 1.1em;
-    font-size: 1.7em;
+    font-size: 1.7rem;
     padding-right: 1em;
   }
   #palette-image .overlay__menu--1 #palette__title input + label::before {
     content: "";
   }
+  #palette-image .overlay__menu--1 #palette__title input:checked + label {
+    font-size: 1.7rem;
+    padding-right: 1em;
+    margin-top: 1.1em;
+  }
+  #palette-image .overlay__menu--1 #palette__title input:checked + label::before {
+    content: "";
+    font-weight: 600;
+    will-change: font-size;
+    background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation-name: color-swap--menu;
+    animation-name: color-swap--menu;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    transition: ease-in-out;
+  }
 
   #menu {
     background-color: #F6F6F6;
     padding-top: 0.5em;
+    padding-left: 0.8em;
+    font-family: "roboto";
+  }
+  #menu #palette__entrées #palette__entrées--0 {
+    padding-bottom: 1em;
+  }
+  #menu #palette__entrées #palette__entrées--0 p {
+    border-bottom: solid #99E2D0;
+    border-width: 0.3em;
+    margin-right: 20em;
+  }
+  #menu #palette__entrées #palette__entrées--1 {
+    border-style: hidden;
+    background-color: white;
+    padding: 0.9em 0.5em 0.9em 0.5em;
+    border-radius: 20px;
+    box-shadow: 0em 0.1em 1em -0.8em;
+    margin-right: 0.7em;
+  }
+  #menu #palette__entrées #palette__entrées--1 #palette__entrées--prix {
+    padding-left: 5em;
+    margin-top: 1.5em;
+  }
+  #menu #palette__entrées #palette__entrées--1 input {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    display: none;
+  }
+  #menu #palette__entrées #palette__entrées--1 input + label {
+    display: flex;
+    flex-direction: row;
+  }
+  #menu #palette__entrées #palette__entrées--1 input + label h3 {
+    white-space: nowrap;
+  }
+  #menu #palette__entrées #palette__entrées--1 input + label h4 {
+    white-space: nowrap;
+    font-weight: lighter;
+  }
+  #menu #palette__entrées #palette__entrées--1 input + label h5 {
+    margin-left: -1em;
+  }
+  #menu #palette__entrées #palette__entrées--1 input + label::after {
+    content: "";
+    font-size: 2rem;
+    border-style: hidden;
+    background: #99E2D0;
+    position: absolute;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 17.1rem;
+    margin-top: -0.915rem;
+    padding: 1.219rem 1.25rem 1.219rem 1.25rem;
+  }
+  #menu #palette__entrées #palette__entrées--2 {
+    margin-top: 1em;
+    border-style: hidden;
+    background-color: white;
+    padding: 0.6em 0.5em 0.6em 0.5em;
+    border-radius: 20px;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em;
+    margin-right: 0.7em;
+  }
+  #menu #palette__entrées #palette__entrées--3 {
+    margin-top: 1em;
+    border-style: hidden;
+    background-color: white;
+    padding: 0.6em 0.5em 0.6em 0.5em;
+    border-radius: 20px;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em;
+    margin-right: 0.7em;
   }
 }
 

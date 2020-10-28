@@ -18,7 +18,7 @@
     @import "node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
     @import "node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 
-    
+
     $gray-light: #F6F6F6;
     $gray-darker: #EAEAEA;
     $pink: #FF79DA;
@@ -55,6 +55,56 @@
         }
     }
 
+    @keyframes color-swap--menu {
+        0% {
+            font-weight: normal;  
+        }
+        5% {
+            font-weight: normal;  
+            transform: scale(0.5);
+        }
+        10% {  
+            font-weight: normal;  
+            transform: scale(0.1);
+        }
+        15%{
+            font-weight: 600; 
+            transform: scale(0.5);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        70% {
+            font-weight: 600;
+            transform: scale(1);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        90% {
+            font-weight: 600;
+            transform: scale(1.2);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        95% {
+            font-weight: 600;
+            transform: scale(1.1);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        100% {
+            font-weight: 600;
+            transform: scale(1);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+
 
     #logo {
         @include logo-back
@@ -72,8 +122,8 @@
                 flex-direction: row;
                 justify-content: space-around;
                 border-style: hidden;
-                border-top-right-radius: 20px;
-                border-top-left-radius: 20px;
+                border-top-right-radius: 30px;
+                border-top-left-radius: 30px;
                 h3 {
                     font-family: $font-title;
                     font-size: 1.7em;
@@ -81,16 +131,37 @@
                 }
                 input {
                     @include fa-icon;
-                    
+                    margin-top: 2.8em;
+                    display: none;
                     &+label {
                         margin-top: 1.1em;
-                        font-size: 1.7em;
-                        padding-right: 1em;
+                        font-size: 1.7rem;
+                        padding-right: 1em;  
                         &::before {
                             @extend .far;
                             content: fa-content($fa-var-heart);
                         }
                     }
+                    &:checked+label {
+                        font-size: 1.7rem;
+                        padding-right: 1em;
+                        margin-top: 1.1em;
+                        &::before {
+                            @extend .far;
+                            content: "\f004";
+                            font-weight: 600;
+                            will-change: font-size;
+                            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+                            -webkit-background-clip: text;  
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-animation-name: color-swap--menu;
+                                    animation-name: color-swap--menu;
+                            -webkit-animation-duration: 1s;
+                                    animation-duration: 1s;
+                            transition: ease-in-out;
+                        }
+                    } 
                 }
             }
         }
@@ -99,5 +170,79 @@
     #menu {
         background-color: $gray-light;
         padding-top: 0.5em;
+        padding-left: 0.8em;
+        font-family: $font-text;
+        #palette__entrées {
+            #palette__entrées--0 {
+            padding-bottom: 1em;
+                p {
+                    border-bottom: solid $green;
+                    border-width: 0.3em;
+                    margin-right: 20em;
+                }
+            }
+            #palette__entrées--1 {
+                border-style: hidden;
+                background-color: white;
+                padding: 0.9em 0.5em 0.9em 0.5em;
+                border-radius: 20px;
+                box-shadow: 0em 0.1em 1em -0.8em;
+                margin-right: 0.7em;
+                #palette__entrées--prix {
+                    padding-left: 5em;
+                    margin-top: 1.5em;
+                }
+                input {
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        display: flex;
+                        flex-direction: row;
+                        h3 {
+                            white-space: nowrap;
+                        }
+                        h4 {
+                            white-space: nowrap;
+                            font-weight: lighter;
+                        }
+                        h5 {
+                            margin-left: -1em;
+                        }
+                        &::after {
+                            @extend .far;
+                            content: fa-content($fa-var-check-circle);
+                            font-size: 2rem;
+                            border-style: hidden;
+                            background: $green;
+                            position: absolute;
+                            border-top-right-radius: 20px;
+                            border-bottom-right-radius: 20px;
+                            margin-left: 17.1rem;
+                            margin-top: -0.915rem;
+                            padding: 1.219rem 1.25rem 1.219rem 1.25rem;
+                            
+                        }
+                    }
+                }
+            }
+            #palette__entrées--2 {
+                margin-top: 1em;
+                border-style: hidden;
+                background-color: white;
+                padding: 0.6em 0.5em 0.6em 0.5em;
+                border-radius: 20px;
+                box-shadow: 0.1em 0.1em 0.1em 0.1em;
+                margin-right: 0.7em;
+            }
+            #palette__entrées--3 {
+                margin-top: 1em;
+                border-style: hidden;
+                background-color: white;
+                padding: 0.6em 0.5em 0.6em 0.5em;
+                border-radius: 20px;
+                box-shadow: 0.1em 0.1em 0.1em 0.1em;
+                margin-right: 0.7em;
+            } 
+        }
     }
 }    
