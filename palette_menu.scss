@@ -57,6 +57,7 @@
     @mixin checked-ok {
         display: flex;
         flex-direction: row;
+        
         h3 {
         white-space: nowrap;
         }
@@ -70,14 +71,17 @@
         }
         #checked-font-place {
             background-color: $green;
-            justify-content: center;
-            padding: 1.29em 1.25em 1.29em 1.25em;
-            position: absolute;
-            margin-left: 16.95em;
+            padding: 1.5em 1.3em 1.5em 1.3em;
+            margin-left: -1em;
             margin-top: -0.9em;
+            position: relative;
+            border-style: hidden;
+            
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px;
+            -webkit-animation-name: checked-background-translate--menu;
             animation-name: checked-background-translate--menu;
+            -webkit-animation-duration: 1s;
             animation-duration: 1s;
             &::after {
                 @extend .fas;
@@ -114,6 +118,54 @@
             -webkit-animation-duration: 1s;
             animation-duration: 1s;
             transition: ease-in-out;
+        }
+    }
+    @-webkit-keyframes color-swap--menu {
+        0% {
+            font-weight: normal;  
+        }
+        5% {
+            font-weight: normal;  
+            transform: scale(0.5);
+        }
+        10% {  
+            font-weight: normal;  
+            transform: scale(0.1);
+        }
+        15%{
+            font-weight: 600;  
+            transform: scale(0.5);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        70% {
+            font-weight: 600;
+            transform: scale(1);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        90% {
+            font-weight: 600;
+            transform: scale(1.2);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        95% {
+            font-weight: 600;
+            transform: scale(1.1);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        100% {
+            font-weight: 600;
+            transform: scale(1);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
     }
     @keyframes color-swap--menu {
@@ -164,9 +216,25 @@
             -webkit-text-fill-color: transparent;
         }
     }
+    @-webkit-keyframes checked-background-translate--menu {
+        0% {
+            transform: translate(3em);
+        }
+    }
     @keyframes checked-background-translate--menu {
         0% {
-            transform: translate(5em);
+            transform: translate(2em);
+            transform-origin: 100% right;
+            transition: ease-out;
+        }
+    }
+    @-webkit-keyframes checked-ok-rotate--menu {
+        0% {
+            
+        }
+        100%{
+            transform: rotate(2turn);
+            transition: ease-in-out;
         }
     }
     @keyframes checked-ok-rotate--menu {
@@ -174,7 +242,6 @@
             
         }
         100%{
-            -webkit-transform: rotate(2turn);
             transform: rotate(2turn);
             transition: ease-in-out;
         }
@@ -247,6 +314,9 @@
                 border-radius: 20px;
                 box-shadow: 0em 0.1em 1em -0.8em;
                 margin-right: 0.7em;
+                overflow-x: hidden;
+                overflow-y: hidden;
+                height: 3em;
                 #palette__entrées--prix {
                     padding-left: 5em;
                     margin-top: 1.5em;
