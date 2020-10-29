@@ -54,10 +54,34 @@
             width: auto;
         }
     }
+
+    @mixin div-principal-menus {
+        border-style: hidden;
+        background-color: white;
+        padding: 0.9em 0.5em 0.9em 0.5em;
+        border-radius: 20px;
+        box-shadow: 0em 0.1em 1em -0.5em;
+        margin-right: 0.7em;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 3em;
+    }
+
+    @mixin label-settings-menus {
+        display: flex;
+        flex-direction: row;
+        h3 {
+            white-space: nowrap;
+        }
+        h4 {
+            white-space: nowrap;
+            font-weight: lighter;
+        }  
+    }
+
     @mixin checked-ok {
         display: flex;
         flex-direction: row;
-        
         h3 {
         white-space: nowrap;
         }
@@ -65,24 +89,22 @@
         white-space: nowrap;
         font-weight: lighter;
         }
-        h5 {
-        margin-left: -1em;
-        padding-right: 2em;
-        }
+      
+        
         #checked-font-place {
             background-color: $green;
             padding: 1.5em 1.3em 1.5em 1.3em;
-            margin-left: -1em;
+            margin-left: -2.5em;
             margin-top: -0.9em;
             position: relative;
             border-style: hidden;
-            
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px;
             -webkit-animation-name: checked-background-translate--menu;
             animation-name: checked-background-translate--menu;
-            -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+            -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+            transition: ease-in-out;
             &::after {
                 @extend .fas;
                 content: fa-content($fa-var-check-circle);
@@ -239,11 +261,20 @@
     }
     @keyframes checked-ok-rotate--menu {
         0% {
-            
+            transition-delay: 2s;
         }
         100%{
             transform: rotate(2turn);
             transition: ease-in-out;
+            
+        }
+    }
+    @keyframes price-animation {
+        0% {
+            padding-left: 9em;
+        }
+        100% {
+            margin-left: -6em;
         }
     }
 
@@ -254,7 +285,7 @@
     }
     #palette-image {
       @include photo-menu;
-      padding-bottom: 4em;
+      padding-bottom: 3em;
       .overlay__menu--1 {
         margin-top: 12em;
             #palette__title {
@@ -308,59 +339,102 @@
                 }
             }
             #palette__entrées--1 {
-                border-style: hidden;
-                background-color: white;
-                padding: 0.9em 0.5em 0.9em 0.5em;
-                border-radius: 20px;
-                box-shadow: 0em 0.1em 1em -0.8em;
-                margin-right: 0.7em;
-                overflow-x: hidden;
-                overflow-y: hidden;
-                height: 3em;
-                #palette__entrées--prix {
-                    padding-left: 5em;
-                    margin-top: 1.5em;
-                }
+                @include div-principal-menus;
                 input {
                     @include fa-icon;
                     display: none;
                     &+label {
-                        display: flex;
-                        flex-direction: row;
-                        h3 {
-                            white-space: nowrap;
-                        }
-                        h4 {
-                            white-space: nowrap;
-                            font-weight: lighter;
-                        }
-                        h5 {
-                            margin-left: -1em;
-                        }
-                      
+                        @include label-settings-menus;
+                        #palette__entrées--prix {
+                            padding-left: 9em;
+                            margin-top: 1.5em;
+                                h5 {
+                                    margin-left: -1em;
+                                }
+                            }
                     }
                     &:checked+label {
                         @include checked-ok; 
+                        #palette__entrées--prix {
+                            padding-left: 9em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: -1em;
+                                margin-left: -6em;
+                                padding-right: 0em;
+                                animation-name: price-animation;
+                                animation-duration: 0.7s;
+                                transition: ease-out;
+                            }
+                        }
                     }
                 }
             }
             #palette__entrées--2 {
                 margin-top: 1em;
-                border-style: hidden;
-                background-color: white;
-                padding: 0.6em 0.5em 0.6em 0.5em;
-                border-radius: 20px;
-                box-shadow: 0.1em 0.1em 0.1em 0.1em;
-                margin-right: 0.7em;
+                @include div-principal-menus;
+                input {
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        @include label-settings-menus;
+                        #palette__entrées--prix {
+                            padding-left: 5.6em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: -1em;
+                            }
+                        }
+                    }
+                    &:checked+label {
+                        @include checked-ok; 
+                        #palette__entrées--prix {
+                            padding-left: 5.6em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: -1em;
+                                margin-left: -6em;
+                                padding-right: 0em;
+                                animation-name: price-animation;
+                                animation-duration: 0.7s;
+                                transition: ease-out;
+                            }
+                        }
+                    }
+                }
             }
             #palette__entrées--3 {
                 margin-top: 1em;
-                border-style: hidden;
-                background-color: white;
-                padding: 0.6em 0.5em 0.6em 0.5em;
-                border-radius: 20px;
-                box-shadow: 0.1em 0.1em 0.1em 0.1em;
-                margin-right: 0.7em;
+                @include div-principal-menus;
+                input {
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        @include label-settings-menus;
+                        #palette__entrées--prix {
+                            padding-left: 3em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: -1em;
+                            }
+                        }
+                    }
+                    &:checked+label {
+                        @include checked-ok; 
+                        #palette__entrées--prix {
+                            padding-left: 3em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: -1em;
+                                margin-left: -6em;
+                                padding-right: 0em;
+                                animation-name: price-animation;
+                                animation-duration: 0.7s;
+                                transition: ease-out;
+                            }
+                        }
+                    }
+                }
             } 
         }
     }

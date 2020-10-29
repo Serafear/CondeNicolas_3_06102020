@@ -19,6 +19,8 @@
    */
   .fa,
 .fas,
+#menu #palette__entrées #palette__entrées--3 input:checked + label #checked-font-place::after,
+#menu #palette__entrées #palette__entrées--2 input:checked + label #checked-font-place::after,
 #menu #palette__entrées #palette__entrées--1 input:checked + label #checked-font-place::after,
 #logo a::before,
 .far,
@@ -128,6 +130,8 @@
 
   .fa.fa-pull-left,
 .fas.fa-pull-left,
+#menu #palette__entrées #palette__entrées--3 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #palette__entrées #palette__entrées--2 input:checked + label .fa-pull-left#checked-font-place::after,
 #menu #palette__entrées #palette__entrées--1 input:checked + label .fa-pull-left#checked-font-place::after,
 #logo a.fa-pull-left::before,
 .far.fa-pull-left,
@@ -138,6 +142,8 @@
   }
   .fa.fa-pull-right,
 .fas.fa-pull-right,
+#menu #palette__entrées #palette__entrées--3 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #palette__entrées #palette__entrées--2 input:checked + label .fa-pull-right#checked-font-place::after,
 #menu #palette__entrées #palette__entrées--1 input:checked + label .fa-pull-right#checked-font-place::after,
 #logo a.fa-pull-right::before,
 .far.fa-pull-right,
@@ -6103,6 +6109,8 @@
   }
   .fa,
 .fas,
+#menu #palette__entrées #palette__entrées--3 input:checked + label #checked-font-place::after,
+#menu #palette__entrées #palette__entrées--2 input:checked + label #checked-font-place::after,
 #menu #palette__entrées #palette__entrées--1 input:checked + label #checked-font-place::after,
 #logo a::before {
     font-family: "Font Awesome 5 Free";
@@ -6258,9 +6266,20 @@
     }
   }
   @keyframes checked-ok-rotate--menu {
+    0% {
+      transition-delay: 2s;
+    }
     100% {
       transform: rotate(2turn);
       transition: ease-in-out;
+    }
+  }
+  @keyframes price-animation {
+    0% {
+      padding-left: 9em;
+    }
+    100% {
+      margin-left: -6em;
     }
   }
   #logo {
@@ -6288,7 +6307,7 @@
   }
 
   #palette-image {
-    padding-bottom: 4em;
+    padding-bottom: 3em;
   }
   #palette-image article {
     background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
@@ -6374,15 +6393,11 @@
     background-color: white;
     padding: 0.9em 0.5em 0.9em 0.5em;
     border-radius: 20px;
-    box-shadow: 0em 0.1em 1em -0.8em;
+    box-shadow: 0em 0.1em 1em -0.5em;
     margin-right: 0.7em;
     overflow-x: hidden;
     overflow-y: hidden;
     height: 3em;
-  }
-  #menu #palette__entrées #palette__entrées--1 #palette__entrées--prix {
-    padding-left: 5em;
-    margin-top: 1.5em;
   }
   #menu #palette__entrées #palette__entrées--1 input {
     -webkit-font-smoothing: antialiased;
@@ -6405,7 +6420,11 @@
     white-space: nowrap;
     font-weight: lighter;
   }
-  #menu #palette__entrées #palette__entrées--1 input + label h5 {
+  #menu #palette__entrées #palette__entrées--1 input + label #palette__entrées--prix {
+    padding-left: 9em;
+    margin-top: 1.5em;
+  }
+  #menu #palette__entrées #palette__entrées--1 input + label #palette__entrées--prix h5 {
     margin-left: -1em;
   }
   #menu #palette__entrées #palette__entrées--1 input:checked + label {
@@ -6419,14 +6438,10 @@
     white-space: nowrap;
     font-weight: lighter;
   }
-  #menu #palette__entrées #palette__entrées--1 input:checked + label h5 {
-    margin-left: -1em;
-    padding-right: 2em;
-  }
   #menu #palette__entrées #palette__entrées--1 input:checked + label #checked-font-place {
     background-color: #99E2D0;
     padding: 1.5em 1.3em 1.5em 1.3em;
-    margin-left: -1em;
+    margin-left: -2.5em;
     margin-top: -0.9em;
     position: relative;
     border-style: hidden;
@@ -6434,8 +6449,9 @@
     border-bottom-right-radius: 20px;
     -webkit-animation-name: checked-background-translate--menu;
     animation-name: checked-background-translate--menu;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    transition: ease-in-out;
   }
   #menu #palette__entrées #palette__entrées--1 input:checked + label #checked-font-place::after {
     content: "";
@@ -6450,23 +6466,199 @@
     color: white;
     justify-content: center;
   }
+  #menu #palette__entrées #palette__entrées--1 input:checked + label #palette__entrées--prix {
+    padding-left: 9em;
+    margin-top: 1.5em;
+  }
+  #menu #palette__entrées #palette__entrées--1 input:checked + label #palette__entrées--prix h5 {
+    margin-left: -1em;
+    margin-left: -6em;
+    padding-right: 0em;
+    animation-name: price-animation;
+    animation-duration: 0.7s;
+    transition: ease-out;
+  }
   #menu #palette__entrées #palette__entrées--2 {
     margin-top: 1em;
     border-style: hidden;
     background-color: white;
-    padding: 0.6em 0.5em 0.6em 0.5em;
+    padding: 0.9em 0.5em 0.9em 0.5em;
     border-radius: 20px;
-    box-shadow: 0.1em 0.1em 0.1em 0.1em;
+    box-shadow: 0em 0.1em 1em -0.5em;
     margin-right: 0.7em;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 3em;
+  }
+  #menu #palette__entrées #palette__entrées--2 input {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    display: none;
+  }
+  #menu #palette__entrées #palette__entrées--2 input + label {
+    display: flex;
+    flex-direction: row;
+  }
+  #menu #palette__entrées #palette__entrées--2 input + label h3 {
+    white-space: nowrap;
+  }
+  #menu #palette__entrées #palette__entrées--2 input + label h4 {
+    white-space: nowrap;
+    font-weight: lighter;
+  }
+  #menu #palette__entrées #palette__entrées--2 input + label #palette__entrées--prix {
+    padding-left: 5.6em;
+    margin-top: 1.5em;
+  }
+  #menu #palette__entrées #palette__entrées--2 input + label #palette__entrées--prix h5 {
+    margin-left: -1em;
+  }
+  #menu #palette__entrées #palette__entrées--2 input:checked + label {
+    display: flex;
+    flex-direction: row;
+  }
+  #menu #palette__entrées #palette__entrées--2 input:checked + label h3 {
+    white-space: nowrap;
+  }
+  #menu #palette__entrées #palette__entrées--2 input:checked + label h4 {
+    white-space: nowrap;
+    font-weight: lighter;
+  }
+  #menu #palette__entrées #palette__entrées--2 input:checked + label #checked-font-place {
+    background-color: #99E2D0;
+    padding: 1.5em 1.3em 1.5em 1.3em;
+    margin-left: -2.5em;
+    margin-top: -0.9em;
+    position: relative;
+    border-style: hidden;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-animation-name: checked-background-translate--menu;
+    animation-name: checked-background-translate--menu;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    transition: ease-in-out;
+  }
+  #menu #palette__entrées #palette__entrées--2 input:checked + label #checked-font-place::after {
+    content: "";
+    font-size: 2rem;
+    animation-name: checked-ok-rotate--menu;
+    -webkit-animation-name: checked-ok-rotate--menu;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    border-style: hidden;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    justify-content: center;
+  }
+  #menu #palette__entrées #palette__entrées--2 input:checked + label #palette__entrées--prix {
+    padding-left: 5.6em;
+    margin-top: 1.5em;
+  }
+  #menu #palette__entrées #palette__entrées--2 input:checked + label #palette__entrées--prix h5 {
+    margin-left: -1em;
+    margin-left: -6em;
+    padding-right: 0em;
+    animation-name: price-animation;
+    animation-duration: 0.7s;
+    transition: ease-out;
   }
   #menu #palette__entrées #palette__entrées--3 {
     margin-top: 1em;
     border-style: hidden;
     background-color: white;
-    padding: 0.6em 0.5em 0.6em 0.5em;
+    padding: 0.9em 0.5em 0.9em 0.5em;
     border-radius: 20px;
-    box-shadow: 0.1em 0.1em 0.1em 0.1em;
+    box-shadow: 0em 0.1em 1em -0.5em;
     margin-right: 0.7em;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 3em;
+  }
+  #menu #palette__entrées #palette__entrées--3 input {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    display: none;
+  }
+  #menu #palette__entrées #palette__entrées--3 input + label {
+    display: flex;
+    flex-direction: row;
+  }
+  #menu #palette__entrées #palette__entrées--3 input + label h3 {
+    white-space: nowrap;
+  }
+  #menu #palette__entrées #palette__entrées--3 input + label h4 {
+    white-space: nowrap;
+    font-weight: lighter;
+  }
+  #menu #palette__entrées #palette__entrées--3 input + label #palette__entrées--prix {
+    padding-left: 3em;
+    margin-top: 1.5em;
+  }
+  #menu #palette__entrées #palette__entrées--3 input + label #palette__entrées--prix h5 {
+    margin-left: -1em;
+  }
+  #menu #palette__entrées #palette__entrées--3 input:checked + label {
+    display: flex;
+    flex-direction: row;
+  }
+  #menu #palette__entrées #palette__entrées--3 input:checked + label h3 {
+    white-space: nowrap;
+  }
+  #menu #palette__entrées #palette__entrées--3 input:checked + label h4 {
+    white-space: nowrap;
+    font-weight: lighter;
+  }
+  #menu #palette__entrées #palette__entrées--3 input:checked + label #checked-font-place {
+    background-color: #99E2D0;
+    padding: 1.5em 1.3em 1.5em 1.3em;
+    margin-left: -2.5em;
+    margin-top: -0.9em;
+    position: relative;
+    border-style: hidden;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-animation-name: checked-background-translate--menu;
+    animation-name: checked-background-translate--menu;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    transition: ease-in-out;
+  }
+  #menu #palette__entrées #palette__entrées--3 input:checked + label #checked-font-place::after {
+    content: "";
+    font-size: 2rem;
+    animation-name: checked-ok-rotate--menu;
+    -webkit-animation-name: checked-ok-rotate--menu;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    border-style: hidden;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    justify-content: center;
+  }
+  #menu #palette__entrées #palette__entrées--3 input:checked + label #palette__entrées--prix {
+    padding-left: 3em;
+    margin-top: 1.5em;
+  }
+  #menu #palette__entrées #palette__entrées--3 input:checked + label #palette__entrées--prix h5 {
+    margin-left: -1em;
+    margin-left: -6em;
+    padding-right: 0em;
+    animation-name: price-animation;
+    animation-duration: 0.7s;
+    transition: ease-out;
   }
 }
 
