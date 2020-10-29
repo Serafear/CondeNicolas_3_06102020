@@ -66,25 +66,33 @@
         }
         h5 {
         margin-left: -1em;
+        padding-right: 2em;
         }
-        &::after {
-            @extend .fas;
-            content: fa-content($fa-var-check-circle);
-            font-size: 2rem;
-            animation-name: checked-ok--menu;
-            -webkit-animation-name: checked-ok--menu;
-            animation-duration: 1s;
-            -webkit-animation-duration: 1s;
-            border-style: hidden;
+        #checked-font-place {
             background-color: $green;
+            justify-content: center;
+            padding: 1.29em 1.25em 1.29em 1.25em;
             position: absolute;
+            margin-left: 16.95em;
+            margin-top: -0.9em;
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px;
-            margin-left: 17.1rem;
-            margin-top: -0.92rem;
-            padding: 1.3rem 1.25rem 1.3rem 1.25rem;
-            color: white;
-          
+            animation-name: checked-background-translate--menu;
+            animation-duration: 1s;
+            &::after {
+                @extend .fas;
+                content: fa-content($fa-var-check-circle);
+                font-size: 2rem;
+                animation-name: checked-ok-rotate--menu;
+                -webkit-animation-name: checked-ok-rotate--menu;
+                animation-duration: 1s;
+                -webkit-animation-duration: 1s;
+                border-style: hidden;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+                color: white;
+                justify-content: center;
+            }
         }
     }
 
@@ -156,13 +164,19 @@
             -webkit-text-fill-color: transparent;
         }
     }
-    @keyframes checked-ok--menu {
+    @keyframes checked-background-translate--menu {
         0% {
-            transform: rotate(360deg);
+            transform: translate(5em);
+        }
+    }
+    @keyframes checked-ok-rotate--menu {
+        0% {
+            
         }
         100%{
-            transform: rotate(3turn);
-            transition: transform 300ms ease-in-out;
+            -webkit-transform: rotate(2turn);
+            transform: rotate(2turn);
+            transition: ease-in-out;
         }
     }
 
@@ -253,7 +267,7 @@
                         h5 {
                             margin-left: -1em;
                         }
-                       
+                      
                     }
                     &:checked+label {
                         @include checked-ok; 
