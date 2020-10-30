@@ -272,13 +272,24 @@
     @keyframes price-animation {
         0% {
             padding-left: 9em;
+            transform: translate(-4em);
         }
         100% {
-            margin-left: -6em;
+            margin-left: -5rem
         }
     }
-
-
+    @keyframes price-animation--lenghty {
+        0% {
+            padding-left: 9em;
+            transform: translate(2em); /*translate me permet de commencer l'animation à partir d'un certain niveau*/
+            padding: 0em 1em 0em 1em;
+        }
+        100% {
+            margin-left: -7rem;
+            padding: 0em 1em 0em 1em;
+        }
+    }
+    
 
     #logo {
         @include logo-back
@@ -330,6 +341,7 @@
         padding-left: 0.8em;
         font-family: $font-text;
         #palette__entrées {
+            padding-bottom: 1em;
             #palette__entrées--0 {
             padding-bottom: 1em;
                 p {
@@ -359,11 +371,11 @@
                             padding-left: 9em;
                             margin-top: 1.5em;
                             h5 {
-                                margin-left: -1em;
-                                margin-left: -6em;
+                                
+                                margin-left: -5rem;
                                 padding-right: 0em;
                                 animation-name: price-animation;
-                                animation-duration: 0.7s;
+                                animation-duration: 2s;
                                 transition: ease-out;
                             }
                         }
@@ -392,11 +404,11 @@
                             padding-left: 5.6em;
                             margin-top: 1.5em;
                             h5 {
-                                margin-left: -1em;
-                                margin-left: -6em;
+                                
+                                margin-left: -5rem;
                                 padding-right: 0em;
                                 animation-name: price-animation;
-                                animation-duration: 0.7s;
+                                animation-duration: 2s;
                                 transition: ease-out;
                             }
                         }
@@ -416,26 +428,167 @@
                             margin-top: 1.5em;
                             h5 {
                                 margin-left: -1em;
+                                &.overlay--1 {
+                                    margin-top: 0.1rem;
+                                }
                             }
+                            
                         }
                     }
                     &:checked+label {
                         @include checked-ok; 
+                       
                         #palette__entrées--prix {
                             padding-left: 3em;
                             margin-top: 1.5em;
                             h5 {
-                                margin-left: -1em;
-                                margin-left: -6em;
-                                padding-right: 0em;
-                                animation-name: price-animation;
-                                animation-duration: 0.7s;
-                                transition: ease-out;
-                            }
+                                &.overlay--1 {
+                                    margin-top: 0.1rem;
+                                    margin-left: -7rem;
+                                    
+                                    animation-name: price-animation--lenghty;
+                                    animation-duration: 1s;
+                                    transition: ease-in;
+                                    background-color: white;
+                                    
+                                    padding: 0em 1em 0em 1em;
+                                    transform-origin: right;
+                                    &:before {
+                                        content: "...";
+                                        padding-right: 1em;
+                                    }
+                                }
+                            } 
                         }
                     }
                 }
             } 
         }
+        
+        #palette__plats {
+            #palette__plats--0 {
+            padding-bottom: 1em;
+                p {
+                    border-bottom: solid $green;
+                    border-width: 0.3em;
+                    margin-right: 20em;
+                }
+            }
+            #palette__plats--1 {
+                @include div-principal-menus;
+                input {
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        @include label-settings-menus;
+                        #palette__plats--prix {
+                            padding-left: 9em;
+                            margin-top: 1.5em;
+                                h5 {
+                                    margin-left: -1em;
+                                }
+                            }
+                    }
+                    &:checked+label {
+                        @include checked-ok; 
+                        #palette__plats--prix {
+                            padding-left: 9em;
+                            margin-top: 1.5em;
+                            h5 {
+                                
+                                margin-left: -5rem;
+                                padding-right: 0em;
+                                animation-name: price-animation;
+                                animation-duration: 2s;
+                                transition: ease-out;
+                            }
+                        }
+                    }
+                }
+            }
+            #palette__plats--2 {
+                margin-top: 1em;
+                @include div-principal-menus;
+                input {
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        @include label-settings-menus;
+                        #palette__plats--prix {
+                            padding-left: 5.6em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: -1em;
+                            }
+                        }
+                    }
+                    &:checked+label {
+                        @include checked-ok; 
+                        #palette__plats--prix {
+                            padding-left: 5.6em;
+                            margin-top: 1.5em;
+                            h5 {
+                                
+                                margin-left: -5rem;
+                                padding-right: 0em;
+                                animation-name: price-animation;
+                                animation-duration: 2s;
+                                transition: ease-out;
+                            }
+                        }
+                    }
+                }
+            }
+            #palette__plats--3 {
+                margin-top: 1em;
+                @include div-principal-menus;
+                input {
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        @include label-settings-menus;
+                        #palette__plats--prix {
+                            padding-left: 3em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: -1em;
+                                &.overlay--1 {
+                                    margin-top: 0.1rem;
+                                }
+                            }
+                            
+                        }
+                    }
+                    &:checked+label {
+                        @include checked-ok; 
+                       
+                        #palette__plats--prix {
+                            padding-left: 3em;
+                            margin-top: 1.5em;
+                            h5 {
+                                &.overlay--1 {
+                                    margin-top: 0.1rem;
+                                    margin-left: -7rem;
+                                    
+                                    animation-name: price-animation--lenghty;
+                                    animation-duration: 1s;
+                                    transition: ease-in;
+                                    background-color: white;
+                                    
+                                    padding: 0em 1em 0em 1em;
+                                    transform-origin: right;
+                                    &:before {
+                                        content: "...";
+                                        padding-right: 1em;
+                                    }
+                                }
+                            } 
+                        }
+                    }
+                }
+            } 
+        }
+    
     }
+    
 }    
