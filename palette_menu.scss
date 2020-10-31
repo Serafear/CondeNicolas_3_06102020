@@ -311,6 +311,15 @@
             
         }
     }
+    @-webkit-keyframes price-animation {
+        0% {
+            padding-left: 9em;
+            transform: translate(-4em);
+        }
+        100% {
+            margin-left: -5rem
+        }
+    }
     @keyframes price-animation {
         0% {
             padding-left: 9em;
@@ -318,6 +327,17 @@
         }
         100% {
             margin-left: -5rem
+        }
+    }
+    @-webkit-keyframes price-animation--lenghty {
+        0% {
+            padding-left: 9em;
+            transform: translate(2em); /*translate me permet de commencer l'animation à partir d'un certain niveau*/
+            padding: 0em 1em 0em 1em;  /*this padding is fo the overlay. I put it here for the "au cas où"*/
+        }
+        100% {
+            margin-left: -7.3rem;
+            padding: 0em 1em 0em 1em;
         }
     }
     @keyframes price-animation--lenghty {
@@ -331,6 +351,16 @@
             padding: 0em 1em 0em 1em;
         }
     }
+    @-webkit-keyframes price-animation--large {
+        0% {
+            padding-left: 1em;
+            transform: translate(2rem);
+            
+        }
+        100% {
+            margin-left: -3.5rem;
+        }
+    }
     @keyframes price-animation--large {
         0% {
             padding-left: 1em;
@@ -339,6 +369,15 @@
         }
         100% {
             margin-left: -3.5rem;
+        }
+    }
+    @-webkit-keyframes price-animation--short {
+        0% {
+            padding-left: 1em;
+            transform: translate(2rem);
+        }
+        100% {
+            margin-left: -1rem;
         }
     }
     @keyframes price-animation--short {
@@ -435,8 +474,10 @@
                                 
                                 margin-left: -5rem;
                                 padding-right: 0em;
-                                animation-name: price-animation;
-                                animation-duration: 2s;
+                                -webkit-animation-name: price-animation;
+                                        animation-name: price-animation;
+                                -webkit-animation-duration: 2s;
+                                        animation-duration: 2s;
                                 transition: ease-out;
                             }
                         }
@@ -468,8 +509,10 @@
                                 
                                 margin-left: -5rem;
                                 padding-right: 0em;
-                                animation-name: price-animation;
-                                animation-duration: 2s;
+                                -webkit-animation-name: price-animation;
+                                        animation-name: price-animation;
+                                -webkit-animation-duration: 2s;
+                                        animation-duration: 2s;
                                 transition: ease-out;
                             }
                         }
@@ -506,8 +549,10 @@
                                 &.overlay--1 {
                                     margin-top: 0.1rem;
                                     margin-left: -7.3rem;
-                                    animation-name: price-animation--lenghty;
-                                    animation-duration: 2s;
+                                    -webkit-animation-name: price-animation--lenghty;
+                                            animation-name: price-animation--lenghty;
+                                    -webkit-animation-duration: 2s;
+                                            animation-duration: 2s;
                                     transition: ease-in;
                                     background-color: white;
                                     padding: 0em 0em 0em 1em;
@@ -568,8 +613,10 @@
                                 &.overlay--2 {
                                     margin-top: 1.2rem;
                                     margin-left: -3.5rem;
-                                    animation-name: price-animation--large;
-                                    animation-duration: 2s;
+                                    -webkit-animation-name: price-animation--large;
+                                            animation-name: price-animation--large;
+                                    -webkit-animation-duration: 2s;
+                                            animation-duration: 2s;
                                     transition: ease-in;
                                     background-color: white;
                                     padding: 0em 1em 0em 1em;
@@ -611,8 +658,10 @@
                                 &.overlay--3 {
                                     margin-top: 0.1rem;
                                     margin-left: -7.3rem;
-                                    animation-name: price-animation--lenghty;
-                                    animation-duration: 1s;
+                                    -webkit-animation-name: price-animation--lenghty;
+                                            animation-name: price-animation--lenghty;
+                                    -webkit-animation-duration: 1s;
+                                            animation-duration: 1s;
                                     transition: ease-in;
                                     background-color: white;
                                     padding: 0em 0em 0em 1em;
@@ -658,8 +707,10 @@
                             h5 {
                                 margin-left: -1rem;
                                 padding-right: 0em;
-                                animation-name: price-animation--short;
-                                animation-duration: 2s;
+                                -webkit-animation-name: price-animation--short;
+                                        animation-name: price-animation--short;
+                                -webkit-animation-duration: 2s;
+                                        animation-duration: 2s;
                                 transition: ease-out;
                             } 
                         }
@@ -707,8 +758,10 @@
                             h5 {
                                 margin-left: -1rem;
                                 padding-right: 0em;
-                                animation-name: price-animation--short;
-                                animation-duration: 2s;
+                                -webkit-animation-name: price-animation--short;
+                                        animation-name: price-animation--short;
+                                -webkit-animation-duration: 2s;
+                                        animation-duration: 2s;
                                 transition: ease-out;
                             } 
                         }
@@ -746,8 +799,10 @@
                             h5 {
                                 margin-left: -1rem;
                                 padding-right: 0em;
-                                animation-name: price-animation--short;
-                                animation-duration: 2s;
+                                -webkit-animation-name: price-animation--short;
+                                        animation-name: price-animation--short;
+                                -webkit-animation-duration: 2s;
+                                        animation-duration: 2s;
                                 transition: ease-out;
                             } 
                         }
@@ -785,8 +840,10 @@
                             h5 {
                                 margin-left: -1rem;
                                 padding-right: 0em;
-                                animation-name: price-animation--short;
-                                animation-duration: 2s;
+                                -webkit-animation-name: price-animation--short;
+                                        animation-name: price-animation--short;
+                                -webkit-animation-duration: 2s;
+                                        animation-duration: 2s;
                                 transition: ease-out;
                             } 
                         }
