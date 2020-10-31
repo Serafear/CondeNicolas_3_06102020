@@ -17,7 +17,7 @@
     @import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
     @import "node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
     @import "node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
-
+    @import "style.css";
 
     $gray-light: #F6F6F6;
     $gray-darker: #EAEAEA;
@@ -132,6 +132,58 @@
             transition: ease-in-out;
         }
     }
+    @mixin footer__settings {
+        padding: 1em 1em 1em 1em;
+        background-color: darken($gray-darker, $amount: 75%);
+        width: 89.1%;
+        color: white;
+        font-size: 1.3em;
+        font-family: $font-text;
+        font-weight: bold;
+        -webkit-filter: blur(0);
+                filter: blur(0);
+        @include fa-icon;
+        #logo__footer {
+            font-size: 1.5em;
+            padding-bottom: 0.5em;
+            font-family: $font-title;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+        #line1 {
+            h6 {
+                padding-bottom: 0.7em;
+                &::before {
+                    @extend .fas;
+                    content: "\f2e7";
+                    font-size: 0.8em;
+                    padding-right: 1em;
+                }
+            }
+        }
+        #line2 {
+            h6 {
+                padding-bottom: 0.7em;
+                &::before {
+                    @extend .fas;
+                    content: "\f4c4";
+                    font-size: 0.7em;
+                    padding-right: 0.8em;
+                }
+            }
+        }
+        #contact {
+            padding-top: 0.5em;
+            a {
+                text-decoration: none;
+                color: white;
+                outline: none;
+                -webkit-tap-highlight-color: rgba(0,0,0,0);   /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
+            }
+        }
+    }
+
+
     @-webkit-keyframes color-swap--menu {
         0% {
             font-weight: normal;  
@@ -616,6 +668,7 @@
             } 
         }
         #palette__desserts {
+            padding-bottom: 3em;
             #palette__desserts--0 {
             padding-bottom: 1em;
                 p {
@@ -739,7 +792,23 @@
                         }
                     }
                 }
+            }
+        }
+        .button-pink--large {
+            padding-bottom: 4em;
+            button {
+                margin-left: 5.5em;
+                font-size: 1em;
+                color: white;
+                border-radius: 25px;
+                border-style: hidden;
+                padding: 0.8em 2.5em 0.8em 2.5em;
+                background: linear-gradient(-10deg, $purple 30%, $pink);
             } 
         }
+    }
+    
+    footer {
+        @include footer__settings
     }
 }    
