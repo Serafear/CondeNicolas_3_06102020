@@ -6262,6 +6262,50 @@ footer #line1 h6::before,
       -webkit-text-fill-color: transparent;
     }
   }
+  .loader {
+    display: inline-block;
+    position: fixed;
+    width: 80px;
+    height: 80px;
+  }
+
+  .loader div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    /*here i set the distance bewteen a div and the element at its left */
+    width: 16px;
+    background: linear-gradient(-10deg, #9356DC 30%, #FF79DA);
+    animation-name: loader-growth;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+  }
+
+  .loader div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+  }
+
+  .loader div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+  }
+
+  .loader div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+  }
+
+  @keyframes loader-growth {
+    0% {
+      top: 8px;
+      height: 64px;
+    }
+    50%, 100% {
+      top: 24px;
+      height: 32px;
+    }
+  }
   #logo {
     display: flex;
     justify-content: center;
