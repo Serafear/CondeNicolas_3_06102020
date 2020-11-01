@@ -60,7 +60,7 @@
         background-color: white;
         padding: 0.9em 0.5em 0.9em 0.5em;
         border-radius: 20px;
-        box-shadow: 0em 0.1em 1em -0.5em;
+        box-shadow: 0em 0em 0.6em -0.2em;
         margin-right: 0.7em;
         overflow-x: hidden;
         overflow-y: hidden;
@@ -389,6 +389,26 @@
             margin-left: -1rem;
         }
     }
+    @keyframes loading-menus {
+        0% {
+            margin-bottom: -3em;
+            opacity: 0;
+        }
+        30% {
+            opacity: 0;
+        }
+        100% {
+            
+        }
+    }
+
+
+
+
+
+
+
+
     
 
     #logo {
@@ -441,16 +461,22 @@
         padding-left: 0.8em;
         font-family: $font-text;
         #palette__entrées {
-            padding-bottom: 1em;
-            #palette__entrées--0 {
-            padding-bottom: 1em;
+            padding-bottom: 0.5em;
                 p {
                     border-bottom: solid $green;
                     border-width: 0.3em;
                     margin-right: 20em;
                 }
             }
+        #palette__entrées--all {
+            padding-bottom: 2em;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            height: 17em;
+            padding-left: 0.5em;
             #palette__entrées--1 {
+                animation: loading-menus 0.5s ease-in-out;
+                margin-top: 1em;
                 @include div-principal-menus;
                 input {
                     @include fa-icon;
@@ -487,6 +513,7 @@
             #palette__entrées--2 {
                 margin-top: 1em;
                 @include div-principal-menus;
+                animation: loading-menus 0.5s ease-in-out;
                 input {
                     @include fa-icon;
                     display: none;
@@ -522,6 +549,7 @@
             #palette__entrées--3 {
                 margin-top: 1em;
                 @include div-principal-menus;
+                animation: loading-menus 0.5s ease-in-out;
                 input {
                     @include fa-icon;
                     display: none;
@@ -570,18 +598,24 @@
         }
         
         #palette__plats {
-            padding-bottom: 1em; /*distance between the last div and the desserts*/
-            #palette__plats--0 {
-            padding-bottom: 1em;
+            padding-bottom: 0.5em; /*distance between the last div and the desserts*/
                 p {
                     border-bottom: solid $green;
                     border-width: 0.3em;
                     margin-right: 20em;
                 }
             }
+            #palette__plats--all {
+                padding-bottom: 2em;
+                overflow-y: hidden;
+                overflow-x: hidden;
+                height: 17.5em;
+                padding-left: 0.5em;
             #palette__plats--1 {
                 @include div-principal-menus;
                 height: 3.5em;
+                animation: loading-menus 0.5s ease-in-out;
+                margin-top: 1em;
                 input {
                     @include fa-icon;
                     display: none;
@@ -629,6 +663,7 @@
             #palette__plats--2 {
                 margin-top: 1em;
                 @include div-principal-menus;
+                animation: loading-menus 0.5s ease-in-out;
                 input {
                     @include fa-icon;
                     display: none;
@@ -679,6 +714,7 @@
             #palette__plats--3 {
                 margin-top: 1em;
                 @include div-principal-menus;
+                animation: loading-menus 0.5s ease-in-out;
                 input {
                     @include fa-icon;
                     display: none;
@@ -719,17 +755,24 @@
             } 
         }
         #palette__desserts {
-            padding-bottom: 3em;
-            #palette__desserts--0 {
-            padding-bottom: 1em;
+            padding-bottom: 0.5em;
                 p {
                     border-bottom: solid $green;
                     border-width: 0.3em;
                     margin-right: 20em;
                 }
-            }
+        }
+        #palette__desserts--all {      
+            padding-bottom: 3em;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            height: 17.5em;
+            padding-left: 0.5em;
+            
             #palette__desserts--1 {
                 @include div-principal-menus;
+                animation: loading-menus 0.5s ease-in-out;
+                margin-top: 1em;
                 input {
                     @include fa-icon;
                     display: none;
@@ -771,6 +814,7 @@
             #palette__desserts--2 {
                 margin-top: 1em;
                 @include div-principal-menus;
+                animation: loading-menus 0.5s ease-in-out;
                 input {
                     @include fa-icon;
                     display: none;
@@ -812,6 +856,7 @@
             #palette__desserts--3 {
                 margin-top: 1em;
                 @include div-principal-menus;
+                animation: loading-menus 0.5s ease-in-out;
                 input {
                     @include fa-icon;
                     display: none;
@@ -852,7 +897,7 @@
             }
         }
         .button-pink--large {
-            padding-bottom: 4em;
+            padding-bottom: 5em;
             button {
                 margin-left: 5.5em;
                 font-size: 1em;
