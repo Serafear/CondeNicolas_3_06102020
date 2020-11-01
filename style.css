@@ -6262,11 +6262,38 @@ footer #line1 h6::before,
       -webkit-text-fill-color: transparent;
     }
   }
+  @keyframes loader-background {
+    0% {
+      background-color: white;
+      width: 100%;
+      height: 100%;
+      z-index: 100;
+    }
+    20% {
+      background-color: white;
+      width: 100%;
+      height: 100%;
+      z-index: 100;
+    }
+    99% {
+      background-color: white;
+      width: 100%;
+      height: 100%;
+      z-index: 100;
+    }
+    100% {
+      background-color: transparent;
+    }
+  }
   .loader {
     display: inline-block;
     position: fixed;
-    width: 80px;
-    height: 80px;
+    width: 0%;
+    height: 0%;
+    z-index: 100;
+    /*the z index is the importance order. By putting it at 100 i make it so that the loader is the first place so that his background cover everything. It only work if a position is choosed like fixed*/
+    animation-name: loader-background;
+    animation-duration: 5s;
   }
 
   .loader div {
@@ -6278,7 +6305,9 @@ footer #line1 h6::before,
     background: linear-gradient(-10deg, #9356DC 30%, #FF79DA);
     animation-name: loader-growth;
     animation-duration: 1.2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
+    margin-top: 65%;
+    margin-left: 40%;
   }
 
   .loader div:nth-child(1) {
