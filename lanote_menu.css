@@ -6567,6 +6567,7 @@ footer #line1 h6::before,
     margin-left: -1.5rem;
   }
   #menu #lanote__entrées--all #lanote__entrées--1 input:checked + label #checked-font-place {
+    z-index: 95;
     background-color: #99E2D0;
     padding: 1.5em 1.3em 1.5em 1.3em;
     margin-left: -2.5em;
@@ -6662,6 +6663,7 @@ footer #line1 h6::before,
     margin-left: -1.5rem;
   }
   #menu #lanote__entrées--all #lanote__entrées--2 input:checked + label #checked-font-place {
+    z-index: 95;
     background-color: #99E2D0;
     padding: 1.5em 1.3em 1.5em 1.3em;
     margin-left: -2.5em;
@@ -6759,6 +6761,7 @@ footer #line1 h6::before,
     margin-left: -3.6rem;
   }
   #menu #lanote__entrées--all #lanote__entrées--3 input:checked + label #checked-font-place {
+    z-index: 95;
     background-color: #99E2D0;
     padding: 1.5em 1.3em 1.5em 1.3em;
     margin-left: -2.5em;
@@ -6791,11 +6794,9 @@ footer #line1 h6::before,
   }
   #menu #lanote__entrées--all #lanote__entrées--3 input:checked + label #lanote__entrées--prix {
     padding-left: 0em;
-    margin-top: -0.25em;
+    margin-top: 1.5em;
   }
   #menu #lanote__entrées--all #lanote__entrées--3 input:checked + label #lanote__entrées--prix h5 {
-    display: flex;
-    flex-direction: column;
     margin-left: -7.3rem;
     padding-right: 0em;
     -webkit-animation-name: price-animation--lenghty;
@@ -6806,11 +6807,18 @@ footer #line1 h6::before,
     z-index: 100;
     background: white;
     padding-left: 3.3em;
+    /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
   }
   #menu #lanote__entrées--all #lanote__entrées--3 input:checked + label #lanote__entrées--prix h5:before {
+    position: absolute;
     content: "...";
-    padding-bottom: 1em;
-    padding-right: 0em;
+    padding-left: 0em;
+    margin-left: -1.7em;
+    padding-right: 2.2em;
+    margin-top: -1.2em;
+    z-index: 90;
+    background: white;
+    font-size: 2em;
   }
   #menu #lanote__entrées--all #lanote__entrées--4 {
     -webkit-animation: loading-menus 0.5s ease-in-out;
@@ -6855,6 +6863,7 @@ footer #line1 h6::before,
     margin-left: -1em;
   }
   #menu #lanote__entrées--all #lanote__entrées--4 input:checked + label #checked-font-place {
+    z-index: 95;
     background-color: #99E2D0;
     padding: 1.5em 1.3em 1.5em 1.3em;
     margin-left: -2.5em;
@@ -6958,6 +6967,7 @@ footer #line1 h6::before,
     margin-top: 1.2rem;
   }
   #menu #lanote__plats--all #lanote__plats--1 input:checked + label #checked-font-place {
+    z-index: 95;
     background-color: #99E2D0;
     padding: 1.5em 1.3em 1.5em 1.3em;
     margin-left: -2.5em;
@@ -7051,6 +7061,7 @@ footer #line1 h6::before,
     margin-top: 0.1rem;
   }
   #menu #lanote__plats--all #lanote__plats--2 input:checked + label #checked-font-place {
+    z-index: 95;
     background-color: #99E2D0;
     padding: 1.5em 1.3em 1.5em 1.3em;
     margin-left: -2.5em;
@@ -7148,6 +7159,7 @@ footer #line1 h6::before,
     margin-left: 2.5rem;
   }
   #menu #lanote__plats--all #lanote__plats--3 input:checked + label #checked-font-place {
+    z-index: 95;
     background-color: #99E2D0;
     padding: 1.5em 1.3em 1.5em 1.3em;
     margin-left: -2.5em;
@@ -7253,6 +7265,7 @@ footer #line1 h6::before,
     margin-left: 2.5rem;
   }
   #menu #lanote__desserts--all #lanote__desserts--1 input:checked + label #checked-font-place {
+    z-index: 95;
     background-color: #99E2D0;
     padding: 1.5em 1.3em 1.5em 1.3em;
     margin-left: -2.5em;
@@ -7342,6 +7355,7 @@ footer #line1 h6::before,
     margin-left: 2.5rem;
   }
   #menu #lanote__desserts--all #lanote__desserts--2 input:checked + label #checked-font-place {
+    z-index: 95;
     background-color: #99E2D0;
     padding: 1.5em 1.3em 1.5em 1.3em;
     margin-left: -2.5em;
@@ -7431,6 +7445,7 @@ footer #line1 h6::before,
     margin-left: 2.5rem;
   }
   #menu #lanote__desserts--all #lanote__desserts--3 input:checked + label #checked-font-place {
+    z-index: 95;
     background-color: #99E2D0;
     padding: 1.5em 1.3em 1.5em 1.3em;
     margin-left: -2.5em;
