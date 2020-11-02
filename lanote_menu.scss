@@ -1,0 +1,916 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 280px) and (max-width: 500px)
+{
+    @font-face {
+        font-family: "shrikhand";
+        src: url("fonts/shrikhand/Shrikhand-Regular.ttf");
+    }
+    @font-face {
+        font-family: "roboto";
+        src: url("fonts/roboto/Roboto-Regular.ttf");
+    }
+    @import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+    @import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+    @import "node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+    @import "node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+    @import "style.css";
+
+    $gray-light: #F6F6F6;
+    $gray-darker: #EAEAEA;
+    $pink: #FF79DA;
+    $green: #99E2D0;
+    $purple: #9356DC;
+    $font-title: "shrikhand";
+    $font-text: "roboto";
+
+    @mixin logo-back {
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        padding-bottom: 0.5em;
+        a {
+            @include fa-icon;
+            padding: 1em;
+            font-size: 1em;
+            padding-right: 3em;
+            margin-left: -5em;   
+            &::before {
+                @extend .fas;
+                content: fa-content($fa-var-arrow-left);
+                color: black;
+            }
+        }
+    }
+    @mixin photo-menu {
+        article {
+            background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 16em;
+            width: auto;
+        }
+    }
+
+    @mixin div-principal-menus {
+        border-style: hidden;
+        background-color: white;
+        padding: 0.9em 0.5em 0.9em 0.5em;
+        border-radius: 20px;
+        box-shadow: 0em 0em 0.6em -0.2em;
+        margin-right: 0.7em;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 3em;
+    }
+
+    @mixin label-settings-menus {
+        display: flex;
+        flex-direction: row;
+        h3 {
+            white-space: nowrap;
+        }
+        h4 {
+            white-space: nowrap;
+            font-weight: lighter;
+        }  
+    }
+
+    @mixin checked-ok {
+        #checked-font-place {
+            background-color: $green;
+            padding: 1.5em 1.3em 1.5em 1.3em;
+            margin-left: -2.5em;
+            margin-top: -0.9em;
+            position: relative;
+            border-style: hidden;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            -webkit-animation-name: checked-background-translate--menu;
+            animation-name: checked-background-translate--menu;
+            -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+            transition: ease-in-out;
+            &::after {
+                @extend .fas;
+                content: fa-content($fa-var-check-circle);
+                font-size: 2rem;
+                animation-name: checked-ok-rotate--menu;
+                -webkit-animation-name: checked-ok-rotate--menu;
+                animation-duration: 1s;
+                -webkit-animation-duration: 1s;
+                border-style: hidden;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+                color: white;
+                justify-content: center;
+            }
+        }
+    }
+    
+
+    @mixin toggle__heart--menu {
+        font-size: 1.7rem;
+        padding-right: 1em;
+        margin-top: 1.1em;
+        &::before {
+            @extend .far;
+            content: "\f004";
+            font-weight: 600;
+            will-change: font-size;
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;  
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-animation-name: color-swap--menu;
+            animation-name: color-swap--menu;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            transition: ease-in-out;
+        }
+    }
+    @mixin footer__settings {
+        padding: 1em 1em 1em 1em;
+        background-color: darken($gray-darker, $amount: 75%);
+        width: 89.1%;
+        color: white;
+        font-size: 1.3em;
+        font-family: $font-text;
+        font-weight: bold;
+        -webkit-filter: blur(0);
+                filter: blur(0);
+        @include fa-icon;
+        #logo__footer {
+            font-size: 1.5em;
+            padding-bottom: 0.5em;
+            font-family: $font-title;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+        #line1 {
+            h6 {
+                padding-bottom: 0.7em;
+                &::before {
+                    @extend .fas;
+                    content: "\f2e7";
+                    font-size: 0.8em;
+                    padding-right: 1em;
+                }
+            }
+        }
+        #line2 {
+            h6 {
+                padding-bottom: 0.7em;
+                &::before {
+                    @extend .fas;
+                    content: "\f4c4";
+                    font-size: 0.7em;
+                    padding-right: 0.8em;
+                }
+            }
+        }
+        #contact {
+            padding-top: 0.5em;
+            a {
+                text-decoration: none;
+                color: white;
+                outline: none;
+                -webkit-tap-highlight-color: rgba(0,0,0,0);   /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
+            }
+        }
+    }
+
+
+    @-webkit-keyframes color-swap--menu {
+        0% {
+            font-weight: normal;  
+        }
+        5% {
+            font-weight: normal;  
+            transform: scale(0.5);
+        }
+        10% {  
+            font-weight: normal;  
+            transform: scale(0.1);
+        }
+        15%{
+            font-weight: 600;  
+            transform: scale(0.5);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        70% {
+            font-weight: 600;
+            transform: scale(1);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        90% {
+            font-weight: 600;
+            transform: scale(1.2);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        95% {
+            font-weight: 600;
+            transform: scale(1.1);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        100% {
+            font-weight: 600;
+            transform: scale(1);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    @keyframes color-swap--menu {
+        0% {
+            font-weight: normal;  
+        }
+        5% {
+            font-weight: normal;  
+            transform: scale(0.5);
+        }
+        10% {  
+            font-weight: normal;  
+            transform: scale(0.1);
+        }
+        15%{
+            font-weight: 600;  
+            transform: scale(0.5);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        70% {
+            font-weight: 600;
+            transform: scale(1);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        90% {
+            font-weight: 600;
+            transform: scale(1.2);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        95% {
+            font-weight: 600;
+            transform: scale(1.1);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        100% {
+            font-weight: 600;
+            transform: scale(1);
+            background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    @-webkit-keyframes checked-background-translate--menu {
+        0% {
+            transform: translate(3em);
+        }
+    }
+    @keyframes checked-background-translate--menu {
+        0% {
+            transform: translate(2em);
+            transform-origin: 100% right;
+            transition: ease-out;
+        }
+    }
+    @-webkit-keyframes checked-ok-rotate--menu {
+        0% {
+            
+        }
+        100%{
+            transform: rotate(2turn);
+            transition: ease-in-out;
+        }
+    }
+    @keyframes checked-ok-rotate--menu {
+        0% {
+            transition-delay: 2s;
+        }
+        100%{
+            transform: rotate(2turn);
+            transition: ease-in-out;
+            
+        }
+    }
+    @-webkit-keyframes price-animation {
+        0% {
+            padding-left: 9em;
+            transform: translate(-4em);
+        }
+        100% {
+            margin-left: -5rem
+        }
+    }
+    @keyframes price-animation {
+        0% {
+            padding-left: 9em;
+            transform: translate(-4em);
+        }
+        100% {
+            margin-left: -5rem
+        }
+    }
+    @-webkit-keyframes price-animation--lenghty {
+        0% {
+            padding-left: 9em;
+            transform: translate(2em); /*translate me permet de commencer l'animation à partir d'un certain niveau*/
+            padding: 0em 1em 0em 1em;  /*this padding is fo the overlay. I put it here for the "au cas où"*/
+        }
+        100% {
+            margin-left: -7.3rem;
+            padding: 0em 1em 0em 1em;
+        }
+    }
+    @keyframes price-animation--lenghty {
+        0% {
+            padding-left: 9em;
+            transform: translate(2em); /*translate me permet de commencer l'animation à partir d'un certain niveau*/
+            padding: 0em 1em 0em 1em;  /*this padding is fo the overlay. I put it here for the "au cas où"*/
+        }
+        100% {
+            margin-left: -7.3rem;
+            padding: 0em 1em 0em 1em;
+        }
+    }
+    @-webkit-keyframes price-animation--large {
+        0% {
+            padding-left: 1em;
+            transform: translate(2rem);
+            
+        }
+        100% {
+            margin-left: -3.5rem;
+        }
+    }
+    @keyframes price-animation--large {
+        0% {
+            padding-left: 1em;
+            transform: translate(2rem);
+            
+        }
+        100% {
+            margin-left: -3.5rem;
+        }
+    }
+    @-webkit-keyframes price-animation--short {
+        0% {
+            padding-left: 1em;
+            transform: translate(2rem);
+        }
+        100% {
+            margin-left: -1rem;
+        }
+    }
+    @keyframes price-animation--short {
+        0% {
+            padding-left: 1em;
+            transform: translate(2rem);
+        }
+        100% {
+            margin-left: -1rem;
+        }
+    }
+    @keyframes loading-menus {
+        0% {
+            margin-bottom: -3em;
+            opacity: 0;
+        }
+        30% {
+            opacity: 0;
+        }
+        100% {
+            
+        }
+    }
+
+
+
+
+
+
+
+
+    
+
+    #logo {
+        @include logo-back
+    }
+    #lanote-image {
+      @include photo-menu;
+      padding-bottom: 3em;
+      .overlay__menu--1 {
+        margin-top: 12em;
+            #lanote__title {
+                opacity: 1;
+                background-color: $gray-light;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                border-style: hidden;
+                border-top-right-radius: 30px;
+                border-top-left-radius: 30px;
+                h3 {
+                    font-family: $font-title;
+                    font-size: 1.7em;
+                    padding: 1em 1em 1em 0.5em;
+                }
+                input {
+                    @include fa-icon;
+                    margin-top: 2.8em;
+                    display: none;
+                    &+label {
+                        margin-top: 1.1em;
+                        font-size: 1.7rem;
+                        padding-right: 1em;  
+                        &::before {
+                            @extend .far;
+                            content: fa-content($fa-var-heart);
+                        }
+                    }
+                    &:checked+label {
+                        @include toggle__heart--menu;
+                    } 
+                }
+            }
+        }
+    }
+
+    #menu {
+        background-color: $gray-light;
+        padding-top: 0.5em;
+        padding-left: 0.8em;
+        font-family: $font-text;
+        #lanote__entrées {
+            padding-bottom: 0.5em;
+                p {
+                    border-bottom: solid $green;
+                    border-width: 0.3em;
+                    margin-right: 20em;
+                }
+            }
+        #lanote__entrées--all {
+            padding-bottom: 2em;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            height: 17em;
+            padding-left: 0.5em;
+            #lanote__entrées--1 {
+                animation: loading-menus 0.5s ease-in-out;
+                margin-top: 1em;
+                @include div-principal-menus;
+                input {
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        @include label-settings-menus;
+                        #lanote__entrées--prix {
+                            padding-left: 9em;
+                            margin-top: 1.5em;
+                                h5 {
+                                    margin-left: -1em;
+                                }
+                            }
+                    }
+                    &:checked+label {
+                        @include checked-ok; 
+                        #lanote__entrées--prix {
+                            padding-left: 9em;
+                            margin-top: 1.5em;
+                            h5 {
+                                
+                                margin-left: -5rem;
+                                padding-right: 0em;
+                                -webkit-animation-name: price-animation;
+                                        animation-name: price-animation;
+                                -webkit-animation-duration: 2s;
+                                        animation-duration: 2s;
+                                transition: ease-out;
+                            }
+                        }
+                    }
+                }
+            }
+            #lanote__entrées--2 {
+                margin-top: 1em;
+                @include div-principal-menus;
+                animation: loading-menus 0.5s ease-in-out;
+                input {
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        @include label-settings-menus;
+                        #lanote__entrées--prix {
+                            padding-left: 5.6em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: -1em;
+                            }
+                        }
+                    }
+                    &:checked+label {
+                        @include checked-ok; 
+                        #lanote__entrées--prix {
+                            padding-left: 5.6em;
+                            margin-top: 1.5em;
+                            h5 {
+                                
+                                margin-left: -5rem;
+                                padding-right: 0em;
+                                -webkit-animation-name: price-animation;
+                                        animation-name: price-animation;
+                                -webkit-animation-duration: 2s;
+                                        animation-duration: 2s;
+                                transition: ease-out;
+                            }
+                        }
+                    }
+                }
+            }
+            #lanote__entrées--3 {
+                margin-top: 1em;
+                @include div-principal-menus;
+                animation: loading-menus 0.5s ease-in-out;
+                input {
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        @include label-settings-menus;
+                        #lanote__entrées--prix {
+                            padding-left: 3em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: -1em;
+                                &.overlay--1 {
+                                    margin-top: 0.1rem;
+                                }
+                            }
+                            
+                        }
+                    }
+                    &:checked+label {
+                        @include checked-ok; 
+                       
+                        #lanote__entrées--prix {
+                            padding-left: 3em;
+                            margin-top: 1.5em;
+                            h5 {
+                                &.overlay--1 {
+                                    margin-top: 0.1rem;
+                                    margin-left: -7.3rem;
+                                    -webkit-animation-name: price-animation--lenghty;
+                                            animation-name: price-animation--lenghty;
+                                    -webkit-animation-duration: 2s;
+                                            animation-duration: 2s;
+                                    transition: ease-in;
+                                    background-color: white;
+                                    padding: 0em 0em 0em 1em;
+                                    transform-origin: right;
+                                    &:before {
+                                        content: "...";
+                                        padding-right: 1em;
+                                    }
+                                }
+                            } 
+                        }
+                    }
+                }
+            } 
+        }
+        
+        #lanote__plats {
+            padding-bottom: 0.5em; /*distance between the last div and the desserts*/
+                p {
+                    border-bottom: solid $green;
+                    border-width: 0.3em;
+                    margin-right: 20em;
+                }
+            }
+            #lanote__plats--all {
+                padding-bottom: 2em;
+                overflow-y: hidden;
+                overflow-x: hidden;
+                height: 17.5em;
+                padding-left: 0.5em;
+            #lanote__plats--1 {
+                @include div-principal-menus;
+                height: 3.5em;
+                animation: loading-menus 0.5s ease-in-out;
+                margin-top: 1em;
+                input {
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        @include label-settings-menus;
+                        #lanote__plats--prix {
+                            padding-left: 3em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: 1em;
+                                &.overlay--2 {
+                                    margin-top: 1.2rem;
+                                }
+                            }
+                            
+                        }
+                    }
+                    &:checked+label {
+                        @include checked-ok; 
+                        #checked-font-place {
+                            background-color: $green;
+                            padding: 1.8em 1.3em 1.8em 1.3em;
+                            margin-left: -0.8em;
+                        }
+                        #lanote__plats--prix {
+                            padding-left: 3em;
+                            margin-top: 1.5em;
+                            h5 {
+                                &.overlay--2 {
+                                    margin-top: 1.2rem;
+                                    margin-left: -3.5rem;
+                                    -webkit-animation-name: price-animation--large;
+                                            animation-name: price-animation--large;
+                                    -webkit-animation-duration: 2s;
+                                            animation-duration: 2s;
+                                    transition: ease-in;
+                                    background-color: white;
+                                    padding: 0em 1em 0em 1em;
+                                }
+                            } 
+                        }
+                    }
+                }
+            }
+            #lanote__plats--2 {
+                margin-top: 1em;
+                @include div-principal-menus;
+                animation: loading-menus 0.5s ease-in-out;
+                input {
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        @include label-settings-menus;
+                        #lanote__plats--prix {
+                            padding-left: 3em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: -1.7em;
+                                &.overlay--3 {
+                                    margin-top: 0.1rem;
+                                }
+                            }
+                            
+                        }
+                    }
+                    &:checked+label {
+                        @include checked-ok; 
+                        #checked-font-place {
+                            margin-left: -3em;
+                       }
+                        #lanote__plats--prix {
+                            padding-left: 3em;
+                            margin-top: 1.5em;
+                            h5 {
+                                &.overlay--3 {
+                                    margin-top: 0.1rem;
+                                    margin-left: -7.3rem;
+                                    -webkit-animation-name: price-animation--lenghty;
+                                            animation-name: price-animation--lenghty;
+                                    -webkit-animation-duration: 1s;
+                                            animation-duration: 1s;
+                                    transition: ease-in;
+                                    background-color: white;
+                                    padding: 0em 0em 0em 1em;
+                                    transform-origin: right;
+                                    &:before {
+                                        content: "...";
+                                        padding-right: 1em;
+                                    }
+                                }
+                            } 
+                        }
+                    }
+                }
+            }
+            #lanote__plats--3 {
+                margin-top: 1em;
+                @include div-principal-menus;
+                animation: loading-menus 0.5s ease-in-out;
+                input {
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        @include label-settings-menus;
+                        h3 {
+                            padding-right: 5em;  /*this setting help me push the price to reduce the div prive margin so that i can use the animation short more frequently*/
+                        }
+                        #lanote__plats--prix {
+                            padding-left: 3em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: 2.5rem;
+                            }
+                            
+                        }
+                    }
+                    &:checked+label {
+                        @include checked-ok; 
+                        #checked-font-place {
+                            margin-left: 0.5em;   /*this margin set up the background and the distance it will be from the price*/
+                        }
+                        #lanote__plats--prix {
+                            padding-left: 3em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: -1rem;
+                                padding-right: 0em;
+                                -webkit-animation-name: price-animation--short;
+                                        animation-name: price-animation--short;
+                                -webkit-animation-duration: 2s;
+                                        animation-duration: 2s;
+                                transition: ease-out;
+                            } 
+                        }
+                    }
+                }
+            } 
+        }
+        #lanote__desserts {
+            padding-bottom: 0.5em;
+                p {
+                    border-bottom: solid $green;
+                    border-width: 0.3em;
+                    margin-right: 20em;
+                }
+        }
+        #lanote__desserts--all {      
+            padding-bottom: 3em;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            height: 17.5em;
+            padding-left: 0.5em;
+            
+            #lanote__desserts--1 {
+                @include div-principal-menus;
+                animation: loading-menus 0.5s ease-in-out;
+                margin-top: 1em;
+                input {
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        @include label-settings-menus;
+                        h3 {
+                            padding-right: 1.5em;  
+                        }
+                        #lanote__desserts--prix {
+                            padding-left: 3em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: 2.5rem;
+                            }
+                            
+                        }
+                    }
+                    &:checked+label {
+                        @include checked-ok; 
+                        #checked-font-place {
+                            margin-left: 0.5em;  
+                        }
+                        #lanote__desserts--prix {
+                            padding-left: 3em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: -1rem;
+                                padding-right: 0em;
+                                -webkit-animation-name: price-animation--short;
+                                        animation-name: price-animation--short;
+                                -webkit-animation-duration: 2s;
+                                        animation-duration: 2s;
+                                transition: ease-out;
+                            } 
+                        }
+                    }
+                }
+            }
+            #lanote__desserts--2 {
+                margin-top: 1em;
+                @include div-principal-menus;
+                animation: loading-menus 0.5s ease-in-out;
+                input {
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        @include label-settings-menus;
+                        h3 {
+                            padding-right: 5.5em;  
+                        }
+                        #lanote__desserts--prix {
+                            padding-left: 3em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: 2.5rem;
+                            }
+                            
+                        }
+                    }
+                    &:checked+label {
+                        @include checked-ok; 
+                        #checked-font-place {
+                            margin-left: 0.5em;  
+                        }
+                        #lanote__desserts--prix {
+                            padding-left: 3em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: -1rem;
+                                padding-right: 0em;
+                                -webkit-animation-name: price-animation--short;
+                                        animation-name: price-animation--short;
+                                -webkit-animation-duration: 2s;
+                                        animation-duration: 2s;
+                                transition: ease-out;
+                            } 
+                        }
+                    }
+                }
+            }
+            #lanote__desserts--3 {
+                margin-top: 1em;
+                @include div-principal-menus;
+                animation: loading-menus 0.5s ease-in-out;
+                input {
+                    @include fa-icon;
+                    display: none;
+                    &+label {
+                        @include label-settings-menus;
+                        h3 {
+                            padding-right: 7.5em;  
+                        }
+                        #lanote__desserts--prix {
+                            padding-left: 3em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: 2.5rem;
+                            }
+                            
+                        }
+                    }
+                    &:checked+label {
+                        @include checked-ok; 
+                        #checked-font-place {
+                            margin-left: 0.5em;  
+                        }
+                        #lanote__desserts--prix {
+                            padding-left: 3em;
+                            margin-top: 1.5em;
+                            h5 {
+                                margin-left: -1rem;
+                                padding-right: 0em;
+                                -webkit-animation-name: price-animation--short;
+                                        animation-name: price-animation--short;
+                                -webkit-animation-duration: 2s;
+                                        animation-duration: 2s;
+                                transition: ease-out;
+                            } 
+                        }
+                    }
+                }
+            }
+        }
+        .button-pink--large {
+            padding-bottom: 5em;
+            button {
+                margin-left: 5.5em;
+                font-size: 1em;
+                color: white;
+                border-radius: 25px;
+                border-style: hidden;
+                padding: 0.8em 2.5em 0.8em 2.5em;
+                background: linear-gradient(-10deg, $purple 30%, $pink);
+            } 
+        }
+    }
+    
+    footer {
+        @include footer__settings
+    }
+}    
