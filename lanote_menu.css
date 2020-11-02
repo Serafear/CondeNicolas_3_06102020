@@ -6322,7 +6322,6 @@ footer #line1 h6::before,
   }
   @keyframes price-animation {
     0% {
-      padding-left: 9em;
       transform: translate(-3.5em);
     }
     100% {
@@ -6344,8 +6343,7 @@ footer #line1 h6::before,
   }
   @keyframes price-animation--lenghty {
     0% {
-      padding-left: 9em;
-      transform: translate(-1.5em);
+      transform: translate(1.5em);
       /*translate me permet de commencer l'animation à partir d'un certain niveau*/
     }
     100% {
@@ -6814,15 +6812,13 @@ footer #line1 h6::before,
     content: "...";
     padding-left: 0em;
     margin-left: -1.7em;
-    padding-right: 2.2em;
+    padding-right: 3em;
     margin-top: -1.2em;
     z-index: 90;
     background: white;
     font-size: 2em;
   }
   #menu #lanote__entrées--all #lanote__entrées--4 {
-    -webkit-animation: loading-menus 0.5s ease-in-out;
-    animation: loading-menus 0.5s ease-in-out;
     margin-top: 1em;
     border-style: hidden;
     background-color: white;
@@ -6833,6 +6829,8 @@ footer #line1 h6::before,
     overflow-x: hidden;
     overflow-y: hidden;
     height: 3em;
+    -webkit-animation: loading-menus 0.5s ease-in-out;
+    animation: loading-menus 0.5s ease-in-out;
   }
   #menu #lanote__entrées--all #lanote__entrées--4 input {
     -webkit-font-smoothing: antialiased;
@@ -6855,12 +6853,15 @@ footer #line1 h6::before,
     white-space: nowrap;
     font-weight: lighter;
   }
+  #menu #lanote__entrées--all #lanote__entrées--4 input + label h3 {
+    padding-right: 3em;
+  }
   #menu #lanote__entrées--all #lanote__entrées--4 input + label #lanote__entrées--prix {
-    padding-left: 9em;
+    padding-left: 3em;
     margin-top: 1.5em;
   }
   #menu #lanote__entrées--all #lanote__entrées--4 input + label #lanote__entrées--prix h5 {
-    margin-left: -1em;
+    margin-left: -3.6rem;
   }
   #menu #lanote__entrées--all #lanote__entrées--4 input:checked + label #checked-font-place {
     z-index: 95;
@@ -6891,18 +6892,30 @@ footer #line1 h6::before,
     color: white;
     justify-content: center;
   }
+  #menu #lanote__entrées--all #lanote__entrées--4 input:checked + label #checked-font-place {
+    margin-left: -2em;
+  }
   #menu #lanote__entrées--all #lanote__entrées--4 input:checked + label #lanote__entrées--prix {
-    padding-left: 9em;
+    padding-left: 0em;
     margin-top: 1.5em;
+    margin-left: -0.7em;
   }
   #menu #lanote__entrées--all #lanote__entrées--4 input:checked + label #lanote__entrées--prix h5 {
-    margin-left: -5rem;
+    margin-left: -7.3rem;
     padding-right: 0em;
-    -webkit-animation-name: price-animation;
-    animation-name: price-animation;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
+    -webkit-animation-name: price-animation--lenghty;
+    animation-name: price-animation--lenghty;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
     transition: ease-out;
+    z-index: 100;
+    background: white;
+    padding-left: 2em;
+    /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+  }
+  #menu #lanote__entrées--all #lanote__entrées--4 input:checked + label #lanote__entrées--prix h5:before {
+    content: "...";
+    padding-right: 1em;
   }
   #menu #lanote__plats {
     padding-bottom: 0.5em;
