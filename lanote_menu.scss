@@ -505,7 +505,7 @@
                         }
                         #lanote__entrées--prix {
                             padding-left: 3em;
-                            margin-top: 1.5em;
+                            margin-top: 1.6em;
                             h5 {
                                 margin-left: -1.5rem;
                             }
@@ -519,7 +519,7 @@
                         }
                         #lanote__entrées--prix {
                             padding-left: 0em;
-                            margin-top: 1.5em;
+                            margin-top: 1.6em;
                             h5 {
                                 margin-left: -3.6rem;
                                 padding-right: 0em;
@@ -555,7 +555,7 @@
                         }
                         #lanote__entrées--prix {
                             padding-left: 3em;
-                            margin-top: 1.5em;
+                            margin-top: 1.6em;
                             h5 {
                                 margin-left: -1.5rem;
                             }
@@ -569,7 +569,7 @@
                         }
                         #lanote__entrées--prix {
                             padding-left: 0em;
-                            margin-top: 1.5em;
+                            margin-top: 1.6em;
                             h5 {
                                 margin-left: -3.6rem;
                                 padding-right: 0em;
@@ -606,7 +606,7 @@
                         }
                         #lanote__entrées--prix {
                             padding-left: 3em;
-                            margin-top: 1.5em;
+                            margin-top: 1.6em;
                             h5 {
                                 margin-left: -3.6rem;
                             }
@@ -622,7 +622,7 @@
                         
                         #lanote__entrées--prix {
                             padding-left: 0em;
-                            margin-top: 1.5em;
+                            margin-top: 1.6em;
                             h5 {
                                 margin-left: -7.3rem;
                                 padding-right: 0em;
@@ -666,7 +666,7 @@
                         }
                         #lanote__entrées--prix {
                             padding-left: 3em;
-                            margin-top: 1.5em;
+                            margin-top: 1.6em;
                             h5 {
                                 margin-left: -3.6rem;
                             }
@@ -681,7 +681,7 @@
                         
                         #lanote__entrées--prix {
                             padding-left: 0em;
-                            margin-top: 1.5em;
+                            margin-top: 1.6em;
                             margin-left: -0.7em;
                             h5 {
                                 margin-left: -7.3rem;
@@ -722,50 +722,50 @@
                 height: 17.5em;
                 padding-left: 0.5em;
             #lanote__plats--1 {
+                margin-top: 1em;
                 @include div-principal-menus;
-                height: 3.5em;
                 -webkit-animation: loading-menus 0.5s ease-in-out;
                         animation: loading-menus 0.5s ease-in-out;
-                margin-top: 1em;
                 input {
                     @include fa-icon;
                     display: none;
                     &+label {
                         @include label-settings-menus;
+                        h3 {
+                            padding-right: 3em;  
+                        }
                         #lanote__plats--prix {
-                            padding-left: 3em;
-                            margin-top: 1.5em;
+                            padding-left: 0em;
+                            margin-top: 1.6em;
                             h5 {
-                                margin-left: 1em;
-                                &.overlay--2 {
-                                    margin-top: 1.2rem;
-                                }
+                                margin-left: -1.5rem;
                             }
                             
                         }
                     }
                     &:checked+label {
-                        @include checked-ok; 
+                        @include checked-ok;
                         #checked-font-place {
-                            background-color: $green;
-                            padding: 1.8em 1.3em 1.8em 1.3em;
-                            margin-left: -0.8em;
+                            margin-left: -1.7em;
                         }
+                        
                         #lanote__plats--prix {
-                            padding-left: 3em;
-                            margin-top: 1.5em;
+                            padding-left: 0em;
+                            margin-top: 1.6em;
+                            margin-left: -1.9em;
                             h5 {
-                                &.overlay--2 {
-                                    margin-top: 1.2rem;
-                                    margin-left: -3.5rem;
-                                    -webkit-animation-name: price-animation--large;
-                                            animation-name: price-animation--large;
-                                    -webkit-animation-duration: 2s;
-                                            animation-duration: 2s;
-                                    transition: ease-in;
-                                    background-color: white;
-                                    padding: 0em 1em 0em 1em;
-                                }
+                                margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                                padding-right: 0.5em;
+                                margin-right: 2rem;
+                                -webkit-animation-name: price-animation--short;
+                                        animation-name: price-animation--short;
+                                -webkit-animation-duration: 1.5s;
+                                        animation-duration: 1.5s;
+                                transition: ease-out;
+                                z-index: 100;
+                                background: white;
+                                padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+                                
                             } 
                         }
                     }
@@ -781,43 +781,40 @@
                     display: none;
                     &+label {
                         @include label-settings-menus;
+                        h3 {
+                            padding-right: 3em;  
+                        }
                         #lanote__plats--prix {
-                            padding-left: 3em;
-                            margin-top: 1.5em;
+                            padding-left: 6.5em;
+                            margin-top: 1.6em;
                             h5 {
-                                margin-left: -1.7em;
-                                &.overlay--3 {
-                                    margin-top: 0.1rem;
-                                }
+                                margin-left: -1.5rem;
                             }
                             
                         }
                     }
                     &:checked+label {
-                        @include checked-ok; 
+                        @include checked-ok;
                         #checked-font-place {
-                            margin-left: -3em;
-                       }
+                            margin-left: -1.7em;
+                        }
+                        
                         #lanote__plats--prix {
-                            padding-left: 3em;
-                            margin-top: 1.5em;
+                            padding-left: 6.5em;
+                            margin-top: 1.6em;
+                            margin-left: -1.9em;
                             h5 {
-                                &.overlay--3 {
-                                    margin-top: 0.1rem;
-                                    margin-left: -7.3rem;
-                                    -webkit-animation-name: price-animation--lenghty;
-                                            animation-name: price-animation--lenghty;
-                                    -webkit-animation-duration: 1s;
-                                            animation-duration: 1s;
-                                    transition: ease-in;
-                                    background-color: white;
-                                    padding: 0em 0em 0em 1em;
-                                    transform-origin: right;
-                                    &:before {
-                                        content: "...";
-                                        padding-right: 1em;
-                                    }
-                                }
+                                margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                                padding-right: 0.5em;
+                                margin-right: 2rem;
+                                -webkit-animation-name: price-animation--short;
+                                        animation-name: price-animation--short;
+                                -webkit-animation-duration: 1.5s;
+                                        animation-duration: 1.5s;
+                                transition: ease-out;
+                                z-index: 100;
+                                background: white;
+                                padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
                             } 
                         }
                     }
@@ -834,33 +831,43 @@
                     &+label {
                         @include label-settings-menus;
                         h3 {
-                            padding-right: 5em;  /*this setting help me push the price to reduce the div prive margin so that i can use the animation short more frequently*/
+                            padding-right: 3em;  
                         }
                         #lanote__plats--prix {
-                            padding-left: 3em;
-                            margin-top: 1.5em;
+                            padding-left: 3.5em;
+                            margin-top: 1.6em;
                             h5 {
-                                margin-left: 2.5rem;
+                                margin-left: -1.5rem;
                             }
                             
                         }
                     }
                     &:checked+label {
-                        @include checked-ok; 
+                        @include checked-ok;
                         #checked-font-place {
-                            margin-left: 0.5em;   /*this margin set up the background and the distance it will be from the price*/
+                            margin-left: -1.7em;
                         }
+                        
                         #lanote__plats--prix {
-                            padding-left: 3em;
-                            margin-top: 1.5em;
+                            padding-left: 2.2em;
+                            margin-top: 1.6em;
+                            margin-left: -1.9em;
                             h5 {
-                                margin-left: -1rem;
-                                padding-right: 0em;
+                                margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                                padding-right: 0.5em;
+                                margin-right: 2rem;
                                 -webkit-animation-name: price-animation--short;
                                         animation-name: price-animation--short;
-                                -webkit-animation-duration: 2s;
-                                        animation-duration: 2s;
+                                -webkit-animation-duration: 1.5s;
+                                        animation-duration: 1.5s;
                                 transition: ease-out;
+                                z-index: 100;
+                                background: white;
+                                padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+                                &:before {
+                                    content: "...";
+                                    padding-right: 0.7em;
+                                }
                             } 
                         }
                     }
@@ -883,43 +890,57 @@
             padding-left: 0.5em;
             
             #lanote__desserts--1 {
+                margin-top: 1em;
                 @include div-principal-menus;
                 -webkit-animation: loading-menus 0.5s ease-in-out;
                         animation: loading-menus 0.5s ease-in-out;
-                margin-top: 1em;
                 input {
                     @include fa-icon;
                     display: none;
                     &+label {
                         @include label-settings-menus;
                         h3 {
-                            padding-right: 1.5em;  
+                            padding-right: 0em;  
+                            padding-bottom: 0.1rem;
+                        }
+                        h4 {
+                            font-size: 0.95em;
                         }
                         #lanote__desserts--prix {
-                            padding-left: 3em;
-                            margin-top: 1.5em;
+                            padding-left: 3.5em;
+                            margin-top: 1.6em;
                             h5 {
-                                margin-left: 2.5rem;
+                                margin-left: -2.5rem;
                             }
                             
                         }
                     }
                     &:checked+label {
-                        @include checked-ok; 
+                        @include checked-ok;
                         #checked-font-place {
-                            margin-left: 0.5em;  
+                            margin-left: -3em;
                         }
+                        
                         #lanote__desserts--prix {
-                            padding-left: 3em;
-                            margin-top: 1.5em;
+                            padding-left: 1em;
+                            margin-top: 1.6em;
+                            margin-left: -1.5em;
                             h5 {
-                                margin-left: -1rem;
-                                padding-right: 0em;
+                                margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                                padding-right: 2em;
+                                margin-right: 2rem;
                                 -webkit-animation-name: price-animation--short;
                                         animation-name: price-animation--short;
-                                -webkit-animation-duration: 2s;
-                                        animation-duration: 2s;
+                                -webkit-animation-duration: 1.5s;
+                                        animation-duration: 1.5s;
                                 transition: ease-out;
+                                z-index: 100;
+                                background: white;
+                                padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+                                &:before {
+                                    content: "...";
+                                    padding-right: 0.7em;
+                                }
                             } 
                         }
                     }
@@ -936,33 +957,39 @@
                     &+label {
                         @include label-settings-menus;
                         h3 {
-                            padding-right: 5.5em;  
+                            padding-right: 3em;  
                         }
                         #lanote__desserts--prix {
-                            padding-left: 3em;
-                            margin-top: 1.5em;
+                            padding-left: 5.3em;
+                            margin-top: 1.6em;
                             h5 {
-                                margin-left: 2.5rem;
+                                margin-left: -1.5rem;
                             }
                             
                         }
                     }
                     &:checked+label {
-                        @include checked-ok; 
+                        @include checked-ok;
                         #checked-font-place {
-                            margin-left: 0.5em;  
+                            margin-left: -1.7em;
                         }
+                        
                         #lanote__desserts--prix {
-                            padding-left: 3em;
-                            margin-top: 1.5em;
+                            padding-left: 5.3em;
+                            margin-top: 1.6em;
+                            margin-left: -1.9em;
                             h5 {
-                                margin-left: -1rem;
-                                padding-right: 0em;
+                                margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                                padding-right: 0.5em;
+                                margin-right: 2rem;
                                 -webkit-animation-name: price-animation--short;
                                         animation-name: price-animation--short;
-                                -webkit-animation-duration: 2s;
-                                        animation-duration: 2s;
+                                -webkit-animation-duration: 1.5s;
+                                        animation-duration: 1.5s;
                                 transition: ease-out;
+                                z-index: 100;
+                                background: white;
+                                padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
                             } 
                         }
                     }
@@ -979,33 +1006,39 @@
                     &+label {
                         @include label-settings-menus;
                         h3 {
-                            padding-right: 7.5em;  
+                            padding-right: 3em;  
                         }
                         #lanote__desserts--prix {
-                            padding-left: 3em;
-                            margin-top: 1.5em;
+                            padding-left: 3.3em;
+                            margin-top: 1.6em;
                             h5 {
-                                margin-left: 2.5rem;
+                                margin-left: -1.5rem;
                             }
                             
                         }
                     }
                     &:checked+label {
-                        @include checked-ok; 
+                        @include checked-ok;
                         #checked-font-place {
-                            margin-left: 0.5em;  
+                            margin-left: -1.7em;
                         }
+                        
                         #lanote__desserts--prix {
-                            padding-left: 3em;
-                            margin-top: 1.5em;
+                            padding-left: 3.3em;
+                            margin-top: 1.6em;
+                            margin-left: -1.9em;
                             h5 {
-                                margin-left: -1rem;
-                                padding-right: 0em;
+                                margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                                padding-right: 0.5em;
+                                margin-right: 2rem;
                                 -webkit-animation-name: price-animation--short;
                                         animation-name: price-animation--short;
-                                -webkit-animation-duration: 2s;
-                                        animation-duration: 2s;
+                                -webkit-animation-duration: 1.5s;
+                                        animation-duration: 1.5s;
                                 transition: ease-out;
+                                z-index: 100;
+                                background: white;
+                                padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
                             } 
                         }
                     }

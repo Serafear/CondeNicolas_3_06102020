@@ -6559,7 +6559,7 @@ footer #line1 h6::before,
   }
   #menu #lanote__entrées--all #lanote__entrées--1 input + label #lanote__entrées--prix {
     padding-left: 3em;
-    margin-top: 1.5em;
+    margin-top: 1.6em;
   }
   #menu #lanote__entrées--all #lanote__entrées--1 input + label #lanote__entrées--prix h5 {
     margin-left: -1.5rem;
@@ -6598,7 +6598,7 @@ footer #line1 h6::before,
   }
   #menu #lanote__entrées--all #lanote__entrées--1 input:checked + label #lanote__entrées--prix {
     padding-left: 0em;
-    margin-top: 1.5em;
+    margin-top: 1.6em;
   }
   #menu #lanote__entrées--all #lanote__entrées--1 input:checked + label #lanote__entrées--prix h5 {
     margin-left: -3.6rem;
@@ -6655,7 +6655,7 @@ footer #line1 h6::before,
   }
   #menu #lanote__entrées--all #lanote__entrées--2 input + label #lanote__entrées--prix {
     padding-left: 3em;
-    margin-top: 1.5em;
+    margin-top: 1.6em;
   }
   #menu #lanote__entrées--all #lanote__entrées--2 input + label #lanote__entrées--prix h5 {
     margin-left: -1.5rem;
@@ -6694,7 +6694,7 @@ footer #line1 h6::before,
   }
   #menu #lanote__entrées--all #lanote__entrées--2 input:checked + label #lanote__entrées--prix {
     padding-left: 0em;
-    margin-top: 1.5em;
+    margin-top: 1.6em;
   }
   #menu #lanote__entrées--all #lanote__entrées--2 input:checked + label #lanote__entrées--prix h5 {
     margin-left: -3.6rem;
@@ -6753,7 +6753,7 @@ footer #line1 h6::before,
   }
   #menu #lanote__entrées--all #lanote__entrées--3 input + label #lanote__entrées--prix {
     padding-left: 3em;
-    margin-top: 1.5em;
+    margin-top: 1.6em;
   }
   #menu #lanote__entrées--all #lanote__entrées--3 input + label #lanote__entrées--prix h5 {
     margin-left: -3.6rem;
@@ -6792,7 +6792,7 @@ footer #line1 h6::before,
   }
   #menu #lanote__entrées--all #lanote__entrées--3 input:checked + label #lanote__entrées--prix {
     padding-left: 0em;
-    margin-top: 1.5em;
+    margin-top: 1.6em;
   }
   #menu #lanote__entrées--all #lanote__entrées--3 input:checked + label #lanote__entrées--prix h5 {
     margin-left: -7.3rem;
@@ -6858,7 +6858,7 @@ footer #line1 h6::before,
   }
   #menu #lanote__entrées--all #lanote__entrées--4 input + label #lanote__entrées--prix {
     padding-left: 3em;
-    margin-top: 1.5em;
+    margin-top: 1.6em;
   }
   #menu #lanote__entrées--all #lanote__entrées--4 input + label #lanote__entrées--prix h5 {
     margin-left: -3.6rem;
@@ -6897,7 +6897,7 @@ footer #line1 h6::before,
   }
   #menu #lanote__entrées--all #lanote__entrées--4 input:checked + label #lanote__entrées--prix {
     padding-left: 0em;
-    margin-top: 1.5em;
+    margin-top: 1.6em;
     margin-left: -0.7em;
   }
   #menu #lanote__entrées--all #lanote__entrées--4 input:checked + label #lanote__entrées--prix h5 {
@@ -6934,6 +6934,7 @@ footer #line1 h6::before,
     padding-left: 0.5em;
   }
   #menu #lanote__plats--all #lanote__plats--1 {
+    margin-top: 1em;
     border-style: hidden;
     background-color: white;
     padding: 0.9em 0.5em 0.9em 0.5em;
@@ -6943,10 +6944,8 @@ footer #line1 h6::before,
     overflow-x: hidden;
     overflow-y: hidden;
     height: 3em;
-    height: 3.5em;
     -webkit-animation: loading-menus 0.5s ease-in-out;
     animation: loading-menus 0.5s ease-in-out;
-    margin-top: 1em;
   }
   #menu #lanote__plats--all #lanote__plats--1 input {
     -webkit-font-smoothing: antialiased;
@@ -6969,15 +6968,15 @@ footer #line1 h6::before,
     white-space: nowrap;
     font-weight: lighter;
   }
+  #menu #lanote__plats--all #lanote__plats--1 input + label h3 {
+    padding-right: 3em;
+  }
   #menu #lanote__plats--all #lanote__plats--1 input + label #lanote__plats--prix {
-    padding-left: 3em;
-    margin-top: 1.5em;
+    padding-left: 0em;
+    margin-top: 1.6em;
   }
   #menu #lanote__plats--all #lanote__plats--1 input + label #lanote__plats--prix h5 {
-    margin-left: 1em;
-  }
-  #menu #lanote__plats--all #lanote__plats--1 input + label #lanote__plats--prix h5.overlay--2 {
-    margin-top: 1.2rem;
+    margin-left: -1.5rem;
   }
   #menu #lanote__plats--all #lanote__plats--1 input:checked + label #checked-font-place {
     z-index: 95;
@@ -7009,24 +7008,27 @@ footer #line1 h6::before,
     justify-content: center;
   }
   #menu #lanote__plats--all #lanote__plats--1 input:checked + label #checked-font-place {
-    background-color: #99E2D0;
-    padding: 1.8em 1.3em 1.8em 1.3em;
-    margin-left: -0.8em;
+    margin-left: -1.7em;
   }
   #menu #lanote__plats--all #lanote__plats--1 input:checked + label #lanote__plats--prix {
-    padding-left: 3em;
-    margin-top: 1.5em;
+    padding-left: 0em;
+    margin-top: 1.6em;
+    margin-left: -1.9em;
   }
-  #menu #lanote__plats--all #lanote__plats--1 input:checked + label #lanote__plats--prix h5.overlay--2 {
-    margin-top: 1.2rem;
-    margin-left: -3.5rem;
-    -webkit-animation-name: price-animation--large;
-    animation-name: price-animation--large;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    transition: ease-in;
-    background-color: white;
-    padding: 0em 1em 0em 1em;
+  #menu #lanote__plats--all #lanote__plats--1 input:checked + label #lanote__plats--prix h5 {
+    margin-left: -3.6rem;
+    /*to better understand the positionning i use the border solid*/
+    padding-right: 0.5em;
+    margin-right: 2rem;
+    -webkit-animation-name: price-animation--short;
+    animation-name: price-animation--short;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    transition: ease-out;
+    z-index: 100;
+    background: white;
+    padding-left: 0em;
+    /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
   }
   #menu #lanote__plats--all #lanote__plats--2 {
     margin-top: 1em;
@@ -7063,15 +7065,15 @@ footer #line1 h6::before,
     white-space: nowrap;
     font-weight: lighter;
   }
+  #menu #lanote__plats--all #lanote__plats--2 input + label h3 {
+    padding-right: 3em;
+  }
   #menu #lanote__plats--all #lanote__plats--2 input + label #lanote__plats--prix {
-    padding-left: 3em;
-    margin-top: 1.5em;
+    padding-left: 6.5em;
+    margin-top: 1.6em;
   }
   #menu #lanote__plats--all #lanote__plats--2 input + label #lanote__plats--prix h5 {
-    margin-left: -1.7em;
-  }
-  #menu #lanote__plats--all #lanote__plats--2 input + label #lanote__plats--prix h5.overlay--3 {
-    margin-top: 0.1rem;
+    margin-left: -1.5rem;
   }
   #menu #lanote__plats--all #lanote__plats--2 input:checked + label #checked-font-place {
     z-index: 95;
@@ -7103,27 +7105,27 @@ footer #line1 h6::before,
     justify-content: center;
   }
   #menu #lanote__plats--all #lanote__plats--2 input:checked + label #checked-font-place {
-    margin-left: -3em;
+    margin-left: -1.7em;
   }
   #menu #lanote__plats--all #lanote__plats--2 input:checked + label #lanote__plats--prix {
-    padding-left: 3em;
-    margin-top: 1.5em;
+    padding-left: 6.5em;
+    margin-top: 1.6em;
+    margin-left: -1.9em;
   }
-  #menu #lanote__plats--all #lanote__plats--2 input:checked + label #lanote__plats--prix h5.overlay--3 {
-    margin-top: 0.1rem;
-    margin-left: -7.3rem;
-    -webkit-animation-name: price-animation--lenghty;
-    animation-name: price-animation--lenghty;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    transition: ease-in;
-    background-color: white;
-    padding: 0em 0em 0em 1em;
-    transform-origin: right;
-  }
-  #menu #lanote__plats--all #lanote__plats--2 input:checked + label #lanote__plats--prix h5.overlay--3:before {
-    content: "...";
-    padding-right: 1em;
+  #menu #lanote__plats--all #lanote__plats--2 input:checked + label #lanote__plats--prix h5 {
+    margin-left: -3.6rem;
+    /*to better understand the positionning i use the border solid*/
+    padding-right: 0.5em;
+    margin-right: 2rem;
+    -webkit-animation-name: price-animation--short;
+    animation-name: price-animation--short;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    transition: ease-out;
+    z-index: 100;
+    background: white;
+    padding-left: 0em;
+    /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
   }
   #menu #lanote__plats--all #lanote__plats--3 {
     margin-top: 1em;
@@ -7161,15 +7163,14 @@ footer #line1 h6::before,
     font-weight: lighter;
   }
   #menu #lanote__plats--all #lanote__plats--3 input + label h3 {
-    padding-right: 5em;
-    /*this setting help me push the price to reduce the div prive margin so that i can use the animation short more frequently*/
+    padding-right: 3em;
   }
   #menu #lanote__plats--all #lanote__plats--3 input + label #lanote__plats--prix {
-    padding-left: 3em;
-    margin-top: 1.5em;
+    padding-left: 3.5em;
+    margin-top: 1.6em;
   }
   #menu #lanote__plats--all #lanote__plats--3 input + label #lanote__plats--prix h5 {
-    margin-left: 2.5rem;
+    margin-left: -1.5rem;
   }
   #menu #lanote__plats--all #lanote__plats--3 input:checked + label #checked-font-place {
     z-index: 95;
@@ -7201,21 +7202,31 @@ footer #line1 h6::before,
     justify-content: center;
   }
   #menu #lanote__plats--all #lanote__plats--3 input:checked + label #checked-font-place {
-    margin-left: 0.5em;
-    /*this margin set up the background and the distance it will be from the price*/
+    margin-left: -1.7em;
   }
   #menu #lanote__plats--all #lanote__plats--3 input:checked + label #lanote__plats--prix {
-    padding-left: 3em;
-    margin-top: 1.5em;
+    padding-left: 2.2em;
+    margin-top: 1.6em;
+    margin-left: -1.9em;
   }
   #menu #lanote__plats--all #lanote__plats--3 input:checked + label #lanote__plats--prix h5 {
-    margin-left: -1rem;
-    padding-right: 0em;
+    margin-left: -3.6rem;
+    /*to better understand the positionning i use the border solid*/
+    padding-right: 0.5em;
+    margin-right: 2rem;
     -webkit-animation-name: price-animation--short;
     animation-name: price-animation--short;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
     transition: ease-out;
+    z-index: 100;
+    background: white;
+    padding-left: 0em;
+    /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+  }
+  #menu #lanote__plats--all #lanote__plats--3 input:checked + label #lanote__plats--prix h5:before {
+    content: "...";
+    padding-right: 0.7em;
   }
   #menu #lanote__desserts {
     padding-bottom: 0.5em;
@@ -7233,6 +7244,7 @@ footer #line1 h6::before,
     padding-left: 0.5em;
   }
   #menu #lanote__desserts--all #lanote__desserts--1 {
+    margin-top: 1em;
     border-style: hidden;
     background-color: white;
     padding: 0.9em 0.5em 0.9em 0.5em;
@@ -7244,7 +7256,6 @@ footer #line1 h6::before,
     height: 3em;
     -webkit-animation: loading-menus 0.5s ease-in-out;
     animation: loading-menus 0.5s ease-in-out;
-    margin-top: 1em;
   }
   #menu #lanote__desserts--all #lanote__desserts--1 input {
     -webkit-font-smoothing: antialiased;
@@ -7268,14 +7279,18 @@ footer #line1 h6::before,
     font-weight: lighter;
   }
   #menu #lanote__desserts--all #lanote__desserts--1 input + label h3 {
-    padding-right: 1.5em;
+    padding-right: 0em;
+    padding-bottom: 0.1rem;
+  }
+  #menu #lanote__desserts--all #lanote__desserts--1 input + label h4 {
+    font-size: 0.95em;
   }
   #menu #lanote__desserts--all #lanote__desserts--1 input + label #lanote__desserts--prix {
-    padding-left: 3em;
-    margin-top: 1.5em;
+    padding-left: 3.5em;
+    margin-top: 1.6em;
   }
   #menu #lanote__desserts--all #lanote__desserts--1 input + label #lanote__desserts--prix h5 {
-    margin-left: 2.5rem;
+    margin-left: -2.5rem;
   }
   #menu #lanote__desserts--all #lanote__desserts--1 input:checked + label #checked-font-place {
     z-index: 95;
@@ -7307,20 +7322,31 @@ footer #line1 h6::before,
     justify-content: center;
   }
   #menu #lanote__desserts--all #lanote__desserts--1 input:checked + label #checked-font-place {
-    margin-left: 0.5em;
+    margin-left: -3em;
   }
   #menu #lanote__desserts--all #lanote__desserts--1 input:checked + label #lanote__desserts--prix {
-    padding-left: 3em;
-    margin-top: 1.5em;
+    padding-left: 1em;
+    margin-top: 1.6em;
+    margin-left: -1.5em;
   }
   #menu #lanote__desserts--all #lanote__desserts--1 input:checked + label #lanote__desserts--prix h5 {
-    margin-left: -1rem;
-    padding-right: 0em;
+    margin-left: -3.6rem;
+    /*to better understand the positionning i use the border solid*/
+    padding-right: 2em;
+    margin-right: 2rem;
     -webkit-animation-name: price-animation--short;
     animation-name: price-animation--short;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
     transition: ease-out;
+    z-index: 100;
+    background: white;
+    padding-left: 0em;
+    /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+  }
+  #menu #lanote__desserts--all #lanote__desserts--1 input:checked + label #lanote__desserts--prix h5:before {
+    content: "...";
+    padding-right: 0.7em;
   }
   #menu #lanote__desserts--all #lanote__desserts--2 {
     margin-top: 1em;
@@ -7358,14 +7384,14 @@ footer #line1 h6::before,
     font-weight: lighter;
   }
   #menu #lanote__desserts--all #lanote__desserts--2 input + label h3 {
-    padding-right: 5.5em;
+    padding-right: 3em;
   }
   #menu #lanote__desserts--all #lanote__desserts--2 input + label #lanote__desserts--prix {
-    padding-left: 3em;
-    margin-top: 1.5em;
+    padding-left: 5.3em;
+    margin-top: 1.6em;
   }
   #menu #lanote__desserts--all #lanote__desserts--2 input + label #lanote__desserts--prix h5 {
-    margin-left: 2.5rem;
+    margin-left: -1.5rem;
   }
   #menu #lanote__desserts--all #lanote__desserts--2 input:checked + label #checked-font-place {
     z-index: 95;
@@ -7397,20 +7423,27 @@ footer #line1 h6::before,
     justify-content: center;
   }
   #menu #lanote__desserts--all #lanote__desserts--2 input:checked + label #checked-font-place {
-    margin-left: 0.5em;
+    margin-left: -1.7em;
   }
   #menu #lanote__desserts--all #lanote__desserts--2 input:checked + label #lanote__desserts--prix {
-    padding-left: 3em;
-    margin-top: 1.5em;
+    padding-left: 5.3em;
+    margin-top: 1.6em;
+    margin-left: -1.9em;
   }
   #menu #lanote__desserts--all #lanote__desserts--2 input:checked + label #lanote__desserts--prix h5 {
-    margin-left: -1rem;
-    padding-right: 0em;
+    margin-left: -3.6rem;
+    /*to better understand the positionning i use the border solid*/
+    padding-right: 0.5em;
+    margin-right: 2rem;
     -webkit-animation-name: price-animation--short;
     animation-name: price-animation--short;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
     transition: ease-out;
+    z-index: 100;
+    background: white;
+    padding-left: 0em;
+    /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
   }
   #menu #lanote__desserts--all #lanote__desserts--3 {
     margin-top: 1em;
@@ -7448,14 +7481,14 @@ footer #line1 h6::before,
     font-weight: lighter;
   }
   #menu #lanote__desserts--all #lanote__desserts--3 input + label h3 {
-    padding-right: 7.5em;
+    padding-right: 3em;
   }
   #menu #lanote__desserts--all #lanote__desserts--3 input + label #lanote__desserts--prix {
-    padding-left: 3em;
-    margin-top: 1.5em;
+    padding-left: 3.3em;
+    margin-top: 1.6em;
   }
   #menu #lanote__desserts--all #lanote__desserts--3 input + label #lanote__desserts--prix h5 {
-    margin-left: 2.5rem;
+    margin-left: -1.5rem;
   }
   #menu #lanote__desserts--all #lanote__desserts--3 input:checked + label #checked-font-place {
     z-index: 95;
@@ -7487,20 +7520,27 @@ footer #line1 h6::before,
     justify-content: center;
   }
   #menu #lanote__desserts--all #lanote__desserts--3 input:checked + label #checked-font-place {
-    margin-left: 0.5em;
+    margin-left: -1.7em;
   }
   #menu #lanote__desserts--all #lanote__desserts--3 input:checked + label #lanote__desserts--prix {
-    padding-left: 3em;
-    margin-top: 1.5em;
+    padding-left: 3.3em;
+    margin-top: 1.6em;
+    margin-left: -1.9em;
   }
   #menu #lanote__desserts--all #lanote__desserts--3 input:checked + label #lanote__desserts--prix h5 {
-    margin-left: -1rem;
-    padding-right: 0em;
+    margin-left: -3.6rem;
+    /*to better understand the positionning i use the border solid*/
+    padding-right: 0.5em;
+    margin-right: 2rem;
     -webkit-animation-name: price-animation--short;
     animation-name: price-animation--short;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
     transition: ease-out;
+    z-index: 100;
+    background: white;
+    padding-left: 0em;
+    /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
   }
   #menu .button-pink--large {
     padding-bottom: 5em;
