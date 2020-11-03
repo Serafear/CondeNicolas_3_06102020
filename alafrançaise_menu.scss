@@ -488,7 +488,7 @@
             padding-bottom: 2em;
             overflow-y: hidden;
             overflow-x: hidden;
-            height: 23em;
+            height: 17.5em;
             padding-left: 0.5em;
             #alafrançaise__entrées--1 {
                 margin-top: 1em;
@@ -501,7 +501,7 @@
                     &+label {
                         @include label-settings-menus;
                         h3 {
-                            padding-right: 0em;  
+                            padding-right: 3.5em;  
                         }
                         #alafrançaise__entrées--prix {
                             padding-left: 3em;
@@ -509,16 +509,15 @@
                             h5 {
                                 margin-left: -1.5rem;
                             }
-                            
                         }
                     }
                     &:checked+label {
                         @include checked-ok; 
                         #checked-font-place {
-                            margin-left: -0.5em;  
+                            margin-left: -1.7em;  
                         }
                         #alafrançaise__entrées--prix {
-                            padding-left: 0em;
+                            padding-left: 1em;
                             margin-top: 1.6em;
                             h5 {
                                 margin-left: -3.6rem;
@@ -528,13 +527,6 @@
                                 -webkit-animation-duration: 1.5s;
                                         animation-duration: 1.5s;
                                 transition: ease-out;
-                                z-index: 100;
-                                background: white;
-                                
-                                &:before {
-                                    content: "...";
-                                    padding-right: 0.7em;
-                                }
                             } 
                         }
                     }
@@ -551,21 +543,23 @@
                     &+label {
                         @include label-settings-menus;
                         h3 {
-                            padding-right: 8em;  
+                            padding-right: 3.5em;  
                         }
                         #alafrançaise__entrées--prix {
-                            padding-left: 3em;
+                            padding-left: 1.8em;
                             margin-top: 1.6em;
                             h5 {
                                 margin-left: -1.5rem;
                             }
-                            
                         }
                     }
                     &:checked+label {
                         @include checked-ok; 
                         #checked-font-place {
-                            margin-left: -0.5em;  
+                            margin-left: -1.5em;  
+                        }
+                        h3 {
+                            padding-right: 3.2em;    /*this padding help me position the price*/
                         }
                         #alafrançaise__entrées--prix {
                             padding-left: 0em;
@@ -578,14 +572,6 @@
                                 -webkit-animation-duration: 1.5s;
                                         animation-duration: 1.5s;
                                 transition: ease-out;
-                                z-index: 100;
-                                background: white;
-                                
-                                &:before {              /*this part here is to make the animation of entréées 1&2 similar*/
-                                    content: "...";
-                                    color: transparent;
-                                    padding-right: 0.7em;
-                                }
                             } 
                         }
                     }
@@ -602,104 +588,35 @@
                     &+label {
                         @include label-settings-menus;
                         h3 {
-                            padding-right: -4.5em;  
+                            padding-right: 8.5em;  
                         }
                         #alafrançaise__entrées--prix {
-                            padding-left: 3em;
+                            padding-left: 1.8em;
                             margin-top: 1.6em;
                             h5 {
-                                margin-left: -3.6rem;
+                                margin-left: -1.5rem;
                             }
-                            
                         }
                     }
                     &:checked+label {
-                        @include checked-ok;
-                        
+                        @include checked-ok; 
                         #checked-font-place {
-                            margin-left: -2.6em;  
+                            margin-left: -1.5em;  
                         }
-                        
-                        #alafrançaise__entrées--prix {
-                            padding-left: 0em;
-                            margin-top: 1.6em;
-                            h5 {
-                                margin-left: -7.3rem;
-                                padding-right: 0em;
-                                -webkit-animation-name: price-animation--lenghty;
-                                        animation-name: price-animation--lenghty;
-                                -webkit-animation-duration: 1.5s;
-                                        animation-duration: 1.5s;
-                                transition: ease-out;
-                                z-index: 100;
-                                background: white;
-                                
-                                padding-left: 3.3em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-                                &:before {       
-                                    position: absolute;
-                                    content: "...";
-                                    padding-left: 0em;
-                                    margin-left: -1.7em;
-                                    padding-right: 3em;
-                                    margin-top: -1.2em;
-                                    z-index: 90;
-                                    background: white;
-                                    font-size: 2em;
-                                }
-                            } 
-                        }
-                    }
-                }
-            }
-            #alafrançaise__entrées--4 {
-                margin-top: 1em;
-                @include div-principal-menus;
-                -webkit-animation: loading-menus 0.5s ease-in-out;
-                        animation: loading-menus 0.5s ease-in-out;
-                input {
-                    @include fa-icon;
-                    display: none;
-                    &+label {
-                        @include label-settings-menus;
                         h3 {
-                            padding-right: 3em;  
+                            padding-right: 8.2em;    /*this padding help me position the price*/
                         }
-                        #alafrançaise__entrées--prix {
-                            padding-left: 3em;
-                            margin-top: 1.6em;
-                            h5 {
-                                margin-left: -3.6rem;
-                            }
-                            
-                        }
-                    }
-                    &:checked+label {
-                        @include checked-ok;
-                        #checked-font-place {
-                            margin-left: -2em;
-                        }
-                        
                         #alafrançaise__entrées--prix {
                             padding-left: 0em;
                             margin-top: 1.6em;
-                            margin-left: -0.7em;
                             h5 {
-                                margin-left: -7.3rem;
+                                margin-left: -3.6rem;
                                 padding-right: 0em;
-                                -webkit-animation-name: price-animation--lenghty;
-                                        animation-name: price-animation--lenghty;
+                                -webkit-animation-name: price-animation--short;
+                                        animation-name: price-animation--short;
                                 -webkit-animation-duration: 1.5s;
                                         animation-duration: 1.5s;
                                 transition: ease-out;
-                                z-index: 100;
-                                background: white;
-                                padding-left: 2em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-       
-                                &:before {       
-                                    content: "...";
-                                    padding-right: 1em;
-
-                                }
                             } 
                         }
                     }
@@ -732,7 +649,7 @@
                     &+label {
                         @include label-settings-menus;
                         h3 {
-                            padding-right: 3em;  
+                            padding-right: 6.6em;  
                         }
                         #alafrançaise__plats--prix {
                             padding-left: 0em;
@@ -746,16 +663,19 @@
                     &:checked+label {
                         @include checked-ok;
                         #checked-font-place {
-                            margin-left: -1.7em;
+                            margin-left: -3.2em;
                         }
-                        
+                        h3 {
+                            padding-right: 0em;
+                            padding-bottom: 0.08em;
+                        }
                         #alafrançaise__plats--prix {
-                            padding-left: 0em;
+                            padding-left: 2.3em;
                             margin-top: 1.6em;
                             margin-left: -1.9em;
                             h5 {
                                 margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
-                                padding-right: 0.5em;
+                                padding-right: 2em;
                                 margin-right: 2rem;
                                 -webkit-animation-name: price-animation--short;
                                         animation-name: price-animation--short;
@@ -765,7 +685,10 @@
                                 z-index: 100;
                                 background: white;
                                 padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-                                
+                                &:before {
+                                    content: "...";
+                                    padding-right: 0.7em;
+                                }
                             } 
                         }
                     }
@@ -782,10 +705,10 @@
                     &+label {
                         @include label-settings-menus;
                         h3 {
-                            padding-right: 3em;  
+                            padding-right: 1em;  
                         }
                         #alafrançaise__plats--prix {
-                            padding-left: 6.5em;
+                            padding-left: 4.5em;
                             margin-top: 1.6em;
                             h5 {
                                 margin-left: -1.5rem;
@@ -800,7 +723,7 @@
                         }
                         
                         #alafrançaise__plats--prix {
-                            padding-left: 6.5em;
+                            padding-left: 3.3em;
                             margin-top: 1.6em;
                             margin-left: -1.9em;
                             h5 {
@@ -815,6 +738,10 @@
                                 z-index: 100;
                                 background: white;
                                 padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+                                &:before {
+                                    content: "...";
+                                    padding-right: 0.7em;
+                                }
                             } 
                         }
                     }
@@ -831,10 +758,10 @@
                     &+label {
                         @include label-settings-menus;
                         h3 {
-                            padding-right: 3em;  
+                            padding-right: 1em;  
                         }
                         #alafrançaise__plats--prix {
-                            padding-left: 3.5em;
+                            padding-left: 4.5em;
                             margin-top: 1.6em;
                             h5 {
                                 margin-left: -1.5rem;
@@ -849,7 +776,7 @@
                         }
                         
                         #alafrançaise__plats--prix {
-                            padding-left: 2.2em;
+                            padding-left: 3em;
                             margin-top: 1.6em;
                             margin-left: -1.9em;
                             h5 {
@@ -903,11 +830,9 @@
                             padding-right: 0em;  
                             padding-bottom: 0.1rem;
                         }
-                        h4 {
-                            font-size: 0.95em;
-                        }
+                        
                         #alafrançaise__desserts--prix {
-                            padding-left: 3.5em;
+                            padding-left: 7.2em;
                             margin-top: 1.6em;
                             h5 {
                                 margin-left: -2.5rem;
@@ -922,7 +847,7 @@
                         }
                         
                         #alafrançaise__desserts--prix {
-                            padding-left: 1em;
+                            padding-left: 5.8em;
                             margin-top: 1.6em;
                             margin-left: -1.5em;
                             h5 {
@@ -937,10 +862,6 @@
                                 z-index: 100;
                                 background: white;
                                 padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-                                &:before {
-                                    content: "...";
-                                    padding-right: 0.7em;
-                                }
                             } 
                         }
                     }
@@ -960,7 +881,7 @@
                             padding-right: 3em;  
                         }
                         #alafrançaise__desserts--prix {
-                            padding-left: 5.3em;
+                            padding-left: 6em;
                             margin-top: 1.6em;
                             h5 {
                                 margin-left: -1.5rem;
@@ -975,7 +896,7 @@
                         }
                         
                         #alafrançaise__desserts--prix {
-                            padding-left: 5.3em;
+                            padding-left: 5.9em;
                             margin-top: 1.6em;
                             margin-left: -1.9em;
                             h5 {
@@ -1009,7 +930,7 @@
                             padding-right: 3em;  
                         }
                         #alafrançaise__desserts--prix {
-                            padding-left: 3.3em;
+                            padding-left: 5em;
                             margin-top: 1.6em;
                             h5 {
                                 margin-left: -1.5rem;
@@ -1024,7 +945,7 @@
                         }
                         
                         #alafrançaise__desserts--prix {
-                            padding-left: 3.3em;
+                            padding-left: 4.8em;
                             margin-top: 1.6em;
                             margin-left: -1.9em;
                             h5 {

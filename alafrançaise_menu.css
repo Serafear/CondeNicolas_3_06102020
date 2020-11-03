@@ -27,7 +27,6 @@ footer #line1 h6::before,
 #menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label #checked-font-place::after,
 #menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label #checked-font-place::after,
 #menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label #checked-font-place::after,
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--4 input:checked + label #checked-font-place::after,
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label #checked-font-place::after,
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label #checked-font-place::after,
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label #checked-font-place::after,
@@ -147,7 +146,6 @@ footer #line1 h6.fa-pull-left::before,
 #menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label .fa-pull-left#checked-font-place::after,
 #menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label .fa-pull-left#checked-font-place::after,
 #menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--4 input:checked + label .fa-pull-left#checked-font-place::after,
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label .fa-pull-left#checked-font-place::after,
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label .fa-pull-left#checked-font-place::after,
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label .fa-pull-left#checked-font-place::after,
@@ -168,7 +166,6 @@ footer #line1 h6.fa-pull-right::before,
 #menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label .fa-pull-right#checked-font-place::after,
 #menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label .fa-pull-right#checked-font-place::after,
 #menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--4 input:checked + label .fa-pull-right#checked-font-place::after,
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label .fa-pull-right#checked-font-place::after,
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label .fa-pull-right#checked-font-place::after,
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label .fa-pull-right#checked-font-place::after,
@@ -6144,7 +6141,6 @@ footer #line1 h6::before,
 #menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label #checked-font-place::after,
 #menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label #checked-font-place::after,
 #menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label #checked-font-place::after,
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--4 input:checked + label #checked-font-place::after,
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label #checked-font-place::after,
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label #checked-font-place::after,
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label #checked-font-place::after,
@@ -6516,7 +6512,7 @@ footer #line1 h6::before,
     padding-bottom: 2em;
     overflow-y: hidden;
     overflow-x: hidden;
-    height: 23em;
+    height: 17.5em;
     padding-left: 0.5em;
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--1 {
@@ -6555,7 +6551,7 @@ footer #line1 h6::before,
     font-weight: lighter;
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input + label h3 {
-    padding-right: 0em;
+    padding-right: 3.5em;
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input + label #alafrançaise__entrées--prix {
     padding-left: 3em;
@@ -6594,10 +6590,10 @@ footer #line1 h6::before,
     justify-content: center;
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label #checked-font-place {
-    margin-left: -0.5em;
+    margin-left: -1.7em;
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label #alafrançaise__entrées--prix {
-    padding-left: 0em;
+    padding-left: 1em;
     margin-top: 1.6em;
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label #alafrançaise__entrées--prix h5 {
@@ -6608,12 +6604,6 @@ footer #line1 h6::before,
     -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
     transition: ease-out;
-    z-index: 100;
-    background: white;
-  }
-  #menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label #alafrançaise__entrées--prix h5:before {
-    content: "...";
-    padding-right: 0.7em;
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--2 {
     margin-top: 1em;
@@ -6651,10 +6641,10 @@ footer #line1 h6::before,
     font-weight: lighter;
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label h3 {
-    padding-right: 8em;
+    padding-right: 3.5em;
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label #alafrançaise__entrées--prix {
-    padding-left: 3em;
+    padding-left: 1.8em;
     margin-top: 1.6em;
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label #alafrançaise__entrées--prix h5 {
@@ -6690,7 +6680,11 @@ footer #line1 h6::before,
     justify-content: center;
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label #checked-font-place {
-    margin-left: -0.5em;
+    margin-left: -1.5em;
+  }
+  #menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label h3 {
+    padding-right: 3.2em;
+    /*this padding help me position the price*/
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label #alafrançaise__entrées--prix {
     padding-left: 0em;
@@ -6704,14 +6698,6 @@ footer #line1 h6::before,
     -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
     transition: ease-out;
-    z-index: 100;
-    background: white;
-  }
-  #menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label #alafrançaise__entrées--prix h5:before {
-    /*this part here is to make the animation of entréées 1&2 similar*/
-    content: "...";
-    color: transparent;
-    padding-right: 0.7em;
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 {
     margin-top: 1em;
@@ -6749,14 +6735,14 @@ footer #line1 h6::before,
     font-weight: lighter;
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label h3 {
-    padding-right: -4.5em;
+    padding-right: 8.5em;
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label #alafrançaise__entrées--prix {
-    padding-left: 3em;
+    padding-left: 1.8em;
     margin-top: 1.6em;
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label #alafrançaise__entrées--prix h5 {
-    margin-left: -3.6rem;
+    margin-left: -1.5rem;
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label #checked-font-place {
     z-index: 95;
@@ -6788,134 +6774,24 @@ footer #line1 h6::before,
     justify-content: center;
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label #checked-font-place {
-    margin-left: -2.6em;
+    margin-left: -1.5em;
+  }
+  #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label h3 {
+    padding-right: 8.2em;
+    /*this padding help me position the price*/
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label #alafrançaise__entrées--prix {
     padding-left: 0em;
     margin-top: 1.6em;
   }
   #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label #alafrançaise__entrées--prix h5 {
-    margin-left: -7.3rem;
-    padding-right: 0em;
-    -webkit-animation-name: price-animation--lenghty;
-    animation-name: price-animation--lenghty;
-    -webkit-animation-duration: 1.5s;
-    animation-duration: 1.5s;
-    transition: ease-out;
-    z-index: 100;
-    background: white;
-    padding-left: 3.3em;
-    /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-  }
-  #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label #alafrançaise__entrées--prix h5:before {
-    position: absolute;
-    content: "...";
-    padding-left: 0em;
-    margin-left: -1.7em;
-    padding-right: 3em;
-    margin-top: -1.2em;
-    z-index: 90;
-    background: white;
-    font-size: 2em;
-  }
-  #menu #alafrançaise__entrées--all #alafrançaise__entrées--4 {
-    margin-top: 1em;
-    border-style: hidden;
-    background-color: white;
-    padding: 0.9em 0.5em 0.9em 0.5em;
-    border-radius: 20px;
-    box-shadow: 0em 0em 0.6em -0.2em;
-    margin-right: 0.7em;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    height: 3em;
-    -webkit-animation: loading-menus 0.5s ease-in-out;
-    animation: loading-menus 0.5s ease-in-out;
-  }
-  #menu #alafrançaise__entrées--all #alafrançaise__entrées--4 input {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
-    display: none;
-  }
-  #menu #alafrançaise__entrées--all #alafrançaise__entrées--4 input + label {
-    display: flex;
-    flex-direction: row;
-  }
-  #menu #alafrançaise__entrées--all #alafrançaise__entrées--4 input + label h3 {
-    white-space: nowrap;
-  }
-  #menu #alafrançaise__entrées--all #alafrançaise__entrées--4 input + label h4 {
-    white-space: nowrap;
-    font-weight: lighter;
-  }
-  #menu #alafrançaise__entrées--all #alafrançaise__entrées--4 input + label h3 {
-    padding-right: 3em;
-  }
-  #menu #alafrançaise__entrées--all #alafrançaise__entrées--4 input + label #alafrançaise__entrées--prix {
-    padding-left: 3em;
-    margin-top: 1.6em;
-  }
-  #menu #alafrançaise__entrées--all #alafrançaise__entrées--4 input + label #alafrançaise__entrées--prix h5 {
     margin-left: -3.6rem;
-  }
-  #menu #alafrançaise__entrées--all #alafrançaise__entrées--4 input:checked + label #checked-font-place {
-    z-index: 95;
-    background-color: #99E2D0;
-    padding: 1.5em 1.3em 1.5em 1.3em;
-    margin-left: -2.5em;
-    margin-top: -0.9em;
-    position: relative;
-    border-style: hidden;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    -webkit-animation-name: checked-background-translate--menu;
-    animation-name: checked-background-translate--menu;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    transition: ease-in-out;
-  }
-  #menu #alafrançaise__entrées--all #alafrançaise__entrées--4 input:checked + label #checked-font-place::after {
-    content: "";
-    font-size: 2rem;
-    animation-name: checked-ok-rotate--menu;
-    -webkit-animation-name: checked-ok-rotate--menu;
-    animation-duration: 1s;
-    -webkit-animation-duration: 1s;
-    border-style: hidden;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    color: white;
-    justify-content: center;
-  }
-  #menu #alafrançaise__entrées--all #alafrançaise__entrées--4 input:checked + label #checked-font-place {
-    margin-left: -2em;
-  }
-  #menu #alafrançaise__entrées--all #alafrançaise__entrées--4 input:checked + label #alafrançaise__entrées--prix {
-    padding-left: 0em;
-    margin-top: 1.6em;
-    margin-left: -0.7em;
-  }
-  #menu #alafrançaise__entrées--all #alafrançaise__entrées--4 input:checked + label #alafrançaise__entrées--prix h5 {
-    margin-left: -7.3rem;
     padding-right: 0em;
-    -webkit-animation-name: price-animation--lenghty;
-    animation-name: price-animation--lenghty;
+    -webkit-animation-name: price-animation--short;
+    animation-name: price-animation--short;
     -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
     transition: ease-out;
-    z-index: 100;
-    background: white;
-    padding-left: 2em;
-    /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-  }
-  #menu #alafrançaise__entrées--all #alafrançaise__entrées--4 input:checked + label #alafrançaise__entrées--prix h5:before {
-    content: "...";
-    padding-right: 1em;
   }
   #menu #alafrançaise__plats {
     padding-bottom: 0.5em;
@@ -6969,7 +6845,7 @@ footer #line1 h6::before,
     font-weight: lighter;
   }
   #menu #alafrançaise__plats--all #alafrançaise__plats--1 input + label h3 {
-    padding-right: 3em;
+    padding-right: 6.6em;
   }
   #menu #alafrançaise__plats--all #alafrançaise__plats--1 input + label #alafrançaise__plats--prix {
     padding-left: 0em;
@@ -7008,17 +6884,21 @@ footer #line1 h6::before,
     justify-content: center;
   }
   #menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label #checked-font-place {
-    margin-left: -1.7em;
+    margin-left: -3.2em;
+  }
+  #menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label h3 {
+    padding-right: 0em;
+    padding-bottom: 0.08em;
   }
   #menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label #alafrançaise__plats--prix {
-    padding-left: 0em;
+    padding-left: 2.3em;
     margin-top: 1.6em;
     margin-left: -1.9em;
   }
   #menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label #alafrançaise__plats--prix h5 {
     margin-left: -3.6rem;
     /*to better understand the positionning i use the border solid*/
-    padding-right: 0.5em;
+    padding-right: 2em;
     margin-right: 2rem;
     -webkit-animation-name: price-animation--short;
     animation-name: price-animation--short;
@@ -7029,6 +6909,10 @@ footer #line1 h6::before,
     background: white;
     padding-left: 0em;
     /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+  }
+  #menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label #alafrançaise__plats--prix h5:before {
+    content: "...";
+    padding-right: 0.7em;
   }
   #menu #alafrançaise__plats--all #alafrançaise__plats--2 {
     margin-top: 1em;
@@ -7066,10 +6950,10 @@ footer #line1 h6::before,
     font-weight: lighter;
   }
   #menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label h3 {
-    padding-right: 3em;
+    padding-right: 1em;
   }
   #menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label #alafrançaise__plats--prix {
-    padding-left: 6.5em;
+    padding-left: 4.5em;
     margin-top: 1.6em;
   }
   #menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label #alafrançaise__plats--prix h5 {
@@ -7108,7 +6992,7 @@ footer #line1 h6::before,
     margin-left: -1.7em;
   }
   #menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label #alafrançaise__plats--prix {
-    padding-left: 6.5em;
+    padding-left: 3.3em;
     margin-top: 1.6em;
     margin-left: -1.9em;
   }
@@ -7126,6 +7010,10 @@ footer #line1 h6::before,
     background: white;
     padding-left: 0em;
     /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+  }
+  #menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label #alafrançaise__plats--prix h5:before {
+    content: "...";
+    padding-right: 0.7em;
   }
   #menu #alafrançaise__plats--all #alafrançaise__plats--3 {
     margin-top: 1em;
@@ -7163,10 +7051,10 @@ footer #line1 h6::before,
     font-weight: lighter;
   }
   #menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label h3 {
-    padding-right: 3em;
+    padding-right: 1em;
   }
   #menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label #alafrançaise__plats--prix {
-    padding-left: 3.5em;
+    padding-left: 4.5em;
     margin-top: 1.6em;
   }
   #menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label #alafrançaise__plats--prix h5 {
@@ -7205,7 +7093,7 @@ footer #line1 h6::before,
     margin-left: -1.7em;
   }
   #menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label #alafrançaise__plats--prix {
-    padding-left: 2.2em;
+    padding-left: 3em;
     margin-top: 1.6em;
     margin-left: -1.9em;
   }
@@ -7282,11 +7170,8 @@ footer #line1 h6::before,
     padding-right: 0em;
     padding-bottom: 0.1rem;
   }
-  #menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label h4 {
-    font-size: 0.95em;
-  }
   #menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label #alafrançaise__desserts--prix {
-    padding-left: 3.5em;
+    padding-left: 7.2em;
     margin-top: 1.6em;
   }
   #menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label #alafrançaise__desserts--prix h5 {
@@ -7325,7 +7210,7 @@ footer #line1 h6::before,
     margin-left: -3em;
   }
   #menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label #alafrançaise__desserts--prix {
-    padding-left: 1em;
+    padding-left: 5.8em;
     margin-top: 1.6em;
     margin-left: -1.5em;
   }
@@ -7343,10 +7228,6 @@ footer #line1 h6::before,
     background: white;
     padding-left: 0em;
     /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-  }
-  #menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label #alafrançaise__desserts--prix h5:before {
-    content: "...";
-    padding-right: 0.7em;
   }
   #menu #alafrançaise__desserts--all #alafrançaise__desserts--2 {
     margin-top: 1em;
@@ -7387,7 +7268,7 @@ footer #line1 h6::before,
     padding-right: 3em;
   }
   #menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label #alafrançaise__desserts--prix {
-    padding-left: 5.3em;
+    padding-left: 6em;
     margin-top: 1.6em;
   }
   #menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label #alafrançaise__desserts--prix h5 {
@@ -7426,7 +7307,7 @@ footer #line1 h6::before,
     margin-left: -1.7em;
   }
   #menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input:checked + label #alafrançaise__desserts--prix {
-    padding-left: 5.3em;
+    padding-left: 5.9em;
     margin-top: 1.6em;
     margin-left: -1.9em;
   }
@@ -7484,7 +7365,7 @@ footer #line1 h6::before,
     padding-right: 3em;
   }
   #menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label #alafrançaise__desserts--prix {
-    padding-left: 3.3em;
+    padding-left: 5em;
     margin-top: 1.6em;
   }
   #menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label #alafrançaise__desserts--prix h5 {
@@ -7523,7 +7404,7 @@ footer #line1 h6::before,
     margin-left: -1.7em;
   }
   #menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input:checked + label #alafrançaise__desserts--prix {
-    padding-left: 3.3em;
+    padding-left: 4.8em;
     margin-top: 1.6em;
     margin-left: -1.9em;
   }
