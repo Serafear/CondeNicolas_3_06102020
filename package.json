@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./main.scss:./style.css ./palette_menu.scss:./palette_menu.css ./lanote_menu.scss:./lanote_menu.css ./alafrançaise_menu.scss:./alafrançaise_menu.css",
+    "sass": "sass --watch ./main.scss:./style.css ./palette_menu.scss:./palette_menu.css ./lanote_menu.scss:./lanote_menu.css ./alafrançaise_menu.scss:./alafrançaise_menu.css ./délice_menu.scss:./délice_menu.css",
     "prefix": "postcss ./style.css --use autoprefixer -d ./prefixed/"
   },
   "repository": {
