@@ -6328,6 +6328,7 @@ footer #line1 h6::before,
   @-webkit-keyframes price-animation--lenghty {
     0% {
       padding-left: 9em;
+      /*why did i put that here ?*/
       transform: translate(2em);
       /*translate me permet de commencer l'animation à partir d'un certain niveau*/
       padding: 0em 1em 0em 1em;
@@ -6340,15 +6341,11 @@ footer #line1 h6::before,
   }
   @keyframes price-animation--lenghty {
     0% {
-      padding-left: 9em;
-      transform: translate(2em);
+      transform: translate(2.5rem);
       /*translate me permet de commencer l'animation à partir d'un certain niveau*/
-      padding: 0em 1em 0em 1em;
-      /*this padding is fo the overlay. I put it here for the "au cas où"*/
     }
     100% {
       margin-left: -7.3rem;
-      padding: 0em 1em 0em 1em;
     }
   }
   @-webkit-keyframes price-animation--large {
@@ -6564,6 +6561,7 @@ footer #line1 h6::before,
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
     transition: ease-in-out;
+    z-index: 95;
   }
   #menu #palette__entrées--all #palette__entrées--1 input:checked + label #checked-font-place::after {
     content: "";
@@ -6646,6 +6644,7 @@ footer #line1 h6::before,
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
     transition: ease-in-out;
+    z-index: 95;
   }
   #menu #palette__entrées--all #palette__entrées--2 input:checked + label #checked-font-place::after {
     content: "";
@@ -6731,6 +6730,7 @@ footer #line1 h6::before,
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
     transition: ease-in-out;
+    z-index: 95;
   }
   #menu #palette__entrées--all #palette__entrées--3 input:checked + label #checked-font-place::after {
     content: "";
@@ -6840,6 +6840,7 @@ footer #line1 h6::before,
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
     transition: ease-in-out;
+    z-index: 95;
   }
   #menu #palette__plats--all #palette__plats--1 input:checked + label #checked-font-place::after {
     content: "";
@@ -6932,6 +6933,7 @@ footer #line1 h6::before,
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
     transition: ease-in-out;
+    z-index: 95;
   }
   #menu #palette__plats--all #palette__plats--2 input:checked + label #checked-font-place::after {
     content: "";
@@ -7028,6 +7030,7 @@ footer #line1 h6::before,
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
     transition: ease-in-out;
+    z-index: 95;
   }
   #menu #palette__plats--all #palette__plats--3 input:checked + label #checked-font-place::after {
     content: "";
@@ -7109,7 +7112,7 @@ footer #line1 h6::before,
     font-weight: lighter;
   }
   #menu #palette__desserts--all #palette__desserts--1 input + label h3 {
-    padding-right: 1.5em;
+    padding-right: 6.5em;
   }
   #menu #palette__desserts--all #palette__desserts--1 input + label #palette__desserts--prix {
     padding-left: 3em;
@@ -7132,6 +7135,7 @@ footer #line1 h6::before,
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
     transition: ease-in-out;
+    z-index: 95;
   }
   #menu #palette__desserts--all #palette__desserts--1 input:checked + label #checked-font-place::after {
     content: "";
@@ -7150,7 +7154,8 @@ footer #line1 h6::before,
     margin-left: 0.5em;
   }
   #menu #palette__desserts--all #palette__desserts--1 input:checked + label #palette__desserts--prix {
-    padding-left: 3em;
+    padding-left: 2.5em;
+    /*for this page, this customize the distance of the checked ok green background*/
     margin-top: 1.5em;
   }
   #menu #palette__desserts--all #palette__desserts--1 input:checked + label #palette__desserts--prix h5 {
@@ -7197,14 +7202,14 @@ footer #line1 h6::before,
     font-weight: lighter;
   }
   #menu #palette__desserts--all #palette__desserts--2 input + label h3 {
-    padding-right: 5.5em;
+    padding-right: 0em;
   }
   #menu #palette__desserts--all #palette__desserts--2 input + label #palette__desserts--prix {
-    padding-left: 3em;
+    padding-left: 0em;
     margin-top: 1.5em;
   }
   #menu #palette__desserts--all #palette__desserts--2 input + label #palette__desserts--prix h5 {
-    margin-left: 2.5rem;
+    margin-left: 1.7rem;
   }
   #menu #palette__desserts--all #palette__desserts--2 input:checked + label #checked-font-place {
     background-color: #99E2D0;
@@ -7220,6 +7225,7 @@ footer #line1 h6::before,
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
     transition: ease-in-out;
+    z-index: 95;
   }
   #menu #palette__desserts--all #palette__desserts--2 input:checked + label #checked-font-place::after {
     content: "";
@@ -7235,20 +7241,43 @@ footer #line1 h6::before,
     justify-content: center;
   }
   #menu #palette__desserts--all #palette__desserts--2 input:checked + label #checked-font-place {
-    margin-left: 0.5em;
+    margin-left: -3.9em;
+  }
+  #menu #palette__desserts--all #palette__desserts--2 input:checked + label h3 {
+    padding-right: 3em;
   }
   #menu #palette__desserts--all #palette__desserts--2 input:checked + label #palette__desserts--prix {
-    padding-left: 3em;
+    padding-left: 0em;
     margin-top: 1.5em;
   }
   #menu #palette__desserts--all #palette__desserts--2 input:checked + label #palette__desserts--prix h5 {
-    margin-left: -1rem;
+    margin-left: -7.3rem;
     padding-right: 0em;
-    -webkit-animation-name: price-animation--short;
-    animation-name: price-animation--short;
+    -webkit-animation-name: price-animation--lenghty;
+    animation-name: price-animation--lenghty;
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
     transition: ease-out;
+    z-index: 100;
+    background: white;
+    padding-bottom: 0.2em;
+  }
+  #menu #palette__desserts--all #palette__desserts--2 input:checked + label #palette__desserts--prix h5::before {
+    content: "...";
+    padding-right: 0.7em;
+    z-index: 90;
+    background: white;
+    margin-left: -0.25em;
+  }
+  #menu #palette__desserts--all #palette__desserts--2 input:checked + label #palette__desserts--prix h5::after {
+    content: "...";
+    position: absolute;
+    font-size: 2em;
+    margin-left: -1.5em;
+    margin-top: -1.2em;
+    z-index: 90;
+    background: white;
+    padding-right: 2em;
   }
   #menu #palette__desserts--all #palette__desserts--3 {
     margin-top: 1em;
@@ -7285,14 +7314,14 @@ footer #line1 h6::before,
     font-weight: lighter;
   }
   #menu #palette__desserts--all #palette__desserts--3 input + label h3 {
-    padding-right: 7.5em;
+    padding-right: 0em;
   }
   #menu #palette__desserts--all #palette__desserts--3 input + label #palette__desserts--prix {
-    padding-left: 3em;
+    padding-left: 0em;
     margin-top: 1.5em;
   }
   #menu #palette__desserts--all #palette__desserts--3 input + label #palette__desserts--prix h5 {
-    margin-left: 2.5rem;
+    margin-left: 1.2rem;
   }
   #menu #palette__desserts--all #palette__desserts--3 input:checked + label #checked-font-place {
     background-color: #99E2D0;
@@ -7308,6 +7337,7 @@ footer #line1 h6::before,
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
     transition: ease-in-out;
+    z-index: 95;
   }
   #menu #palette__desserts--all #palette__desserts--3 input:checked + label #checked-font-place::after {
     content: "";
@@ -7323,20 +7353,29 @@ footer #line1 h6::before,
     justify-content: center;
   }
   #menu #palette__desserts--all #palette__desserts--3 input:checked + label #checked-font-place {
-    margin-left: 0.5em;
+    margin-left: -4em;
+  }
+  #menu #palette__desserts--all #palette__desserts--3 input:checked + label h3 {
+    padding-right: 5em;
   }
   #menu #palette__desserts--all #palette__desserts--3 input:checked + label #palette__desserts--prix {
     padding-left: 3em;
-    margin-top: 1.5em;
+    margin-top: 1.55em;
   }
   #menu #palette__desserts--all #palette__desserts--3 input:checked + label #palette__desserts--prix h5 {
-    margin-left: -1rem;
+    margin-left: -7.3rem;
     padding-right: 0em;
-    -webkit-animation-name: price-animation--short;
-    animation-name: price-animation--short;
+    -webkit-animation-name: price-animation--lenghty;
+    animation-name: price-animation--lenghty;
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
     transition: ease-out;
+    z-index: 100;
+    background: white;
+  }
+  #menu #palette__desserts--all #palette__desserts--3 input:checked + label #palette__desserts--prix h5::before {
+    content: "...";
+    padding-right: 0.7em;
   }
   #menu .button-pink--large {
     padding-bottom: 5em;
