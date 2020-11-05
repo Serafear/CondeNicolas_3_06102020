@@ -6292,7 +6292,7 @@ footer #line1 h6::before,
   z-index: 100;
   /*the z index is the importance order. By putting it at 100 i make it so that the loader is the first place so that his background cover everything. It only work if a position is choosed like fixed*/
   animation-name: loader-background;
-  animation-duration: 5s;
+  animation-duration: 4s;
 }
 
 .loader div {
@@ -6306,7 +6306,7 @@ footer #line1 h6::before,
   animation-duration: 1.2s;
   animation-iteration-count: 4;
   margin-top: 65%;
-  margin-left: 40%;
+  margin-left: 15%;
 }
 
 .loader div:nth-child(1) {
@@ -6334,6 +6334,13 @@ footer #line1 h6::before,
     height: 32px;
   }
 }
+body {
+  padding-left: 40em;
+  width: 30em;
+  transform: scale(1.2);
+  padding-top: 15em;
+}
+
 #logo {
   display: flex;
   justify-content: center;
@@ -6365,14 +6372,21 @@ footer #line1 h6::before,
   height: 3em;
   border-style: none;
   font-weight: bolder;
+  padding-left: 2em;
+  margin-left: 5em;
 }
 #header .button-pink #search-bar textarea:focus, #header .button-pink #search-bar input:focus {
   outline: none;
 }
 #header .button-pink #search-bar .fas, #header .button-pink #search-bar footer #line2 h6::before, footer #line2 #header .button-pink #search-bar h6::before, #header .button-pink #search-bar footer #line1 h6::before, footer #line1 #header .button-pink #search-bar h6::before, #header .button-pink #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #header .button-pink #search-bar input:checked + label::before, #header .button-pink #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #header .button-pink #search-bar input:checked + label::before, #header .button-pink #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #header .button-pink #search-bar input:checked + label::before {
   color: #323232;
-  font-size: 1em;
+  font-size: 1.3em;
+  position: absolute;
   padding-right: 1em;
+  margin-right: 4em;
+  padding-top: 0.5em;
+  padding-left: 1.5em;
+  /*this push the geo icon under the O, but is push the earch bar too.Thats why i used absolute*/
 }
 #header .button-pink h1 {
   font-size: 1.5em;
@@ -6394,13 +6408,19 @@ footer #line1 h6::before,
   font-family: "roboto";
 }
 #header .button-pink button {
-  margin-left: 5.2em;
+  margin-left: 30%;
+  /*here im trying to automate the screens transitions with %. I dont know if it will work*/
   font-size: 1em;
   color: white;
   border-radius: 25px;
   border-style: hidden;
   padding: 0.8em 0.8em 0.8em 0.8em;
   background: linear-gradient(-10deg, #9356DC 30%, #FF79DA);
+}
+#header .button-pink button:hover {
+  cursor: pointer;
+  filter: opacity(85%);
+  /*this make the button lighter*/
 }
 
 #navigation {
@@ -6445,6 +6465,15 @@ footer #line1 h6::before,
   background-color: #9356DC;
   color: white;
 }
+#navigation #navigation__choix:hover {
+  cursor: pointer;
+}
+#navigation #navigation__choix:hover .fas, #navigation #navigation__choix:hover footer #line2 h6::before, footer #line2 #navigation #navigation__choix:hover h6::before, #navigation #navigation__choix:hover footer #line1 h6::before, footer #line1 #navigation #navigation__choix:hover h6::before, #navigation #navigation__choix:hover #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #navigation #navigation__choix:hover input:checked + label::before, #navigation #navigation__choix:hover #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #navigation #navigation__choix:hover input:checked + label::before, #navigation #navigation__choix:hover #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #navigation #navigation__choix:hover input:checked + label::before {
+  color: #9356DC;
+}
+#navigation #navigation__choix:hover li {
+  background-color: #f2eafb;
+}
 #navigation #navigation__composition {
   display: flex;
   justify-content: center;
@@ -6479,6 +6508,15 @@ footer #line1 h6::before,
 }
 #navigation #navigation__composition a {
   padding-right: 0.6em;
+}
+#navigation #navigation__composition:hover {
+  cursor: pointer;
+}
+#navigation #navigation__composition:hover .fas, #navigation #navigation__composition:hover footer #line2 h6::before, footer #line2 #navigation #navigation__composition:hover h6::before, #navigation #navigation__composition:hover footer #line1 h6::before, footer #line1 #navigation #navigation__composition:hover h6::before, #navigation #navigation__composition:hover #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #navigation #navigation__composition:hover input:checked + label::before, #navigation #navigation__composition:hover #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #navigation #navigation__composition:hover input:checked + label::before, #navigation #navigation__composition:hover #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #navigation #navigation__composition:hover input:checked + label::before {
+  color: #9356DC;
+}
+#navigation #navigation__composition:hover li {
+  background-color: #f2eafb;
 }
 #navigation #navigation__dégustation {
   display: flex;
@@ -6515,10 +6553,13 @@ footer #line1 h6::before,
 #navigation #navigation__dégustation a {
   padding-left: 1em;
 }
-#navigation #navigation__dégustation .fas, #navigation #navigation__dégustation footer #line2 h6::before, footer #line2 #navigation #navigation__dégustation h6::before, #navigation #navigation__dégustation footer #line1 h6::before, footer #line1 #navigation #navigation__dégustation h6::before, #navigation #navigation__dégustation #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #navigation #navigation__dégustation input:checked + label::before, #navigation #navigation__dégustation #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #navigation #navigation__dégustation input:checked + label::before {
+#navigation #navigation__dégustation:hover {
+  cursor: pointer;
+}
+#navigation #navigation__dégustation:hover .fas, #navigation #navigation__dégustation:hover footer #line2 h6::before, footer #line2 #navigation #navigation__dégustation:hover h6::before, #navigation #navigation__dégustation:hover footer #line1 h6::before, footer #line1 #navigation #navigation__dégustation:hover h6::before, #navigation #navigation__dégustation:hover #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #navigation #navigation__dégustation:hover input:checked + label::before, #navigation #navigation__dégustation:hover #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #navigation #navigation__dégustation:hover input:checked + label::before, #navigation #navigation__dégustation:hover #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #navigation #navigation__dégustation:hover input:checked + label::before {
   color: #9356DC;
 }
-#navigation #navigation__dégustation li {
+#navigation #navigation__dégustation:hover li {
   background-color: #f2eafb;
 }
 
@@ -6557,11 +6598,15 @@ footer #line1 h6::before,
   justify-content: flex-end;
   color: green;
   margin-right: 1em;
-  margin-left: 18.5em;
+  margin-left: 26em;
   padding: 0.5em 0.5em 0.5em 0.5em;
   border-style: hidden;
   background-color: #99E2D0;
   font-weight: lighter;
+}
+#restaurants #restaurants__palette a:hover {
+  cursor: pointer;
+  /*here, if i want to change the cursor for the article*/
 }
 #restaurants #restaurants__palette .overlay__text--1 {
   background-color: white;
@@ -6573,7 +6618,7 @@ footer #line1 h6::before,
   border-style: hidden;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
+  box-shadow: 0.1em 1em 1em 0.5em #EAEAEA;
 }
 #restaurants #restaurants__palette .overlay__text--1 #texte {
   flex-direction: column;
@@ -6609,6 +6654,9 @@ footer #line1 h6::before,
   content: "";
   /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
 }
+#restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input + label:hover {
+  cursor: pointer;
+}
 #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label {
   font-size: 2rem;
 }
@@ -6631,6 +6679,7 @@ footer #line1 h6::before,
   background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position-y: -4em;
 }
 #restaurants #restaurants__lanote {
   padding-top: 1em;
@@ -6657,11 +6706,15 @@ footer #line1 h6::before,
   justify-content: flex-end;
   color: green;
   margin-right: 1em;
-  margin-left: 18.5em;
+  margin-left: 26em;
   padding: 0.5em 0.5em 0.5em 0.5em;
   border-style: hidden;
   background-color: #99E2D0;
   font-weight: lighter;
+}
+#restaurants #restaurants__lanote a:hover {
+  cursor: pointer;
+  /*here, if i want to change the cursor for the article*/
 }
 #restaurants #restaurants__lanote .overlay__text--2 {
   background-color: white;
@@ -6673,7 +6726,8 @@ footer #line1 h6::before,
   border-style: hidden;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
+  box-shadow: 0.1em 1em 1em 0.5em #EAEAEA;
+  /*the first 1em put the vertcal shadow bottom*/
 }
 #restaurants #restaurants__lanote .overlay__text--2 #texte {
   flex-direction: column;
@@ -6729,7 +6783,7 @@ footer #line1 h6::before,
   background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: -6em;
+  background-position-y: -12.5em;
 }
 #restaurants #restaurants__alafrançaise {
   padding-top: 1em;
@@ -6756,11 +6810,15 @@ footer #line1 h6::before,
   justify-content: flex-end;
   color: green;
   margin-right: 1em;
-  margin-left: 18.5em;
+  margin-left: 26em;
   padding: 0.5em 0.5em 0.5em 0.5em;
   border-style: hidden;
   background-color: #99E2D0;
   font-weight: lighter;
+}
+#restaurants #restaurants__alafrançaise a:hover {
+  cursor: pointer;
+  /*here, if i want to change the cursor for the article*/
 }
 #restaurants #restaurants__alafrançaise .overlay__text--3 {
   background-color: white;
@@ -6772,7 +6830,7 @@ footer #line1 h6::before,
   border-style: hidden;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
+  box-shadow: 0.1em 1em 1em 0.5em #EAEAEA;
 }
 #restaurants #restaurants__alafrançaise .overlay__text--3 #texte {
   flex-direction: column;
@@ -6826,8 +6884,9 @@ footer #line1 h6::before,
 }
 #restaurants #restaurants__alafrançaise article {
   background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position-y: -4em;
 }
 #restaurants #restaurants__délice {
   padding-top: 1em;
@@ -6854,11 +6913,15 @@ footer #line1 h6::before,
   justify-content: flex-end;
   color: green;
   margin-right: 1em;
-  margin-left: 18.5em;
+  margin-left: 26em;
   padding: 0.5em 0.5em 0.5em 0.5em;
   border-style: hidden;
   background-color: #99E2D0;
   font-weight: lighter;
+}
+#restaurants #restaurants__délice a:hover {
+  cursor: pointer;
+  /*here, if i want to change the cursor for the article*/
 }
 #restaurants #restaurants__délice .overlay__text--4 {
   background-color: white;
@@ -6870,7 +6933,7 @@ footer #line1 h6::before,
   border-style: hidden;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
+  box-shadow: 0.1em 1em 1em 0.5em #EAEAEA;
 }
 #restaurants #restaurants__délice .overlay__text--4 #texte {
   flex-direction: column;
@@ -6924,14 +6987,15 @@ footer #line1 h6::before,
 }
 #restaurants #restaurants__délice article {
   background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position-y: -4em;
 }
 
 footer {
   padding: 1em 1em 1em 1em;
   background-color: #2b2b2b;
-  width: 89.1%;
+  width: 91.1%;
   color: white;
   font-size: 1.3em;
   font-family: "roboto";
@@ -6968,6 +7032,9 @@ footer #line2 h6::before {
   content: "";
   font-size: 0.7em;
   padding-right: 0.8em;
+}
+footer h6:hover {
+  cursor: pointer;
 }
 footer #contact {
   padding-top: 0.5em;
@@ -13134,6 +13201,13 @@ footer #line2 h6::before {
     font-weight: 400;
   }
 
+  body {
+    padding-left: 0;
+    padding-top: 0;
+    width: 375px;
+    transform: scale(1);
+  }
+
   @-webkit-keyframes color-swap {
     0% {
       font-weight: normal;
@@ -13266,7 +13340,7 @@ footer #line2 h6::before {
     position: fixed;
     width: 0%;
     height: 0%;
-    z-index: 100;
+    z-index: 200;
     /*the z index is the importance order. By putting it at 100 i make it so that the loader is the first place so that his background cover everything. It only work if a position is choosed like fixed*/
     animation-name: loader-background;
     animation-duration: 5s;
@@ -13282,8 +13356,8 @@ footer #line2 h6::before {
     animation-name: loader-growth;
     animation-duration: 1.2s;
     animation-iteration-count: 4;
-    margin-top: 65%;
-    margin-left: 40%;
+    margin-top: 20em;
+    margin-left: 10em;
   }
 
   .loader div:nth-child(1) {
@@ -13331,7 +13405,7 @@ footer #line2 h6::before {
     padding-bottom: 3em;
   }
   #header .button-pink #search-bar {
-    padding-left: 5em;
+    padding-left: 2em;
     margin-top: -0.5em;
     background-color: #EAEAEA;
     border-top-style: hidden;
@@ -13544,13 +13618,13 @@ footer #line2 h6::before {
     background-color: white;
     opacity: 1;
     width: 100%;
-    margin-top: 9.8em;
+    margin-top: 7.8em;
     display: flex;
     justify-content: space-around;
     border-style: hidden;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
+    box-shadow: 0.1em 1em 1em 0.5em #EAEAEA;
   }
   #restaurants #restaurants__palette .overlay__text--1 #texte {
     flex-direction: column;
@@ -13606,7 +13680,7 @@ footer #line2 h6::before {
   }
   #restaurants #restaurants__palette article {
     background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
   #restaurants #restaurants__lanote {
@@ -13644,13 +13718,13 @@ footer #line2 h6::before {
     background-color: white;
     opacity: 1;
     width: 100%;
-    margin-top: 9.8em;
+    margin-top: 7.8em;
     display: flex;
     justify-content: space-around;
     border-style: hidden;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
+    box-shadow: 0.1em 1em 1em 0.5em #EAEAEA;
   }
   #restaurants #restaurants__lanote .overlay__text--2 #texte {
     flex-direction: column;
@@ -13706,7 +13780,7 @@ footer #line2 h6::before {
     background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -6em;
+    background-position-y: -8em;
   }
   #restaurants #restaurants__alafrançaise {
     padding-top: 1em;
@@ -13743,13 +13817,13 @@ footer #line2 h6::before {
     background-color: white;
     opacity: 1;
     width: 100%;
-    margin-top: 9.8em;
+    margin-top: 7.8em;
     display: flex;
     justify-content: space-around;
     border-style: hidden;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
+    box-shadow: 0.1em 1em 1em 0.5em #EAEAEA;
   }
   #restaurants #restaurants__alafrançaise .overlay__text--3 #texte {
     flex-direction: column;
@@ -13803,7 +13877,7 @@ footer #line2 h6::before {
   }
   #restaurants #restaurants__alafrançaise article {
     background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
   #restaurants #restaurants__délice {
@@ -13841,13 +13915,13 @@ footer #line2 h6::before {
     background-color: white;
     opacity: 1;
     width: 100%;
-    margin-top: 9.8em;
+    margin-top: 7.8em;
     display: flex;
     justify-content: space-around;
     border-style: hidden;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
+    box-shadow: 0.1em 1em 1em 0.5em #EAEAEA;
   }
   #restaurants #restaurants__délice .overlay__text--4 #texte {
     flex-direction: column;
@@ -13901,7 +13975,7 @@ footer #line2 h6::before {
   }
   #restaurants #restaurants__délice article {
     background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
@@ -13967,143 +14041,16 @@ footer #line2 h6::before {
     src: url("fonts/roboto/Roboto-Regular.ttf");
   }
   body {
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-left: 5em;
+    padding-right: 0;
   }
 
-  @-webkit-keyframes color-swap {
-    0% {
-      font-weight: normal;
-      /*i dont need to telle anything about the fa content because it is sayed in the ::before, below in the css code*/
-    }
-    5% {
-      font-weight: normal;
-      /*the precision in the font weight is to switch between the far and te fas. Here : normal = far, because thats what i put in the ::before*/
-      transform: scale(0.5);
-    }
-    10% {
-      font-weight: normal;
-      /*the best way to animate a growth for exemple is to use the transform scale*/
-      transform: scale(0.1);
-    }
-    15% {
-      font-weight: 600;
-      /*here is the tansition between the far and the fas*/
-      transform: scale(0.5);
-      background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    70% {
-      font-weight: 600;
-      transform: scale(1);
-      background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    90% {
-      font-weight: 600;
-      transform: scale(1.2);
-      background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    95% {
-      font-weight: 600;
-      transform: scale(1.1);
-      background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    100% {
-      font-weight: 600;
-      transform: scale(1);
-      background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-  }
-  @keyframes color-swap {
-    0% {
-      font-weight: normal;
-      /*i dont need to telle anything about the fa content because it is sayed in the ::before, below in the css code*/
-    }
-    5% {
-      font-weight: normal;
-      /*the precision in the font weight is to switch between the far and te fas. Here : normal = far, because thats what i put in the ::before*/
-      transform: scale(0.5);
-    }
-    10% {
-      font-weight: normal;
-      /*the best way to animate a growth for exemple is to use the transform scale*/
-      transform: scale(0.1);
-    }
-    15% {
-      font-weight: 600;
-      /*here is the tansition between the far and the fas*/
-      transform: scale(0.5);
-      background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    70% {
-      font-weight: 600;
-      transform: scale(1);
-      background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    90% {
-      font-weight: 600;
-      transform: scale(1.2);
-      background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    95% {
-      font-weight: 600;
-      transform: scale(1.1);
-      background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    100% {
-      font-weight: 600;
-      transform: scale(1);
-      background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-  }
-  @keyframes loader-background {
-    0% {
-      background-color: white;
-      width: 100%;
-      height: 100%;
-      z-index: 100;
-    }
-    20% {
-      background-color: white;
-      width: 100%;
-      height: 100%;
-      z-index: 100;
-    }
-    99% {
-      background-color: white;
-      width: 100%;
-      height: 100%;
-      z-index: 100;
-    }
-    100% {
-      background-color: transparent;
-    }
-  }
   .loader {
     display: inline-block;
     position: fixed;
     width: 0%;
     height: 0%;
-    z-index: 100;
+    z-index: 200;
     /*the z index is the importance order. By putting it at 100 i make it so that the loader is the first place so that his background cover everything. It only work if a position is choosed like fixed*/
     animation-name: loader-background;
     animation-duration: 5s;
@@ -14119,611 +14066,8 @@ footer #line2 h6::before {
     animation-name: loader-growth;
     animation-duration: 1.2s;
     animation-iteration-count: 4;
-    margin-top: 65%;
-    margin-left: 40%;
-  }
-
-  .loader div:nth-child(1) {
-    left: 8px;
-    animation-delay: -0.24s;
-  }
-
-  .loader div:nth-child(2) {
-    left: 32px;
-    animation-delay: -0.12s;
-  }
-
-  .loader div:nth-child(3) {
-    left: 56px;
-    animation-delay: 0;
-  }
-
-  @keyframes loader-growth {
-    0% {
-      top: 8px;
-      height: 64px;
-    }
-    50%, 100% {
-      top: 24px;
-      height: 32px;
-    }
-  }
-  #logo {
-    display: flex;
-    justify-content: center;
-  }
-  #logo img {
-    height: 2.5em;
-    width: auto;
-    padding-bottom: 1em;
-    padding-top: 0.5em;
-  }
-
-  #header {
-    background-color: #F6F6F6;
-    padding: 0.5em 0em 0.5em 0em;
-    display: flex;
-  }
-  #header .button-pink {
-    padding-bottom: 3em;
-  }
-  #header .button-pink #search-bar {
-    padding-left: 5em;
-    margin-top: -0.5em;
-    background-color: #EAEAEA;
-    border-top-style: hidden;
-    box-shadow: 0em -0.1em 0em 0em gray;
-  }
-  #header .button-pink #search-bar .search {
-    background-color: #EAEAEA;
-    height: 3em;
-    border-style: none;
-    font-weight: bolder;
-  }
-  #header .button-pink #search-bar textarea:focus, #header .button-pink #search-bar input:focus {
-    outline: none;
-  }
-  #header .button-pink h1 {
-    font-size: 1.5em;
-    font-weight: bolder;
-    text-align: center;
-    padding-bottom: 0.7em;
-    padding-top: 1em;
-    font-family: "roboto";
-    padding-right: 1em;
-    padding-left: 1em;
-  }
-  #header .button-pink h3 {
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: lighter;
-    padding-bottom: 2em;
-    padding-left: 0.7em;
-    padding-right: 0.7em;
-    font-family: "roboto";
-  }
-  #header .button-pink button {
-    margin-left: 5.2em;
-    font-size: 1em;
-    color: white;
-    border-radius: 25px;
-    border-style: hidden;
-    padding: 0.8em 0.8em 0.8em 0.8em;
-    background: linear-gradient(-10deg, #9356DC 30%, #FF79DA);
-  }
-
-  #navigation {
-    padding-top: 3em;
-    padding-bottom: 2em;
-    font-family: "roboto";
-    list-style-type: none;
-  }
-  #navigation h2 {
-    font-weight: bolder;
-    padding-left: 1em;
-  }
-  #navigation #navigation__choix {
-    display: flex;
-    justify-content: center;
-    padding-top: 1em;
-  }
-  #navigation #navigation__choix a {
-    text-decoration: none;
-    padding-left: 1em;
-    color: black;
-    font-weight: bold;
-  }
-  #navigation #navigation__choix li {
-    border-style: hidden;
-    background-color: #F6F6F6;
-    padding: 1.4em 3em 1.2em 3em;
-    box-shadow: 0em 0.1em 0em 0em #EAEAEA;
-    border-radius: 20px;
-  }
-  #navigation #navigation__choix p {
-    position: relative;
-    margin-top: 1em;
-    margin-bottom: 1.2em;
-    margin-right: -1em;
-    border-style: hidden;
-    border-radius: 50%;
-    padding: 0.2em 0.5em 0.2em 0.5em;
-    background-color: #9356DC;
-    color: white;
-  }
-  #navigation #navigation__composition {
-    display: flex;
-    justify-content: center;
-    padding-top: 1em;
-  }
-  #navigation #navigation__composition a {
-    text-decoration: none;
-    padding-left: 1em;
-    color: black;
-    font-weight: bold;
-  }
-  #navigation #navigation__composition li {
-    border-style: hidden;
-    background-color: #F6F6F6;
-    padding: 1.4em 3em 1.2em 3em;
-    box-shadow: 0em 0.1em 0em 0em #EAEAEA;
-    border-radius: 20px;
-  }
-  #navigation #navigation__composition p {
-    position: relative;
-    margin-top: 1em;
-    margin-bottom: 1.2em;
-    margin-right: -1em;
-    border-style: hidden;
-    border-radius: 50%;
-    padding: 0.2em 0.5em 0.2em 0.5em;
-    background-color: #9356DC;
-    color: white;
-  }
-  #navigation #navigation__composition a {
-    padding-right: 0.6em;
-  }
-  #navigation #navigation__dégustation {
-    display: flex;
-    justify-content: center;
-    padding-top: 1em;
-  }
-  #navigation #navigation__dégustation a {
-    text-decoration: none;
-    padding-left: 1em;
-    color: black;
-    font-weight: bold;
-  }
-  #navigation #navigation__dégustation li {
-    border-style: hidden;
-    background-color: #F6F6F6;
-    padding: 1.4em 3em 1.2em 3em;
-    box-shadow: 0em 0.1em 0em 0em #EAEAEA;
-    border-radius: 20px;
-  }
-  #navigation #navigation__dégustation p {
-    position: relative;
-    margin-top: 1em;
-    margin-bottom: 1.2em;
-    margin-right: -1em;
-    border-style: hidden;
-    border-radius: 50%;
-    padding: 0.2em 0.5em 0.2em 0.5em;
-    background-color: #9356DC;
-    color: white;
-  }
-  #navigation #navigation__dégustation a {
-    padding-left: 1em;
-  }
-  #navigation #navigation__dégustation li {
-    background-color: #f2eafb;
-  }
-
-  #restaurants {
-    background-color: #F6F6F6;
-    font-family: "roboto";
-  }
-  #restaurants h2 {
-    padding-left: 1em;
-    font-family: "roboto";
-    font-weight: bolder;
-    padding-top: 2em;
-  }
-  #restaurants #restaurants__palette {
-    padding-top: 1em;
-    padding-bottom: 5em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-  }
-  #restaurants #restaurants__palette a {
-    /*the text-decoration : none, work only with the a, in case an a exist ?*/
-    text-decoration: none;
-    color: black;
-  }
-  #restaurants #restaurants__palette a article {
-    height: 13.5em;
-    width: auto;
-    border-style: hidden;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    padding-top: 2em;
-    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
-  }
-  #restaurants #restaurants__palette a article h5 {
-    display: flex;
-    justify-content: flex-end;
-    color: green;
-    margin-right: 1em;
-    margin-left: 18.5em;
-    padding: 0.5em 0.5em 0.5em 0.5em;
-    border-style: hidden;
-    background-color: #99E2D0;
-    font-weight: lighter;
-  }
-  #restaurants #restaurants__palette .overlay__text--1 {
-    background-color: white;
-    opacity: 1;
-    width: 100%;
-    margin-top: 9.8em;
-    display: flex;
-    justify-content: space-around;
-    border-style: hidden;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
-  }
-  #restaurants #restaurants__palette .overlay__text--1 #texte {
-    flex-direction: column;
-    padding-bottom: 1em;
-  }
-  #restaurants #restaurants__palette .overlay__text--1 h3 {
-    font-size: 1.1em;
-    padding: 1em 0em 0.5em 0em;
-  }
-  #restaurants #restaurants__palette .overlay__text--1 h4 {
-    font-size: 1em;
-    font-weight: 100;
-    padding: 0em 0em 0em 0em;
-  }
-  #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input {
-    margin-top: 2.5em;
-    display: none;
-  }
-  #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input + label {
-    font-size: 2rem;
-    position: absolute;
-    margin-top: 0.5em;
-    margin-left: -1.5rem;
-  }
-  #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label {
-    font-size: 2rem;
-  }
-  #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before {
-    content: "";
-    font-weight: 600;
-    will-change: font-size;
-    background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
-    -webkit-background-clip: text;
-    /*i dont undersant what to do for now. Ill check it when ill finish the first page*/
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation-name: color-swap;
-    animation-name: color-swap;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    transition: ease-in-out;
-  }
-  #restaurants #restaurants__palette article {
-    background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  #restaurants #restaurants__lanote {
-    padding-top: 1em;
-    padding-bottom: 5em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-  }
-  #restaurants #restaurants__lanote a {
-    /*the text-decoration : none, work only with the a, in case an a exist ?*/
-    text-decoration: none;
-    color: black;
-  }
-  #restaurants #restaurants__lanote a article {
-    height: 13.5em;
-    width: auto;
-    border-style: hidden;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    padding-top: 2em;
-    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
-  }
-  #restaurants #restaurants__lanote a article h5 {
-    display: flex;
-    justify-content: flex-end;
-    color: green;
-    margin-right: 1em;
-    margin-left: 18.5em;
-    padding: 0.5em 0.5em 0.5em 0.5em;
-    border-style: hidden;
-    background-color: #99E2D0;
-    font-weight: lighter;
-  }
-  #restaurants #restaurants__lanote .overlay__text--2 {
-    background-color: white;
-    opacity: 1;
-    width: 100%;
-    margin-top: 9.8em;
-    display: flex;
-    justify-content: space-around;
-    border-style: hidden;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
-  }
-  #restaurants #restaurants__lanote .overlay__text--2 #texte {
-    flex-direction: column;
-    padding-bottom: 1em;
-  }
-  #restaurants #restaurants__lanote .overlay__text--2 h3 {
-    font-size: 1.1em;
-    padding: 1em 0em 0.5em 0em;
-  }
-  #restaurants #restaurants__lanote .overlay__text--2 h4 {
-    font-size: 1em;
-    font-weight: 100;
-    padding: 0em 0em 0em 0em;
-  }
-  #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input {
-    margin-top: 2.5em;
-    display: none;
-  }
-  #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input + label {
-    font-size: 2rem;
-    position: absolute;
-    margin-top: 0.5em;
-    margin-left: -0.8em;
-  }
-  #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label {
-    font-size: 2rem;
-  }
-  #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before {
-    will-change: font-size;
-    background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation-name: color-swap;
-    animation-name: color-swap;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    transition: ease-in-out;
-  }
-  #restaurants #restaurants__lanote article {
-    background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: -6em;
-  }
-  #restaurants #restaurants__alafrançaise {
-    padding-top: 1em;
-    padding-bottom: 5em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-  }
-  #restaurants #restaurants__alafrançaise a {
-    /*the text-decoration : none, work only with the a, in case an a exist ?*/
-    text-decoration: none;
-    color: black;
-  }
-  #restaurants #restaurants__alafrançaise a article {
-    height: 13.5em;
-    width: auto;
-    border-style: hidden;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    padding-top: 2em;
-    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
-  }
-  #restaurants #restaurants__alafrançaise a article h5 {
-    display: flex;
-    justify-content: flex-end;
-    color: green;
-    margin-right: 1em;
-    margin-left: 18.5em;
-    padding: 0.5em 0.5em 0.5em 0.5em;
-    border-style: hidden;
-    background-color: #99E2D0;
-    font-weight: lighter;
-  }
-  #restaurants #restaurants__alafrançaise .overlay__text--3 {
-    background-color: white;
-    opacity: 1;
-    width: 100%;
-    margin-top: 9.8em;
-    display: flex;
-    justify-content: space-around;
-    border-style: hidden;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
-  }
-  #restaurants #restaurants__alafrançaise .overlay__text--3 #texte {
-    flex-direction: column;
-    padding-bottom: 1em;
-  }
-  #restaurants #restaurants__alafrançaise .overlay__text--3 h3 {
-    font-size: 1.1em;
-    padding: 1em 0em 0.5em 0em;
-  }
-  #restaurants #restaurants__alafrançaise .overlay__text--3 h4 {
-    font-size: 1em;
-    font-weight: 100;
-    padding: 0em 0em 0em 0em;
-  }
-  #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input {
-    margin-top: 2.5em;
-    display: none;
-  }
-  #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input + label {
-    font-size: 2rem;
-    position: absolute;
-    margin-top: 0.5em;
-    margin-left: -0.7em;
-  }
-  #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label {
-    font-size: 2rem;
-  }
-  #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before {
-    will-change: font-size;
-    background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation-name: color-swap;
-    animation-name: color-swap;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    transition: ease-in-out;
-  }
-  #restaurants #restaurants__alafrançaise article {
-    background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  #restaurants #restaurants__délice {
-    padding-top: 1em;
-    padding-bottom: 5em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-  }
-  #restaurants #restaurants__délice a {
-    /*the text-decoration : none, work only with the a, in case an a exist ?*/
-    text-decoration: none;
-    color: black;
-  }
-  #restaurants #restaurants__délice a article {
-    height: 13.5em;
-    width: auto;
-    border-style: hidden;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    padding-top: 2em;
-    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
-  }
-  #restaurants #restaurants__délice a article h5 {
-    display: flex;
-    justify-content: flex-end;
-    color: green;
-    margin-right: 1em;
-    margin-left: 18.5em;
-    padding: 0.5em 0.5em 0.5em 0.5em;
-    border-style: hidden;
-    background-color: #99E2D0;
-    font-weight: lighter;
-  }
-  #restaurants #restaurants__délice .overlay__text--4 {
-    background-color: white;
-    opacity: 1;
-    width: 100%;
-    margin-top: 9.8em;
-    display: flex;
-    justify-content: space-around;
-    border-style: hidden;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
-  }
-  #restaurants #restaurants__délice .overlay__text--4 #texte {
-    flex-direction: column;
-    padding-bottom: 1em;
-  }
-  #restaurants #restaurants__délice .overlay__text--4 h3 {
-    font-size: 1.1em;
-    padding: 1em 0em 0.5em 0em;
-  }
-  #restaurants #restaurants__délice .overlay__text--4 h4 {
-    font-size: 1em;
-    font-weight: 100;
-    padding: 0em 0em 0em 0em;
-  }
-  #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input {
-    margin-top: 2.5em;
-    display: none;
-  }
-  #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input + label {
-    font-size: 2rem;
-    position: absolute;
-    margin-top: 0.5em;
-    margin-left: -1em;
-  }
-  #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input + label::before {
-    content: "";
-  }
-  #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label {
-    font-size: 2rem;
-  }
-  #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before {
-    will-change: font-size;
-    background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation-name: color-swap;
-    animation-name: color-swap;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    transition: ease-in-out;
-  }
-  #restaurants #restaurants__délice article {
-    background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  footer {
-    padding: 1em 1em 1em 1em;
-    background-color: #2b2b2b;
-    width: 89.1%;
-    color: white;
-    font-size: 1.3em;
-    font-family: "roboto";
-    font-weight: bold;
-    -webkit-filter: blur(0);
-    filter: blur(0);
-  }
-  footer #logo__footer {
-    font-size: 1.5em;
-    padding-bottom: 0.5em;
-    font-family: "shrikhand";
-    font-weight: bolder;
-    text-decoration: none;
-  }
-  footer #line1 h6 {
-    padding-bottom: 0.7em;
-  }
-  footer #line1 h6::before {
-    content: "";
-    font-size: 0.8em;
-    padding-right: 1em;
-  }
-  footer #line2 h6 {
-    padding-bottom: 0.7em;
-  }
-  footer #line2 h6::before {
-    content: "";
-    font-size: 0.7em;
-    padding-right: 0.8em;
-  }
-  footer #contact {
-    padding-top: 0.5em;
-  }
-  footer #contact a {
-    text-decoration: none;
-    color: white;
-    outline: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
+    margin-top: 10em;
+    margin-left: 15em;
   }
 }
 
