@@ -21,14 +21,23 @@
 .fas,
 footer #line2 h6::before,
 footer #line1 h6::before,
+#menu #palette__desserts--all #palette__desserts--3:hover #checked-font-place::after,
 #menu #palette__desserts--all #palette__desserts--3 input:checked + label #checked-font-place::after,
+#menu #palette__desserts--all #palette__desserts--2:hover #checked-font-place::after,
 #menu #palette__desserts--all #palette__desserts--2 input:checked + label #checked-font-place::after,
+#menu #palette__desserts--all #palette__desserts--1:hover #checked-font-place::after,
 #menu #palette__desserts--all #palette__desserts--1 input:checked + label #checked-font-place::after,
+#menu #palette__plats--all #palette__plats--3:hover #checked-font-place::after,
 #menu #palette__plats--all #palette__plats--3 input:checked + label #checked-font-place::after,
+#menu #palette__plats--all #palette__plats--2:hover #checked-font-place::after,
 #menu #palette__plats--all #palette__plats--2 input:checked + label #checked-font-place::after,
+#menu #palette__plats--all #palette__plats--1:hover #checked-font-place::after,
 #menu #palette__plats--all #palette__plats--1 input:checked + label #checked-font-place::after,
+#menu #palette__entrées--all #palette__entrées--3:hover #checked-font-place::after,
 #menu #palette__entrées--all #palette__entrées--3 input:checked + label #checked-font-place::after,
+#menu #palette__entrées--all #palette__entrées--2:hover #checked-font-place::after,
 #menu #palette__entrées--all #palette__entrées--2 input:checked + label #checked-font-place::after,
+#menu #palette__entrées--all #palette__entrées--1:hover #checked-font-place::after,
 #menu #palette__entrées--all #palette__entrées--1 input:checked + label #checked-font-place::after,
 #logo a::before,
 .far,
@@ -140,14 +149,23 @@ footer #line1 h6::before,
 .fas.fa-pull-left,
 footer #line2 h6.fa-pull-left::before,
 footer #line1 h6.fa-pull-left::before,
+#menu #palette__desserts--all #palette__desserts--3:hover .fa-pull-left#checked-font-place::after,
 #menu #palette__desserts--all #palette__desserts--3 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #palette__desserts--all #palette__desserts--2:hover .fa-pull-left#checked-font-place::after,
 #menu #palette__desserts--all #palette__desserts--2 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #palette__desserts--all #palette__desserts--1:hover .fa-pull-left#checked-font-place::after,
 #menu #palette__desserts--all #palette__desserts--1 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #palette__plats--all #palette__plats--3:hover .fa-pull-left#checked-font-place::after,
 #menu #palette__plats--all #palette__plats--3 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #palette__plats--all #palette__plats--2:hover .fa-pull-left#checked-font-place::after,
 #menu #palette__plats--all #palette__plats--2 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #palette__plats--all #palette__plats--1:hover .fa-pull-left#checked-font-place::after,
 #menu #palette__plats--all #palette__plats--1 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #palette__entrées--all #palette__entrées--3:hover .fa-pull-left#checked-font-place::after,
 #menu #palette__entrées--all #palette__entrées--3 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #palette__entrées--all #palette__entrées--2:hover .fa-pull-left#checked-font-place::after,
 #menu #palette__entrées--all #palette__entrées--2 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #palette__entrées--all #palette__entrées--1:hover .fa-pull-left#checked-font-place::after,
 #menu #palette__entrées--all #palette__entrées--1 input:checked + label .fa-pull-left#checked-font-place::after,
 #logo a.fa-pull-left::before,
 .far.fa-pull-left,
@@ -160,14 +178,23 @@ footer #line1 h6.fa-pull-left::before,
 .fas.fa-pull-right,
 footer #line2 h6.fa-pull-right::before,
 footer #line1 h6.fa-pull-right::before,
+#menu #palette__desserts--all #palette__desserts--3:hover .fa-pull-right#checked-font-place::after,
 #menu #palette__desserts--all #palette__desserts--3 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #palette__desserts--all #palette__desserts--2:hover .fa-pull-right#checked-font-place::after,
 #menu #palette__desserts--all #palette__desserts--2 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #palette__desserts--all #palette__desserts--1:hover .fa-pull-right#checked-font-place::after,
 #menu #palette__desserts--all #palette__desserts--1 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #palette__plats--all #palette__plats--3:hover .fa-pull-right#checked-font-place::after,
 #menu #palette__plats--all #palette__plats--3 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #palette__plats--all #palette__plats--2:hover .fa-pull-right#checked-font-place::after,
 #menu #palette__plats--all #palette__plats--2 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #palette__plats--all #palette__plats--1:hover .fa-pull-right#checked-font-place::after,
 #menu #palette__plats--all #palette__plats--1 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #palette__entrées--all #palette__entrées--3:hover .fa-pull-right#checked-font-place::after,
 #menu #palette__entrées--all #palette__entrées--3 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #palette__entrées--all #palette__entrées--2:hover .fa-pull-right#checked-font-place::after,
 #menu #palette__entrées--all #palette__entrées--2 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #palette__entrées--all #palette__entrées--1:hover .fa-pull-right#checked-font-place::after,
 #menu #palette__entrées--all #palette__entrées--1 input:checked + label .fa-pull-right#checked-font-place::after,
 #logo a.fa-pull-right::before,
 .far.fa-pull-right,
@@ -6135,14 +6162,23 @@ readers do not read off random characters that represent icons */
 .fas,
 footer #line2 h6::before,
 footer #line1 h6::before,
+#menu #palette__desserts--all #palette__desserts--3:hover #checked-font-place::after,
 #menu #palette__desserts--all #palette__desserts--3 input:checked + label #checked-font-place::after,
+#menu #palette__desserts--all #palette__desserts--2:hover #checked-font-place::after,
 #menu #palette__desserts--all #palette__desserts--2 input:checked + label #checked-font-place::after,
+#menu #palette__desserts--all #palette__desserts--1:hover #checked-font-place::after,
 #menu #palette__desserts--all #palette__desserts--1 input:checked + label #checked-font-place::after,
+#menu #palette__plats--all #palette__plats--3:hover #checked-font-place::after,
 #menu #palette__plats--all #palette__plats--3 input:checked + label #checked-font-place::after,
+#menu #palette__plats--all #palette__plats--2:hover #checked-font-place::after,
 #menu #palette__plats--all #palette__plats--2 input:checked + label #checked-font-place::after,
+#menu #palette__plats--all #palette__plats--1:hover #checked-font-place::after,
 #menu #palette__plats--all #palette__plats--1 input:checked + label #checked-font-place::after,
+#menu #palette__entrées--all #palette__entrées--3:hover #checked-font-place::after,
 #menu #palette__entrées--all #palette__entrées--3 input:checked + label #checked-font-place::after,
+#menu #palette__entrées--all #palette__entrées--2:hover #checked-font-place::after,
 #menu #palette__entrées--all #palette__entrées--2 input:checked + label #checked-font-place::after,
+#menu #palette__entrées--all #palette__entrées--1:hover #checked-font-place::after,
 #menu #palette__entrées--all #palette__entrées--1 input:checked + label #checked-font-place::after,
 #logo a::before {
   font-family: "Font Awesome 5 Free";
@@ -6539,6 +6575,9 @@ footer #line1 h6::before,
   white-space: nowrap;
   font-weight: lighter;
 }
+#menu #palette__entrées--all #palette__entrées--1 input + label:hover {
+  cursor: pointer;
+}
 #menu #palette__entrées--all #palette__entrées--1 input + label #palette__entrées--prix {
   padding-left: 9em;
   margin-top: 1.5em;
@@ -6588,6 +6627,48 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-out;
 }
+#menu #palette__entrées--all #palette__entrées--1:hover #checked-font-place {
+  background-color: #99E2D0;
+  padding: 1.5em 1.3em 1.5em 1.3em;
+  margin-left: -2.5em;
+  margin-top: -0.9em;
+  position: relative;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-animation-name: checked-background-translate--menu;
+  animation-name: checked-background-translate--menu;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
+  z-index: 95;
+}
+#menu #palette__entrées--all #palette__entrées--1:hover #checked-font-place::after {
+  content: "";
+  font-size: 2rem;
+  animation-name: checked-ok-rotate--menu;
+  -webkit-animation-name: checked-ok-rotate--menu;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+#menu #palette__entrées--all #palette__entrées--1:hover #palette__entrées--prix {
+  padding-left: 9em;
+  margin-top: 1.5em;
+}
+#menu #palette__entrées--all #palette__entrées--1:hover #palette__entrées--prix h5 {
+  margin-left: -5rem;
+  padding-right: 0em;
+  -webkit-animation-name: price-animation;
+  animation-name: price-animation;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-out;
+}
 #menu #palette__entrées--all #palette__entrées--2 {
   margin-top: 1em;
   border-style: hidden;
@@ -6621,6 +6702,9 @@ footer #line1 h6::before,
 #menu #palette__entrées--all #palette__entrées--2 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
+}
+#menu #palette__entrées--all #palette__entrées--2 input + label:hover {
+  cursor: pointer;
 }
 #menu #palette__entrées--all #palette__entrées--2 input + label #palette__entrées--prix {
   padding-left: 5.6em;
@@ -6671,6 +6755,48 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-out;
 }
+#menu #palette__entrées--all #palette__entrées--2:hover #checked-font-place {
+  background-color: #99E2D0;
+  padding: 1.5em 1.3em 1.5em 1.3em;
+  margin-left: -2.5em;
+  margin-top: -0.9em;
+  position: relative;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-animation-name: checked-background-translate--menu;
+  animation-name: checked-background-translate--menu;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
+  z-index: 95;
+}
+#menu #palette__entrées--all #palette__entrées--2:hover #checked-font-place::after {
+  content: "";
+  font-size: 2rem;
+  animation-name: checked-ok-rotate--menu;
+  -webkit-animation-name: checked-ok-rotate--menu;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+#menu #palette__entrées--all #palette__entrées--2:hover #palette__entrées--prix {
+  padding-left: 5.6em;
+  margin-top: 1.5em;
+}
+#menu #palette__entrées--all #palette__entrées--2:hover #palette__entrées--prix h5 {
+  margin-left: -5rem;
+  padding-right: 0em;
+  -webkit-animation-name: price-animation;
+  animation-name: price-animation;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-out;
+}
 #menu #palette__entrées--all #palette__entrées--3 {
   margin-top: 1em;
   border-style: hidden;
@@ -6704,6 +6830,9 @@ footer #line1 h6::before,
 #menu #palette__entrées--all #palette__entrées--3 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
+}
+#menu #palette__entrées--all #palette__entrées--3 input + label:hover {
+  cursor: pointer;
 }
 #menu #palette__entrées--all #palette__entrées--3 input + label #palette__entrées--prix {
   padding-left: 3em;
@@ -6764,6 +6893,55 @@ footer #line1 h6::before,
   content: "...";
   padding-right: 1em;
 }
+#menu #palette__entrées--all #palette__entrées--3:hover #checked-font-place {
+  background-color: #99E2D0;
+  padding: 1.5em 1.3em 1.5em 1.3em;
+  margin-left: -2.5em;
+  margin-top: -0.9em;
+  position: relative;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-animation-name: checked-background-translate--menu;
+  animation-name: checked-background-translate--menu;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
+  z-index: 95;
+}
+#menu #palette__entrées--all #palette__entrées--3:hover #checked-font-place::after {
+  content: "";
+  font-size: 2rem;
+  animation-name: checked-ok-rotate--menu;
+  -webkit-animation-name: checked-ok-rotate--menu;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+#menu #palette__entrées--all #palette__entrées--3:hover #palette__entrées--prix {
+  padding-left: 3em;
+  margin-top: 1.5em;
+}
+#menu #palette__entrées--all #palette__entrées--3:hover #palette__entrées--prix h5.overlay--1 {
+  margin-top: 0.1rem;
+  margin-left: -7.3rem;
+  -webkit-animation-name: price-animation--lenghty;
+  animation-name: price-animation--lenghty;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in;
+  background-color: white;
+  padding: 0em 0em 0em 1em;
+  transform-origin: right;
+}
+#menu #palette__entrées--all #palette__entrées--3:hover #palette__entrées--prix h5.overlay--1:before {
+  content: "...";
+  padding-right: 1em;
+}
 #menu #palette__plats {
   padding-bottom: 0.5em;
   /*distance between the last div and the desserts*/
@@ -6814,6 +6992,9 @@ footer #line1 h6::before,
 #menu #palette__plats--all #palette__plats--1 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
+}
+#menu #palette__plats--all #palette__plats--1 input + label:hover {
+  cursor: pointer;
 }
 #menu #palette__plats--all #palette__plats--1 input + label #palette__plats--prix {
   padding-left: 3em;
@@ -6874,6 +7055,55 @@ footer #line1 h6::before,
   background-color: white;
   padding: 0em 1em 0em 1em;
 }
+#menu #palette__plats--all #palette__plats--1:hover #checked-font-place {
+  background-color: #99E2D0;
+  padding: 1.5em 1.3em 1.5em 1.3em;
+  margin-left: -2.5em;
+  margin-top: -0.9em;
+  position: relative;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-animation-name: checked-background-translate--menu;
+  animation-name: checked-background-translate--menu;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
+  z-index: 95;
+}
+#menu #palette__plats--all #palette__plats--1:hover #checked-font-place::after {
+  content: "";
+  font-size: 2rem;
+  animation-name: checked-ok-rotate--menu;
+  -webkit-animation-name: checked-ok-rotate--menu;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+#menu #palette__plats--all #palette__plats--1:hover #checked-font-place {
+  background-color: #99E2D0;
+  padding: 1.8em 1.3em 1.8em 1.3em;
+  margin-left: -0.8em;
+}
+#menu #palette__plats--all #palette__plats--1:hover #palette__plats--prix {
+  padding-left: 3em;
+  margin-top: 1.5em;
+}
+#menu #palette__plats--all #palette__plats--1:hover #palette__plats--prix h5.overlay--2 {
+  margin-top: 1.2rem;
+  margin-left: -3.5rem;
+  -webkit-animation-name: price-animation--large;
+  animation-name: price-animation--large;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in;
+  background-color: white;
+  padding: 0em 1em 0em 1em;
+}
 #menu #palette__plats--all #palette__plats--2 {
   margin-top: 1em;
   border-style: hidden;
@@ -6907,6 +7137,9 @@ footer #line1 h6::before,
 #menu #palette__plats--all #palette__plats--2 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
+}
+#menu #palette__plats--all #palette__plats--2 input + label:hover {
+  cursor: pointer;
 }
 #menu #palette__plats--all #palette__plats--2 input + label #palette__plats--prix {
   padding-left: 3em;
@@ -6970,6 +7203,58 @@ footer #line1 h6::before,
   content: "...";
   padding-right: 1em;
 }
+#menu #palette__plats--all #palette__plats--2:hover #checked-font-place {
+  background-color: #99E2D0;
+  padding: 1.5em 1.3em 1.5em 1.3em;
+  margin-left: -2.5em;
+  margin-top: -0.9em;
+  position: relative;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-animation-name: checked-background-translate--menu;
+  animation-name: checked-background-translate--menu;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
+  z-index: 95;
+}
+#menu #palette__plats--all #palette__plats--2:hover #checked-font-place::after {
+  content: "";
+  font-size: 2rem;
+  animation-name: checked-ok-rotate--menu;
+  -webkit-animation-name: checked-ok-rotate--menu;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+#menu #palette__plats--all #palette__plats--2:hover #checked-font-place {
+  margin-left: -3em;
+}
+#menu #palette__plats--all #palette__plats--2:hover #palette__plats--prix {
+  padding-left: 3em;
+  margin-top: 1.5em;
+}
+#menu #palette__plats--all #palette__plats--2:hover #palette__plats--prix h5.overlay--3 {
+  margin-top: 0.1rem;
+  margin-left: -7.3rem;
+  -webkit-animation-name: price-animation--lenghty;
+  animation-name: price-animation--lenghty;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  transition: ease-in;
+  background-color: white;
+  padding: 0em 0em 0em 1em;
+  transform-origin: right;
+}
+#menu #palette__plats--all #palette__plats--2:hover #palette__plats--prix h5.overlay--3:before {
+  content: "...";
+  padding-right: 1em;
+}
 #menu #palette__plats--all #palette__plats--3 {
   margin-top: 1em;
   border-style: hidden;
@@ -7003,6 +7288,9 @@ footer #line1 h6::before,
 #menu #palette__plats--all #palette__plats--3 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
+}
+#menu #palette__plats--all #palette__plats--3 input + label:hover {
+  cursor: pointer;
 }
 #menu #palette__plats--all #palette__plats--3 input + label h3 {
   padding-right: 5em;
@@ -7061,6 +7349,52 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-out;
 }
+#menu #palette__plats--all #palette__plats--3:hover #checked-font-place {
+  background-color: #99E2D0;
+  padding: 1.5em 1.3em 1.5em 1.3em;
+  margin-left: -2.5em;
+  margin-top: -0.9em;
+  position: relative;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-animation-name: checked-background-translate--menu;
+  animation-name: checked-background-translate--menu;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
+  z-index: 95;
+}
+#menu #palette__plats--all #palette__plats--3:hover #checked-font-place::after {
+  content: "";
+  font-size: 2rem;
+  animation-name: checked-ok-rotate--menu;
+  -webkit-animation-name: checked-ok-rotate--menu;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+#menu #palette__plats--all #palette__plats--3:hover #checked-font-place {
+  margin-left: 0.5em;
+  /*this margin set up the background and the distance it will be from the price*/
+}
+#menu #palette__plats--all #palette__plats--3:hover #palette__plats--prix {
+  padding-left: 3em;
+  margin-top: 1.5em;
+}
+#menu #palette__plats--all #palette__plats--3:hover #palette__plats--prix h5 {
+  margin-left: -1rem;
+  padding-right: 0em;
+  -webkit-animation-name: price-animation--short;
+  animation-name: price-animation--short;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-out;
+}
 #menu #palette__desserts {
   padding-bottom: 0.5em;
 }
@@ -7109,6 +7443,9 @@ footer #line1 h6::before,
 #menu #palette__desserts--all #palette__desserts--1 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
+}
+#menu #palette__desserts--all #palette__desserts--1 input + label:hover {
+  cursor: pointer;
 }
 #menu #palette__desserts--all #palette__desserts--1 input + label h3 {
   padding-right: 6.5em;
@@ -7166,6 +7503,52 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-out;
 }
+#menu #palette__desserts--all #palette__desserts--1:hover #checked-font-place {
+  background-color: #99E2D0;
+  padding: 1.5em 1.3em 1.5em 1.3em;
+  margin-left: -2.5em;
+  margin-top: -0.9em;
+  position: relative;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-animation-name: checked-background-translate--menu;
+  animation-name: checked-background-translate--menu;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
+  z-index: 95;
+}
+#menu #palette__desserts--all #palette__desserts--1:hover #checked-font-place::after {
+  content: "";
+  font-size: 2rem;
+  animation-name: checked-ok-rotate--menu;
+  -webkit-animation-name: checked-ok-rotate--menu;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+#menu #palette__desserts--all #palette__desserts--1:hover #checked-font-place {
+  margin-left: 0.5em;
+}
+#menu #palette__desserts--all #palette__desserts--1:hover #palette__desserts--prix {
+  padding-left: 2.5em;
+  /*for this page, this customize the distance of the checked ok green background*/
+  margin-top: 1.5em;
+}
+#menu #palette__desserts--all #palette__desserts--1:hover #palette__desserts--prix h5 {
+  margin-left: -1rem;
+  padding-right: 0em;
+  -webkit-animation-name: price-animation--short;
+  animation-name: price-animation--short;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-out;
+}
 #menu #palette__desserts--all #palette__desserts--2 {
   margin-top: 1em;
   border-style: hidden;
@@ -7199,6 +7582,9 @@ footer #line1 h6::before,
 #menu #palette__desserts--all #palette__desserts--2 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
+}
+#menu #palette__desserts--all #palette__desserts--2 input + label:hover {
+  cursor: pointer;
 }
 #menu #palette__desserts--all #palette__desserts--2 input + label h3 {
   padding-right: 0em;
@@ -7278,6 +7664,74 @@ footer #line1 h6::before,
   background: white;
   padding-right: 2em;
 }
+#menu #palette__desserts--all #palette__desserts--2:hover #checked-font-place {
+  background-color: #99E2D0;
+  padding: 1.5em 1.3em 1.5em 1.3em;
+  margin-left: -2.5em;
+  margin-top: -0.9em;
+  position: relative;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-animation-name: checked-background-translate--menu;
+  animation-name: checked-background-translate--menu;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
+  z-index: 95;
+}
+#menu #palette__desserts--all #palette__desserts--2:hover #checked-font-place::after {
+  content: "";
+  font-size: 2rem;
+  animation-name: checked-ok-rotate--menu;
+  -webkit-animation-name: checked-ok-rotate--menu;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+#menu #palette__desserts--all #palette__desserts--2:hover #checked-font-place {
+  margin-left: -3.9em;
+}
+#menu #palette__desserts--all #palette__desserts--2:hover h3 {
+  padding-right: 3em;
+}
+#menu #palette__desserts--all #palette__desserts--2:hover #palette__desserts--prix {
+  padding-left: 0em;
+  margin-top: 1.5em;
+}
+#menu #palette__desserts--all #palette__desserts--2:hover #palette__desserts--prix h5 {
+  margin-left: -7.3rem;
+  padding-right: 0em;
+  -webkit-animation-name: price-animation--lenghty;
+  animation-name: price-animation--lenghty;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-out;
+  z-index: 100;
+  background: white;
+  padding-bottom: 0.2em;
+}
+#menu #palette__desserts--all #palette__desserts--2:hover #palette__desserts--prix h5::before {
+  content: "...";
+  padding-right: 0.7em;
+  z-index: 90;
+  background: white;
+  margin-left: -0.25em;
+}
+#menu #palette__desserts--all #palette__desserts--2:hover #palette__desserts--prix h5::after {
+  content: "...";
+  position: absolute;
+  font-size: 2em;
+  margin-left: -1.5em;
+  margin-top: -1.2em;
+  z-index: 90;
+  background: white;
+  padding-right: 2em;
+}
 #menu #palette__desserts--all #palette__desserts--3 {
   margin-top: 1em;
   border-style: hidden;
@@ -7311,6 +7765,9 @@ footer #line1 h6::before,
 #menu #palette__desserts--all #palette__desserts--3 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
+}
+#menu #palette__desserts--all #palette__desserts--3 input + label:hover {
+  cursor: pointer;
 }
 #menu #palette__desserts--all #palette__desserts--3 input + label h3 {
   padding-right: 0em;
@@ -7376,6 +7833,60 @@ footer #line1 h6::before,
   content: "...";
   padding-right: 0.7em;
 }
+#menu #palette__desserts--all #palette__desserts--3:hover #checked-font-place {
+  background-color: #99E2D0;
+  padding: 1.5em 1.3em 1.5em 1.3em;
+  margin-left: -2.5em;
+  margin-top: -0.9em;
+  position: relative;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-animation-name: checked-background-translate--menu;
+  animation-name: checked-background-translate--menu;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
+  z-index: 95;
+}
+#menu #palette__desserts--all #palette__desserts--3:hover #checked-font-place::after {
+  content: "";
+  font-size: 2rem;
+  animation-name: checked-ok-rotate--menu;
+  -webkit-animation-name: checked-ok-rotate--menu;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+#menu #palette__desserts--all #palette__desserts--3:hover #checked-font-place {
+  margin-left: -4em;
+}
+#menu #palette__desserts--all #palette__desserts--3:hover h3 {
+  padding-right: 5em;
+}
+#menu #palette__desserts--all #palette__desserts--3:hover #palette__desserts--prix {
+  padding-left: 3em;
+  margin-top: 1.55em;
+}
+#menu #palette__desserts--all #palette__desserts--3:hover #palette__desserts--prix h5 {
+  margin-left: -7.3rem;
+  padding-right: 0em;
+  -webkit-animation-name: price-animation--lenghty;
+  animation-name: price-animation--lenghty;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-out;
+  z-index: 100;
+  background: white;
+}
+#menu #palette__desserts--all #palette__desserts--3:hover #palette__desserts--prix h5::before {
+  content: "...";
+  padding-right: 0.7em;
+}
 #menu .button-pink--large {
   padding-bottom: 5em;
 }
@@ -7387,6 +7898,12 @@ footer #line1 h6::before,
   border-style: hidden;
   padding: 0.8em 2.5em 0.8em 2.5em;
   background: linear-gradient(-10deg, #9356DC 30%, #FF79DA);
+}
+#menu .button-pink--large button:hover {
+  cursor: pointer;
+  -webkit-filter: opacity(85%);
+  filter: opacity(85%);
+  /*this make the button lighter*/
 }
 
 footer {
