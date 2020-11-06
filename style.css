@@ -14155,9 +14155,24 @@ footer #line2 h6::before {
     margin-left: 15em;
   }
 }
-@media screen and (min-width: 667px) and (max-width: 768px) {
+@media screen and (min-width: 667px) and (max-width: 767px) {
   body {
-    padding-left: 9em;
+    padding-left: 6em;
+  }
+
+  .loader {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+  }
+
+  .loader div {
+    margin-top: 10em;
+    margin-left: 15em;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    padding-left: 10em;
   }
 
   .loader {
@@ -14167,7 +14182,67 @@ footer #line2 h6::before {
 
   .loader div {
     margin-top: 25em;
-    margin-left: 15em;
+    margin-left: 12em;
+  }
+}
+@media screen and (min-width: 1023.1px) and (max-width: 1224px) {
+  body {
+    padding-left: 19em;
+  }
+
+  .loader {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+  }
+
+  .loader div {
+    margin-top: 25em;
+    margin-left: 11em;
+  }
+}
+@media screen and (min-width: 1224.1px) and (max-width: 1424px) {
+  body {
+    padding-left: 30em;
+  }
+
+  .loader {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+  }
+
+  .loader div {
+    margin-top: 25em;
+    margin-left: 12em;
+  }
+}
+@media screen and (min-width: 1424.1px) and (max-width: 1600px) {
+  body {
+    padding-left: 40em;
+  }
+
+  .loader {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+  }
+
+  .loader div {
+    margin-top: 25em;
+    margin-left: 12em;
+  }
+}
+@media screen and (min-width: 1600.1px) {
+  body {
+    padding-left: 45em;
+  }
+
+  .loader {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+  }
+
+  .loader div {
+    margin-top: 25em;
+    margin-left: 17em;
   }
 }
 
