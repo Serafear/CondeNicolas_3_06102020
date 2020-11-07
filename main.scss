@@ -704,6 +704,7 @@ body {
         }
 
         button {
+            display: flex;
             margin-left: 30%;  /*here im trying to automate the screens transitions with %. I dont know if it will work*/
             font-size: 1em;
             color: white;
@@ -1733,15 +1734,42 @@ footer {
 @media screen and (min-width: 1600.1px) 
 {
     body {
-        padding-left: 45em;
+        padding-left: 49em;
+        padding-top: 4em;
+        
+    }
+    #logo {
+        transform: scale(1.6);
+        padding-bottom: 5em;
+    }
+    #header {
+        transform: scale(1.6);
+        -webkit-transform: scale(1.6);
+    }
+    
+    
+    #navigation {
+        margin-top: 12em;
+        transform: scale(1.6);
+    }
+    section {
+        transform: scale(1.6);
+        margin-top: 33em;
+    }
+    
+    footer {
+        transform: scale(1.6);
+        margin-top: 23em;
     }
     .loader {
+        margin-left: -9em;
+        margin-top: -4em;
         -webkit-animation-duration: 5s;
                 animation-duration: 5s;
     }
     .loader div {
         
         margin-top: 25em;
-        margin-left: 17em;
+        margin-left: 18em;
     }
 }
