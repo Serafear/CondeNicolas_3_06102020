@@ -6212,7 +6212,7 @@ footer #line1 h6::before,
 @keyframes color-swap {
   0% {
     font-weight: normal;
-    /*i dont need to telle anything about the fa content because it is sayed in the ::before, below in the css code*/
+    /*i dont need to tell anything about the fa content because it is sayed in the ::before, below in the css code*/
   }
   5% {
     font-weight: normal;
@@ -6704,10 +6704,10 @@ body {
 #restaurants #restaurants__palette .overlay__text--1 .overlay__heart--1 input:checked + label::before {
   content: "";
   font-weight: 600;
+  transform: scale(1.1);
   will-change: font-size;
   background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
   -webkit-background-clip: text;
-  /*i dont undersant what to do for now. Ill check it when ill finish the first page*/
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation-name: color-swap;
@@ -6802,7 +6802,7 @@ body {
 }
 #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input + label::before {
   content: "";
-  /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
+  /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et regular ? le font weight fait également la différence :noram= r,600 par exemple=s*/
 }
 #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label {
   font-size: 2rem;
@@ -6810,6 +6810,7 @@ body {
 #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before {
   content: "";
   will-change: font-size;
+  transform: scale(1.1);
   background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
   -webkit-background-clip: text;
   background-clip: text;
@@ -6913,6 +6914,7 @@ body {
 #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before {
   content: "";
   will-change: font-size;
+  transform: scale(1.1);
   background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
   -webkit-background-clip: text;
   background-clip: text;
@@ -7016,6 +7018,7 @@ body {
 #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before {
   content: "";
   will-change: font-size;
+  transform: scale(1.1);
   background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
   -webkit-background-clip: text;
   background-clip: text;
@@ -14112,7 +14115,7 @@ footer #line2 h6::before {
     /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
   }
 }
-@media screen and (min-width: 450px) and (max-width: 667px) {
+@media screen and (min-width: 450.1px) and (max-width: 667px) {
   @font-face {
     font-family: "shrikhand";
     src: url("fonts/shrikhand/Shrikhand-Regular.ttf");
@@ -14126,79 +14129,196 @@ footer #line2 h6::before {
     padding-right: 0;
   }
 
+  #logo {
+    transform: scale(1.4);
+    padding-top: 1em;
+  }
+
+  #header {
+    transform: scale(1.4);
+    margin-top: 5em;
+  }
+
+  #navigation {
+    transform: scale(1.4);
+    margin-top: 5em;
+  }
+
+  section {
+    transform: scale(1.4);
+    margin-top: 22em;
+  }
+  section a {
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
+  }
+
+  footer {
+    transform: scale(1.4);
+    margin-top: 15em;
+  }
+
   .loader {
-    display: inline-block;
-    position: fixed;
-    width: 0%;
-    height: 0%;
-    z-index: 200;
-    /*the z index is the importance order. By putting it at 100 i make it so that the loader is the first place so that his background cover everything. It only work if a position is choosed like fixed*/
-    -webkit-animation-name: loader-background;
-    animation-name: loader-background;
     -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    margin-left: -6em;
   }
 
   .loader div {
-    display: inline-block;
-    position: absolute;
-    left: 8px;
-    /*here i set the distance bewteen a div and the element at its left */
-    width: 16px;
-    background: linear-gradient(-10deg, #9356DC 30%, #FF79DA);
-    -webkit-animation-name: loader-growth;
-    animation-name: loader-growth;
-    -webkit-animation-duration: 1.2s;
-    animation-duration: 1.2s;
     -webkit-animation-iteration-count: 4;
     animation-iteration-count: 4;
     margin-top: 10em;
-    margin-left: 15em;
+    margin-left: 19em;
   }
 }
-@media screen and (min-width: 667px) and (max-width: 767px) {
+@media screen and (min-width: 667.1px) and (max-width: 767px) {
   body {
     padding-left: 6em;
+    padding-right: 0;
+  }
+
+  #logo {
+    transform: scale(1.4);
+    padding-top: 1em;
+  }
+
+  #header {
+    transform: scale(1.4);
+    margin-top: 5em;
+  }
+
+  #navigation {
+    transform: scale(1.4);
+    margin-top: 5em;
+  }
+
+  section {
+    transform: scale(1.4);
+    margin-top: 22em;
+  }
+  section a {
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
+  }
+
+  footer {
+    transform: scale(1.4);
+    margin-top: 15em;
   }
 
   .loader {
     -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    margin-left: -6em;
   }
 
   .loader div {
+    -webkit-animation-iteration-count: 4;
+    animation-iteration-count: 4;
     margin-top: 10em;
-    margin-left: 15em;
+    margin-left: 19em;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   body {
-    padding-left: 10em;
+    padding-left: 8.5em;
+    padding-right: 0;
+  }
+
+  #logo {
+    transform: scale(1.6);
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  #header {
+    transform: scale(1.6);
+    margin-top: 5em;
+  }
+
+  #navigation {
+    transform: scale(1.6);
+    margin-top: 8em;
+  }
+
+  section {
+    transform: scale(1.6);
+    margin-top: 35em;
+  }
+  section a {
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
+  }
+
+  footer {
+    transform: scale(1.6);
+    margin-top: 23em;
   }
 
   .loader {
     -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    margin-left: -8em;
   }
 
   .loader div {
+    -webkit-animation-iteration-count: 4;
+    animation-iteration-count: 4;
     margin-top: 25em;
-    margin-left: 12em;
+    margin-left: 20em;
   }
 }
 @media screen and (min-width: 1023.1px) and (max-width: 1224px) {
   body {
-    padding-left: 19em;
+    padding-left: 17em;
+    padding-right: 0;
+  }
+
+  #logo {
+    transform: scale(1.6);
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  #header {
+    transform: scale(1.6);
+    margin-top: 5em;
+  }
+
+  #navigation {
+    transform: scale(1.6);
+    margin-top: 8em;
+  }
+
+  section {
+    transform: scale(1.6);
+    margin-top: 35em;
+  }
+  section a {
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
+  }
+
+  footer {
+    transform: scale(1.6);
+    margin-top: 23em;
   }
 
   .loader {
     -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    margin-left: -8em;
   }
 
   .loader div {
+    -webkit-animation-iteration-count: 4;
+    animation-iteration-count: 4;
     margin-top: 25em;
-    margin-left: 11em;
+    margin-left: 20em;
   }
 }
 @media screen and (min-width: 1224.1px) and (max-width: 1424px) {
