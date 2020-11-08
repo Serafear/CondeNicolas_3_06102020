@@ -304,6 +304,9 @@ $font-text: "roboto";
                         @extend .far;
                         content: fa-content($fa-var-heart);  /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et regular ? le font weight fait également la différence :noram= r,600 par exemple=s*/
                     }
+                    &:hover {
+                        cursor: pointer;
+                    }
                 }
                 &:checked+label {
                     font-size: 2rem;
@@ -367,6 +370,9 @@ $font-text: "roboto";
                         @extend .far;
                         content: fa-content($fa-var-heart);  /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
                     }
+                    &:hover {
+                        cursor: pointer;
+                    }
                 }
                 &:checked+label {
                     font-size: 2rem;
@@ -429,6 +435,9 @@ $font-text: "roboto";
                     &::before {
                         @extend .far;
                         content: fa-content($fa-var-heart);  /*ou utiliser content :"\f004" dans ce cas ci. Le fa (r) ou (s) fait la différence entre solide et reguar ?*/
+                    }
+                    &:hover {
+                        cursor: pointer;
                     }
                 }
                 &:checked+label {
@@ -1793,43 +1802,103 @@ footer {
     .loader {
         -webkit-animation-duration: 5s;
                 animation-duration: 5s;
-                margin-left: -8em;
+                margin-left: -9em;
     }
     .loader div {
         -webkit-animation-iteration-count: 4;
                 animation-iteration-count: 4;
         margin-top: 25em;
-        margin-left: 20em;
+        margin-left: 23em;
     }
 }
 @media screen and (min-width: 1224.1px) and (max-width: 1424px) 
 {
-    body {
+    body{
         padding-left: 30em;
+        padding-right: 0;
+        
     }
+    #logo {
+        transform: scale(1.6);
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    #header {
+        transform: scale(1.6);
+        margin-top: 5em;
+    }
+    #navigation {
+        transform: scale(1.6);
+        margin-top: 8em;
+    }
+    section {
+        transform: scale(1.6);
+        margin-top: 35em;
+        a {
+            outline: none;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);   /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
+        }
+    }
+    footer {
+        transform: scale(1.6);
+        margin-top: 23em;
+    }
+    
     .loader {
         -webkit-animation-duration: 5s;
                 animation-duration: 5s;
+                margin-left: -10em;
     }
     .loader div {
-        
+        -webkit-animation-iteration-count: 4;
+                animation-iteration-count: 4;
         margin-top: 25em;
-        margin-left: 12em;
+        margin-left: 25em;
     }
 }
 @media screen and (min-width: 1424.1px) and (max-width: 1600px) 
 {
-    body {
+    body{
         padding-left: 40em;
+        padding-right: 0;
+        
     }
+    #logo {
+        transform: scale(1.6);
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    #header {
+        transform: scale(1.6);
+        margin-top: 5em;
+    }
+    #navigation {
+        transform: scale(1.6);
+        margin-top: 8em;
+    }
+    section {
+        transform: scale(1.6);
+        margin-top: 35em;
+        a {
+            outline: none;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);   /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
+        }
+    }
+    footer {
+        transform: scale(1.6);
+        margin-top: 23em;
+    }
+    
     .loader {
         -webkit-animation-duration: 5s;
                 animation-duration: 5s;
+                margin-left: -10em;
     }
     .loader div {
-        
+        -webkit-animation-iteration-count: 4;
+                animation-iteration-count: 4;
         margin-top: 25em;
-        margin-left: 12em;
+        margin-left: 25em;
     }
 }
 @media screen and (min-width: 1600.1px) 
