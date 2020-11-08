@@ -31,7 +31,7 @@ $font-text: "roboto";
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
-    padding-bottom: 0.5em;
+    padding-left: 5em;
     a {
         @include fa-icon;
         padding: 1em;
@@ -135,6 +135,7 @@ $font-text: "roboto";
         animation-duration: 1s;
         transition: ease-in-out;
     }
+    
 }
 @mixin footer__settings {
     padding: 1em 1em 1em 1em;
@@ -393,6 +394,18 @@ $font-text: "roboto";
         margin-left: -1rem;
     }
 }
+@-webkit-keyframes loading-menus {
+    0% {
+        margin-bottom: -3em;
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    100% {
+        
+    }
+}
 @keyframes loading-menus {
     0% {
         margin-bottom: -3em;
@@ -449,12 +462,19 @@ $font-text: "roboto";
                     &::before {
                         @extend .far;
                         content: fa-content($fa-var-heart);
+                        padding-right: 0.1rem;
+                        padding-left: 0.1rem;
+                    }
+                    &:hover {
+                        cursor: pointer;
                     }
                 }
                 &:checked+label {
                     @include toggle__heart--menu;
                 } 
+                
             }
+           
         }
     }
 }
@@ -480,31 +500,29 @@ $font-text: "roboto";
         padding-left: 0.5em;
         
         #palette__entrées--1 {
-            animation: loading-menus 0.5s ease-in-out;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
             margin-top: 1em;
             @include div-principal-menus;
             input {
                 @include fa-icon;
-                display: none;
-                
+                display: none;   
                 &+label {
                     @include label-settings-menus;
                     #palette__entrées--prix {
-                        padding-left: 9em;
-                        margin-top: 1.5em;
-                            h5 {
-                                margin-left: -1em;
-                            }
+                    padding-left: 9em;
+                    margin-top: 1.5em;
+                        h5 {
+                            margin-left: -1em;
                         }
+                    }        
                 }
-                &:checked+label {
-                    
+                &:checked+label { 
                     @include checked-ok; 
                     #palette__entrées--prix {
                         padding-left: 9em;
                         margin-top: 1.5em;
                         h5 {
-                            
                             margin-left: -5rem;
                             padding-right: 0em;
                             -webkit-animation-name: price-animation;
@@ -513,23 +531,6 @@ $font-text: "roboto";
                                     animation-duration: 2s;
                             transition: ease-out;
                         }
-                    }
-                }
-            }
-            &:hover {
-                @include checked-ok; 
-                #palette__entrées--prix {
-                    padding-left: 9em;
-                    margin-top: 1.5em;
-                    h5 {
-                        
-                        margin-left: -5rem;
-                        padding-right: 0em;
-                        -webkit-animation-name: price-animation;
-                                animation-name: price-animation;
-                        -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
-                        transition: ease-out;
                     }
                 }
             }
@@ -537,7 +538,8 @@ $font-text: "roboto";
         #palette__entrées--2 {
             margin-top: 1em;
             @include div-principal-menus;
-            animation: loading-menus 0.5s ease-in-out;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
             input {
                 @include fa-icon;
                 display: none;
@@ -569,28 +571,12 @@ $font-text: "roboto";
                     }
                 }
             }
-            &:hover {
-                @include checked-ok; 
-                    #palette__entrées--prix {
-                        padding-left: 5.6em;
-                        margin-top: 1.5em;
-                        h5 {
-                            
-                            margin-left: -5rem;
-                            padding-right: 0em;
-                            -webkit-animation-name: price-animation;
-                                    animation-name: price-animation;
-                            -webkit-animation-duration: 2s;
-                                    animation-duration: 2s;
-                            transition: ease-out;
-                        }
-                    }
-            }
         }
         #palette__entrées--3 {
             margin-top: 1em;
             @include div-principal-menus;
-            animation: loading-menus 0.5s ease-in-out;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
             input {
                 @include fa-icon;
                 display: none;
@@ -633,31 +619,6 @@ $font-text: "roboto";
                         } 
                     }
                 }
-            }
-            &:hover {
-                @include checked-ok; 
-                    #palette__entrées--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
-                        h5 {
-                            &.overlay--1 {
-                                margin-top: 0.1rem;
-                                margin-left: -7.3rem;
-                                -webkit-animation-name: price-animation--lenghty;
-                                        animation-name: price-animation--lenghty;
-                                -webkit-animation-duration: 2s;
-                                        animation-duration: 2s;
-                                transition: ease-in;
-                                background-color: white;
-                                padding: 0em 0em 0em 1em;
-                                transform-origin: right;
-                                &:before {
-                                    content: "...";
-                                    padding-right: 1em;
-                                }
-                            }
-                        } 
-                    }
             }
         } 
     }
@@ -679,7 +640,8 @@ $font-text: "roboto";
         #palette__plats--1 {
             @include div-principal-menus;
             height: 3.5em;
-            animation: loading-menus 0.5s ease-in-out;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
             margin-top: 1em;
             input {
                 @include fa-icon;
@@ -724,36 +686,12 @@ $font-text: "roboto";
                     }
                 }
             }
-            &:hover{
-                @include checked-ok; 
-                    #checked-font-place {
-                        background-color: $green;
-                        padding: 1.8em 1.3em 1.8em 1.3em;
-                        margin-left: -0.8em;
-                    }
-                    #palette__plats--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
-                        h5 {
-                            &.overlay--2 {
-                                margin-top: 1.2rem;
-                                margin-left: -3.5rem;
-                                -webkit-animation-name: price-animation--large;
-                                        animation-name: price-animation--large;
-                                -webkit-animation-duration: 2s;
-                                        animation-duration: 2s;
-                                transition: ease-in;
-                                background-color: white;
-                                padding: 0em 1em 0em 1em;
-                            }
-                        } 
-                    }
-            }
         }
         #palette__plats--2 {
             margin-top: 1em;
             @include div-principal-menus;
-            animation: loading-menus 0.5s ease-in-out;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
             input {
                 @include fa-icon;
                 display: none;
@@ -800,39 +738,12 @@ $font-text: "roboto";
                     }
                 }
             }
-            &:hover {
-                @include checked-ok; 
-                    #checked-font-place {
-                        margin-left: -3em;
-                    }
-                    #palette__plats--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
-                        h5 {
-                            &.overlay--3 {
-                                margin-top: 0.1rem;
-                                margin-left: -7.3rem;
-                                -webkit-animation-name: price-animation--lenghty;
-                                        animation-name: price-animation--lenghty;
-                                -webkit-animation-duration: 1s;
-                                        animation-duration: 1s;
-                                transition: ease-in;
-                                background-color: white;
-                                padding: 0em 0em 0em 1em;
-                                transform-origin: right;
-                                &:before {
-                                    content: "...";
-                                    padding-right: 1em;
-                                }
-                            }
-                        } 
-                    }
-            }
         }
         #palette__plats--3 {
             margin-top: 1em;
             @include div-principal-menus;
-            animation: loading-menus 0.5s ease-in-out;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
             input {
                 @include fa-icon;
                 display: none;
@@ -870,25 +781,6 @@ $font-text: "roboto";
                     }
                 }
             }
-            &:hover {
-                @include checked-ok; 
-                    #checked-font-place {
-                        margin-left: 0.5em;   /*this margin set up the background and the distance it will be from the price*/
-                    }
-                    #palette__plats--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
-                        h5 {
-                            margin-left: -1rem;
-                            padding-right: 0em;
-                            -webkit-animation-name: price-animation--short;
-                                    animation-name: price-animation--short;
-                            -webkit-animation-duration: 2s;
-                                    animation-duration: 2s;
-                            transition: ease-out;
-                        } 
-                    }
-            }
         } 
     }
     #palette__desserts {
@@ -908,7 +800,8 @@ $font-text: "roboto";
         
         #palette__desserts--1 {
             @include div-principal-menus;
-            animation: loading-menus 0.5s ease-in-out;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
             margin-top: 1em;
             input {
                 @include fa-icon;
@@ -947,30 +840,12 @@ $font-text: "roboto";
                     }
                 }
             }
-            &:hover {
-                @include checked-ok; 
-                    #checked-font-place {
-                        margin-left: 0.5em;  
-                    }
-                    #palette__desserts--prix {
-                        padding-left: 2.5em;  /*for this page, this customize the distance of the checked ok green background*/
-                        margin-top: 1.5em;
-                        h5 {
-                            margin-left: -1rem;
-                            padding-right: 0em;
-                            -webkit-animation-name: price-animation--short;
-                                    animation-name: price-animation--short;
-                            -webkit-animation-duration: 2s;
-                                    animation-duration: 2s;
-                            transition: ease-out;
-                        } 
-                    }
-            }
         }
         #palette__desserts--2 {
             margin-top: 1em;
             @include div-principal-menus;
-            animation: loading-menus 0.5s ease-in-out;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
             input {
                 @include fa-icon;
                 display: none;
@@ -1033,55 +908,12 @@ $font-text: "roboto";
                     }
                 }
             }
-            &:hover {
-                @include checked-ok; 
-                    #checked-font-place {
-                        margin-left: -3.9em;  
-                    }
-                    h3 {
-                        padding-right: 3em;
-                    }
-                    #palette__desserts--prix {
-                        padding-left: 0em;
-                        margin-top: 1.5em;
-                        h5 {
-                            margin-left: -7.3rem;
-                            padding-right: 0em;
-                            -webkit-animation-name: price-animation--lenghty;
-                                    animation-name: price-animation--lenghty;
-                            -webkit-animation-duration: 2s;
-                                    animation-duration: 2s;
-                            transition: ease-out;
-                            z-index: 100;
-                            background: white;
-                            padding-bottom: 0.2em;
-                            
-                            &::before {
-                                content: "...";
-                                padding-right: 0.7em;
-                                z-index: 90;
-                                background: white;
-                                margin-left: -0.25em;
-                            }
-                            &::after {
-                                content: "...";
-                                position: absolute;
-                                font-size: 2em;
-                                margin-left: -1.5em;
-                                margin-top: -1.2em;
-                                z-index: 90;
-                                background: white;
-                                padding-right: 2em;
-                                
-                            }
-                        } 
-                    }
-            }
         }
         #palette__desserts--3 {
             margin-top: 1em;
             @include div-principal-menus;
-            animation: loading-menus 0.5s ease-in-out;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
             input {
                 @include fa-icon;
                 display: none;
@@ -1128,34 +960,6 @@ $font-text: "roboto";
                     }
                 }
             }
-            &:hover {
-                @include checked-ok; 
-                    #checked-font-place {
-                        margin-left: -4em;  
-                    }
-                    h3 {
-                        padding-right: 5em;
-                    }
-                    #palette__desserts--prix {
-                        padding-left: 3em;
-                        margin-top: 1.55em;
-                        h5 {
-                            margin-left: -7.3rem;
-                            padding-right: 0em;
-                            -webkit-animation-name: price-animation--lenghty;
-                                    animation-name: price-animation--lenghty;
-                            -webkit-animation-duration: 2s;
-                                    animation-duration: 2s;
-                            transition: ease-out;
-                            z-index: 100;
-                            background: white;
-                            &::before {
-                                content: "...";
-                                padding-right: 0.7em;
-                            }
-                        } 
-                    }
-            }
         }
     }
     .button-pink--large {
@@ -1184,50 +988,305 @@ footer {
 
 @media screen and (min-width: 500px) and (max-width: 667px)
 {
-    body {
-        padding-left: 9em;
-        width: 375px;
+    header {
+        transform: scale(1.21);
+        padding-left: 2.6em;
+        margin-top: 0em;   /*i dont know why but the remove the space between the top of the scrren and the logo*/
+    }
+    #palette-image {
+        transform: scale(1.5);
+        margin-top: 4.5em;
+        margin-left: 3em;
+        margin-right: 2.8em;
+        .overlay__menu--1 {
+            width: 386px;
+            margin-left: -0.09em;
+        }
+    }
+    section {
+        transform: scale(1.527);
+        width: 365px;
+        margin-top: 23em;
+        margin-left: 3.1em;
+    }
+    footer {
+        width: 17.8em;
+        margin-left: 2rem;
+        #footer__nav {
+            display: flex;
+            flex-direction: row;
+        }
     }
 }
 @media screen and (min-width: 667.1px) and (max-width: 768px)
 {
-    body {
-        padding-left: 12em;
-        width: 375px;
+    header {
+        transform: scale(1.3);
+        margin-top: 0em;   /*here it remove the space between ohmyfood and the top screen*/
+        width: 487px;
+        margin-left: -0.2em; /*this here move the ohhmyfood and the arrow together*/
+        #logo {
+            padding-left: 6.5em; 
+            padding-bottom: 2em;
+            padding-top: 2em;
+            margin-left: 2.2em;
+            a {
+                padding-right: 2em;  /*this pushed the arrow toward the logo*/
+            }
+        }
+    }
+    #palette-image {
+        transform: scale(1.65);
+        margin-top: 4.5em;
+        margin-left: 3em;
+        margin-right: 2.8em;
+        .overlay__menu--1 {
+            width: 386px;
+            margin-left: -0.09em;
+        }
+    }
+    section {
+        transform: scale(1.685);
+        width: 365px;
+        margin-top: 30em;
+        margin-left: 3.1em;
+    }
+    footer {
+        transform: scale(1.65);    /*scale, font size and width, mostly, fixed the issue where the width in the ipad was not the same for the desktop. I think the issue was the font size*/
+        width: 16.5em;
+        margin-top: 19em;
+        margin-left: 2.15em;
+        #footer__nav {
+            display: flex;
+            flex-direction: row;
+            font-size: 0.9em;
+        }
     }
 }   
 @media screen and (min-width: 768.1px) and (max-width: 1024px)
 {
-    body {
-        padding-left: 20em;
-        width: 375px;
+    header {
+        transform: scale(1.5);
+        margin-top: 0em;   /*here it remove the space between ohmyfood and the top screen*/
+        width: 487px;
+        margin-left: -0.2em; /*this here move the ohhmyfood and the arrow together*/
+        #logo {
+            padding-left: 6.5em; 
+            padding-bottom: 1em;
+            padding-top: 2em;
+            margin-left: 2.2em;
+            a {
+                padding-right: 2em;  /*this pushed the arrow toward the logo*/
+            }
+        }
+    }
+    #palette-image {
+        transform: scale(1.9);
+        margin-top: 9.5em;
+        margin-left: 3em;
+        margin-right: 2.8em;
+        .overlay__menu--1 {
+            width: 386px;
+            margin-left: -0.09em;
+        }
+    }
+    section {
+        transform: scale(1.935);
+        width: 365px;
+        margin-top: 42em;
+        margin-left: 3.1em;
+    }
+    footer {
+        width: 415px;
+        margin-left: 0.5em;
+        margin-top: 26em;
+        #footer__nav {
+            display: flex;
+            flex-direction: row;
+        }
     }
 }  
 @media screen and (min-width: 1024.1px) and (max-width: 1224px)
 {
     body {
-        padding-left: 25em;
-        width: 375px;
+        padding-left: 20em;
+    }
+    header {
+        transform: scale(1.5);
+        margin-top: 0em;   /*here it remove the space between ohmyfood and the top screen*/
+        width: 487px;
+        margin-left: -0.2em; /*this here move the ohhmyfood and the arrow together*/
+        #logo {
+            padding-left: 6.5em; 
+            padding-bottom: 1em;
+            padding-top: 2em;
+            margin-left: 2.2em;
+            a {
+                padding-right: 2em;  /*this pushed the arrow toward the logo*/
+            }
+        }
+    }
+    #palette-image {
+        transform: scale(1.9);
+        margin-top: 9.5em;
+        margin-left: 3em;
+        margin-right: 2.8em;
+        .overlay__menu--1 {
+            width: 386px;
+            margin-left: -0.09em;
+        }
+    }
+    section {
+        transform: scale(1.935);
+        width: 365px;
+        margin-top: 42em;
+        margin-left: 3.1em;
+    }
+    footer {
+        width: 415px;
+        margin-left: 0.5em;
+        margin-top: 26em;
+        #footer__nav {
+            display: flex;
+            flex-direction: row;
+        }
     }
 } 
 @media screen and (min-width: 1224.1px) and (max-width: 1424px)
 {
     body {
-        padding-left: 33em;
-        width: 375px;
+        padding-left: 30em;
+    }
+    header {
+        transform: scale(1.5);
+        margin-top: 0em;   /*here it remove the space between ohmyfood and the top screen*/
+        width: 487px;
+        margin-left: -0.2em; /*this here move the ohhmyfood and the arrow together*/
+        #logo {
+            padding-left: 6.5em; 
+            padding-bottom: 1em;
+            padding-top: 2em;
+            margin-left: 2.2em;
+            a {
+                padding-right: 2em;  /*this pushed the arrow toward the logo*/
+            }
+        }
+    }
+    #palette-image {
+        transform: scale(1.9);
+        margin-top: 9.5em;
+        margin-left: 3em;
+        margin-right: 2.8em;
+        .overlay__menu--1 {
+            width: 386px;
+            margin-left: -0.09em;
+        }
+    }
+    section {
+        transform: scale(1.935);
+        width: 365px;
+        margin-top: 42em;
+        margin-left: 3.1em;
+    }
+    footer {
+        width: 415px;
+        margin-left: 0.5em;
+        margin-top: 26em;
+        #footer__nav {
+            display: flex;
+            flex-direction: row;
+        }
     }
 } 
 @media screen and (min-width: 1424.1px) and (max-width: 1600px)
 {
     body {
-        padding-left: 38em;
-        width: 375px;
+        padding-left: 40em;
+    }
+    header {
+        transform: scale(1.5);
+        margin-top: 0em;   /*here it remove the space between ohmyfood and the top screen*/
+        width: 487px;
+        margin-left: -0.2em; /*this here move the ohhmyfood and the arrow together*/
+        #logo {
+            padding-left: 6.5em; 
+            padding-bottom: 1em;
+            padding-top: 2em;
+            margin-left: 2.2em;
+            a {
+                padding-right: 2em;  /*this pushed the arrow toward the logo*/
+            }
+        }
+    }
+    #palette-image {
+        transform: scale(1.9);
+        margin-top: 9.5em;
+        margin-left: 3em;
+        margin-right: 2.8em;
+        .overlay__menu--1 {
+            width: 386px;
+            margin-left: -0.09em;
+        }
+    }
+    section {
+        transform: scale(1.935);
+        width: 365px;
+        margin-top: 42em;
+        margin-left: 3.1em;
+    }
+    footer {
+        width: 415px;
+        margin-left: 0.5em;
+        margin-top: 26em;
+        #footer__nav {
+            display: flex;
+            flex-direction: row;
+        }
     }
 } 
 @media screen and (min-width: 1600.1px)
 {
     body {
         padding-left: 45em;
-        width: 375px;
+    }
+    header {
+        transform: scale(1.5);
+        margin-top: 0em;   /*here it remove the space between ohmyfood and the top screen*/
+        width: 487px;
+        margin-left: -0.2em; /*this here move the ohhmyfood and the arrow together*/
+        #logo {
+            padding-left: 6.5em; 
+            padding-bottom: 1em;
+            padding-top: 2em;
+            margin-left: 2.2em;
+            a {
+                padding-right: 2em;  /*this pushed the arrow toward the logo*/
+            }
+        }
+    }
+    #palette-image {
+        transform: scale(1.9);
+        margin-top: 9.5em;
+        margin-left: 3em;
+        margin-right: 2.8em;
+        .overlay__menu--1 {
+            width: 386px;
+            margin-left: -0.09em;
+        }
+    }
+    section {
+        transform: scale(1.935);
+        width: 365px;
+        margin-top: 42em;
+        margin-left: 3.1em;
+    }
+    footer {
+        width: 415px;
+        margin-left: 0.5em;
+        margin-top: 28em;
+        #footer__nav {
+            display: flex;
+            flex-direction: row;
+        }
     }
 } 

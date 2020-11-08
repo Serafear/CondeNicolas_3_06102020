@@ -6391,22 +6391,22 @@ body {
   padding-top: 0.5em;
 }
 
-#header {
+header {
   background-color: #F6F6F6;
   padding: 0.5em 0em 0.5em 0em;
   display: flex;
 }
-#header .button-pink {
+header .button-pink {
   padding-bottom: 3em;
 }
-#header .button-pink #search-bar {
+header .button-pink #search-bar {
   padding-left: 5em;
   margin-top: -0.5em;
   background-color: #EAEAEA;
   border-top-style: hidden;
   box-shadow: 0em -0.1em 0em 0em gray;
 }
-#header .button-pink #search-bar .search {
+header .button-pink #search-bar .search {
   background-color: #EAEAEA;
   height: 3em;
   border-style: none;
@@ -6414,10 +6414,10 @@ body {
   padding-left: 2em;
   margin-left: 5em;
 }
-#header .button-pink #search-bar textarea:focus, #header .button-pink #search-bar input:focus {
+header .button-pink #search-bar textarea:focus, header .button-pink #search-bar input:focus {
   outline: none;
 }
-#header .button-pink #search-bar .fas, #header .button-pink #search-bar footer #line2 h6::before, footer #line2 #header .button-pink #search-bar h6::before, #header .button-pink #search-bar footer #line1 h6::before, footer #line1 #header .button-pink #search-bar h6::before, #header .button-pink #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #header .button-pink #search-bar input:checked + label::before, #header .button-pink #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #header .button-pink #search-bar input:checked + label::before, #header .button-pink #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #header .button-pink #search-bar input:checked + label::before {
+header .button-pink #search-bar .fas, header .button-pink #search-bar footer #line2 h6::before, footer #line2 header .button-pink #search-bar h6::before, header .button-pink #search-bar footer #line1 h6::before, footer #line1 header .button-pink #search-bar h6::before, header .button-pink #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 header .button-pink #search-bar input:checked + label::before, header .button-pink #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 header .button-pink #search-bar input:checked + label::before, header .button-pink #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 header .button-pink #search-bar input:checked + label::before {
   color: #323232;
   font-size: 1.3em;
   position: absolute;
@@ -6427,7 +6427,7 @@ body {
   padding-left: 1.5em;
   /*this push the geo icon under the O, but is push the earch bar too.Thats why i used absolute*/
 }
-#header .button-pink h1 {
+header .button-pink h1 {
   font-size: 1.5em;
   font-weight: bolder;
   text-align: center;
@@ -6437,7 +6437,7 @@ body {
   padding-right: 1em;
   padding-left: 1em;
 }
-#header .button-pink h3 {
+header .button-pink h3 {
   text-align: center;
   font-size: 1.1em;
   font-weight: lighter;
@@ -6446,7 +6446,7 @@ body {
   padding-right: 0.7em;
   font-family: "roboto";
 }
-#header .button-pink button {
+header .button-pink button {
   display: flex;
   margin-left: 30%;
   /*here im trying to automate the screens transitions with %. I dont know if it will work*/
@@ -6457,7 +6457,7 @@ body {
   padding: 0.8em 0.8em 0.8em 0.8em;
   background: linear-gradient(-10deg, #9356DC 30%, #FF79DA);
 }
-#header .button-pink button:hover {
+header .button-pink button:hover {
   cursor: pointer;
   -webkit-filter: opacity(85%);
   filter: opacity(85%);
@@ -13489,36 +13489,36 @@ footer #line2 h6::before {
     padding-top: 0.5em;
   }
 
-  #header {
+  header {
     background-color: #F6F6F6;
     padding: 0.5em 0em 0.5em 0em;
     display: flex;
   }
-  #header .button-pink {
+  header .button-pink {
     padding-bottom: 3em;
   }
-  #header .button-pink #search-bar {
+  header .button-pink #search-bar {
     padding-left: 2em;
     margin-top: -0.5em;
     background-color: #EAEAEA;
     border-top-style: hidden;
     box-shadow: 0em -0.1em 0em 0em gray;
   }
-  #header .button-pink #search-bar .search {
+  header .button-pink #search-bar .search {
     background-color: #EAEAEA;
     height: 3em;
     border-style: none;
     font-weight: bolder;
   }
-  #header .button-pink #search-bar textarea:focus, #header .button-pink #search-bar input:focus {
+  header .button-pink #search-bar textarea:focus, header .button-pink #search-bar input:focus {
     outline: none;
   }
-  #header .button-pink #search-bar .fas, #header .button-pink #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #header .button-pink #search-bar input:checked + label::before, #header .button-pink #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #header .button-pink #search-bar input:checked + label::before, #header .button-pink #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #header .button-pink #search-bar input:checked + label::before, #header .button-pink #search-bar footer #line1 h6::before, footer #line1 #header .button-pink #search-bar h6::before, #header .button-pink #search-bar footer #line2 h6::before, footer #line2 #header .button-pink #search-bar h6::before {
+  header .button-pink #search-bar .fas, header .button-pink #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 header .button-pink #search-bar input:checked + label::before, header .button-pink #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 header .button-pink #search-bar input:checked + label::before, header .button-pink #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 header .button-pink #search-bar input:checked + label::before, header .button-pink #search-bar footer #line1 h6::before, footer #line1 header .button-pink #search-bar h6::before, header .button-pink #search-bar footer #line2 h6::before, footer #line2 header .button-pink #search-bar h6::before {
     color: #323232;
     font-size: 1em;
     padding-right: 1em;
   }
-  #header .button-pink h1 {
+  header .button-pink h1 {
     font-size: 1.5em;
     font-weight: bolder;
     text-align: center;
@@ -13528,7 +13528,7 @@ footer #line2 h6::before {
     padding-right: 1em;
     padding-left: 1em;
   }
-  #header .button-pink h3 {
+  header .button-pink h3 {
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
@@ -13537,7 +13537,7 @@ footer #line2 h6::before {
     padding-right: 0.7em;
     font-family: "roboto";
   }
-  #header .button-pink button {
+  header .button-pink button {
     margin-left: 5.2em;
     font-size: 1em;
     color: white;
@@ -14143,7 +14143,7 @@ footer #line2 h6::before {
     padding-top: 1em;
   }
 
-  #header {
+  header {
     transform: scale(1.4);
     margin-top: 5em;
   }
@@ -14192,7 +14192,7 @@ footer #line2 h6::before {
     padding-top: 1em;
   }
 
-  #header {
+  header {
     transform: scale(1.4);
     margin-top: 5em;
   }
@@ -14242,7 +14242,7 @@ footer #line2 h6::before {
     padding-bottom: 1em;
   }
 
-  #header {
+  header {
     transform: scale(1.6);
     margin-top: 5em;
   }
@@ -14292,7 +14292,7 @@ footer #line2 h6::before {
     padding-bottom: 1em;
   }
 
-  #header {
+  header {
     transform: scale(1.6);
     margin-top: 5em;
   }
@@ -14342,7 +14342,7 @@ footer #line2 h6::before {
     padding-bottom: 1em;
   }
 
-  #header {
+  header {
     transform: scale(1.6);
     margin-top: 5em;
   }
@@ -14392,7 +14392,7 @@ footer #line2 h6::before {
     padding-bottom: 1em;
   }
 
-  #header {
+  header {
     transform: scale(1.6);
     margin-top: 5em;
   }
@@ -14441,7 +14441,7 @@ footer #line2 h6::before {
     padding-bottom: 5em;
   }
 
-  #header {
+  header {
     transform: scale(1.6);
     -webkit-transform: scale(1.6);
   }
