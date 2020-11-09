@@ -11,11 +11,11 @@
     font-family: "roboto";
     src: url("fonts/roboto/Roboto-Regular.ttf");
 }
-@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
-@import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
-@import "node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
-@import "node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
-@import "style.css";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+
 
 $gray-light: #F6F6F6;
 $gray-darker: #EAEAEA;
@@ -45,7 +45,7 @@ $font-text: "roboto";
 }
 @mixin photo-menu {
     article {
-        background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+        background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position-y: center;
@@ -133,6 +133,7 @@ $font-text: "roboto";
         -webkit-animation-duration: 1s;
         animation-duration: 1s;
         transition: ease-in-out;
+        padding-left: 0.05rem;
     }
     &:hover {
         cursor: pointer;
@@ -434,12 +435,12 @@ $font-text: "roboto";
 #logo {
     @include logo-back
 }
-#lanote-image {
+#alafrançaise-image {
   @include photo-menu;
   padding-bottom: 3em;
   .overlay__menu--1 {
     margin-top: 12em;
-        #lanote__title {
+        #alafrançaise__title {
             opacity: 1;
             background-color: $gray-light;
             width: 100%;
@@ -472,6 +473,7 @@ $font-text: "roboto";
                 }
                 &:checked+label {
                     @include toggle__heart--menu;
+                    
                 } 
             }
         }
@@ -483,7 +485,7 @@ $font-text: "roboto";
     padding-top: 0.5em;
     padding-left: 0.8em;
     font-family: $font-text;
-    #lanote__entrées {
+    #alafrançaise__entrées {
         padding-bottom: 0.5em;
             p {
                 border-bottom: solid $green;
@@ -491,13 +493,13 @@ $font-text: "roboto";
                 margin-right: 20em;
             }
         }
-    #lanote__entrées--all {
+    #alafrançaise__entrées--all {
         padding-bottom: 2em;
         overflow-y: hidden;
         overflow-x: hidden;
-        height: 23em;
+        height: 17.5em;
         padding-left: 0.5em;
-        #lanote__entrées--1 {
+        #alafrançaise__entrées--1 {
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
@@ -508,25 +510,24 @@ $font-text: "roboto";
                 &+label {
                     @include label-settings-menus;
                     h3 {
-                        padding-right: 0em;  
+                        padding-right: 3.5em;  
                     }
-                    #lanote__entrées--prix {
+                    #alafrançaise__entrées--prix {
                         padding-left: 3em;
-                        margin-top: 1.55em;
+                        margin-top: 1.6em;
                         h5 {
                             margin-left: -1.5rem;
                         }
-                        
                     }
                 }
                 &:checked+label {
                     @include checked-ok; 
                     #checked-font-place {
-                        margin-left: -0.5em;  
+                        margin-left: -1.7em;  
                     }
-                    #lanote__entrées--prix {
-                        padding-left: 0em;
-                        margin-top: 1.55em;
+                    #alafrançaise__entrées--prix {
+                        padding-left: 1em;
+                        margin-top: 1.6em;
                         h5 {
                             margin-left: -3.6rem;
                             padding-right: 0em;
@@ -535,19 +536,12 @@ $font-text: "roboto";
                             -webkit-animation-duration: 1.5s;
                                     animation-duration: 1.5s;
                             transition: ease-out;
-                            z-index: 100;
-                            background: white;
-                            
-                            &:before {
-                                content: "...";
-                                padding-right: 0.7em;
-                            }
                         } 
                     }
                 }
             }
         }
-        #lanote__entrées--2 {
+        #alafrançaise__entrées--2 {
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
@@ -558,23 +552,25 @@ $font-text: "roboto";
                 &+label {
                     @include label-settings-menus;
                     h3 {
-                        padding-right: 8em;  
+                        padding-right: 3.5em;  
                     }
-                    #lanote__entrées--prix {
-                        padding-left: 3em;
+                    #alafrançaise__entrées--prix {
+                        padding-left: 1.8em;
                         margin-top: 1.6em;
                         h5 {
                             margin-left: -1.5rem;
                         }
-                        
                     }
                 }
                 &:checked+label {
                     @include checked-ok; 
                     #checked-font-place {
-                        margin-left: -0.5em;  
+                        margin-left: -1.5em;  
                     }
-                    #lanote__entrées--prix {
+                    h3 {
+                        padding-right: 3.2em;    /*this padding help me position the price*/
+                    }
+                    #alafrançaise__entrées--prix {
                         padding-left: 0em;
                         margin-top: 1.6em;
                         h5 {
@@ -585,20 +581,12 @@ $font-text: "roboto";
                             -webkit-animation-duration: 1.5s;
                                     animation-duration: 1.5s;
                             transition: ease-out;
-                            z-index: 100;
-                            background: white;
-                            
-                            &:before {              /*this part here is to make the animation of entréées 1&2 similar*/
-                                content: "...";
-                                color: transparent;
-                                padding-right: 0.7em;
-                            }
                         } 
                     }
                 }
             }
         }
-        #lanote__entrées--3 {
+        #alafrançaise__entrées--3 {
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
@@ -609,104 +597,35 @@ $font-text: "roboto";
                 &+label {
                     @include label-settings-menus;
                     h3 {
-                        padding-right: -4.5em;  
+                        padding-right: 8.5em;  
                     }
-                    #lanote__entrées--prix {
-                        padding-left: 3em;
+                    #alafrançaise__entrées--prix {
+                        padding-left: 1.8em;
                         margin-top: 1.6em;
                         h5 {
-                            margin-left: -3.6rem;
+                            margin-left: -1.5rem;
                         }
-                        
                     }
                 }
                 &:checked+label {
-                    @include checked-ok;
-                    
+                    @include checked-ok; 
                     #checked-font-place {
-                        margin-left: -2.5em;  
+                        margin-left: -1.5em;  
                     }
-                    
-                    #lanote__entrées--prix {
-                        padding-left: 0em;
-                        margin-top: 1.6em;
-                        h5 {
-                            margin-left: -7.3rem;
-                            padding-right: 0em;
-                            -webkit-animation-name: price-animation--lenghty;
-                                    animation-name: price-animation--lenghty;
-                            -webkit-animation-duration: 1.5s;
-                                    animation-duration: 1.5s;
-                            transition: ease-out;
-                            z-index: 100;
-                            background: white;
-                            
-                            padding-left: 3.3em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-                            &:before {       
-                                position: absolute;
-                                content: "...";
-                                padding-left: 0em;
-                                margin-left: -1.7em;
-                                padding-right: 3em;
-                                margin-top: -1.2em;
-                                z-index: 90;
-                                background: white;
-                                font-size: 2em;
-                            }
-                        } 
-                    }
-                }
-            }
-        }
-        #lanote__entrées--4 {
-            margin-top: 1em;
-            @include div-principal-menus;
-            -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
-            input {
-                @include fa-icon;
-                display: none;
-                &+label {
-                    @include label-settings-menus;
                     h3 {
-                        padding-right: 3em;  
+                        padding-right: 8.2em;    /*this padding help me position the price*/
                     }
-                    #lanote__entrées--prix {
-                        padding-left: 3em;
+                    #alafrançaise__entrées--prix {
+                        padding-left: 0em;
                         margin-top: 1.6em;
                         h5 {
                             margin-left: -3.6rem;
-                        }
-                        
-                    }
-                }
-                &:checked+label {
-                    @include checked-ok;
-                    #checked-font-place {
-                        margin-left: -1.7em;
-                    }
-                    
-                    #lanote__entrées--prix {
-                        padding-left: 0em;
-                        margin-top: 1.6em;
-                        margin-left: -0.7em;
-                        h5 {
-                            margin-left: -7.3rem;
                             padding-right: 0em;
-                            -webkit-animation-name: price-animation--lenghty;
-                                    animation-name: price-animation--lenghty;
+                            -webkit-animation-name: price-animation--short;
+                                    animation-name: price-animation--short;
                             -webkit-animation-duration: 1.5s;
                                     animation-duration: 1.5s;
                             transition: ease-out;
-                            z-index: 100;
-                            background: white;
-                            padding-left: 2em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-   
-                            &:before {       
-                                content: "...";
-                                padding-right: 1em;
-
-                            }
                         } 
                     }
                 }
@@ -714,7 +633,7 @@ $font-text: "roboto";
         } 
     }
     
-    #lanote__plats {
+    #alafrançaise__plats {
         padding-bottom: 0.5em; /*distance between the last div and the desserts*/
             p {
                 border-bottom: solid $green;
@@ -722,13 +641,13 @@ $font-text: "roboto";
                 margin-right: 20em;
             }
         }
-        #lanote__plats--all {
+        #alafrançaise__plats--all {
             padding-bottom: 2em;
             overflow-y: hidden;
             overflow-x: hidden;
             height: 17.5em;
             padding-left: 0.5em;
-        #lanote__plats--1 {
+        #alafrançaise__plats--1 {
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
@@ -739,9 +658,9 @@ $font-text: "roboto";
                 &+label {
                     @include label-settings-menus;
                     h3 {
-                        padding-right: 3em;  
+                        padding-right: 6.6em;  
                     }
-                    #lanote__plats--prix {
+                    #alafrançaise__plats--prix {
                         padding-left: 0em;
                         margin-top: 1.6em;
                         h5 {
@@ -753,185 +672,16 @@ $font-text: "roboto";
                 &:checked+label {
                     @include checked-ok;
                     #checked-font-place {
-                        margin-left: -1.7em;
+                        margin-left: -3.2em;
                     }
-                    
-                    #lanote__plats--prix {
-                        padding-left: 0em;
+                    h3 {
+                        padding-right: 0em;
+                        padding-bottom: 0.08em;
+                    }
+                    #alafrançaise__plats--prix {
+                        padding-left: 2.3em;
                         margin-top: 1.6em;
                         margin-left: -1.9em;
-                        h5 {
-                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
-                            padding-right: 0.5em;
-                            margin-right: 2rem;
-                            -webkit-animation-name: price-animation--short;
-                                    animation-name: price-animation--short;
-                            -webkit-animation-duration: 1.5s;
-                                    animation-duration: 1.5s;
-                            transition: ease-out;
-                            z-index: 100;
-                            background: white;
-                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-                            
-                        } 
-                    }
-                }
-            }
-        }
-        #lanote__plats--2 {
-            margin-top: 1em;
-            @include div-principal-menus;
-            -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
-            input {
-                @include fa-icon;
-                display: none;
-                &+label {
-                    @include label-settings-menus;
-                    h3 {
-                        padding-right: 3em;  
-                    }
-                    #lanote__plats--prix {
-                        padding-left: 6.5em;
-                        margin-top: 1.6em;
-                        h5 {
-                            margin-left: -1.5rem;
-                        }
-                        
-                    }
-                }
-                &:checked+label {
-                    @include checked-ok;
-                    #checked-font-place {
-                        margin-left: -1.7em;
-                    }
-                    
-                    #lanote__plats--prix {
-                        padding-left: 6.5em;
-                        margin-top: 1.6em;
-                        margin-left: -1.9em;
-                        h5 {
-                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
-                            padding-right: 0.5em;
-                            margin-right: 2rem;
-                            -webkit-animation-name: price-animation--short;
-                                    animation-name: price-animation--short;
-                            -webkit-animation-duration: 1.5s;
-                                    animation-duration: 1.5s;
-                            transition: ease-out;
-                            z-index: 100;
-                            background: white;
-                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-                        } 
-                    }
-                }
-            }
-        }
-        #lanote__plats--3 {
-            margin-top: 1em;
-            @include div-principal-menus;
-            -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
-            input {
-                @include fa-icon;
-                display: none;
-                &+label {
-                    @include label-settings-menus;
-                    h3 {
-                        padding-right: 3em;  
-                    }
-                    #lanote__plats--prix {
-                        padding-left: 3.5em;
-                        margin-top: 1.6em;
-                        h5 {
-                            margin-left: -1.5rem;
-                        }
-                        
-                    }
-                }
-                &:checked+label {
-                    @include checked-ok;
-                    #checked-font-place {
-                        margin-left: -1.7em;
-                    }
-                    
-                    #lanote__plats--prix {
-                        padding-left: 2.2em;
-                        margin-top: 1.6em;
-                        margin-left: -1.9em;
-                        h5 {
-                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
-                            padding-right: 0.5em;
-                            margin-right: 2rem;
-                            -webkit-animation-name: price-animation--short;
-                                    animation-name: price-animation--short;
-                            -webkit-animation-duration: 1.5s;
-                                    animation-duration: 1.5s;
-                            transition: ease-out;
-                            z-index: 100;
-                            background: white;
-                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-                            &:before {
-                                content: "...";
-                                padding-right: 0.7em;
-                            }
-                        } 
-                    }
-                }
-            }
-        } 
-    }
-    #lanote__desserts {
-        padding-bottom: 0.5em;
-            p {
-                border-bottom: solid $green;
-                border-width: 0.3em;
-                margin-right: 20em;
-            }
-    }
-    #lanote__desserts--all {      
-        padding-bottom: 3em;
-        overflow-y: hidden;
-        overflow-x: hidden;
-        height: 17.5em;
-        padding-left: 0.5em;
-        
-        #lanote__desserts--1 {
-            margin-top: 1em;
-            @include div-principal-menus;
-            -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
-            input {
-                @include fa-icon;
-                display: none;
-                &+label {
-                    @include label-settings-menus;
-                    h3 {
-                        padding-right: 0em;  
-                        padding-bottom: 0.1rem;
-                    }
-                    h4 {
-                        font-size: 0.95em;
-                    }
-                    #lanote__desserts--prix {
-                        padding-left: 3.5em;
-                        margin-top: 1.6em;
-                        h5 {
-                            margin-left: -2.5rem;
-                        }
-                        
-                    }
-                }
-                &:checked+label {
-                    @include checked-ok;
-                    #checked-font-place {
-                        margin-left: -3em;
-                    }
-                    
-                    #lanote__desserts--prix {
-                        padding-left: 1em;
-                        margin-top: 1.6em;
-                        margin-left: -1.5em;
                         h5 {
                             margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
                             padding-right: 2em;
@@ -953,7 +703,7 @@ $font-text: "roboto";
                 }
             }
         }
-        #lanote__desserts--2 {
+        #alafrançaise__plats--2 {
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
@@ -964,10 +714,10 @@ $font-text: "roboto";
                 &+label {
                     @include label-settings-menus;
                     h3 {
-                        padding-right: 3em;  
+                        padding-right: 1em;  
                     }
-                    #lanote__desserts--prix {
-                        padding-left: 5.3em;
+                    #alafrançaise__plats--prix {
+                        padding-left: 4.5em;
                         margin-top: 1.6em;
                         h5 {
                             margin-left: -1.5rem;
@@ -981,8 +731,181 @@ $font-text: "roboto";
                         margin-left: -1.7em;
                     }
                     
-                    #lanote__desserts--prix {
-                        padding-left: 5.3em;
+                    #alafrançaise__plats--prix {
+                        padding-left: 3.3em;
+                        margin-top: 1.6em;
+                        margin-left: -1.9em;
+                        h5 {
+                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                            padding-right: 0.5em;
+                            margin-right: 2rem;
+                            -webkit-animation-name: price-animation--short;
+                                    animation-name: price-animation--short;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
+                            transition: ease-out;
+                            z-index: 100;
+                            background: white;
+                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+                            &:before {
+                                content: "...";
+                                padding-right: 0.7em;
+                            }
+                        } 
+                    }
+                }
+            }
+        }
+        #alafrançaise__plats--3 {
+            margin-top: 1em;
+            @include div-principal-menus;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
+            input {
+                @include fa-icon;
+                display: none;
+                &+label {
+                    @include label-settings-menus;
+                    h3 {
+                        padding-right: 1em;  
+                    }
+                    #alafrançaise__plats--prix {
+                        padding-left: 4.5em;
+                        margin-top: 1.6em;
+                        h5 {
+                            margin-left: -1.5rem;
+                        }
+                        
+                    }
+                }
+                &:checked+label {
+                    @include checked-ok;
+                    #checked-font-place {
+                        margin-left: -1.7em;
+                    }
+                    
+                    #alafrançaise__plats--prix {
+                        padding-left: 3em;
+                        margin-top: 1.6em;
+                        margin-left: -1.9em;
+                        h5 {
+                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                            padding-right: 0.5em;
+                            margin-right: 2rem;
+                            -webkit-animation-name: price-animation--short;
+                                    animation-name: price-animation--short;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
+                            transition: ease-out;
+                            z-index: 100;
+                            background: white;
+                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+                            &:before {
+                                content: "...";
+                                padding-right: 0.7em;
+                            }
+                        } 
+                    }
+                }
+            }
+        } 
+    }
+    #alafrançaise__desserts {
+        padding-bottom: 0.5em;
+            p {
+                border-bottom: solid $green;
+                border-width: 0.3em;
+                margin-right: 20em;
+            }
+    }
+    #alafrançaise__desserts--all {      
+        padding-bottom: 3em;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: 17.5em;
+        padding-left: 0.5em;
+        
+        #alafrançaise__desserts--1 {
+            margin-top: 1em;
+            @include div-principal-menus;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
+            input {
+                @include fa-icon;
+                display: none;
+                &+label {
+                    @include label-settings-menus;
+                    h3 {
+                        padding-right: 0em;  
+                        padding-bottom: 0.1rem;
+                    }
+                    
+                    #alafrançaise__desserts--prix {
+                        padding-left: 7.2em;
+                        margin-top: 1.6em;
+                        h5 {
+                            margin-left: -2.5rem;
+                        }
+                        
+                    }
+                }
+                &:checked+label {
+                    @include checked-ok;
+                    #checked-font-place {
+                        margin-left: -3em;
+                    }
+                    
+                    #alafrançaise__desserts--prix {
+                        padding-left: 5.8em;
+                        margin-top: 1.6em;
+                        margin-left: -1.5em;
+                        h5 {
+                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                            padding-right: 2em;
+                            margin-right: 2rem;
+                            -webkit-animation-name: price-animation--short;
+                                    animation-name: price-animation--short;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
+                            transition: ease-out;
+                            z-index: 100;
+                            background: white;
+                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+                        } 
+                    }
+                }
+            }
+        }
+        #alafrançaise__desserts--2 {
+            margin-top: 1em;
+            @include div-principal-menus;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
+            input {
+                @include fa-icon;
+                display: none;
+                &+label {
+                    @include label-settings-menus;
+                    h3 {
+                        padding-right: 3em;  
+                    }
+                    #alafrançaise__desserts--prix {
+                        padding-left: 6em;
+                        margin-top: 1.6em;
+                        h5 {
+                            margin-left: -1.5rem;
+                        }
+                        
+                    }
+                }
+                &:checked+label {
+                    @include checked-ok;
+                    #checked-font-place {
+                        margin-left: -1.7em;
+                    }
+                    
+                    #alafrançaise__desserts--prix {
+                        padding-left: 5.9em;
                         margin-top: 1.6em;
                         margin-left: -1.9em;
                         h5 {
@@ -1002,7 +925,7 @@ $font-text: "roboto";
                 }
             }
         }
-        #lanote__desserts--3 {
+        #alafrançaise__desserts--3 {
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
@@ -1015,8 +938,8 @@ $font-text: "roboto";
                     h3 {
                         padding-right: 3em;  
                     }
-                    #lanote__desserts--prix {
-                        padding-left: 3.3em;
+                    #alafrançaise__desserts--prix {
+                        padding-left: 5em;
                         margin-top: 1.6em;
                         h5 {
                             margin-left: -1.5rem;
@@ -1030,8 +953,8 @@ $font-text: "roboto";
                         margin-left: -1.7em;
                     }
                     
-                    #lanote__desserts--prix {
-                        padding-left: 3.3em;
+                    #alafrançaise__desserts--prix {
+                        padding-left: 4.8em;
                         margin-top: 1.6em;
                         margin-left: -1.9em;
                         h5 {
@@ -1068,7 +991,6 @@ $font-text: "roboto";
                         filter: opacity(85%); /*this make the button lighter*/
             }
         } 
-        
     }
 }
 
@@ -1083,38 +1005,38 @@ footer {
         padding-left: 2.6em;
         margin-top: 0em;   /*i dont know why but the remove the space between the top of the scrren and the logo*/
     }
-    #lanote-image {
-        transform: scale(1.5);
+    #alafrançaise-image {
+        transform: scale(1.50);
         margin-top: 4.5em;
         margin-left: 3em;
-        margin-right: 2.8em;
+        margin-right: 2.85em;
         .overlay__menu--1 {
-            width: 386px;
+            width: 387px;
             margin-left: -0.09em;
         }
     }
     section {
         transform: scale(1.527);
-        width: 365px;
+        width: 367px;
         margin-top: 23em;
         margin-left: 3.1em;
     }
     footer {
-        width: 17.8em;
+        width: 17.9em;
         margin-left: 2rem;
         #footer__nav {
             display: flex;
             flex-direction: row;
         }
     }
-} 
+}
 @media screen and (min-width: 667.1px) and (max-width: 768px)
 {
     header {
         transform: scale(1.3);
         margin-top: 0em;   /*here it remove the space between ohmyfood and the top screen*/
-        width: 482px;
-        margin-left: 0.1em; /*this here move the ohhmyfood and the arrow together*/
+        width: 487px;
+        margin-left: -0.2em; /*this here move the ohhmyfood and the arrow together*/
         #logo {
             padding-left: 6.5em; 
             padding-bottom: 2em;
@@ -1125,27 +1047,27 @@ footer {
             }
         }
     }
-    #lanote-image {
-        transform: scale(1.61);
+    #alafrançaise-image {
+        transform: scale(1.63);
         margin-top: 4.5em;
         margin-left: 3em;
         margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 389px;
+            width: 388px;
             margin-left: -0.09em;
         }
     }
     section {
-        transform: scale(1.658);
-        width: 365px;
-        margin-top: 31em;
+        transform: scale(1.685);
+        width: 362px;
+        margin-top: 30em;
         margin-left: 3.3em;
     }
     footer {
         transform: scale(1.65);    /*scale, font size and width, mostly, fixed the issue where the width in the ipad was not the same for the desktop. I think the issue was the font size*/
-        width: 16.2em;
+        width: 16.4em;
         margin-top: 19em;
-        margin-left: 2.5em;
+        margin-left: 2.3em;
         #footer__nav {
             display: flex;
             flex-direction: row;
@@ -1170,26 +1092,26 @@ footer {
             }
         }
     }
-    #lanote-image {
+    #alafrançaise-image {
         transform: scale(1.88);
         margin-top: 9.5em;
         margin-left: 3em;
         margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 390px;
+            width: 389px;
             margin-left: -0.09em;
         }
     }
     section {
         transform: scale(1.935);
-        width: 366px;
-        margin-top: 45em;
+        width: 365.5px;
+        margin-top: 42em;
         margin-left: 3.3em;
     }
     footer {
-        width: 416px;
+        width: 415.5px;
         margin-left: 0.7em;
-        margin-top: 27em;
+        margin-top: 26em;
         #footer__nav {
             display: flex;
             flex-direction: row;
@@ -1216,26 +1138,26 @@ footer {
             }
         }
     }
-    #lanote-image {
+    #alafrançaise-image {
         transform: scale(1.88);
         margin-top: 9.5em;
         margin-left: 3em;
         margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 390px;
+            width: 389px;
             margin-left: -0.09em;
         }
     }
     section {
         transform: scale(1.935);
-        width: 366px;
-        margin-top: 45em;
+        width: 365.5px;
+        margin-top: 42em;
         margin-left: 3.3em;
     }
     footer {
-        width: 416px;
+        width: 415.5px;
         margin-left: 0.7em;
-        margin-top: 27em;
+        margin-top: 26em;
         #footer__nav {
             display: flex;
             flex-direction: row;
@@ -1262,26 +1184,26 @@ footer {
             }
         }
     }
-    #lanote-image {
+    #alafrançaise-image {
         transform: scale(1.88);
         margin-top: 9.5em;
         margin-left: 3em;
         margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 390px;
+            width: 389px;
             margin-left: -0.09em;
         }
     }
     section {
         transform: scale(1.935);
-        width: 366px;
-        margin-top: 45em;
+        width: 365.5px;
+        margin-top: 42em;
         margin-left: 3.3em;
     }
     footer {
-        width: 416px;
+        width: 415.5px;
         margin-left: 0.7em;
-        margin-top: 27em;
+        margin-top: 26em;
         #footer__nav {
             display: flex;
             flex-direction: row;
@@ -1308,26 +1230,26 @@ footer {
             }
         }
     }
-    #lanote-image {
+    #alafrançaise-image {
         transform: scale(1.88);
         margin-top: 9.5em;
         margin-left: 3em;
         margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 390px;
+            width: 389px;
             margin-left: -0.09em;
         }
     }
     section {
         transform: scale(1.935);
-        width: 366px;
-        margin-top: 45em;
+        width: 365.5px;
+        margin-top: 42em;
         margin-left: 3.3em;
     }
     footer {
-        width: 416px;
+        width: 415.5px;
         margin-left: 0.7em;
-        margin-top: 27em;
+        margin-top: 26em;
         #footer__nav {
             display: flex;
             flex-direction: row;
@@ -1354,29 +1276,29 @@ footer {
             }
         }
     }
-    #lanote-image {
+    #alafrançaise-image {
         transform: scale(1.88);
         margin-top: 9.5em;
         margin-left: 3em;
         margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 390px;
+            width: 389px;
             margin-left: -0.09em;
         }
     }
     section {
         transform: scale(1.935);
-        width: 366px;
-        margin-top: 45em;
+        width: 365.5px;
+        margin-top: 42em;
         margin-left: 3.3em;
     }
     footer {
-        width: 416px;
+        width: 415.5px;
         margin-left: 0.7em;
-        margin-top: 27em;
+        margin-top: 26em;
         #footer__nav {
             display: flex;
             flex-direction: row;
         }
     }
-}
+} 

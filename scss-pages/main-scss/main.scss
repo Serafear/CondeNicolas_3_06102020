@@ -5,16 +5,16 @@
 
 @font-face {
     font-family: "shrikhand";
-    src: url("fonts/shrikhand/Shrikhand-Regular.ttf");
+    src: url("../../fonts/shrikhand/Shrikhand-Regular.ttf");
 }
 @font-face {
     font-family: "roboto";
-    src: url("fonts/roboto/Roboto-Regular.ttf");
+    src: url("../../fonts/roboto/Roboto-Regular.ttf");
 }
-@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
-@import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
-@import "node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
-@import "node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 
 
 $gray-light: #F6F6F6;
@@ -805,7 +805,7 @@ header {
         @include article__setting;
         @include article__setting--1;
         article {
-            background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
+            background-image: url(../../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
             background-position-y: -4em;
         }
     }
@@ -813,7 +813,7 @@ header {
         @include article__setting;
         @include article__setting--2;
         article {
-            background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
+            background-image: url(../../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
             background-position-y: -12.5em;
         }
     }
@@ -821,7 +821,7 @@ header {
         @include article__setting;
         @include article__setting--3;
         article {
-            background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
+            background-image: url(../../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
             background-position-y: -4em;
         }
     }  
@@ -829,7 +829,7 @@ header {
         @include article__setting;
         @include article__setting--4;
         article {
-            background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
+            background-image: url(../../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
             background-position-y: -4em;
         }
     } 
@@ -852,10 +852,10 @@ footer {
         font-family: "roboto";
         src: url("fonts/roboto/Roboto-Regular.ttf");
     }
-    @import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
-    @import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
-    @import "node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
-    @import "node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+    @import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+    @import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+    @import "../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+    @import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 
     
     $gray-light: #F6F6F6;
@@ -1578,7 +1578,7 @@ footer {
             @include article__setting;
             @include article__setting--1;
             article {
-                background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
+                background-image: url(../../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
                 
             }
         }
@@ -1586,7 +1586,7 @@ footer {
             @include article__setting;
             @include article__setting--2;
             article {
-                background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
+                background-image: url(../../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
                 background-position-y: -8em;
             }
         }
@@ -1594,14 +1594,14 @@ footer {
             @include article__setting;
             @include article__setting--3;
             article {
-                background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
+                background-image: url(../../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
             }
         }  
         #restaurants__délice {
             @include article__setting;
             @include article__setting--4;
             article {
-                background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
+                background-image: url(../../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
             }
         } 
     }
@@ -1618,11 +1618,11 @@ footer {
     
     @font-face {
         font-family: "shrikhand";
-        src: url("fonts/shrikhand/Shrikhand-Regular.ttf");
+        src: url("../../fonts/shrikhand/Shrikhand-Regular.ttf");
     }
     @font-face {
         font-family: "roboto";
-        src: url("fonts/roboto/Roboto-Regular.ttf");
+        src: url("../../fonts/roboto/Roboto-Regular.ttf");
     }
    
 

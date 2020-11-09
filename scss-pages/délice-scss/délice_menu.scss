@@ -3,8 +3,6 @@
     padding: 0;
 }
 
-
-
 @font-face {
     font-family: "shrikhand";
     src: url("fonts/shrikhand/Shrikhand-Regular.ttf");
@@ -13,11 +11,11 @@
     font-family: "roboto";
     src: url("fonts/roboto/Roboto-Regular.ttf");
 }
-@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
-@import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
-@import "node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
-@import "node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
-@import "style.css";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+
 
 $gray-light: #F6F6F6;
 $gray-darker: #EAEAEA;
@@ -47,9 +45,10 @@ $font-text: "roboto";
 }
 @mixin photo-menu {
     article {
-        background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-        background-size: contain;
+        background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+        background-size: cover;
         background-repeat: no-repeat;
+        background-position-y: center;
         height: 16em;
         width: auto;
     }
@@ -66,12 +65,24 @@ $font-text: "roboto";
     overflow-y: hidden;
     height: 3em;
 }
+@mixin div-principal-menus--large {
+    border-style: hidden;
+    background-color: white;
+    padding: 0.9em 0.5em 0.9em 0.5em;
+    border-radius: 20px;
+    box-shadow: 0em 0em 0.6em -0.2em;
+    margin-right: 0.7em;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 4.2em;
+}
 
 @mixin label-settings-menus {
     display: flex;
     flex-direction: row;
     h3 {
         white-space: nowrap;
+        padding-bottom: 0.095rem;
     }
     h4 {
         white-space: nowrap;
@@ -84,6 +95,7 @@ $font-text: "roboto";
 
 @mixin checked-ok {
     #checked-font-place {
+        z-index: 95; 
         background-color: $green;
         padding: 1.5em 1.3em 1.5em 1.3em;
         margin-left: -2.5em;
@@ -97,7 +109,38 @@ $font-text: "roboto";
         -webkit-animation-duration: 2s;
         animation-duration: 2s;
         transition: ease-in-out;
-        z-index: 95;
+        &::after {
+            @extend .fas;
+            content: fa-content($fa-var-check-circle);
+            font-size: 2rem;
+            animation-name: checked-ok-rotate--menu;
+            -webkit-animation-name: checked-ok-rotate--menu;
+            animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+            border-style: hidden;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            color: white;
+            justify-content: center;
+        }
+    }
+}
+@mixin checked-ok--large {
+    #checked-font-place {
+        z-index: 95; 
+        background-color: $green;
+        padding: 2em 1.3em 2em 1.3em;
+        margin-left: -2.5em;
+        margin-top: -0.9em;
+        position: relative;
+        border-style: hidden;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        -webkit-animation-name: checked-background-translate--menu;
+        animation-name: checked-background-translate--menu;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        transition: ease-in-out;
         &::after {
             @extend .fas;
             content: fa-content($fa-var-check-circle);
@@ -135,7 +178,9 @@ $font-text: "roboto";
         animation-duration: 1s;
         transition: ease-in-out;
     }
-    
+    &:hover {
+        cursor: pointer;
+    }
 }
 @mixin footer__settings {
     padding: 1em 1em 1em 1em;
@@ -327,16 +372,16 @@ $font-text: "roboto";
 }
 @keyframes price-animation {
     0% {
-        padding-left: 9em;
-        transform: translate(-4em);
+        
+        transform: translate(-3.5em);
     }
     100% {
-        margin-left: -5rem
+        margin-left: -2.5rem
     }
 }
 @-webkit-keyframes price-animation--lenghty {
     0% {
-        padding-left: 9em;    /*why did i put that here ?*/
+        padding-left: 9em;         
         transform: translate(2em); /*translate me permet de commencer l'animation à partir d'un certain niveau*/
         padding: 0em 1em 0em 1em;  /*this padding is fo the overlay. I put it here for the "au cas où"*/
     }
@@ -347,12 +392,13 @@ $font-text: "roboto";
 }
 @keyframes price-animation--lenghty {
     0% {
-        
-        transform: translate(2.5rem); /*translate me permet de commencer l'animation à partir d'un certain niveau*/
+                   
+        transform: translate(1.5em); /*translate me permet de commencer l'animation à partir d'un certain niveau*/
         
     }
     100% {
         margin-left: -7.3rem;
+        /*with the z index no overlay needed*/
         
     }
 }
@@ -381,17 +427,18 @@ $font-text: "roboto";
         padding-left: 1em;
         transform: translate(2rem);
     }
+    
     100% {
         margin-left: -1rem;
     }
 }
 @keyframes price-animation--short {
     0% {
-        padding-left: 1em;
-        transform: translate(2rem);
+        padding-left: 0em;
+        transform: translate(2.3rem);
     }
     100% {
-        margin-left: -1rem;
+        margin-left: -3.6rem;
     }
 }
 @-webkit-keyframes loading-menus {
@@ -431,12 +478,12 @@ $font-text: "roboto";
 #logo {
     @include logo-back
 }
-#palette-image {
+#délice-image {
   @include photo-menu;
   padding-bottom: 3em;
   .overlay__menu--1 {
     margin-top: 12em;
-        #palette__title {
+        #délice__title {
             opacity: 1;
             background-color: $gray-light;
             width: 100%;
@@ -462,8 +509,6 @@ $font-text: "roboto";
                     &::before {
                         @extend .far;
                         content: fa-content($fa-var-heart);
-                        padding-right: 0.1rem;
-                        padding-left: 0.1rem;
                     }
                     &:hover {
                         cursor: pointer;
@@ -472,9 +517,7 @@ $font-text: "roboto";
                 &:checked+label {
                     @include toggle__heart--menu;
                 } 
-                
             }
-           
         }
     }
 }
@@ -484,7 +527,7 @@ $font-text: "roboto";
     padding-top: 0.5em;
     padding-left: 0.8em;
     font-family: $font-text;
-    #palette__entrées {
+    #délice__entrées {
         padding-bottom: 0.5em;
             p {
                 border-bottom: solid $green;
@@ -492,50 +535,13 @@ $font-text: "roboto";
                 margin-right: 20em;
             }
         }
-    #palette__entrées--all {
+    #délice__entrées--all {
         padding-bottom: 2em;
         overflow-y: hidden;
         overflow-x: hidden;
-        height: 17em;
+        height: 17.5em;
         padding-left: 0.5em;
-        
-        #palette__entrées--1 {
-            -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
-            margin-top: 1em;
-            @include div-principal-menus;
-            input {
-                @include fa-icon;
-                display: none;   
-                &+label {
-                    @include label-settings-menus;
-                    #palette__entrées--prix {
-                    padding-left: 9em;
-                    margin-top: 1.5em;
-                        h5 {
-                            margin-left: -1em;
-                        }
-                    }        
-                }
-                &:checked+label { 
-                    @include checked-ok; 
-                    #palette__entrées--prix {
-                        padding-left: 9em;
-                        margin-top: 1.5em;
-                        h5 {
-                            margin-left: -5rem;
-                            padding-right: 0em;
-                            -webkit-animation-name: price-animation;
-                                    animation-name: price-animation;
-                            -webkit-animation-duration: 2s;
-                                    animation-duration: 2s;
-                            transition: ease-out;
-                        }
-                    }
-                }
-            }
-        }
-        #palette__entrées--2 {
+        #délice__entrées--1 {
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
@@ -545,34 +551,39 @@ $font-text: "roboto";
                 display: none;
                 &+label {
                     @include label-settings-menus;
-                    #palette__entrées--prix {
-                        padding-left: 5.6em;
-                        margin-top: 1.5em;
+                    h3 {
+                        padding-right: 8em;  
+                    }
+                    #délice__entrées--prix {
+                        padding-left: 3em;
+                        margin-top: 1.6em;
                         h5 {
-                            margin-left: -1em;
+                            margin-left: -1.5rem;
                         }
                     }
                 }
                 &:checked+label {
                     @include checked-ok; 
-                    #palette__entrées--prix {
-                        padding-left: 5.6em;
-                        margin-top: 1.5em;
+                    #checked-font-place {
+                        margin-left: -1.6em;  
+                    }
+                    #délice__entrées--prix {
+                        padding-left: 1em;
+                        margin-top: 1.6em;
                         h5 {
-                            
-                            margin-left: -5rem;
+                            margin-left: -3.6rem;
                             padding-right: 0em;
-                            -webkit-animation-name: price-animation;
-                                    animation-name: price-animation;
-                            -webkit-animation-duration: 2s;
-                                    animation-duration: 2s;
+                            -webkit-animation-name: price-animation--short;
+                                    animation-name: price-animation--short;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
                             transition: ease-out;
-                        }
+                        } 
                     }
                 }
             }
         }
-        #palette__entrées--3 {
+        #délice__entrées--2 {
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
@@ -582,40 +593,87 @@ $font-text: "roboto";
                 display: none;
                 &+label {
                     @include label-settings-menus;
-                    #palette__entrées--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
+                    h3 {
+                        padding-right: 1.7em;  
+                    }
+                    #délice__entrées--prix {
+                        padding-left: 1.8em;
+                        margin-top: 1.6em;
                         h5 {
-                            margin-left: -1em;
-                            &.overlay--1 {
-                                margin-top: 0.1rem;
-                            }
+                            margin-left: -1.5rem;
                         }
-                        
                     }
                 }
                 &:checked+label {
                     @include checked-ok; 
-                    #palette__entrées--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
+                    #checked-font-place {
+                        margin-left: -0.65em;  
+                    }
+                    h3 {
+                        padding-right: 0.7em;    /*this padding help me position the price*/
+                    }
+                    #délice__entrées--prix {
+                        padding-left: 0em;
+                        margin-top: 1.6em;
                         h5 {
-                            &.overlay--1 {
-                                margin-top: 0.1rem;
-                                margin-left: -7.3rem;
-                                -webkit-animation-name: price-animation--lenghty;
-                                        animation-name: price-animation--lenghty;
-                                -webkit-animation-duration: 2s;
-                                        animation-duration: 2s;
-                                transition: ease-in;
-                                background-color: white;
-                                padding: 0em 0em 0em 1em;
-                                transform-origin: right;
-                                &:before {
-                                    content: "...";
-                                    padding-right: 1em;
-                                }
+                            margin-left: -3.6rem;
+                            padding-right: 0em;
+                            -webkit-animation-name: price-animation--short;
+                                    animation-name: price-animation--short;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
+                            transition: ease-out;
+                            z-index: 100;
+                            background: white;
+                            &:before {
+                                content: "...";
+                                padding-right: 0.4em;
                             }
+                        } 
+                    }
+                }
+            }
+        }
+        #délice__entrées--3 {
+            margin-top: 1em;
+            @include div-principal-menus;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
+            input {
+                @include fa-icon;
+                display: none;
+                &+label {
+                    @include label-settings-menus;
+                    h3 {
+                        padding-right: 8.2em;  
+                    }
+                    #délice__entrées--prix {
+                        padding-left: 1.8em;
+                        margin-top: 1.6em;
+                        h5 {
+                            margin-left: -1.5rem;
+                        }
+                    }
+                }
+                &:checked+label {
+                    @include checked-ok; 
+                    #checked-font-place {
+                        margin-left: -1.5em;  
+                    }
+                    h3 {
+                        padding-right: 7.9em;    /*this padding help me position the price*/
+                    }
+                    #délice__entrées--prix {
+                        padding-left: 0em;
+                        margin-top: 1.6em;
+                        h5 {
+                            margin-left: -3.6rem;
+                            padding-right: 0em;
+                            -webkit-animation-name: price-animation--short;
+                                    animation-name: price-animation--short;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
+                            transition: ease-out;
                         } 
                     }
                 }
@@ -623,7 +681,7 @@ $font-text: "roboto";
         } 
     }
     
-    #palette__plats {
+    #délice__plats {
         padding-bottom: 0.5em; /*distance between the last div and the desserts*/
             p {
                 border-bottom: solid $green;
@@ -631,65 +689,15 @@ $font-text: "roboto";
                 margin-right: 20em;
             }
         }
-        #palette__plats--all {
+        #délice__plats--all {
             padding-bottom: 2em;
             overflow-y: hidden;
             overflow-x: hidden;
-            height: 17.5em;
+            height: 18.5em;
             padding-left: 0.5em;
-        #palette__plats--1 {
-            @include div-principal-menus;
-            height: 3.5em;
-            -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
+        #délice__plats--1 {
             margin-top: 1em;
-            input {
-                @include fa-icon;
-                display: none;
-                &+label {
-                    @include label-settings-menus;
-                    #palette__plats--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
-                        h5 {
-                            margin-left: 1em;
-                            &.overlay--2 {
-                                margin-top: 1.2rem;
-                            }
-                        }
-                        
-                    }
-                }
-                &:checked+label {
-                    @include checked-ok; 
-                    #checked-font-place {
-                        background-color: $green;
-                        padding: 1.8em 1.3em 1.8em 1.3em;
-                        margin-left: -0.8em;
-                    }
-                    #palette__plats--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
-                        h5 {
-                            &.overlay--2 {
-                                margin-top: 1.2rem;
-                                margin-left: -3.5rem;
-                                -webkit-animation-name: price-animation--large;
-                                        animation-name: price-animation--large;
-                                -webkit-animation-duration: 2s;
-                                        animation-duration: 2s;
-                                transition: ease-in;
-                                background-color: white;
-                                padding: 0em 1em 0em 1em;
-                            }
-                        } 
-                    }
-                }
-            }
-        }
-        #palette__plats--2 {
-            margin-top: 1em;
-            @include div-principal-menus;
+            @include div-principal-menus--large;  /*there are 2 variants, one normal and the -- large*/
             -webkit-animation: loading-menus 0.5s ease-in-out;
                     animation: loading-menus 0.5s ease-in-out;
             input {
@@ -697,49 +705,50 @@ $font-text: "roboto";
                 display: none;
                 &+label {
                     @include label-settings-menus;
-                    #palette__plats--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
+                    h3 {
+                        padding-right: 6.2em;  
+                    }
+                    #délice__plats--prix {
+                        padding-left: 0em;
+                        margin-top: 1.6em;
                         h5 {
-                            margin-left: -1.7em;
-                            &.overlay--3 {
-                                margin-top: 0.1rem;
-                            }
+                            margin-left: -1.5rem;
+                            padding-top: 2em;
                         }
                         
                     }
                 }
                 &:checked+label {
-                    @include checked-ok; 
+                    @include checked-ok--large;  /*2 variants, large and normal (without a modifier)*/
                     #checked-font-place {
-                        margin-left: -3em;
+                        margin-left: -3.1em;
                     }
-                    #palette__plats--prix {
-                        padding-left: 3em;
+                    h3 {
+                        padding-right: 4.2em;
+                        
+                    }
+                    #délice__plats--prix {
+                        padding-left: 2.3em;
                         margin-top: 1.5em;
+                        margin-left: -1.9em;
                         h5 {
-                            &.overlay--3 {
-                                margin-top: 0.1rem;
-                                margin-left: -7.3rem;
-                                -webkit-animation-name: price-animation--lenghty;
-                                        animation-name: price-animation--lenghty;
-                                -webkit-animation-duration: 1s;
-                                        animation-duration: 1s;
-                                transition: ease-in;
-                                background-color: white;
-                                padding: 0em 0em 0em 1em;
-                                transform-origin: right;
-                                &:before {
-                                    content: "...";
-                                    padding-right: 1em;
-                                }
-                            }
+                            margin-left: -3.5rem;  /*to better understand the positionning i use the border solid*/
+                            padding-right: 2em;
+                            margin-right: 2rem;
+                            -webkit-animation-name: price-animation--large;
+                                    animation-name: price-animation--large;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
+                            transition: ease-out;
+                            z-index: 100;
+                            background: white;
+                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
                         } 
                     }
                 }
             }
         }
-        #palette__plats--3 {
+        #délice__plats--2 {
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
@@ -750,40 +759,95 @@ $font-text: "roboto";
                 &+label {
                     @include label-settings-menus;
                     h3 {
-                        padding-right: 5em;  /*this setting help me push the price to reduce the div prive margin so that i can use the animation short more frequently*/
+                        padding-right: 1em;  
                     }
-                    #palette__plats--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
+                    #délice__plats--prix {
+                        padding-left: 8.7em;
+                        margin-top: 1.6em;
                         h5 {
-                            margin-left: 2.5rem;
+                            margin-left: -1.5rem;
                         }
                         
                     }
                 }
                 &:checked+label {
-                    @include checked-ok; 
+                    @include checked-ok;
                     #checked-font-place {
-                        margin-left: 0.5em;   /*this margin set up the background and the distance it will be from the price*/
+                        margin-left: -1.6em;
                     }
-                    #palette__plats--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
+                    h3 {
+                        padding-right: 6.5em;
+                    }
+                    #délice__plats--prix {
+                        padding-left: 3.3em;
+                        margin-top: 1.6em;
+                        margin-left: -1.9em;
                         h5 {
-                            margin-left: -1rem;
-                            padding-right: 0em;
+                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                            padding-right: 0.5em;
+                            margin-right: 2rem;
                             -webkit-animation-name: price-animation--short;
                                     animation-name: price-animation--short;
-                            -webkit-animation-duration: 2s;
-                                    animation-duration: 2s;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
                             transition: ease-out;
+                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+                        } 
+                    }
+                }
+            }
+        }
+        #délice__plats--3 {
+            margin-top: 1em;
+            @include div-principal-menus;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
+            input {
+                @include fa-icon;
+                display: none;
+                &+label {
+                    @include label-settings-menus;
+                    h3 {
+                        padding-right: 4.1em;  
+                    }
+                    #délice__plats--prix {
+                        padding-left: 4.5em;
+                        margin-top: 1.6em;
+                        h5 {
+                            margin-left: -1.5rem;
+                        }
+                        
+                    }
+                }
+                &:checked+label {
+                    @include checked-ok;
+                    #checked-font-place {
+                        margin-left: -1.5em;
+                    }
+                    h3 {
+                        padding-right: 5.2em;
+                    }
+                    #délice__plats--prix {
+                        padding-left: 3em;
+                        margin-top: 1.6em;
+                        margin-left: -1.9em;
+                        h5 {
+                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                            padding-right: 0.5em;
+                            margin-right: 2rem;
+                            -webkit-animation-name: price-animation--short;
+                                    animation-name: price-animation--short;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
+                            transition: ease-out;
+                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
                         } 
                     }
                 }
             }
         } 
     }
-    #palette__desserts {
+    #délice__desserts {
         padding-bottom: 0.5em;
             p {
                 border-bottom: solid $green;
@@ -791,57 +855,65 @@ $font-text: "roboto";
                 margin-right: 20em;
             }
     }
-    #palette__desserts--all {      
+    #délice__desserts--all {      
         padding-bottom: 3em;
         overflow-y: hidden;
         overflow-x: hidden;
         height: 17.5em;
         padding-left: 0.5em;
         
-        #palette__desserts--1 {
+        #délice__desserts--1 {
+            margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
                     animation: loading-menus 0.5s ease-in-out;
-            margin-top: 1em;
             input {
                 @include fa-icon;
                 display: none;
                 &+label {
                     @include label-settings-menus;
                     h3 {
-                        padding-right: 6.5em;  
+                        padding-right: 2em;  
+                        padding-bottom: 0.1rem;
                     }
-                    #palette__desserts--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
+                    
+                    #délice__desserts--prix {
+                        padding-left: 7.2em;
+                        margin-top: 1.6em;
                         h5 {
-                            margin-left: 2.5rem;
+                            margin-left: -2.5rem;
                         }
                         
                     }
                 }
                 &:checked+label {
-                    @include checked-ok; 
+                    @include checked-ok;
                     #checked-font-place {
-                        margin-left: 0.5em;  
+                        margin-left: -2.9em;
                     }
-                    #palette__desserts--prix {
-                        padding-left: 2.5em;  /*for this page, this customize the distance of the checked ok green background*/
-                        margin-top: 1.5em;
+                    
+                    #délice__desserts--prix {
+                        padding-left: 5.8em;
+                        margin-top: 1.6em;
+                        margin-left: -1.5em;
                         h5 {
-                            margin-left: -1rem;
-                            padding-right: 0em;
+                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                            padding-right: 2em;
+                            margin-right: 2rem;
                             -webkit-animation-name: price-animation--short;
                                     animation-name: price-animation--short;
-                            -webkit-animation-duration: 2s;
-                                    animation-duration: 2s;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
                             transition: ease-out;
+                            z-index: 100;
+                            background: white;
+                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
                         } 
                     }
                 }
             }
         }
-        #palette__desserts--2 {
+        #délice__desserts--2 {
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
@@ -852,64 +924,45 @@ $font-text: "roboto";
                 &+label {
                     @include label-settings-menus;
                     h3 {
-                        padding-right: 0em;  
+                        padding-right: 6.1em;  
                     }
-                    #palette__desserts--prix {
-                        padding-left: 0em;
-                        margin-top: 1.5em;
+                    #délice__desserts--prix {
+                        padding-left: 6em;
+                        margin-top: 1.6em;
                         h5 {
-                            margin-left: 1.7rem;
+                            margin-left: -1.5rem;
                         }
                         
                     }
                 }
                 &:checked+label {
-                    @include checked-ok; 
+                    @include checked-ok;
                     #checked-font-place {
-                        margin-left: -3.9em;  
+                        margin-left: -1.6em;
                     }
-                    h3 {
-                        padding-right: 3em;
-                    }
-                    #palette__desserts--prix {
-                        padding-left: 0em;
-                        margin-top: 1.5em;
+                    
+                    #délice__desserts--prix {
+                        padding-left: 5.9em;
+                        margin-top: 1.6em;
+                        margin-left: -1.9em;
                         h5 {
-                            margin-left: -7.3rem;
-                            padding-right: 0em;
-                            -webkit-animation-name: price-animation--lenghty;
-                                    animation-name: price-animation--lenghty;
-                            -webkit-animation-duration: 2s;
-                                    animation-duration: 2s;
+                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                            padding-right: 0.5em;
+                            margin-right: 2rem;
+                            -webkit-animation-name: price-animation--short;
+                                    animation-name: price-animation--short;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
                             transition: ease-out;
                             z-index: 100;
                             background: white;
-                            padding-bottom: 0.2em;
-                            
-                            &::before {
-                                content: "...";
-                                padding-right: 0.7em;
-                                z-index: 90;
-                                background: white;
-                                margin-left: -0.25em;
-                            }
-                            &::after {
-                                content: "...";
-                                position: absolute;
-                                font-size: 2em;
-                                margin-left: -1.5em;
-                                margin-top: -1.2em;
-                                z-index: 90;
-                                background: white;
-                                padding-right: 2em;
-                                
-                            }
+                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
                         } 
                     }
                 }
             }
         }
-        #palette__desserts--3 {
+        #délice__desserts--3 {
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
@@ -920,42 +973,39 @@ $font-text: "roboto";
                 &+label {
                     @include label-settings-menus;
                     h3 {
-                        padding-right: 0em;  
+                        padding-right: 8.8em;  
                     }
-                    #palette__desserts--prix {
-                        padding-left: 0em;
-                        margin-top: 1.5em;
+                    #délice__desserts--prix {
+                        padding-left: 5em;
+                        margin-top: 1.6em;
                         h5 {
-                            margin-left: 1.2rem;
+                            margin-left: -1.5rem;
                         }
                         
                     }
                 }
                 &:checked+label {
-                    @include checked-ok; 
+                    @include checked-ok;
                     #checked-font-place {
-                        margin-left: -4em;  
+                        margin-left: -1.5em;
                     }
-                    h3 {
-                        padding-right: 5em;
-                    }
-                    #palette__desserts--prix {
-                        padding-left: 3em;
-                        margin-top: 1.55em;
+                    
+                    #délice__desserts--prix {
+                        padding-left: 5em;
+                        margin-top: 1.6em;
+                        margin-left: -1.9em;
                         h5 {
-                            margin-left: -7.3rem;
-                            padding-right: 0em;
-                            -webkit-animation-name: price-animation--lenghty;
-                                    animation-name: price-animation--lenghty;
-                            -webkit-animation-duration: 2s;
-                                    animation-duration: 2s;
+                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                            padding-right: 0.5em;
+                            margin-right: 2rem;
+                            -webkit-animation-name: price-animation--short;
+                                    animation-name: price-animation--short;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
                             transition: ease-out;
                             z-index: 100;
                             background: white;
-                            &::before {
-                                content: "...";
-                                padding-right: 0.7em;
-                            }
+                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
                         } 
                     }
                 }
@@ -984,8 +1034,6 @@ $font-text: "roboto";
 footer {
     @include footer__settings
 }
-
-
 @media screen and (min-width: 500px) and (max-width: 667px)
 {
     header {
@@ -993,24 +1041,24 @@ footer {
         padding-left: 2.6em;
         margin-top: 0em;   /*i dont know why but the remove the space between the top of the scrren and the logo*/
     }
-    #palette-image {
-        transform: scale(1.5);
+    #délice-image {
+        transform: scale(1.50);
         margin-top: 4.5em;
         margin-left: 3em;
-        margin-right: 2.8em;
+        margin-right: 2.85em;
         .overlay__menu--1 {
-            width: 386px;
+            width: 387px;
             margin-left: -0.09em;
         }
     }
     section {
         transform: scale(1.527);
-        width: 365px;
+        width: 367px;
         margin-top: 23em;
         margin-left: 3.1em;
     }
     footer {
-        width: 17.8em;
+        width: 17.9em;
         margin-left: 2rem;
         #footer__nav {
             display: flex;
@@ -1035,27 +1083,27 @@ footer {
             }
         }
     }
-    #palette-image {
-        transform: scale(1.65);
+    #délice-image {
+        transform: scale(1.63);
         margin-top: 4.5em;
         margin-left: 3em;
         margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 386px;
+            width: 388px;
             margin-left: -0.09em;
         }
     }
     section {
         transform: scale(1.685);
-        width: 365px;
+        width: 362px;
         margin-top: 30em;
-        margin-left: 3.1em;
+        margin-left: 3.3em;
     }
     footer {
         transform: scale(1.65);    /*scale, font size and width, mostly, fixed the issue where the width in the ipad was not the same for the desktop. I think the issue was the font size*/
-        width: 16.5em;
+        width: 16.4em;
         margin-top: 19em;
-        margin-left: 2.15em;
+        margin-left: 2.3em;
         #footer__nav {
             display: flex;
             flex-direction: row;
@@ -1080,25 +1128,25 @@ footer {
             }
         }
     }
-    #palette-image {
-        transform: scale(1.9);
+    #délice-image {
+        transform: scale(1.88);
         margin-top: 9.5em;
         margin-left: 3em;
         margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 386px;
+            width: 389px;
             margin-left: -0.09em;
         }
     }
     section {
         transform: scale(1.935);
-        width: 365px;
+        width: 365.5px;
         margin-top: 42em;
-        margin-left: 3.1em;
+        margin-left: 3.3em;
     }
     footer {
-        width: 415px;
-        margin-left: 0.5em;
+        width: 415.5px;
+        margin-left: 0.7em;
         margin-top: 26em;
         #footer__nav {
             display: flex;
@@ -1126,25 +1174,25 @@ footer {
             }
         }
     }
-    #palette-image {
-        transform: scale(1.9);
+    #délice-image {
+        transform: scale(1.88);
         margin-top: 9.5em;
         margin-left: 3em;
         margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 386px;
+            width: 389px;
             margin-left: -0.09em;
         }
     }
     section {
         transform: scale(1.935);
-        width: 365px;
+        width: 365.5px;
         margin-top: 42em;
-        margin-left: 3.1em;
+        margin-left: 3.3em;
     }
     footer {
-        width: 415px;
-        margin-left: 0.5em;
+        width: 415.5px;
+        margin-left: 0.7em;
         margin-top: 26em;
         #footer__nav {
             display: flex;
@@ -1172,25 +1220,25 @@ footer {
             }
         }
     }
-    #palette-image {
-        transform: scale(1.9);
+    #délice-image {
+        transform: scale(1.88);
         margin-top: 9.5em;
         margin-left: 3em;
         margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 386px;
+            width: 389px;
             margin-left: -0.09em;
         }
     }
     section {
         transform: scale(1.935);
-        width: 365px;
+        width: 365.5px;
         margin-top: 42em;
-        margin-left: 3.1em;
+        margin-left: 3.3em;
     }
     footer {
-        width: 415px;
-        margin-left: 0.5em;
+        width: 415.5px;
+        margin-left: 0.7em;
         margin-top: 26em;
         #footer__nav {
             display: flex;
@@ -1218,25 +1266,25 @@ footer {
             }
         }
     }
-    #palette-image {
-        transform: scale(1.9);
+    #délice-image {
+        transform: scale(1.88);
         margin-top: 9.5em;
         margin-left: 3em;
         margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 386px;
+            width: 389px;
             margin-left: -0.09em;
         }
     }
     section {
         transform: scale(1.935);
-        width: 365px;
+        width: 365.5px;
         margin-top: 42em;
-        margin-left: 3.1em;
+        margin-left: 3.3em;
     }
     footer {
-        width: 415px;
-        margin-left: 0.5em;
+        width: 415.5px;
+        margin-left: 0.7em;
         margin-top: 26em;
         #footer__nav {
             display: flex;
@@ -1264,29 +1312,29 @@ footer {
             }
         }
     }
-    #palette-image {
-        transform: scale(1.9);
+    #délice-image {
+        transform: scale(1.88);
         margin-top: 9.5em;
         margin-left: 3em;
         margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 386px;
+            width: 389px;
             margin-left: -0.09em;
         }
     }
     section {
         transform: scale(1.935);
-        width: 365px;
+        width: 365.5px;
         margin-top: 42em;
-        margin-left: 3.1em;
+        margin-left: 3.3em;
     }
     footer {
-        width: 415px;
-        margin-left: 0.5em;
-        margin-top: 28em;
+        width: 415.5px;
+        margin-left: 0.7em;
+        margin-top: 26em;
         #footer__nav {
             display: flex;
             flex-direction: row;
         }
     }
-} 
+}   

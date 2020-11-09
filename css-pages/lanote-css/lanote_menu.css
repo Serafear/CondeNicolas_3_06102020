@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import "style.css";
 * {
   margin: 0;
   padding: 0;
@@ -21,19 +20,20 @@
 .fas,
 footer #line2 h6::before,
 footer #line1 h6::before,
-#menu #délice__desserts--all #délice__desserts--3 input:checked + label #checked-font-place::after,
-#menu #délice__desserts--all #délice__desserts--2 input:checked + label #checked-font-place::after,
-#menu #délice__desserts--all #délice__desserts--1 input:checked + label #checked-font-place::after,
-#menu #délice__plats--all #délice__plats--3 input:checked + label #checked-font-place::after,
-#menu #délice__plats--all #délice__plats--2 input:checked + label #checked-font-place::after,
-#menu #délice__plats--all #délice__plats--1 input:checked + label #checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label #checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label #checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label #checked-font-place::after,
+#menu #lanote__desserts--all #lanote__desserts--3 input:checked + label #checked-font-place::after,
+#menu #lanote__desserts--all #lanote__desserts--2 input:checked + label #checked-font-place::after,
+#menu #lanote__desserts--all #lanote__desserts--1 input:checked + label #checked-font-place::after,
+#menu #lanote__plats--all #lanote__plats--3 input:checked + label #checked-font-place::after,
+#menu #lanote__plats--all #lanote__plats--2 input:checked + label #checked-font-place::after,
+#menu #lanote__plats--all #lanote__plats--1 input:checked + label #checked-font-place::after,
+#menu #lanote__entrées--all #lanote__entrées--4 input:checked + label #checked-font-place::after,
+#menu #lanote__entrées--all #lanote__entrées--3 input:checked + label #checked-font-place::after,
+#menu #lanote__entrées--all #lanote__entrées--2 input:checked + label #checked-font-place::after,
+#menu #lanote__entrées--all #lanote__entrées--1 input:checked + label #checked-font-place::after,
 #logo a::before,
 .far,
-#délice-image .overlay__menu--1 #délice__title input:checked + label::before,
-#délice-image .overlay__menu--1 #délice__title input + label::before,
+#lanote-image .overlay__menu--1 #lanote__title input:checked + label::before,
+#lanote-image .overlay__menu--1 #lanote__title input + label::before,
 .fal,
 .fad,
 .fab {
@@ -140,18 +140,19 @@ footer #line1 h6::before,
 .fas.fa-pull-left,
 footer #line2 h6.fa-pull-left::before,
 footer #line1 h6.fa-pull-left::before,
-#menu #délice__desserts--all #délice__desserts--3 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #délice__desserts--all #délice__desserts--2 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #délice__desserts--all #délice__desserts--1 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #délice__plats--all #délice__plats--3 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #délice__plats--all #délice__plats--2 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #délice__plats--all #délice__plats--1 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #lanote__desserts--all #lanote__desserts--3 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #lanote__desserts--all #lanote__desserts--2 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #lanote__desserts--all #lanote__desserts--1 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #lanote__plats--all #lanote__plats--3 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #lanote__plats--all #lanote__plats--2 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #lanote__plats--all #lanote__plats--1 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #lanote__entrées--all #lanote__entrées--4 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #lanote__entrées--all #lanote__entrées--3 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #lanote__entrées--all #lanote__entrées--2 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #lanote__entrées--all #lanote__entrées--1 input:checked + label .fa-pull-left#checked-font-place::after,
 #logo a.fa-pull-left::before,
 .far.fa-pull-left,
-#délice-image .overlay__menu--1 #délice__title input + label.fa-pull-left::before,
+#lanote-image .overlay__menu--1 #lanote__title input + label.fa-pull-left::before,
 .fal.fa-pull-left,
 .fab.fa-pull-left {
   margin-right: 0.3em;
@@ -160,18 +161,19 @@ footer #line1 h6.fa-pull-left::before,
 .fas.fa-pull-right,
 footer #line2 h6.fa-pull-right::before,
 footer #line1 h6.fa-pull-right::before,
-#menu #délice__desserts--all #délice__desserts--3 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #délice__desserts--all #délice__desserts--2 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #délice__desserts--all #délice__desserts--1 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #délice__plats--all #délice__plats--3 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #délice__plats--all #délice__plats--2 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #délice__plats--all #délice__plats--1 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #lanote__desserts--all #lanote__desserts--3 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #lanote__desserts--all #lanote__desserts--2 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #lanote__desserts--all #lanote__desserts--1 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #lanote__plats--all #lanote__plats--3 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #lanote__plats--all #lanote__plats--2 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #lanote__plats--all #lanote__plats--1 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #lanote__entrées--all #lanote__entrées--4 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #lanote__entrées--all #lanote__entrées--3 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #lanote__entrées--all #lanote__entrées--2 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #lanote__entrées--all #lanote__entrées--1 input:checked + label .fa-pull-right#checked-font-place::after,
 #logo a.fa-pull-right::before,
 .far.fa-pull-right,
-#délice-image .overlay__menu--1 #délice__title input + label.fa-pull-right::before,
+#lanote-image .overlay__menu--1 #lanote__title input + label.fa-pull-right::before,
 .fal.fa-pull-right,
 .fab.fa-pull-right {
   margin-left: 0.3em;
@@ -6135,15 +6137,16 @@ readers do not read off random characters that represent icons */
 .fas,
 footer #line2 h6::before,
 footer #line1 h6::before,
-#menu #délice__desserts--all #délice__desserts--3 input:checked + label #checked-font-place::after,
-#menu #délice__desserts--all #délice__desserts--2 input:checked + label #checked-font-place::after,
-#menu #délice__desserts--all #délice__desserts--1 input:checked + label #checked-font-place::after,
-#menu #délice__plats--all #délice__plats--3 input:checked + label #checked-font-place::after,
-#menu #délice__plats--all #délice__plats--2 input:checked + label #checked-font-place::after,
-#menu #délice__plats--all #délice__plats--1 input:checked + label #checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label #checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label #checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label #checked-font-place::after,
+#menu #lanote__desserts--all #lanote__desserts--3 input:checked + label #checked-font-place::after,
+#menu #lanote__desserts--all #lanote__desserts--2 input:checked + label #checked-font-place::after,
+#menu #lanote__desserts--all #lanote__desserts--1 input:checked + label #checked-font-place::after,
+#menu #lanote__plats--all #lanote__plats--3 input:checked + label #checked-font-place::after,
+#menu #lanote__plats--all #lanote__plats--2 input:checked + label #checked-font-place::after,
+#menu #lanote__plats--all #lanote__plats--1 input:checked + label #checked-font-place::after,
+#menu #lanote__entrées--all #lanote__entrées--4 input:checked + label #checked-font-place::after,
+#menu #lanote__entrées--all #lanote__entrées--3 input:checked + label #checked-font-place::after,
+#menu #lanote__entrées--all #lanote__entrées--2 input:checked + label #checked-font-place::after,
+#menu #lanote__entrées--all #lanote__entrées--1 input:checked + label #checked-font-place::after,
 #logo a::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -6161,7 +6164,7 @@ footer #line1 h6::before,
   src: url("../webfonts/fa-regular-400.eot");
   src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
 }
-.far, #délice-image .overlay__menu--1 #délice__title input:checked + label::before, #délice-image .overlay__menu--1 #délice__title input + label::before {
+.far, #lanote-image .overlay__menu--1 #lanote__title input:checked + label::before, #lanote-image .overlay__menu--1 #lanote__title input + label::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
@@ -6424,21 +6427,21 @@ footer #line1 h6::before,
   color: black;
 }
 
-#délice-image {
+#lanote-image {
   padding-bottom: 3em;
 }
-#délice-image article {
-  background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+#lanote-image article {
+  background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
   height: 16em;
   width: auto;
 }
-#délice-image .overlay__menu--1 {
+#lanote-image .overlay__menu--1 {
   margin-top: 12em;
 }
-#délice-image .overlay__menu--1 #délice__title {
+#lanote-image .overlay__menu--1 #lanote__title {
   opacity: 1;
   background-color: #F6F6F6;
   width: 100%;
@@ -6449,12 +6452,12 @@ footer #line1 h6::before,
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
 }
-#délice-image .overlay__menu--1 #délice__title h3 {
+#lanote-image .overlay__menu--1 #lanote__title h3 {
   font-family: "shrikhand";
   font-size: 1.7em;
   padding: 1em 1em 1em 0.5em;
 }
-#délice-image .overlay__menu--1 #délice__title input {
+#lanote-image .overlay__menu--1 #lanote__title input {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -6465,23 +6468,23 @@ footer #line1 h6::before,
   margin-top: 2.8em;
   display: none;
 }
-#délice-image .overlay__menu--1 #délice__title input + label {
+#lanote-image .overlay__menu--1 #lanote__title input + label {
   margin-top: 1.1em;
   font-size: 1.7rem;
   padding-right: 1em;
 }
-#délice-image .overlay__menu--1 #délice__title input + label::before {
+#lanote-image .overlay__menu--1 #lanote__title input + label::before {
   content: "";
 }
-#délice-image .overlay__menu--1 #délice__title input + label:hover {
+#lanote-image .overlay__menu--1 #lanote__title input + label:hover {
   cursor: pointer;
 }
-#délice-image .overlay__menu--1 #délice__title input:checked + label {
+#lanote-image .overlay__menu--1 #lanote__title input:checked + label {
   font-size: 1.7rem;
   padding-right: 1em;
   margin-top: 1.1em;
 }
-#délice-image .overlay__menu--1 #délice__title input:checked + label::before {
+#lanote-image .overlay__menu--1 #lanote__title input:checked + label::before {
   content: "";
   font-weight: 600;
   will-change: font-size;
@@ -6495,7 +6498,7 @@ footer #line1 h6::before,
   animation-duration: 1s;
   transition: ease-in-out;
 }
-#délice-image .overlay__menu--1 #délice__title input:checked + label:hover {
+#lanote-image .overlay__menu--1 #lanote__title input:checked + label:hover {
   cursor: pointer;
 }
 
@@ -6505,22 +6508,448 @@ footer #line1 h6::before,
   padding-left: 0.8em;
   font-family: "roboto";
 }
-#menu #délice__entrées {
+#menu #lanote__entrées {
   padding-bottom: 0.5em;
 }
-#menu #délice__entrées p {
+#menu #lanote__entrées p {
   border-bottom: solid #99E2D0;
   border-width: 0.3em;
   margin-right: 20em;
 }
-#menu #délice__entrées--all {
+#menu #lanote__entrées--all {
+  padding-bottom: 2em;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 23em;
+  padding-left: 0.5em;
+}
+#menu #lanote__entrées--all #lanote__entrées--1 {
+  margin-top: 1em;
+  border-style: hidden;
+  background-color: white;
+  padding: 0.9em 0.5em 0.9em 0.5em;
+  border-radius: 20px;
+  box-shadow: 0em 0em 0.6em -0.2em;
+  margin-right: 0.7em;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 3em;
+  -webkit-animation: loading-menus 0.5s ease-in-out;
+  animation: loading-menus 0.5s ease-in-out;
+}
+#menu #lanote__entrées--all #lanote__entrées--1 input {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  display: none;
+}
+#menu #lanote__entrées--all #lanote__entrées--1 input + label {
+  display: flex;
+  flex-direction: row;
+}
+#menu #lanote__entrées--all #lanote__entrées--1 input + label h3 {
+  white-space: nowrap;
+}
+#menu #lanote__entrées--all #lanote__entrées--1 input + label h4 {
+  white-space: nowrap;
+  font-weight: lighter;
+}
+#menu #lanote__entrées--all #lanote__entrées--1 input + label:hover {
+  cursor: pointer;
+}
+#menu #lanote__entrées--all #lanote__entrées--1 input + label h3 {
+  padding-right: 0em;
+}
+#menu #lanote__entrées--all #lanote__entrées--1 input + label #lanote__entrées--prix {
+  padding-left: 3em;
+  margin-top: 1.55em;
+}
+#menu #lanote__entrées--all #lanote__entrées--1 input + label #lanote__entrées--prix h5 {
+  margin-left: -1.5rem;
+}
+#menu #lanote__entrées--all #lanote__entrées--1 input:checked + label #checked-font-place {
+  z-index: 95;
+  background-color: #99E2D0;
+  padding: 1.5em 1.3em 1.5em 1.3em;
+  margin-left: -2.5em;
+  margin-top: -0.9em;
+  position: relative;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-animation-name: checked-background-translate--menu;
+  animation-name: checked-background-translate--menu;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
+}
+#menu #lanote__entrées--all #lanote__entrées--1 input:checked + label #checked-font-place::after {
+  content: "";
+  font-size: 2rem;
+  animation-name: checked-ok-rotate--menu;
+  -webkit-animation-name: checked-ok-rotate--menu;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+#menu #lanote__entrées--all #lanote__entrées--1 input:checked + label #checked-font-place {
+  margin-left: -0.5em;
+}
+#menu #lanote__entrées--all #lanote__entrées--1 input:checked + label #lanote__entrées--prix {
+  padding-left: 0em;
+  margin-top: 1.55em;
+}
+#menu #lanote__entrées--all #lanote__entrées--1 input:checked + label #lanote__entrées--prix h5 {
+  margin-left: -3.6rem;
+  padding-right: 0em;
+  -webkit-animation-name: price-animation--short;
+  animation-name: price-animation--short;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  transition: ease-out;
+  z-index: 100;
+  background: white;
+}
+#menu #lanote__entrées--all #lanote__entrées--1 input:checked + label #lanote__entrées--prix h5:before {
+  content: "...";
+  padding-right: 0.7em;
+}
+#menu #lanote__entrées--all #lanote__entrées--2 {
+  margin-top: 1em;
+  border-style: hidden;
+  background-color: white;
+  padding: 0.9em 0.5em 0.9em 0.5em;
+  border-radius: 20px;
+  box-shadow: 0em 0em 0.6em -0.2em;
+  margin-right: 0.7em;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 3em;
+  -webkit-animation: loading-menus 0.5s ease-in-out;
+  animation: loading-menus 0.5s ease-in-out;
+}
+#menu #lanote__entrées--all #lanote__entrées--2 input {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  display: none;
+}
+#menu #lanote__entrées--all #lanote__entrées--2 input + label {
+  display: flex;
+  flex-direction: row;
+}
+#menu #lanote__entrées--all #lanote__entrées--2 input + label h3 {
+  white-space: nowrap;
+}
+#menu #lanote__entrées--all #lanote__entrées--2 input + label h4 {
+  white-space: nowrap;
+  font-weight: lighter;
+}
+#menu #lanote__entrées--all #lanote__entrées--2 input + label:hover {
+  cursor: pointer;
+}
+#menu #lanote__entrées--all #lanote__entrées--2 input + label h3 {
+  padding-right: 8em;
+}
+#menu #lanote__entrées--all #lanote__entrées--2 input + label #lanote__entrées--prix {
+  padding-left: 3em;
+  margin-top: 1.6em;
+}
+#menu #lanote__entrées--all #lanote__entrées--2 input + label #lanote__entrées--prix h5 {
+  margin-left: -1.5rem;
+}
+#menu #lanote__entrées--all #lanote__entrées--2 input:checked + label #checked-font-place {
+  z-index: 95;
+  background-color: #99E2D0;
+  padding: 1.5em 1.3em 1.5em 1.3em;
+  margin-left: -2.5em;
+  margin-top: -0.9em;
+  position: relative;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-animation-name: checked-background-translate--menu;
+  animation-name: checked-background-translate--menu;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
+}
+#menu #lanote__entrées--all #lanote__entrées--2 input:checked + label #checked-font-place::after {
+  content: "";
+  font-size: 2rem;
+  animation-name: checked-ok-rotate--menu;
+  -webkit-animation-name: checked-ok-rotate--menu;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+#menu #lanote__entrées--all #lanote__entrées--2 input:checked + label #checked-font-place {
+  margin-left: -0.5em;
+}
+#menu #lanote__entrées--all #lanote__entrées--2 input:checked + label #lanote__entrées--prix {
+  padding-left: 0em;
+  margin-top: 1.6em;
+}
+#menu #lanote__entrées--all #lanote__entrées--2 input:checked + label #lanote__entrées--prix h5 {
+  margin-left: -3.6rem;
+  padding-right: 0em;
+  -webkit-animation-name: price-animation--short;
+  animation-name: price-animation--short;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  transition: ease-out;
+  z-index: 100;
+  background: white;
+}
+#menu #lanote__entrées--all #lanote__entrées--2 input:checked + label #lanote__entrées--prix h5:before {
+  /*this part here is to make the animation of entréées 1&2 similar*/
+  content: "...";
+  color: transparent;
+  padding-right: 0.7em;
+}
+#menu #lanote__entrées--all #lanote__entrées--3 {
+  margin-top: 1em;
+  border-style: hidden;
+  background-color: white;
+  padding: 0.9em 0.5em 0.9em 0.5em;
+  border-radius: 20px;
+  box-shadow: 0em 0em 0.6em -0.2em;
+  margin-right: 0.7em;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 3em;
+  -webkit-animation: loading-menus 0.5s ease-in-out;
+  animation: loading-menus 0.5s ease-in-out;
+}
+#menu #lanote__entrées--all #lanote__entrées--3 input {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  display: none;
+}
+#menu #lanote__entrées--all #lanote__entrées--3 input + label {
+  display: flex;
+  flex-direction: row;
+}
+#menu #lanote__entrées--all #lanote__entrées--3 input + label h3 {
+  white-space: nowrap;
+}
+#menu #lanote__entrées--all #lanote__entrées--3 input + label h4 {
+  white-space: nowrap;
+  font-weight: lighter;
+}
+#menu #lanote__entrées--all #lanote__entrées--3 input + label:hover {
+  cursor: pointer;
+}
+#menu #lanote__entrées--all #lanote__entrées--3 input + label h3 {
+  padding-right: -4.5em;
+}
+#menu #lanote__entrées--all #lanote__entrées--3 input + label #lanote__entrées--prix {
+  padding-left: 3em;
+  margin-top: 1.6em;
+}
+#menu #lanote__entrées--all #lanote__entrées--3 input + label #lanote__entrées--prix h5 {
+  margin-left: -3.6rem;
+}
+#menu #lanote__entrées--all #lanote__entrées--3 input:checked + label #checked-font-place {
+  z-index: 95;
+  background-color: #99E2D0;
+  padding: 1.5em 1.3em 1.5em 1.3em;
+  margin-left: -2.5em;
+  margin-top: -0.9em;
+  position: relative;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-animation-name: checked-background-translate--menu;
+  animation-name: checked-background-translate--menu;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
+}
+#menu #lanote__entrées--all #lanote__entrées--3 input:checked + label #checked-font-place::after {
+  content: "";
+  font-size: 2rem;
+  animation-name: checked-ok-rotate--menu;
+  -webkit-animation-name: checked-ok-rotate--menu;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+#menu #lanote__entrées--all #lanote__entrées--3 input:checked + label #checked-font-place {
+  margin-left: -2.5em;
+}
+#menu #lanote__entrées--all #lanote__entrées--3 input:checked + label #lanote__entrées--prix {
+  padding-left: 0em;
+  margin-top: 1.6em;
+}
+#menu #lanote__entrées--all #lanote__entrées--3 input:checked + label #lanote__entrées--prix h5 {
+  margin-left: -7.3rem;
+  padding-right: 0em;
+  -webkit-animation-name: price-animation--lenghty;
+  animation-name: price-animation--lenghty;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  transition: ease-out;
+  z-index: 100;
+  background: white;
+  padding-left: 3.3em;
+  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+}
+#menu #lanote__entrées--all #lanote__entrées--3 input:checked + label #lanote__entrées--prix h5:before {
+  position: absolute;
+  content: "...";
+  padding-left: 0em;
+  margin-left: -1.7em;
+  padding-right: 3em;
+  margin-top: -1.2em;
+  z-index: 90;
+  background: white;
+  font-size: 2em;
+}
+#menu #lanote__entrées--all #lanote__entrées--4 {
+  margin-top: 1em;
+  border-style: hidden;
+  background-color: white;
+  padding: 0.9em 0.5em 0.9em 0.5em;
+  border-radius: 20px;
+  box-shadow: 0em 0em 0.6em -0.2em;
+  margin-right: 0.7em;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 3em;
+  -webkit-animation: loading-menus 0.5s ease-in-out;
+  animation: loading-menus 0.5s ease-in-out;
+}
+#menu #lanote__entrées--all #lanote__entrées--4 input {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  display: none;
+}
+#menu #lanote__entrées--all #lanote__entrées--4 input + label {
+  display: flex;
+  flex-direction: row;
+}
+#menu #lanote__entrées--all #lanote__entrées--4 input + label h3 {
+  white-space: nowrap;
+}
+#menu #lanote__entrées--all #lanote__entrées--4 input + label h4 {
+  white-space: nowrap;
+  font-weight: lighter;
+}
+#menu #lanote__entrées--all #lanote__entrées--4 input + label:hover {
+  cursor: pointer;
+}
+#menu #lanote__entrées--all #lanote__entrées--4 input + label h3 {
+  padding-right: 3em;
+}
+#menu #lanote__entrées--all #lanote__entrées--4 input + label #lanote__entrées--prix {
+  padding-left: 3em;
+  margin-top: 1.6em;
+}
+#menu #lanote__entrées--all #lanote__entrées--4 input + label #lanote__entrées--prix h5 {
+  margin-left: -3.6rem;
+}
+#menu #lanote__entrées--all #lanote__entrées--4 input:checked + label #checked-font-place {
+  z-index: 95;
+  background-color: #99E2D0;
+  padding: 1.5em 1.3em 1.5em 1.3em;
+  margin-left: -2.5em;
+  margin-top: -0.9em;
+  position: relative;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-animation-name: checked-background-translate--menu;
+  animation-name: checked-background-translate--menu;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
+}
+#menu #lanote__entrées--all #lanote__entrées--4 input:checked + label #checked-font-place::after {
+  content: "";
+  font-size: 2rem;
+  animation-name: checked-ok-rotate--menu;
+  -webkit-animation-name: checked-ok-rotate--menu;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+#menu #lanote__entrées--all #lanote__entrées--4 input:checked + label #checked-font-place {
+  margin-left: -1.7em;
+}
+#menu #lanote__entrées--all #lanote__entrées--4 input:checked + label #lanote__entrées--prix {
+  padding-left: 0em;
+  margin-top: 1.6em;
+  margin-left: -0.7em;
+}
+#menu #lanote__entrées--all #lanote__entrées--4 input:checked + label #lanote__entrées--prix h5 {
+  margin-left: -7.3rem;
+  padding-right: 0em;
+  -webkit-animation-name: price-animation--lenghty;
+  animation-name: price-animation--lenghty;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  transition: ease-out;
+  z-index: 100;
+  background: white;
+  padding-left: 2em;
+  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+}
+#menu #lanote__entrées--all #lanote__entrées--4 input:checked + label #lanote__entrées--prix h5:before {
+  content: "...";
+  padding-right: 1em;
+}
+#menu #lanote__plats {
+  padding-bottom: 0.5em;
+  /*distance between the last div and the desserts*/
+}
+#menu #lanote__plats p {
+  border-bottom: solid #99E2D0;
+  border-width: 0.3em;
+  margin-right: 20em;
+}
+#menu #lanote__plats--all {
   padding-bottom: 2em;
   overflow-y: hidden;
   overflow-x: hidden;
   height: 17.5em;
   padding-left: 0.5em;
 }
-#menu #délice__entrées--all #délice__entrées--1 {
+#menu #lanote__plats--all #lanote__plats--1 {
   margin-top: 1em;
   border-style: hidden;
   background-color: white;
@@ -6534,7 +6963,7 @@ footer #line1 h6::before,
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
 }
-#menu #délice__entrées--all #délice__entrées--1 input {
+#menu #lanote__plats--all #lanote__plats--1 input {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -6544,168 +6973,72 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #délice__entrées--all #délice__entrées--1 input + label {
+#menu #lanote__plats--all #lanote__plats--1 input + label {
   display: flex;
   flex-direction: row;
 }
-#menu #délice__entrées--all #délice__entrées--1 input + label h3 {
+#menu #lanote__plats--all #lanote__plats--1 input + label h3 {
   white-space: nowrap;
-  padding-bottom: 0.095rem;
 }
-#menu #délice__entrées--all #délice__entrées--1 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
-}
-#menu #délice__entrées--all #délice__entrées--1 input + label:hover {
-  cursor: pointer;
-}
-#menu #délice__entrées--all #délice__entrées--1 input + label h3 {
-  padding-right: 8em;
-}
-#menu #délice__entrées--all #délice__entrées--1 input + label #délice__entrées--prix {
-  padding-left: 3em;
-  margin-top: 1.6em;
-}
-#menu #délice__entrées--all #délice__entrées--1 input + label #délice__entrées--prix h5 {
-  margin-left: -1.5rem;
-}
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label #checked-font-place {
-  z-index: 95;
-  background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
-  position: relative;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  -webkit-animation-name: checked-background-translate--menu;
-  animation-name: checked-background-translate--menu;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-in-out;
-}
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label #checked-font-place::after {
-  content: "";
-  font-size: 2rem;
-  animation-name: checked-ok-rotate--menu;
-  -webkit-animation-name: checked-ok-rotate--menu;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: white;
-  justify-content: center;
-}
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label #checked-font-place {
-  margin-left: -1.6em;
-}
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label #délice__entrées--prix {
-  padding-left: 1em;
-  margin-top: 1.6em;
-}
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label #délice__entrées--prix h5 {
-  margin-left: -3.6rem;
-  padding-right: 0em;
-  -webkit-animation-name: price-animation--short;
-  animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
-}
-#menu #délice__entrées--all #délice__entrées--2 {
-  margin-top: 1em;
-  border-style: hidden;
-  background-color: white;
-  padding: 0.9em 0.5em 0.9em 0.5em;
-  border-radius: 20px;
-  box-shadow: 0em 0em 0.6em -0.2em;
-  margin-right: 0.7em;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 3em;
-  -webkit-animation: loading-menus 0.5s ease-in-out;
-  animation: loading-menus 0.5s ease-in-out;
-}
-#menu #délice__entrées--all #délice__entrées--2 input {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  display: none;
-}
-#menu #délice__entrées--all #délice__entrées--2 input + label {
-  display: flex;
-  flex-direction: row;
-}
-#menu #délice__entrées--all #délice__entrées--2 input + label h3 {
-  white-space: nowrap;
-  padding-bottom: 0.095rem;
-}
-#menu #délice__entrées--all #délice__entrées--2 input + label h4 {
+#menu #lanote__plats--all #lanote__plats--1 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
 }
-#menu #délice__entrées--all #délice__entrées--2 input + label:hover {
+#menu #lanote__plats--all #lanote__plats--1 input + label:hover {
   cursor: pointer;
 }
-#menu #délice__entrées--all #délice__entrées--2 input + label h3 {
-  padding-right: 1.7em;
+#menu #lanote__plats--all #lanote__plats--1 input + label h3 {
+  padding-right: 3em;
 }
-#menu #délice__entrées--all #délice__entrées--2 input + label #délice__entrées--prix {
-  padding-left: 1.8em;
-  margin-top: 1.6em;
-}
-#menu #délice__entrées--all #délice__entrées--2 input + label #délice__entrées--prix h5 {
-  margin-left: -1.5rem;
-}
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label #checked-font-place {
-  z-index: 95;
-  background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
-  position: relative;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  -webkit-animation-name: checked-background-translate--menu;
-  animation-name: checked-background-translate--menu;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-in-out;
-}
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label #checked-font-place::after {
-  content: "";
-  font-size: 2rem;
-  animation-name: checked-ok-rotate--menu;
-  -webkit-animation-name: checked-ok-rotate--menu;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: white;
-  justify-content: center;
-}
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label #checked-font-place {
-  margin-left: -0.65em;
-}
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label h3 {
-  padding-right: 0.7em;
-  /*this padding help me position the price*/
-}
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label #délice__entrées--prix {
+#menu #lanote__plats--all #lanote__plats--1 input + label #lanote__plats--prix {
   padding-left: 0em;
   margin-top: 1.6em;
 }
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label #délice__entrées--prix h5 {
+#menu #lanote__plats--all #lanote__plats--1 input + label #lanote__plats--prix h5 {
+  margin-left: -1.5rem;
+}
+#menu #lanote__plats--all #lanote__plats--1 input:checked + label #checked-font-place {
+  z-index: 95;
+  background-color: #99E2D0;
+  padding: 1.5em 1.3em 1.5em 1.3em;
+  margin-left: -2.5em;
+  margin-top: -0.9em;
+  position: relative;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-animation-name: checked-background-translate--menu;
+  animation-name: checked-background-translate--menu;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
+}
+#menu #lanote__plats--all #lanote__plats--1 input:checked + label #checked-font-place::after {
+  content: "";
+  font-size: 2rem;
+  animation-name: checked-ok-rotate--menu;
+  -webkit-animation-name: checked-ok-rotate--menu;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+#menu #lanote__plats--all #lanote__plats--1 input:checked + label #checked-font-place {
+  margin-left: -1.7em;
+}
+#menu #lanote__plats--all #lanote__plats--1 input:checked + label #lanote__plats--prix {
+  padding-left: 0em;
+  margin-top: 1.6em;
+  margin-left: -1.9em;
+}
+#menu #lanote__plats--all #lanote__plats--1 input:checked + label #lanote__plats--prix h5 {
   margin-left: -3.6rem;
-  padding-right: 0em;
+  /*to better understand the positionning i use the border solid*/
+  padding-right: 0.5em;
+  margin-right: 2rem;
   -webkit-animation-name: price-animation--short;
   animation-name: price-animation--short;
   -webkit-animation-duration: 1.5s;
@@ -6713,454 +7046,229 @@ footer #line1 h6::before,
   transition: ease-out;
   z-index: 100;
   background: white;
+  padding-left: 0em;
+  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
 }
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label #délice__entrées--prix h5:before {
+#menu #lanote__plats--all #lanote__plats--2 {
+  margin-top: 1em;
+  border-style: hidden;
+  background-color: white;
+  padding: 0.9em 0.5em 0.9em 0.5em;
+  border-radius: 20px;
+  box-shadow: 0em 0em 0.6em -0.2em;
+  margin-right: 0.7em;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 3em;
+  -webkit-animation: loading-menus 0.5s ease-in-out;
+  animation: loading-menus 0.5s ease-in-out;
+}
+#menu #lanote__plats--all #lanote__plats--2 input {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  display: none;
+}
+#menu #lanote__plats--all #lanote__plats--2 input + label {
+  display: flex;
+  flex-direction: row;
+}
+#menu #lanote__plats--all #lanote__plats--2 input + label h3 {
+  white-space: nowrap;
+}
+#menu #lanote__plats--all #lanote__plats--2 input + label h4 {
+  white-space: nowrap;
+  font-weight: lighter;
+}
+#menu #lanote__plats--all #lanote__plats--2 input + label:hover {
+  cursor: pointer;
+}
+#menu #lanote__plats--all #lanote__plats--2 input + label h3 {
+  padding-right: 3em;
+}
+#menu #lanote__plats--all #lanote__plats--2 input + label #lanote__plats--prix {
+  padding-left: 6.5em;
+  margin-top: 1.6em;
+}
+#menu #lanote__plats--all #lanote__plats--2 input + label #lanote__plats--prix h5 {
+  margin-left: -1.5rem;
+}
+#menu #lanote__plats--all #lanote__plats--2 input:checked + label #checked-font-place {
+  z-index: 95;
+  background-color: #99E2D0;
+  padding: 1.5em 1.3em 1.5em 1.3em;
+  margin-left: -2.5em;
+  margin-top: -0.9em;
+  position: relative;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-animation-name: checked-background-translate--menu;
+  animation-name: checked-background-translate--menu;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
+}
+#menu #lanote__plats--all #lanote__plats--2 input:checked + label #checked-font-place::after {
+  content: "";
+  font-size: 2rem;
+  animation-name: checked-ok-rotate--menu;
+  -webkit-animation-name: checked-ok-rotate--menu;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+#menu #lanote__plats--all #lanote__plats--2 input:checked + label #checked-font-place {
+  margin-left: -1.7em;
+}
+#menu #lanote__plats--all #lanote__plats--2 input:checked + label #lanote__plats--prix {
+  padding-left: 6.5em;
+  margin-top: 1.6em;
+  margin-left: -1.9em;
+}
+#menu #lanote__plats--all #lanote__plats--2 input:checked + label #lanote__plats--prix h5 {
+  margin-left: -3.6rem;
+  /*to better understand the positionning i use the border solid*/
+  padding-right: 0.5em;
+  margin-right: 2rem;
+  -webkit-animation-name: price-animation--short;
+  animation-name: price-animation--short;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  transition: ease-out;
+  z-index: 100;
+  background: white;
+  padding-left: 0em;
+  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+}
+#menu #lanote__plats--all #lanote__plats--3 {
+  margin-top: 1em;
+  border-style: hidden;
+  background-color: white;
+  padding: 0.9em 0.5em 0.9em 0.5em;
+  border-radius: 20px;
+  box-shadow: 0em 0em 0.6em -0.2em;
+  margin-right: 0.7em;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 3em;
+  -webkit-animation: loading-menus 0.5s ease-in-out;
+  animation: loading-menus 0.5s ease-in-out;
+}
+#menu #lanote__plats--all #lanote__plats--3 input {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  display: none;
+}
+#menu #lanote__plats--all #lanote__plats--3 input + label {
+  display: flex;
+  flex-direction: row;
+}
+#menu #lanote__plats--all #lanote__plats--3 input + label h3 {
+  white-space: nowrap;
+}
+#menu #lanote__plats--all #lanote__plats--3 input + label h4 {
+  white-space: nowrap;
+  font-weight: lighter;
+}
+#menu #lanote__plats--all #lanote__plats--3 input + label:hover {
+  cursor: pointer;
+}
+#menu #lanote__plats--all #lanote__plats--3 input + label h3 {
+  padding-right: 3em;
+}
+#menu #lanote__plats--all #lanote__plats--3 input + label #lanote__plats--prix {
+  padding-left: 3.5em;
+  margin-top: 1.6em;
+}
+#menu #lanote__plats--all #lanote__plats--3 input + label #lanote__plats--prix h5 {
+  margin-left: -1.5rem;
+}
+#menu #lanote__plats--all #lanote__plats--3 input:checked + label #checked-font-place {
+  z-index: 95;
+  background-color: #99E2D0;
+  padding: 1.5em 1.3em 1.5em 1.3em;
+  margin-left: -2.5em;
+  margin-top: -0.9em;
+  position: relative;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-animation-name: checked-background-translate--menu;
+  animation-name: checked-background-translate--menu;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
+}
+#menu #lanote__plats--all #lanote__plats--3 input:checked + label #checked-font-place::after {
+  content: "";
+  font-size: 2rem;
+  animation-name: checked-ok-rotate--menu;
+  -webkit-animation-name: checked-ok-rotate--menu;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+#menu #lanote__plats--all #lanote__plats--3 input:checked + label #checked-font-place {
+  margin-left: -1.7em;
+}
+#menu #lanote__plats--all #lanote__plats--3 input:checked + label #lanote__plats--prix {
+  padding-left: 2.2em;
+  margin-top: 1.6em;
+  margin-left: -1.9em;
+}
+#menu #lanote__plats--all #lanote__plats--3 input:checked + label #lanote__plats--prix h5 {
+  margin-left: -3.6rem;
+  /*to better understand the positionning i use the border solid*/
+  padding-right: 0.5em;
+  margin-right: 2rem;
+  -webkit-animation-name: price-animation--short;
+  animation-name: price-animation--short;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  transition: ease-out;
+  z-index: 100;
+  background: white;
+  padding-left: 0em;
+  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+}
+#menu #lanote__plats--all #lanote__plats--3 input:checked + label #lanote__plats--prix h5:before {
   content: "...";
-  padding-right: 0.4em;
+  padding-right: 0.7em;
 }
-#menu #délice__entrées--all #délice__entrées--3 {
-  margin-top: 1em;
-  border-style: hidden;
-  background-color: white;
-  padding: 0.9em 0.5em 0.9em 0.5em;
-  border-radius: 20px;
-  box-shadow: 0em 0em 0.6em -0.2em;
-  margin-right: 0.7em;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 3em;
-  -webkit-animation: loading-menus 0.5s ease-in-out;
-  animation: loading-menus 0.5s ease-in-out;
-}
-#menu #délice__entrées--all #délice__entrées--3 input {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  display: none;
-}
-#menu #délice__entrées--all #délice__entrées--3 input + label {
-  display: flex;
-  flex-direction: row;
-}
-#menu #délice__entrées--all #délice__entrées--3 input + label h3 {
-  white-space: nowrap;
-  padding-bottom: 0.095rem;
-}
-#menu #délice__entrées--all #délice__entrées--3 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
-}
-#menu #délice__entrées--all #délice__entrées--3 input + label:hover {
-  cursor: pointer;
-}
-#menu #délice__entrées--all #délice__entrées--3 input + label h3 {
-  padding-right: 8.2em;
-}
-#menu #délice__entrées--all #délice__entrées--3 input + label #délice__entrées--prix {
-  padding-left: 1.8em;
-  margin-top: 1.6em;
-}
-#menu #délice__entrées--all #délice__entrées--3 input + label #délice__entrées--prix h5 {
-  margin-left: -1.5rem;
-}
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label #checked-font-place {
-  z-index: 95;
-  background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
-  position: relative;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  -webkit-animation-name: checked-background-translate--menu;
-  animation-name: checked-background-translate--menu;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-in-out;
-}
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label #checked-font-place::after {
-  content: "";
-  font-size: 2rem;
-  animation-name: checked-ok-rotate--menu;
-  -webkit-animation-name: checked-ok-rotate--menu;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: white;
-  justify-content: center;
-}
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label #checked-font-place {
-  margin-left: -1.5em;
-}
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label h3 {
-  padding-right: 7.9em;
-  /*this padding help me position the price*/
-}
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label #délice__entrées--prix {
-  padding-left: 0em;
-  margin-top: 1.6em;
-}
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label #délice__entrées--prix h5 {
-  margin-left: -3.6rem;
-  padding-right: 0em;
-  -webkit-animation-name: price-animation--short;
-  animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
-}
-#menu #délice__plats {
+#menu #lanote__desserts {
   padding-bottom: 0.5em;
-  /*distance between the last div and the desserts*/
 }
-#menu #délice__plats p {
+#menu #lanote__desserts p {
   border-bottom: solid #99E2D0;
   border-width: 0.3em;
   margin-right: 20em;
 }
-#menu #délice__plats--all {
-  padding-bottom: 2em;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  height: 18.5em;
-  padding-left: 0.5em;
-}
-#menu #délice__plats--all #délice__plats--1 {
-  margin-top: 1em;
-  border-style: hidden;
-  background-color: white;
-  padding: 0.9em 0.5em 0.9em 0.5em;
-  border-radius: 20px;
-  box-shadow: 0em 0em 0.6em -0.2em;
-  margin-right: 0.7em;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 4.2em;
-  /*there are 2 variants, one normal and the -- large*/
-  -webkit-animation: loading-menus 0.5s ease-in-out;
-  animation: loading-menus 0.5s ease-in-out;
-}
-#menu #délice__plats--all #délice__plats--1 input {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  display: none;
-}
-#menu #délice__plats--all #délice__plats--1 input + label {
-  display: flex;
-  flex-direction: row;
-}
-#menu #délice__plats--all #délice__plats--1 input + label h3 {
-  white-space: nowrap;
-  padding-bottom: 0.095rem;
-}
-#menu #délice__plats--all #délice__plats--1 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
-}
-#menu #délice__plats--all #délice__plats--1 input + label:hover {
-  cursor: pointer;
-}
-#menu #délice__plats--all #délice__plats--1 input + label h3 {
-  padding-right: 6.2em;
-}
-#menu #délice__plats--all #délice__plats--1 input + label #délice__plats--prix {
-  padding-left: 0em;
-  margin-top: 1.6em;
-}
-#menu #délice__plats--all #délice__plats--1 input + label #délice__plats--prix h5 {
-  margin-left: -1.5rem;
-  padding-top: 2em;
-}
-#menu #délice__plats--all #délice__plats--1 input:checked + label {
-  /*2 variants, large and normal (without a modifier)*/
-}
-#menu #délice__plats--all #délice__plats--1 input:checked + label #checked-font-place {
-  z-index: 95;
-  background-color: #99E2D0;
-  padding: 2em 1.3em 2em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
-  position: relative;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  -webkit-animation-name: checked-background-translate--menu;
-  animation-name: checked-background-translate--menu;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-in-out;
-}
-#menu #délice__plats--all #délice__plats--1 input:checked + label #checked-font-place::after {
-  content: "";
-  font-size: 2rem;
-  animation-name: checked-ok-rotate--menu;
-  -webkit-animation-name: checked-ok-rotate--menu;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: white;
-  justify-content: center;
-}
-#menu #délice__plats--all #délice__plats--1 input:checked + label #checked-font-place {
-  margin-left: -3.1em;
-}
-#menu #délice__plats--all #délice__plats--1 input:checked + label h3 {
-  padding-right: 4.2em;
-}
-#menu #délice__plats--all #délice__plats--1 input:checked + label #délice__plats--prix {
-  padding-left: 2.3em;
-  margin-top: 1.5em;
-  margin-left: -1.9em;
-}
-#menu #délice__plats--all #délice__plats--1 input:checked + label #délice__plats--prix h5 {
-  margin-left: -3.5rem;
-  /*to better understand the positionning i use the border solid*/
-  padding-right: 2em;
-  margin-right: 2rem;
-  -webkit-animation-name: price-animation--large;
-  animation-name: price-animation--large;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
-  z-index: 100;
-  background: white;
-  padding-left: 0em;
-  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-}
-#menu #délice__plats--all #délice__plats--2 {
-  margin-top: 1em;
-  border-style: hidden;
-  background-color: white;
-  padding: 0.9em 0.5em 0.9em 0.5em;
-  border-radius: 20px;
-  box-shadow: 0em 0em 0.6em -0.2em;
-  margin-right: 0.7em;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 3em;
-  -webkit-animation: loading-menus 0.5s ease-in-out;
-  animation: loading-menus 0.5s ease-in-out;
-}
-#menu #délice__plats--all #délice__plats--2 input {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  display: none;
-}
-#menu #délice__plats--all #délice__plats--2 input + label {
-  display: flex;
-  flex-direction: row;
-}
-#menu #délice__plats--all #délice__plats--2 input + label h3 {
-  white-space: nowrap;
-  padding-bottom: 0.095rem;
-}
-#menu #délice__plats--all #délice__plats--2 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
-}
-#menu #délice__plats--all #délice__plats--2 input + label:hover {
-  cursor: pointer;
-}
-#menu #délice__plats--all #délice__plats--2 input + label h3 {
-  padding-right: 1em;
-}
-#menu #délice__plats--all #délice__plats--2 input + label #délice__plats--prix {
-  padding-left: 8.7em;
-  margin-top: 1.6em;
-}
-#menu #délice__plats--all #délice__plats--2 input + label #délice__plats--prix h5 {
-  margin-left: -1.5rem;
-}
-#menu #délice__plats--all #délice__plats--2 input:checked + label #checked-font-place {
-  z-index: 95;
-  background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
-  position: relative;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  -webkit-animation-name: checked-background-translate--menu;
-  animation-name: checked-background-translate--menu;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-in-out;
-}
-#menu #délice__plats--all #délice__plats--2 input:checked + label #checked-font-place::after {
-  content: "";
-  font-size: 2rem;
-  animation-name: checked-ok-rotate--menu;
-  -webkit-animation-name: checked-ok-rotate--menu;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: white;
-  justify-content: center;
-}
-#menu #délice__plats--all #délice__plats--2 input:checked + label #checked-font-place {
-  margin-left: -1.6em;
-}
-#menu #délice__plats--all #délice__plats--2 input:checked + label h3 {
-  padding-right: 6.5em;
-}
-#menu #délice__plats--all #délice__plats--2 input:checked + label #délice__plats--prix {
-  padding-left: 3.3em;
-  margin-top: 1.6em;
-  margin-left: -1.9em;
-}
-#menu #délice__plats--all #délice__plats--2 input:checked + label #délice__plats--prix h5 {
-  margin-left: -3.6rem;
-  /*to better understand the positionning i use the border solid*/
-  padding-right: 0.5em;
-  margin-right: 2rem;
-  -webkit-animation-name: price-animation--short;
-  animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
-  padding-left: 0em;
-  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-}
-#menu #délice__plats--all #délice__plats--3 {
-  margin-top: 1em;
-  border-style: hidden;
-  background-color: white;
-  padding: 0.9em 0.5em 0.9em 0.5em;
-  border-radius: 20px;
-  box-shadow: 0em 0em 0.6em -0.2em;
-  margin-right: 0.7em;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 3em;
-  -webkit-animation: loading-menus 0.5s ease-in-out;
-  animation: loading-menus 0.5s ease-in-out;
-}
-#menu #délice__plats--all #délice__plats--3 input {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  display: none;
-}
-#menu #délice__plats--all #délice__plats--3 input + label {
-  display: flex;
-  flex-direction: row;
-}
-#menu #délice__plats--all #délice__plats--3 input + label h3 {
-  white-space: nowrap;
-  padding-bottom: 0.095rem;
-}
-#menu #délice__plats--all #délice__plats--3 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
-}
-#menu #délice__plats--all #délice__plats--3 input + label:hover {
-  cursor: pointer;
-}
-#menu #délice__plats--all #délice__plats--3 input + label h3 {
-  padding-right: 4.1em;
-}
-#menu #délice__plats--all #délice__plats--3 input + label #délice__plats--prix {
-  padding-left: 4.5em;
-  margin-top: 1.6em;
-}
-#menu #délice__plats--all #délice__plats--3 input + label #délice__plats--prix h5 {
-  margin-left: -1.5rem;
-}
-#menu #délice__plats--all #délice__plats--3 input:checked + label #checked-font-place {
-  z-index: 95;
-  background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
-  position: relative;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  -webkit-animation-name: checked-background-translate--menu;
-  animation-name: checked-background-translate--menu;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-in-out;
-}
-#menu #délice__plats--all #délice__plats--3 input:checked + label #checked-font-place::after {
-  content: "";
-  font-size: 2rem;
-  animation-name: checked-ok-rotate--menu;
-  -webkit-animation-name: checked-ok-rotate--menu;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: white;
-  justify-content: center;
-}
-#menu #délice__plats--all #délice__plats--3 input:checked + label #checked-font-place {
-  margin-left: -1.5em;
-}
-#menu #délice__plats--all #délice__plats--3 input:checked + label h3 {
-  padding-right: 5.2em;
-}
-#menu #délice__plats--all #délice__plats--3 input:checked + label #délice__plats--prix {
-  padding-left: 3em;
-  margin-top: 1.6em;
-  margin-left: -1.9em;
-}
-#menu #délice__plats--all #délice__plats--3 input:checked + label #délice__plats--prix h5 {
-  margin-left: -3.6rem;
-  /*to better understand the positionning i use the border solid*/
-  padding-right: 0.5em;
-  margin-right: 2rem;
-  -webkit-animation-name: price-animation--short;
-  animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
-  padding-left: 0em;
-  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-}
-#menu #délice__desserts {
-  padding-bottom: 0.5em;
-}
-#menu #délice__desserts p {
-  border-bottom: solid #99E2D0;
-  border-width: 0.3em;
-  margin-right: 20em;
-}
-#menu #délice__desserts--all {
+#menu #lanote__desserts--all {
   padding-bottom: 3em;
   overflow-y: hidden;
   overflow-x: hidden;
   height: 17.5em;
   padding-left: 0.5em;
 }
-#menu #délice__desserts--all #délice__desserts--1 {
+#menu #lanote__desserts--all #lanote__desserts--1 {
   margin-top: 1em;
   border-style: hidden;
   background-color: white;
@@ -7174,7 +7282,7 @@ footer #line1 h6::before,
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
 }
-#menu #délice__desserts--all #délice__desserts--1 input {
+#menu #lanote__desserts--all #lanote__desserts--1 input {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -7184,33 +7292,35 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #délice__desserts--all #délice__desserts--1 input + label {
+#menu #lanote__desserts--all #lanote__desserts--1 input + label {
   display: flex;
   flex-direction: row;
 }
-#menu #délice__desserts--all #délice__desserts--1 input + label h3 {
+#menu #lanote__desserts--all #lanote__desserts--1 input + label h3 {
   white-space: nowrap;
-  padding-bottom: 0.095rem;
 }
-#menu #délice__desserts--all #délice__desserts--1 input + label h4 {
+#menu #lanote__desserts--all #lanote__desserts--1 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
 }
-#menu #délice__desserts--all #délice__desserts--1 input + label:hover {
+#menu #lanote__desserts--all #lanote__desserts--1 input + label:hover {
   cursor: pointer;
 }
-#menu #délice__desserts--all #délice__desserts--1 input + label h3 {
-  padding-right: 2em;
+#menu #lanote__desserts--all #lanote__desserts--1 input + label h3 {
+  padding-right: 0em;
   padding-bottom: 0.1rem;
 }
-#menu #délice__desserts--all #délice__desserts--1 input + label #délice__desserts--prix {
-  padding-left: 7.2em;
+#menu #lanote__desserts--all #lanote__desserts--1 input + label h4 {
+  font-size: 0.95em;
+}
+#menu #lanote__desserts--all #lanote__desserts--1 input + label #lanote__desserts--prix {
+  padding-left: 3.5em;
   margin-top: 1.6em;
 }
-#menu #délice__desserts--all #délice__desserts--1 input + label #délice__desserts--prix h5 {
+#menu #lanote__desserts--all #lanote__desserts--1 input + label #lanote__desserts--prix h5 {
   margin-left: -2.5rem;
 }
-#menu #délice__desserts--all #délice__desserts--1 input:checked + label #checked-font-place {
+#menu #lanote__desserts--all #lanote__desserts--1 input:checked + label #checked-font-place {
   z-index: 95;
   background-color: #99E2D0;
   padding: 1.5em 1.3em 1.5em 1.3em;
@@ -7226,7 +7336,7 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
 }
-#menu #délice__desserts--all #délice__desserts--1 input:checked + label #checked-font-place::after {
+#menu #lanote__desserts--all #lanote__desserts--1 input:checked + label #checked-font-place::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -7239,15 +7349,15 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #délice__desserts--all #délice__desserts--1 input:checked + label #checked-font-place {
-  margin-left: -2.9em;
+#menu #lanote__desserts--all #lanote__desserts--1 input:checked + label #checked-font-place {
+  margin-left: -3em;
 }
-#menu #délice__desserts--all #délice__desserts--1 input:checked + label #délice__desserts--prix {
-  padding-left: 5.8em;
+#menu #lanote__desserts--all #lanote__desserts--1 input:checked + label #lanote__desserts--prix {
+  padding-left: 1em;
   margin-top: 1.6em;
   margin-left: -1.5em;
 }
-#menu #délice__desserts--all #délice__desserts--1 input:checked + label #délice__desserts--prix h5 {
+#menu #lanote__desserts--all #lanote__desserts--1 input:checked + label #lanote__desserts--prix h5 {
   margin-left: -3.6rem;
   /*to better understand the positionning i use the border solid*/
   padding-right: 2em;
@@ -7262,7 +7372,11 @@ footer #line1 h6::before,
   padding-left: 0em;
   /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
 }
-#menu #délice__desserts--all #délice__desserts--2 {
+#menu #lanote__desserts--all #lanote__desserts--1 input:checked + label #lanote__desserts--prix h5:before {
+  content: "...";
+  padding-right: 0.7em;
+}
+#menu #lanote__desserts--all #lanote__desserts--2 {
   margin-top: 1em;
   border-style: hidden;
   background-color: white;
@@ -7276,7 +7390,7 @@ footer #line1 h6::before,
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
 }
-#menu #délice__desserts--all #délice__desserts--2 input {
+#menu #lanote__desserts--all #lanote__desserts--2 input {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -7286,32 +7400,31 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #délice__desserts--all #délice__desserts--2 input + label {
+#menu #lanote__desserts--all #lanote__desserts--2 input + label {
   display: flex;
   flex-direction: row;
 }
-#menu #délice__desserts--all #délice__desserts--2 input + label h3 {
+#menu #lanote__desserts--all #lanote__desserts--2 input + label h3 {
   white-space: nowrap;
-  padding-bottom: 0.095rem;
 }
-#menu #délice__desserts--all #délice__desserts--2 input + label h4 {
+#menu #lanote__desserts--all #lanote__desserts--2 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
 }
-#menu #délice__desserts--all #délice__desserts--2 input + label:hover {
+#menu #lanote__desserts--all #lanote__desserts--2 input + label:hover {
   cursor: pointer;
 }
-#menu #délice__desserts--all #délice__desserts--2 input + label h3 {
-  padding-right: 6.1em;
+#menu #lanote__desserts--all #lanote__desserts--2 input + label h3 {
+  padding-right: 3em;
 }
-#menu #délice__desserts--all #délice__desserts--2 input + label #délice__desserts--prix {
-  padding-left: 6em;
+#menu #lanote__desserts--all #lanote__desserts--2 input + label #lanote__desserts--prix {
+  padding-left: 5.3em;
   margin-top: 1.6em;
 }
-#menu #délice__desserts--all #délice__desserts--2 input + label #délice__desserts--prix h5 {
+#menu #lanote__desserts--all #lanote__desserts--2 input + label #lanote__desserts--prix h5 {
   margin-left: -1.5rem;
 }
-#menu #délice__desserts--all #délice__desserts--2 input:checked + label #checked-font-place {
+#menu #lanote__desserts--all #lanote__desserts--2 input:checked + label #checked-font-place {
   z-index: 95;
   background-color: #99E2D0;
   padding: 1.5em 1.3em 1.5em 1.3em;
@@ -7327,7 +7440,7 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
 }
-#menu #délice__desserts--all #délice__desserts--2 input:checked + label #checked-font-place::after {
+#menu #lanote__desserts--all #lanote__desserts--2 input:checked + label #checked-font-place::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -7340,15 +7453,15 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #délice__desserts--all #délice__desserts--2 input:checked + label #checked-font-place {
-  margin-left: -1.6em;
+#menu #lanote__desserts--all #lanote__desserts--2 input:checked + label #checked-font-place {
+  margin-left: -1.7em;
 }
-#menu #délice__desserts--all #délice__desserts--2 input:checked + label #délice__desserts--prix {
-  padding-left: 5.9em;
+#menu #lanote__desserts--all #lanote__desserts--2 input:checked + label #lanote__desserts--prix {
+  padding-left: 5.3em;
   margin-top: 1.6em;
   margin-left: -1.9em;
 }
-#menu #délice__desserts--all #délice__desserts--2 input:checked + label #délice__desserts--prix h5 {
+#menu #lanote__desserts--all #lanote__desserts--2 input:checked + label #lanote__desserts--prix h5 {
   margin-left: -3.6rem;
   /*to better understand the positionning i use the border solid*/
   padding-right: 0.5em;
@@ -7363,7 +7476,7 @@ footer #line1 h6::before,
   padding-left: 0em;
   /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
 }
-#menu #délice__desserts--all #délice__desserts--3 {
+#menu #lanote__desserts--all #lanote__desserts--3 {
   margin-top: 1em;
   border-style: hidden;
   background-color: white;
@@ -7377,7 +7490,7 @@ footer #line1 h6::before,
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
 }
-#menu #délice__desserts--all #délice__desserts--3 input {
+#menu #lanote__desserts--all #lanote__desserts--3 input {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -7387,32 +7500,31 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #délice__desserts--all #délice__desserts--3 input + label {
+#menu #lanote__desserts--all #lanote__desserts--3 input + label {
   display: flex;
   flex-direction: row;
 }
-#menu #délice__desserts--all #délice__desserts--3 input + label h3 {
+#menu #lanote__desserts--all #lanote__desserts--3 input + label h3 {
   white-space: nowrap;
-  padding-bottom: 0.095rem;
 }
-#menu #délice__desserts--all #délice__desserts--3 input + label h4 {
+#menu #lanote__desserts--all #lanote__desserts--3 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
 }
-#menu #délice__desserts--all #délice__desserts--3 input + label:hover {
+#menu #lanote__desserts--all #lanote__desserts--3 input + label:hover {
   cursor: pointer;
 }
-#menu #délice__desserts--all #délice__desserts--3 input + label h3 {
-  padding-right: 8.8em;
+#menu #lanote__desserts--all #lanote__desserts--3 input + label h3 {
+  padding-right: 3em;
 }
-#menu #délice__desserts--all #délice__desserts--3 input + label #délice__desserts--prix {
-  padding-left: 5em;
+#menu #lanote__desserts--all #lanote__desserts--3 input + label #lanote__desserts--prix {
+  padding-left: 3.3em;
   margin-top: 1.6em;
 }
-#menu #délice__desserts--all #délice__desserts--3 input + label #délice__desserts--prix h5 {
+#menu #lanote__desserts--all #lanote__desserts--3 input + label #lanote__desserts--prix h5 {
   margin-left: -1.5rem;
 }
-#menu #délice__desserts--all #délice__desserts--3 input:checked + label #checked-font-place {
+#menu #lanote__desserts--all #lanote__desserts--3 input:checked + label #checked-font-place {
   z-index: 95;
   background-color: #99E2D0;
   padding: 1.5em 1.3em 1.5em 1.3em;
@@ -7428,7 +7540,7 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
 }
-#menu #délice__desserts--all #délice__desserts--3 input:checked + label #checked-font-place::after {
+#menu #lanote__desserts--all #lanote__desserts--3 input:checked + label #checked-font-place::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -7441,15 +7553,15 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #délice__desserts--all #délice__desserts--3 input:checked + label #checked-font-place {
-  margin-left: -1.5em;
+#menu #lanote__desserts--all #lanote__desserts--3 input:checked + label #checked-font-place {
+  margin-left: -1.7em;
 }
-#menu #délice__desserts--all #délice__desserts--3 input:checked + label #délice__desserts--prix {
-  padding-left: 5em;
+#menu #lanote__desserts--all #lanote__desserts--3 input:checked + label #lanote__desserts--prix {
+  padding-left: 3.3em;
   margin-top: 1.6em;
   margin-left: -1.9em;
 }
-#menu #délice__desserts--all #délice__desserts--3 input:checked + label #délice__desserts--prix h5 {
+#menu #lanote__desserts--all #lanote__desserts--3 input:checked + label #lanote__desserts--prix h5 {
   margin-left: -3.6rem;
   /*to better understand the positionning i use the border solid*/
   padding-right: 0.5em;
@@ -7543,26 +7655,26 @@ footer #contact a {
     /*i dont know why but the remove the space between the top of the scrren and the logo*/
   }
 
-  #délice-image {
+  #lanote-image {
     transform: scale(1.5);
     margin-top: 4.5em;
     margin-left: 3em;
-    margin-right: 2.85em;
+    margin-right: 2.8em;
   }
-  #délice-image .overlay__menu--1 {
-    width: 387px;
+  #lanote-image .overlay__menu--1 {
+    width: 386px;
     margin-left: -0.09em;
   }
 
   section {
     transform: scale(1.527);
-    width: 367px;
+    width: 365px;
     margin-top: 23em;
     margin-left: 3.1em;
   }
 
   footer {
-    width: 17.9em;
+    width: 17.8em;
     margin-left: 2rem;
   }
   footer #footer__nav {
@@ -7575,8 +7687,8 @@ footer #contact a {
     transform: scale(1.3);
     margin-top: 0em;
     /*here it remove the space between ohmyfood and the top screen*/
-    width: 487px;
-    margin-left: -0.2em;
+    width: 482px;
+    margin-left: 0.1em;
     /*this here move the ohhmyfood and the arrow together*/
   }
   header #logo {
@@ -7590,30 +7702,30 @@ footer #contact a {
     /*this pushed the arrow toward the logo*/
   }
 
-  #délice-image {
-    transform: scale(1.63);
+  #lanote-image {
+    transform: scale(1.61);
     margin-top: 4.5em;
     margin-left: 3em;
     margin-right: 2.8em;
   }
-  #délice-image .overlay__menu--1 {
-    width: 388px;
+  #lanote-image .overlay__menu--1 {
+    width: 389px;
     margin-left: -0.09em;
   }
 
   section {
-    transform: scale(1.685);
-    width: 362px;
-    margin-top: 30em;
+    transform: scale(1.658);
+    width: 365px;
+    margin-top: 31em;
     margin-left: 3.3em;
   }
 
   footer {
     transform: scale(1.65);
     /*scale, font size and width, mostly, fixed the issue where the width in the ipad was not the same for the desktop. I think the issue was the font size*/
-    width: 16.4em;
+    width: 16.2em;
     margin-top: 19em;
-    margin-left: 2.3em;
+    margin-left: 2.5em;
   }
   footer #footer__nav {
     display: flex;
@@ -7641,28 +7753,28 @@ footer #contact a {
     /*this pushed the arrow toward the logo*/
   }
 
-  #délice-image {
+  #lanote-image {
     transform: scale(1.88);
     margin-top: 9.5em;
     margin-left: 3em;
     margin-right: 2.8em;
   }
-  #délice-image .overlay__menu--1 {
-    width: 389px;
+  #lanote-image .overlay__menu--1 {
+    width: 390px;
     margin-left: -0.09em;
   }
 
   section {
     transform: scale(1.935);
-    width: 365.5px;
-    margin-top: 42em;
+    width: 366px;
+    margin-top: 45em;
     margin-left: 3.3em;
   }
 
   footer {
-    width: 415.5px;
+    width: 416px;
     margin-left: 0.7em;
-    margin-top: 26em;
+    margin-top: 27em;
   }
   footer #footer__nav {
     display: flex;
@@ -7693,28 +7805,28 @@ footer #contact a {
     /*this pushed the arrow toward the logo*/
   }
 
-  #délice-image {
+  #lanote-image {
     transform: scale(1.88);
     margin-top: 9.5em;
     margin-left: 3em;
     margin-right: 2.8em;
   }
-  #délice-image .overlay__menu--1 {
-    width: 389px;
+  #lanote-image .overlay__menu--1 {
+    width: 390px;
     margin-left: -0.09em;
   }
 
   section {
     transform: scale(1.935);
-    width: 365.5px;
-    margin-top: 42em;
+    width: 366px;
+    margin-top: 45em;
     margin-left: 3.3em;
   }
 
   footer {
-    width: 415.5px;
+    width: 416px;
     margin-left: 0.7em;
-    margin-top: 26em;
+    margin-top: 27em;
   }
   footer #footer__nav {
     display: flex;
@@ -7745,28 +7857,28 @@ footer #contact a {
     /*this pushed the arrow toward the logo*/
   }
 
-  #délice-image {
+  #lanote-image {
     transform: scale(1.88);
     margin-top: 9.5em;
     margin-left: 3em;
     margin-right: 2.8em;
   }
-  #délice-image .overlay__menu--1 {
-    width: 389px;
+  #lanote-image .overlay__menu--1 {
+    width: 390px;
     margin-left: -0.09em;
   }
 
   section {
     transform: scale(1.935);
-    width: 365.5px;
-    margin-top: 42em;
+    width: 366px;
+    margin-top: 45em;
     margin-left: 3.3em;
   }
 
   footer {
-    width: 415.5px;
+    width: 416px;
     margin-left: 0.7em;
-    margin-top: 26em;
+    margin-top: 27em;
   }
   footer #footer__nav {
     display: flex;
@@ -7797,28 +7909,28 @@ footer #contact a {
     /*this pushed the arrow toward the logo*/
   }
 
-  #délice-image {
+  #lanote-image {
     transform: scale(1.88);
     margin-top: 9.5em;
     margin-left: 3em;
     margin-right: 2.8em;
   }
-  #délice-image .overlay__menu--1 {
-    width: 389px;
+  #lanote-image .overlay__menu--1 {
+    width: 390px;
     margin-left: -0.09em;
   }
 
   section {
     transform: scale(1.935);
-    width: 365.5px;
-    margin-top: 42em;
+    width: 366px;
+    margin-top: 45em;
     margin-left: 3.3em;
   }
 
   footer {
-    width: 415.5px;
+    width: 416px;
     margin-left: 0.7em;
-    margin-top: 26em;
+    margin-top: 27em;
   }
   footer #footer__nav {
     display: flex;
@@ -7849,28 +7961,28 @@ footer #contact a {
     /*this pushed the arrow toward the logo*/
   }
 
-  #délice-image {
+  #lanote-image {
     transform: scale(1.88);
     margin-top: 9.5em;
     margin-left: 3em;
     margin-right: 2.8em;
   }
-  #délice-image .overlay__menu--1 {
-    width: 389px;
+  #lanote-image .overlay__menu--1 {
+    width: 390px;
     margin-left: -0.09em;
   }
 
   section {
     transform: scale(1.935);
-    width: 365.5px;
-    margin-top: 42em;
+    width: 366px;
+    margin-top: 45em;
     margin-left: 3.3em;
   }
 
   footer {
-    width: 415.5px;
+    width: 416px;
     margin-left: 0.7em;
-    margin-top: 26em;
+    margin-top: 27em;
   }
   footer #footer__nav {
     display: flex;
@@ -7878,4 +7990,4 @@ footer #contact a {
   }
 }
 
-/*# sourceMappingURL=d%C3%A9lice_menu.css.map */
+/*# sourceMappingURL=lanote_menu.css.map */
