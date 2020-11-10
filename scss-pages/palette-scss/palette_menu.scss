@@ -989,19 +989,27 @@ footer {
 @media screen and (min-width: 500px) and (max-width: 667px)
 {
     body {
-        padding-left: 11.5em;
+        padding-left: 6em;
         padding-top: 2.5em;
     }
     header {
         transform: scale(1.7);
-        padding-left: 2em;
-        padding-bottom: 1em;   
+        width: 487px;
+        margin-left: -10em;  /*help to reduce the whole page width*/
+        #logo {
+            padding-left: 3em; 
+            padding-bottom: 1em;
+            margin-left: 17em;
+            a {
+                padding-right: 2em;  /*this pushed the arrow toward the logo*/
+            }
+        }
     }
     #palette-image {
         transform: scale(1.51);
-        width: 30em; 
+        width: 25em; 
         margin-top: 4.5em;
-        margin-left: 4.5em;
+        margin-left: 3.2em;
         .overlay__menu--1 {
             width: 386px;
             margin-left: -0.09em;
