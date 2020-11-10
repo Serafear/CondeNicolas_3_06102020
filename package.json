@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Serafear/CondeNicolas_3_06102020.git"
+    "url": "git+https://github.com/Serafear/CondeNicolas_3_06102020/html-pages/main-html.git"
   },
   "author": "",
   "license": "ISC",
@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/Serafear/CondeNicolas_3_06102020/issues"
   },
-  "homepage": "https://github.com/Serafear/CondeNicolas_3_06102020",
+  "homepage": "https://github.com/Serafear/CondeNicolas_3_06102020#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1"
   }
