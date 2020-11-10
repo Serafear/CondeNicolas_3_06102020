@@ -5,11 +5,11 @@
 
 @font-face {
     font-family: "shrikhand";
-    src: url("fonts/shrikhand/Shrikhand-Regular.ttf");
+    src: url("../../fonts/shrikhand/Shrikhand-Regular.ttf");
 }
 @font-face {
     font-family: "roboto";
-    src: url("fonts/roboto/Roboto-Regular.ttf");
+    src: url("../../fonts/roboto/Roboto-Regular.ttf");
 }
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
@@ -45,7 +45,7 @@ $font-text: "roboto";
 }
 @mixin photo-menu {
     article {
-        background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+        background-image: url(../../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position-y: center;
@@ -1036,30 +1036,45 @@ footer {
 }
 @media screen and (min-width: 500px) and (max-width: 667px)
 {
+    body {
+        margin-left: 6em;
+        padding-top: 2em;
+    }
     header {
-        transform: scale(1.21);
-        padding-left: 2.6em;
-        margin-top: 0em;   /*i dont know why but the remove the space between the top of the scrren and the logo*/
+        transform: scale(1.8);
+        width: 487px;
+        margin-left: -10em;  /*help to reduce the whole page width*/
+        #logo {
+            padding-left: 3em; 
+            padding-bottom: 1em;
+            margin-left: 11em;
+            a {
+                padding-right: 2em;  /*this pushed the arrow toward the logo*/
+            }
+        }
     }
     #délice-image {
-        transform: scale(1.50);
+        transform: scale(1.5);
+        width: 24em;
         margin-top: 4.5em;
         margin-left: 3em;
-        margin-right: 2.85em;
+        margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 387px;
+            width: 386px;
             margin-left: -0.09em;
         }
     }
     section {
         transform: scale(1.527);
-        width: 367px;
+        width: 365px;
         margin-top: 23em;
         margin-left: 3.1em;
     }
     footer {
-        width: 17.9em;
+        transform: scale(1.4);
+        width: 17.8em;
         margin-left: 2rem;
+        margin-top: 15em;
         #footer__nav {
             display: flex;
             flex-direction: row;
@@ -1068,86 +1083,92 @@ footer {
 }
 @media screen and (min-width: 667.1px) and (max-width: 768px)
 {
+    body {
+        margin-left: 9em;
+        padding-top: 2.5em;
+    }
     header {
-        transform: scale(1.3);
-        margin-top: 0em;   /*here it remove the space between ohmyfood and the top screen*/
+        transform: scale(1.9);
         width: 487px;
-        margin-left: -0.2em; /*this here move the ohhmyfood and the arrow together*/
+        margin-left: -10em;  /*help to reduce the whole page width*/
         #logo {
-            padding-left: 6.5em; 
+            padding-left: 3em; 
             padding-bottom: 2em;
-            padding-top: 2em;
-            margin-left: 2.2em;
+            margin-left: 10em;
             a {
                 padding-right: 2em;  /*this pushed the arrow toward the logo*/
             }
         }
     }
     #délice-image {
-        transform: scale(1.63);
+        transform: scale(1.6);
+        width: 24em;
         margin-top: 4.5em;
         margin-left: 3em;
         margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 388px;
+            width: 386px;
             margin-left: -0.09em;
         }
     }
     section {
-        transform: scale(1.685);
-        width: 362px;
-        margin-top: 30em;
-        margin-left: 3.3em;
+        transform: scale(1.633);
+        width: 365px;
+        margin-top: 28.5em;
+        margin-left: 3.15em;
     }
     footer {
-        transform: scale(1.65);    /*scale, font size and width, mostly, fixed the issue where the width in the ipad was not the same for the desktop. I think the issue was the font size*/
-        width: 16.4em;
-        margin-top: 19em;
-        margin-left: 2.3em;
+        transform: scale(1.5);
+        width: 17.8em;
+        margin-left: 2rem;
+        margin-top: 17em;
         #footer__nav {
             display: flex;
             flex-direction: row;
-            font-size: 0.9em;
         }
     }
 }   
 @media screen and (min-width: 768.1px) and (max-width: 1024px)
 {
+    body {
+        margin-left: 17em;
+        padding-top: 3.5em;
+    }
     header {
-        transform: scale(1.5);
-        margin-top: 0em;   /*here it remove the space between ohmyfood and the top screen*/
+        transform: scale(2.1);
         width: 487px;
-        margin-left: -0.2em; /*this here move the ohhmyfood and the arrow together*/
+        margin-left: -10em;  /*help to reduce the whole page width*/
         #logo {
-            padding-left: 6.5em; 
-            padding-bottom: 1em;
-            padding-top: 2em;
-            margin-left: 2.2em;
+            padding-left: 3em; 
+            padding-bottom: 3em;
+            margin-left: 10em;
             a {
                 padding-right: 2em;  /*this pushed the arrow toward the logo*/
             }
         }
     }
     #délice-image {
-        transform: scale(1.88);
-        margin-top: 9.5em;
+        transform: scale(1.8);
+        width: 24em;
+        margin-top: 4.5em;
         margin-left: 3em;
         margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 389px;
+            width: 386px;
             margin-left: -0.09em;
         }
     }
     section {
-        transform: scale(1.935);
-        width: 365.5px;
-        margin-top: 42em;
-        margin-left: 3.3em;
+        transform: scale(1.835);
+        width: 365px;
+        margin-top: 38em;
+        margin-left: 3.20em;
     }
     footer {
-        width: 415.5px;
-        margin-left: 0.7em;
-        margin-top: 26em;
+        transform: scale(1.7);
+        width: 17.6em;
+        margin-left: 2.3rem;
+        margin-top: 24.5em;
         #footer__nav {
             display: flex;
             flex-direction: row;
@@ -1157,43 +1178,44 @@ footer {
 @media screen and (min-width: 1024.1px) and (max-width: 1224px)
 {
     body {
-        padding-left: 20em;
+        margin-left: 23em;
+        padding-top: 3.5em;
     }
     header {
-        transform: scale(1.5);
-        margin-top: 0em;   /*here it remove the space between ohmyfood and the top screen*/
+        transform: scale(2.1);
         width: 487px;
-        margin-left: -0.2em; /*this here move the ohhmyfood and the arrow together*/
+        margin-left: -10em;  /*help to reduce the whole page width*/
         #logo {
-            padding-left: 6.5em; 
-            padding-bottom: 1em;
-            padding-top: 2em;
-            margin-left: 2.2em;
+            padding-left: 3em; 
+            padding-bottom: 3em;
+            margin-left: 10em;
             a {
                 padding-right: 2em;  /*this pushed the arrow toward the logo*/
             }
         }
     }
     #délice-image {
-        transform: scale(1.88);
-        margin-top: 9.5em;
+        transform: scale(1.8);
+        width: 24em;
+        margin-top: 4.5em;
         margin-left: 3em;
         margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 389px;
+            width: 386px;
             margin-left: -0.09em;
         }
     }
     section {
-        transform: scale(1.935);
-        width: 365.5px;
-        margin-top: 42em;
-        margin-left: 3.3em;
+        transform: scale(1.835);
+        width: 365px;
+        margin-top: 38em;
+        margin-left: 3.20em;
     }
     footer {
-        width: 415.5px;
-        margin-left: 0.7em;
-        margin-top: 26em;
+        transform: scale(1.7);
+        width: 17.6em;
+        margin-left: 2.3rem;
+        margin-top: 24.5em;
         #footer__nav {
             display: flex;
             flex-direction: row;
@@ -1203,43 +1225,44 @@ footer {
 @media screen and (min-width: 1224.1px) and (max-width: 1424px)
 {
     body {
-        padding-left: 30em;
+        margin-left: 33em;
+        padding-top: 3.5em;
     }
     header {
-        transform: scale(1.5);
-        margin-top: 0em;   /*here it remove the space between ohmyfood and the top screen*/
+        transform: scale(2.1);
         width: 487px;
-        margin-left: -0.2em; /*this here move the ohhmyfood and the arrow together*/
+        margin-left: -10em;  /*help to reduce the whole page width*/
         #logo {
-            padding-left: 6.5em; 
-            padding-bottom: 1em;
-            padding-top: 2em;
-            margin-left: 2.2em;
+            padding-left: 3em; 
+            padding-bottom: 3em;
+            margin-left: 10em;
             a {
                 padding-right: 2em;  /*this pushed the arrow toward the logo*/
             }
         }
     }
     #délice-image {
-        transform: scale(1.88);
-        margin-top: 9.5em;
+        transform: scale(1.8);
+        width: 24em;
+        margin-top: 4.5em;
         margin-left: 3em;
         margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 389px;
+            width: 386px;
             margin-left: -0.09em;
         }
     }
     section {
-        transform: scale(1.935);
-        width: 365.5px;
-        margin-top: 42em;
-        margin-left: 3.3em;
+        transform: scale(1.835);
+        width: 365px;
+        margin-top: 38em;
+        margin-left: 3.20em;
     }
     footer {
-        width: 415.5px;
-        margin-left: 0.7em;
-        margin-top: 26em;
+        transform: scale(1.7);
+        width: 17.6em;
+        margin-left: 2.3rem;
+        margin-top: 24.5em;
         #footer__nav {
             display: flex;
             flex-direction: row;
@@ -1249,43 +1272,44 @@ footer {
 @media screen and (min-width: 1424.1px) and (max-width: 1600px)
 {
     body {
-        padding-left: 40em;
+        margin-left: 42em;
+        padding-top: 3.5em;
     }
     header {
-        transform: scale(1.5);
-        margin-top: 0em;   /*here it remove the space between ohmyfood and the top screen*/
+        transform: scale(2.1);
         width: 487px;
-        margin-left: -0.2em; /*this here move the ohhmyfood and the arrow together*/
+        margin-left: -10em;  /*help to reduce the whole page width*/
         #logo {
-            padding-left: 6.5em; 
-            padding-bottom: 1em;
-            padding-top: 2em;
-            margin-left: 2.2em;
+            padding-left: 3em; 
+            padding-bottom: 3em;
+            margin-left: 10em;
             a {
                 padding-right: 2em;  /*this pushed the arrow toward the logo*/
             }
         }
     }
     #délice-image {
-        transform: scale(1.88);
-        margin-top: 9.5em;
+        transform: scale(1.8);
+        width: 24em;
+        margin-top: 4.5em;
         margin-left: 3em;
         margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 389px;
+            width: 386px;
             margin-left: -0.09em;
         }
     }
     section {
-        transform: scale(1.935);
-        width: 365.5px;
-        margin-top: 42em;
-        margin-left: 3.3em;
+        transform: scale(1.835);
+        width: 365px;
+        margin-top: 38em;
+        margin-left: 3.20em;
     }
     footer {
-        width: 415.5px;
-        margin-left: 0.7em;
-        margin-top: 26em;
+        transform: scale(1.7);
+        width: 17.6em;
+        margin-left: 2.3rem;
+        margin-top: 24.5em;
         #footer__nav {
             display: flex;
             flex-direction: row;
@@ -1295,43 +1319,44 @@ footer {
 @media screen and (min-width: 1600.1px)
 {
     body {
-        padding-left: 45em;
+        margin-left: 46em;
+        padding-top: 3.5em;
     }
     header {
-        transform: scale(1.5);
-        margin-top: 0em;   /*here it remove the space between ohmyfood and the top screen*/
+        transform: scale(2.1);
         width: 487px;
-        margin-left: -0.2em; /*this here move the ohhmyfood and the arrow together*/
+        margin-left: -10em;  /*help to reduce the whole page width*/
         #logo {
-            padding-left: 6.5em; 
-            padding-bottom: 1em;
-            padding-top: 2em;
-            margin-left: 2.2em;
+            padding-left: 3em; 
+            padding-bottom: 3em;
+            margin-left: 10em;
             a {
                 padding-right: 2em;  /*this pushed the arrow toward the logo*/
             }
         }
     }
     #délice-image {
-        transform: scale(1.88);
-        margin-top: 9.5em;
+        transform: scale(1.8);
+        width: 24em;
+        margin-top: 4.5em;
         margin-left: 3em;
         margin-right: 2.8em;
         .overlay__menu--1 {
-            width: 389px;
+            width: 386px;
             margin-left: -0.09em;
         }
     }
     section {
-        transform: scale(1.935);
-        width: 365.5px;
-        margin-top: 42em;
-        margin-left: 3.3em;
+        transform: scale(1.835);
+        width: 365px;
+        margin-top: 38em;
+        margin-left: 3.20em;
     }
     footer {
-        width: 415.5px;
-        margin-left: 0.7em;
-        margin-top: 26em;
+        transform: scale(1.7);
+        width: 17.6em;
+        margin-left: 2.3rem;
+        margin-top: 24.5em;
         #footer__nav {
             display: flex;
             flex-direction: row;
