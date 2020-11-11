@@ -1,0 +1,43 @@
+#restaurants {
+    background-color: $gray-light;
+    font-family: $font-text;
+    h2 {
+        padding-left: 1em;
+        font-family: $font-text;
+        font-weight: bolder;
+        padding-top: 2em;
+        
+    }
+    #restaurants__palette {
+        @include article__setting;
+        @include article__setting--1;
+        article {
+            background-image: url(../../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
+            background-position-y: -4em;
+        }
+    }
+    #restaurants__lanote {
+        @include article__setting;
+        @include article__setting--2;
+        article {
+            background-image: url(../../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
+            background-position-y: -12.5em;
+        }
+    }
+    #restaurants__alafrançaise {
+        @include article__setting;
+        @include article__setting--3;
+        article {
+            background-image: url(../../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
+            background-position-y: -4em;
+        }
+    }  
+    #restaurants__délice {
+        @include article__setting;
+        @include article__setting--4;
+        article {
+            background-image: url(../../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg); background-size: cover; background-repeat: no-repeat;
+            background-position-y: -4em;
+        }
+    } 
+}

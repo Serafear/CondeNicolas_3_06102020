@@ -1,0 +1,42 @@
+.loader {
+    display: inline-block;
+    position: fixed;
+    width: 0%;
+    height: 0%;
+    z-index: 100;  /*the z index is the importance order. By putting it at 100 i make it so that the loader is the first place so that his background cover everything. It only work if a position is choosed like fixed*/
+    -webkit-animation-name: loader-background;
+            animation-name: loader-background;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+}
+.loader div {
+    
+    display: inline-block;
+    position: absolute;
+    left: 8px; /*here i set the distance bewteen a div and the element at its left */
+    width: 16px;
+    background: linear-gradient(-10deg, $purple 30%, $pink);
+    -webkit-animation-name: loader-growth;
+            animation-name: loader-growth;
+    -webkit-animation-duration: 1.2s;
+            animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 4;
+            animation-iteration-count: 4;
+    margin-top: 65%;
+    margin-left: 15%;
+}
+.loader div:nth-child(1) {
+    left: 8px;
+    -webkit-animation-delay: -0.24s;
+            animation-delay: -0.24s;
+  }
+  .loader div:nth-child(2) {
+    left: 32px;
+    -webkit-animation-delay: -0.12s;
+            animation-delay: -0.12s;
+  }
+  .loader div:nth-child(3) {
+    left: 56px;
+    -webkit-animation-delay: 0;
+            animation-delay: 0;
+  }

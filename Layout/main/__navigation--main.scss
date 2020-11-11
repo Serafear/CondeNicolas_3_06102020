@@ -1,0 +1,57 @@
+#navigation {
+    padding-top: 3em;
+    padding-bottom: 2em;
+    font-family: $font-text;
+    list-style-type: none;
+    
+    h2 {
+        font-weight: bolder;
+        padding-left: 1em;
+    }
+    #navigation__choix {
+    @include nav-settings;
+    &:hover {
+        .fas {
+            color: $purple;
+        }
+        li {
+            background-color: lighten($purple, $amount: 35);
+            
+        }
+        cursor: pointer;
+    } 
+    }
+    
+    #navigation__composition {
+        @include nav-settings;
+        a {
+            padding-right: 0.6em;
+        }
+        &:hover {
+            .fas {
+                color: $purple;
+            }
+            li {
+                background-color: lighten($purple, $amount: 35);
+                
+            }
+            cursor: pointer;
+        } 
+    }
+    #navigation__dégustation {
+        @include nav-settings;
+        a {
+            padding-left: 1em;
+        }
+        &:hover {
+            .fas {
+                color: $purple;
+            }
+            li {
+                background-color: lighten($purple, $amount: 35);
+                
+            }
+            cursor: pointer;
+        } 
+    }
+}
