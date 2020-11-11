@@ -1,0 +1,231 @@
+@-webkit-keyframes color-swap--menu {
+    0% {
+        font-weight: normal;  
+    }
+    5% {
+        font-weight: normal;  
+        transform: scale(0.5);
+    }
+    10% {  
+        font-weight: normal;  
+        transform: scale(0.1);
+    }
+    15%{
+        font-weight: 600;  
+        transform: scale(0.5);
+        background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    70% {
+        font-weight: 600;
+        transform: scale(1);
+        background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    90% {
+        font-weight: 600;
+        transform: scale(1.2);
+        background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    95% {
+        font-weight: 600;
+        transform: scale(1.1);
+        background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100% {
+        font-weight: 600;
+        transform: scale(1);
+        background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+@keyframes color-swap--menu {
+    0% {
+        font-weight: normal;  
+    }
+    5% {
+        font-weight: normal;  
+        transform: scale(0.5);
+    }
+    10% {  
+        font-weight: normal;  
+        transform: scale(0.1);
+    }
+    15%{
+        font-weight: 600;  
+        transform: scale(0.5);
+        background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    70% {
+        font-weight: 600;
+        transform: scale(1);
+        background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    90% {
+        font-weight: 600;
+        transform: scale(1.2);
+        background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    95% {
+        font-weight: 600;
+        transform: scale(1.1);
+        background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100% {
+        font-weight: 600;
+        transform: scale(1);
+        background: -webkit-linear-gradient(240deg,$purple 40%,$pink);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+@-webkit-keyframes checked-background-translate--menu {
+    0% {
+        transform: translate(3em);
+    }
+}
+@keyframes checked-background-translate--menu {
+    0% {
+        transform: translate(2em);
+        transform-origin: 100% right;
+        transition: ease-out;
+    }
+}
+@-webkit-keyframes checked-ok-rotate--menu {
+    0% {
+        
+    }
+    100%{
+        transform: rotate(2turn);
+        transition: ease-in-out;
+    }
+}
+@keyframes checked-ok-rotate--menu {
+    0% {
+        transition-delay: 2s;
+    }
+    100%{
+        transform: rotate(2turn);
+        transition: ease-in-out;
+        
+    }
+}
+@-webkit-keyframes price-animation {
+    0% {
+        padding-left: 9em;
+        transform: translate(-4em);
+    }
+    100% {
+        margin-left: -5rem
+    }
+}
+@keyframes price-animation {
+    0% {
+        
+        transform: translate(-3.5em);
+    }
+    100% {
+        margin-left: -2.5rem
+    }
+}
+@-webkit-keyframes price-animation--lenghty {
+    0% {
+        padding-left: 9em;         
+        transform: translate(2em); /*translate me permet de commencer l'animation à partir d'un certain niveau*/
+        padding: 0em 1em 0em 1em;  /*this padding is fo the overlay. I put it here for the "au cas où"*/
+    }
+    100% {
+        margin-left: -7.3rem;
+        padding: 0em 1em 0em 1em;
+    }
+}
+@keyframes price-animation--lenghty {
+    0% {
+                   
+        transform: translate(1.5em); /*translate me permet de commencer l'animation à partir d'un certain niveau*/
+        
+    }
+    100% {
+        margin-left: -7.3rem;
+        /*with the z index no overlay needed*/
+        
+    }
+}
+@-webkit-keyframes price-animation--large {
+    0% {
+        padding-left: 1em;
+        transform: translate(2rem);
+        
+    }
+    100% {
+        margin-left: -3.5rem;
+    }
+}
+@keyframes price-animation--large {
+    0% {
+        padding-left: 1em;
+        transform: translate(2rem);
+        
+    }
+    100% {
+        margin-left: -3.5rem;
+    }
+}
+@-webkit-keyframes price-animation--short {
+    0% {
+        padding-left: 1em;
+        transform: translate(2rem);
+    }
+    
+    100% {
+        margin-left: -1rem;
+    }
+}
+@keyframes price-animation--short {
+    0% {
+        padding-left: 0em;
+        transform: translate(2.3rem);
+    }
+    100% {
+        margin-left: -3.6rem;
+    }
+}
+@-webkit-keyframes loading-menus {
+    0% {
+        margin-bottom: -3em;
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    100% {
+        
+    }
+}
+@keyframes loading-menus {
+    0% {
+        margin-bottom: -3em;
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    100% {
+        
+    }
+}

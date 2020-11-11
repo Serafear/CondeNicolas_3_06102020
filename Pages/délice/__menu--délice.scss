@@ -1,0 +1,508 @@
+#menu {
+    background-color: $gray-light;
+    padding-top: 0.5em;
+    padding-left: 0.8em;
+    font-family: $font-text;
+    #délice__entrées {
+        padding-bottom: 0.5em;
+            p {
+                border-bottom: solid $green;
+                border-width: 0.3em;
+                margin-right: 20em;
+            }
+        }
+    #délice__entrées--all {
+        padding-bottom: 2em;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: 17.5em;
+        padding-left: 0.5em;
+        #délice__entrées--1 {
+            margin-top: 1em;
+            @include div-principal-menus;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
+            input {
+                @include fa-icon;
+                display: none;
+                &+label {
+                    @include label-settings-menus;
+                    h3 {
+                        padding-right: 8em;  
+                    }
+                    #délice__entrées--prix {
+                        padding-left: 3em;
+                        margin-top: 1.6em;
+                        h5 {
+                            margin-left: -1.5rem;
+                        }
+                    }
+                }
+                &:checked+label {
+                    @include checked-ok; 
+                    #checked-font-place {
+                        margin-left: -1.6em;  
+                    }
+                    #délice__entrées--prix {
+                        padding-left: 1em;
+                        margin-top: 1.6em;
+                        h5 {
+                            margin-left: -3.6rem;
+                            padding-right: 0em;
+                            -webkit-animation-name: price-animation--short;
+                                    animation-name: price-animation--short;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
+                            transition: ease-out;
+                        } 
+                    }
+                }
+            }
+        }
+        #délice__entrées--2 {
+            margin-top: 1em;
+            @include div-principal-menus;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
+            input {
+                @include fa-icon;
+                display: none;
+                &+label {
+                    @include label-settings-menus;
+                    h3 {
+                        padding-right: 1.7em;  
+                    }
+                    #délice__entrées--prix {
+                        padding-left: 1.8em;
+                        margin-top: 1.6em;
+                        h5 {
+                            margin-left: -1.5rem;
+                        }
+                    }
+                }
+                &:checked+label {
+                    @include checked-ok; 
+                    #checked-font-place {
+                        margin-left: -0.65em;  
+                    }
+                    h3 {
+                        padding-right: 0.7em;    /*this padding help me position the price*/
+                    }
+                    #délice__entrées--prix {
+                        padding-left: 0em;
+                        margin-top: 1.6em;
+                        h5 {
+                            margin-left: -3.6rem;
+                            padding-right: 0em;
+                            -webkit-animation-name: price-animation--short;
+                                    animation-name: price-animation--short;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
+                            transition: ease-out;
+                            z-index: 100;
+                            background: white;
+                            &:before {
+                                content: "...";
+                                padding-right: 0.4em;
+                            }
+                        } 
+                    }
+                }
+            }
+        }
+        #délice__entrées--3 {
+            margin-top: 1em;
+            @include div-principal-menus;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
+            input {
+                @include fa-icon;
+                display: none;
+                &+label {
+                    @include label-settings-menus;
+                    h3 {
+                        padding-right: 8.2em;  
+                    }
+                    #délice__entrées--prix {
+                        padding-left: 1.8em;
+                        margin-top: 1.6em;
+                        h5 {
+                            margin-left: -1.5rem;
+                        }
+                    }
+                }
+                &:checked+label {
+                    @include checked-ok; 
+                    #checked-font-place {
+                        margin-left: -1.5em;  
+                    }
+                    h3 {
+                        padding-right: 7.9em;    /*this padding help me position the price*/
+                    }
+                    #délice__entrées--prix {
+                        padding-left: 0em;
+                        margin-top: 1.6em;
+                        h5 {
+                            margin-left: -3.6rem;
+                            padding-right: 0em;
+                            -webkit-animation-name: price-animation--short;
+                                    animation-name: price-animation--short;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
+                            transition: ease-out;
+                        } 
+                    }
+                }
+            }
+        } 
+    }
+    
+    #délice__plats {
+        padding-bottom: 0.5em; /*distance between the last div and the desserts*/
+            p {
+                border-bottom: solid $green;
+                border-width: 0.3em;
+                margin-right: 20em;
+            }
+        }
+        #délice__plats--all {
+            padding-bottom: 2em;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            height: 18.5em;
+            padding-left: 0.5em;
+        #délice__plats--1 {
+            margin-top: 1em;
+            @include div-principal-menus--large;  /*there are 2 variants, one normal and the -- large*/
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
+            input {
+                @include fa-icon;
+                display: none;
+                &+label {
+                    @include label-settings-menus;
+                    h3 {
+                        padding-right: 6.2em;  
+                    }
+                    #délice__plats--prix {
+                        padding-left: 0em;
+                        margin-top: 1.6em;
+                        h5 {
+                            margin-left: -1.5rem;
+                            padding-top: 2em;
+                        }
+                        
+                    }
+                }
+                &:checked+label {
+                    @include checked-ok--large;  /*2 variants, large and normal (without a modifier)*/
+                    #checked-font-place {
+                        margin-left: -3.1em;
+                    }
+                    h3 {
+                        padding-right: 4.2em;
+                        
+                    }
+                    #délice__plats--prix {
+                        padding-left: 2.3em;
+                        margin-top: 1.5em;
+                        margin-left: -1.9em;
+                        h5 {
+                            margin-left: -3.5rem;  /*to better understand the positionning i use the border solid*/
+                            padding-right: 2em;
+                            margin-right: 2rem;
+                            -webkit-animation-name: price-animation--large;
+                                    animation-name: price-animation--large;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
+                            transition: ease-out;
+                            z-index: 100;
+                            background: white;
+                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+                        } 
+                    }
+                }
+            }
+        }
+        #délice__plats--2 {
+            margin-top: 1em;
+            @include div-principal-menus;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
+            input {
+                @include fa-icon;
+                display: none;
+                &+label {
+                    @include label-settings-menus;
+                    h3 {
+                        padding-right: 1em;  
+                    }
+                    #délice__plats--prix {
+                        padding-left: 8.7em;
+                        margin-top: 1.6em;
+                        h5 {
+                            margin-left: -1.5rem;
+                        }
+                        
+                    }
+                }
+                &:checked+label {
+                    @include checked-ok;
+                    #checked-font-place {
+                        margin-left: -1.6em;
+                    }
+                    h3 {
+                        padding-right: 6.5em;
+                    }
+                    #délice__plats--prix {
+                        padding-left: 3.3em;
+                        margin-top: 1.6em;
+                        margin-left: -1.9em;
+                        h5 {
+                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                            padding-right: 0.5em;
+                            margin-right: 2rem;
+                            -webkit-animation-name: price-animation--short;
+                                    animation-name: price-animation--short;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
+                            transition: ease-out;
+                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+                        } 
+                    }
+                }
+            }
+        }
+        #délice__plats--3 {
+            margin-top: 1em;
+            @include div-principal-menus;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
+            input {
+                @include fa-icon;
+                display: none;
+                &+label {
+                    @include label-settings-menus;
+                    h3 {
+                        padding-right: 4.1em;  
+                    }
+                    #délice__plats--prix {
+                        padding-left: 4.5em;
+                        margin-top: 1.6em;
+                        h5 {
+                            margin-left: -1.5rem;
+                        }
+                        
+                    }
+                }
+                &:checked+label {
+                    @include checked-ok;
+                    #checked-font-place {
+                        margin-left: -1.5em;
+                    }
+                    h3 {
+                        padding-right: 5.2em;
+                    }
+                    #délice__plats--prix {
+                        padding-left: 3em;
+                        margin-top: 1.6em;
+                        margin-left: -1.9em;
+                        h5 {
+                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                            padding-right: 0.5em;
+                            margin-right: 2rem;
+                            -webkit-animation-name: price-animation--short;
+                                    animation-name: price-animation--short;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
+                            transition: ease-out;
+                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+                        } 
+                    }
+                }
+            }
+        } 
+    }
+    #délice__desserts {
+        padding-bottom: 0.5em;
+            p {
+                border-bottom: solid $green;
+                border-width: 0.3em;
+                margin-right: 20em;
+            }
+    }
+    #délice__desserts--all {      
+        padding-bottom: 3em;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: 17.5em;
+        padding-left: 0.5em;
+        
+        #délice__desserts--1 {
+            margin-top: 1em;
+            @include div-principal-menus;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
+            input {
+                @include fa-icon;
+                display: none;
+                &+label {
+                    @include label-settings-menus;
+                    h3 {
+                        padding-right: 2em;  
+                        padding-bottom: 0.1rem;
+                    }
+                    
+                    #délice__desserts--prix {
+                        padding-left: 7.2em;
+                        margin-top: 1.6em;
+                        h5 {
+                            margin-left: -2.5rem;
+                        }
+                        
+                    }
+                }
+                &:checked+label {
+                    @include checked-ok;
+                    #checked-font-place {
+                        margin-left: -2.9em;
+                    }
+                    
+                    #délice__desserts--prix {
+                        padding-left: 5.8em;
+                        margin-top: 1.6em;
+                        margin-left: -1.5em;
+                        h5 {
+                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                            padding-right: 2em;
+                            margin-right: 2rem;
+                            -webkit-animation-name: price-animation--short;
+                                    animation-name: price-animation--short;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
+                            transition: ease-out;
+                            z-index: 100;
+                            background: white;
+                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+                        } 
+                    }
+                }
+            }
+        }
+        #délice__desserts--2 {
+            margin-top: 1em;
+            @include div-principal-menus;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
+            input {
+                @include fa-icon;
+                display: none;
+                &+label {
+                    @include label-settings-menus;
+                    h3 {
+                        padding-right: 6.1em;  
+                    }
+                    #délice__desserts--prix {
+                        padding-left: 6em;
+                        margin-top: 1.6em;
+                        h5 {
+                            margin-left: -1.5rem;
+                        }
+                        
+                    }
+                }
+                &:checked+label {
+                    @include checked-ok;
+                    #checked-font-place {
+                        margin-left: -1.6em;
+                    }
+                    
+                    #délice__desserts--prix {
+                        padding-left: 5.9em;
+                        margin-top: 1.6em;
+                        margin-left: -1.9em;
+                        h5 {
+                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                            padding-right: 0.5em;
+                            margin-right: 2rem;
+                            -webkit-animation-name: price-animation--short;
+                                    animation-name: price-animation--short;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
+                            transition: ease-out;
+                            z-index: 100;
+                            background: white;
+                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+                        } 
+                    }
+                }
+            }
+        }
+        #délice__desserts--3 {
+            margin-top: 1em;
+            @include div-principal-menus;
+            -webkit-animation: loading-menus 0.5s ease-in-out;
+                    animation: loading-menus 0.5s ease-in-out;
+            input {
+                @include fa-icon;
+                display: none;
+                &+label {
+                    @include label-settings-menus;
+                    h3 {
+                        padding-right: 8.8em;  
+                    }
+                    #délice__desserts--prix {
+                        padding-left: 5em;
+                        margin-top: 1.6em;
+                        h5 {
+                            margin-left: -1.5rem;
+                        }
+                        
+                    }
+                }
+                &:checked+label {
+                    @include checked-ok;
+                    #checked-font-place {
+                        margin-left: -1.5em;
+                    }
+                    
+                    #délice__desserts--prix {
+                        padding-left: 5em;
+                        margin-top: 1.6em;
+                        margin-left: -1.9em;
+                        h5 {
+                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                            padding-right: 0.5em;
+                            margin-right: 2rem;
+                            -webkit-animation-name: price-animation--short;
+                                    animation-name: price-animation--short;
+                            -webkit-animation-duration: 1.5s;
+                                    animation-duration: 1.5s;
+                            transition: ease-out;
+                            z-index: 100;
+                            background: white;
+                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+                        } 
+                    }
+                }
+            }
+        }
+    }
+    .button-pink--large {
+        padding-bottom: 5em;
+        button {
+            margin-left: 5.5em;
+            font-size: 1em;
+            color: white;
+            border-radius: 25px;
+            border-style: hidden;
+            padding: 0.8em 2.5em 0.8em 2.5em;
+            background: linear-gradient(-10deg, $purple 30%, $pink);
+            &:hover {
+                cursor: pointer;
+                -webkit-filter: opacity(85%);
+                        filter: opacity(85%); /*this make the button lighter*/
+            }
+        } 
+    }
+}

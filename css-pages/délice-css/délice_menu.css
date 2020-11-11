@@ -4,14 +4,6 @@
   padding: 0;
 }
 
-@font-face {
-  font-family: "shrikhand";
-  src: url("../../fonts/shrikhand/Shrikhand-Regular.ttf");
-}
-@font-face {
-  font-family: "roboto";
-  src: url("../../fonts/roboto/Roboto-Regular.ttf");
-}
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -20,6 +12,7 @@
 .fas,
 footer #line2 h6::before,
 footer #line1 h6::before,
+#logo a::before,
 #menu #délice__desserts--all #délice__desserts--3 input:checked + label #checked-font-place::after,
 #menu #délice__desserts--all #délice__desserts--2 input:checked + label #checked-font-place::after,
 #menu #délice__desserts--all #délice__desserts--1 input:checked + label #checked-font-place::after,
@@ -29,7 +22,6 @@ footer #line1 h6::before,
 #menu #délice__entrées--all #délice__entrées--3 input:checked + label #checked-font-place::after,
 #menu #délice__entrées--all #délice__entrées--2 input:checked + label #checked-font-place::after,
 #menu #délice__entrées--all #délice__entrées--1 input:checked + label #checked-font-place::after,
-#logo a::before,
 .far,
 #délice-image .overlay__menu--1 #délice__title input:checked + label::before,
 #délice-image .overlay__menu--1 #délice__title input + label::before,
@@ -139,6 +131,7 @@ footer #line1 h6::before,
 .fas.fa-pull-left,
 footer #line2 h6.fa-pull-left::before,
 footer #line1 h6.fa-pull-left::before,
+#logo a.fa-pull-left::before,
 #menu #délice__desserts--all #délice__desserts--3 input:checked + label .fa-pull-left#checked-font-place::after,
 #menu #délice__desserts--all #délice__desserts--2 input:checked + label .fa-pull-left#checked-font-place::after,
 #menu #délice__desserts--all #délice__desserts--1 input:checked + label .fa-pull-left#checked-font-place::after,
@@ -148,7 +141,6 @@ footer #line1 h6.fa-pull-left::before,
 #menu #délice__entrées--all #délice__entrées--3 input:checked + label .fa-pull-left#checked-font-place::after,
 #menu #délice__entrées--all #délice__entrées--2 input:checked + label .fa-pull-left#checked-font-place::after,
 #menu #délice__entrées--all #délice__entrées--1 input:checked + label .fa-pull-left#checked-font-place::after,
-#logo a.fa-pull-left::before,
 .far.fa-pull-left,
 #délice-image .overlay__menu--1 #délice__title input + label.fa-pull-left::before,
 .fal.fa-pull-left,
@@ -159,6 +151,7 @@ footer #line1 h6.fa-pull-left::before,
 .fas.fa-pull-right,
 footer #line2 h6.fa-pull-right::before,
 footer #line1 h6.fa-pull-right::before,
+#logo a.fa-pull-right::before,
 #menu #délice__desserts--all #délice__desserts--3 input:checked + label .fa-pull-right#checked-font-place::after,
 #menu #délice__desserts--all #délice__desserts--2 input:checked + label .fa-pull-right#checked-font-place::after,
 #menu #délice__desserts--all #délice__desserts--1 input:checked + label .fa-pull-right#checked-font-place::after,
@@ -168,7 +161,6 @@ footer #line1 h6.fa-pull-right::before,
 #menu #délice__entrées--all #délice__entrées--3 input:checked + label .fa-pull-right#checked-font-place::after,
 #menu #délice__entrées--all #délice__entrées--2 input:checked + label .fa-pull-right#checked-font-place::after,
 #menu #délice__entrées--all #délice__entrées--1 input:checked + label .fa-pull-right#checked-font-place::after,
-#logo a.fa-pull-right::before,
 .far.fa-pull-right,
 #délice-image .overlay__menu--1 #délice__title input + label.fa-pull-right::before,
 .fal.fa-pull-right,
@@ -6134,6 +6126,7 @@ readers do not read off random characters that represent icons */
 .fas,
 footer #line2 h6::before,
 footer #line1 h6::before,
+#logo a::before,
 #menu #délice__desserts--all #délice__desserts--3 input:checked + label #checked-font-place::after,
 #menu #délice__desserts--all #délice__desserts--2 input:checked + label #checked-font-place::after,
 #menu #délice__desserts--all #délice__desserts--1 input:checked + label #checked-font-place::after,
@@ -6142,8 +6135,7 @@ footer #line1 h6::before,
 #menu #délice__plats--all #délice__plats--1 input:checked + label #checked-font-place::after,
 #menu #délice__entrées--all #délice__entrées--3 input:checked + label #checked-font-place::after,
 #menu #délice__entrées--all #délice__entrées--2 input:checked + label #checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label #checked-font-place::after,
-#logo a::before {
+#menu #délice__entrées--all #délice__entrées--1 input:checked + label #checked-font-place::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
@@ -6182,6 +6174,14 @@ footer #line1 h6::before,
   font-weight: 400;
 }
 
+@font-face {
+  font-family: "shrikhand";
+  src: url("../../fonts/shrikhand/Shrikhand-Regular.ttf");
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../../fonts/roboto/Roboto-Regular.ttf");
+}
 @-webkit-keyframes color-swap--menu {
   0% {
     font-weight: normal;
@@ -6399,30 +6399,6 @@ footer #line1 h6::before,
     opacity: 0;
   }
 }
-#logo {
-  display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
-  padding-left: 5em;
-}
-#logo a {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  padding: 1em;
-  font-size: 1em;
-  padding-right: 3em;
-  margin-left: -5em;
-}
-#logo a::before {
-  content: "";
-  color: black;
-}
-
 #délice-image {
   padding-bottom: 3em;
 }
@@ -7480,6 +7456,30 @@ footer #line1 h6::before,
   -webkit-filter: opacity(85%);
   filter: opacity(85%);
   /*this make the button lighter*/
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  padding-left: 5em;
+}
+#logo a {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  padding: 1em;
+  font-size: 1em;
+  padding-right: 3em;
+  margin-left: -5em;
+}
+#logo a::before {
+  content: "";
+  color: black;
 }
 
 footer {
