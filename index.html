@@ -31,100 +31,111 @@
             <h2>Fonctionnement</h2>
             <div id="navigation__choix">
                 <p>1</p>
-                <li><i class="fas fa-mobile-alt"></i><a href="#">Choisissez un restaurant</a></li>
+                <ul>
+                    <li><i class="fas fa-mobile-alt"></i><a href="#">Choisissez un restaurant</a></li>
+                </ul>
             </div>
             <div id="navigation__composition">
                 <p>2</p>
-                <li><i class="fas fa-list"></i><a href="#">Composez votre menu</a></li>
+                <ul>
+                    <li><i class="fas fa-list"></i><a href="#">Composez votre menu</a></li>
+                </ul>
             </div>
             <div id="navigation__dégustation">
                 <p>3</p>
-                <li><i class="fas fa-store"></i><a href="#">Dégustez au restaurant</a></li>
+                <ul>
+                    <li><i class="fas fa-store"></i><a href="#">Dégustez au restaurant</a></li>
+                </ul>
             </div>
         </section>
         
         <section id="restaurants">    <!--block-->
             <h2>Restaurants</h2>
             <div id="restaurants__palette">   <!--élément ?-->
-                <a href="html-pages/palette-html/palette_menu.html"><article>
+                <article>
                     <h5>Nouveau</h5>
-                    <div class="overlay__text--1">   <!--BEM test. Ici, si on peut effectivement considerer l'overlay comme un modificateur il s'agira de l'écrire en conséquence: restaurants--overlayou plutot...-->
-                        <div id="texte">
-                            <h3>La palette du goût</h3>               <!--update ! On this specific project, to use a mixin and syntetize the amount of scss code, i will need to remove the naming and just put overlay-->
-                            <h4>Ménilmontant</h4>          <!--ici, il me semble que la ville doit être tirée de la base de donnée. En l'absence de cette possibilité, j'utiliserai simplement un h-->
+                        <div class="overlay__text--1">   <!--BEM test. Ici, si on peut effectivement considerer l'overlay comme un modificateur il s'agira de l'écrire en conséquence-->
+                            <a href="html-pages/palette-html/palette_menu.html">
+                                <div id="text--1">
+                                    <h3>La palette du goût</h3>               <!--update ! On this specific project, to use a mixin and syntetize the amount of scss code, i will need to remove the naming and just put overlay-->
+                                    <h4>Ménilmontant</h4>          <!--ici, il me semble que la ville doit être tirée de la base de donnée. En l'absence de cette possibilité, j'utiliserai simplement un h-->
+                                </div>
+                            </a>
+                            <div class="overlay__heart--1">
+                                <input id="toggle__heart--1" type="checkbox"/> <!-- de ce que j'ai vu, le seul moyen de simuler des effets de click sans javascript est à travers le type checkbox et le label. Suite du commentaire dans le sass-->
+                                <label for="toggle__heart--1"></label>
+                            </div>
                         </div>
-                        <div class="overlay__heart--1">
-                            <input id="toggle__heart--1" type="checkbox"/> <!-- de ce que j'ai vu, le seul moyen de simuler des effets de click sans javascript est à travers le type checkbox et le label. Suite du commentaire dans le sass-->
-                            <label for="toggle__heart--1"></label>
-                        </div>
-                    </div>
                 </article>
-                </a>
             </div>
             <div id="restaurants__lanote">
-                <a href="html-pages/lanote-html/lanote_menu.html"><article>
+                <article>
                     <h5>Nouveau</h5>
                     <div class="overlay__text--2">
-                        <div id="texte">
-                            <h3>La note enchantée</h3>
-                            <h4>Charonne</h4>
-                        </div>
+                        <a href="html-pages/lanote-html/lanote_menu.html">
+                            <div id="text--2">
+                                <h3>La note enchantée</h3>
+                                <h4>Charonne</h4>
+                            </div>
+                        </a>
                         <div class="overlay__heart--2">
                             <input id="toggle__heart--2" type="checkbox"/>
                             <label for="toggle__heart--2"></label>
                         </div>
                     </div>    
                 </article>
-                </a>
+                
             </div>
             <div id="restaurants__alafrançaise">
-                <a href="html-pages/alafrançaise-html/alafrançaise_menu.html"><article>
+                <article>
                     <h5>Nouveau</h5>
                     <div class="overlay__text--3">
-                        <div id="texte">
-                            <h3>À la française</h3>
-                            <h4>Cité Rouge</h4>
-                        </div>
+                        <a href="html-pages/alafrançaise-html/alafrançaise_menu.html">
+                            <div id="text--3">
+                                <h3>À la française</h3>
+                                <h4>Cité Rouge</h4>
+                            </div>
+                        </a>
                         <div class="overlay__heart--3">
                             <input id="toggle__heart--3" type="checkbox"/>
                             <label for="toggle__heart--3"></label>
                         </div>
                     </div>
                 </article>
-                </a>
             </div>        
             <div id="restaurants__délice">
-                <a href="html-pages/délice-html/délice_menu.html"><article>
+                <article>
                     <h5>Nouveau</h5>
                     <div class="overlay__text--4">
-                        <div id="texte">
-                            <h3>Le délice des sens</h3>
-                            <h4>Folie-Méricourt</h4>
-                        </div>
+                        <a href="html-pages/délice-html/délice_menu.html">
+                            <div id="text--4">
+                                <h3>Le délice des sens</h3>
+                                <h4>Folie-Méricourt</h4>
+                            </div>
+                        </a>
                         <div class="overlay__heart--4">
                             <input id="toggle__heart--4" type="checkbox"/>
                             <label for="toggle__heart--4"></label>
                         </div>
                     </div>
                 </article>
-                </a>
             </div> 
         </section>
-    </body>
 
-    <footer>
-        <div id="logo__footer">
-            <h6>ohmyfood</h6>
-        </div>
-        <div id="line1">
-            <h6>Proposer un restaurant</h6>
-        </div>
-        <div id="line2">
-            <h6>Devenir partenaire</h6>
-        </div>
-        <h6>Mentions légales</h6>
-        <div id="contact">
-            <a href="mailto:ohmyfood@test.com?subject = contact"><h6>Contact</h6></a>  <!--ce lien est la solution la plus simple. Une autre serait de créer une nouvelle page html avec l'email et un partie texte pour taper le message-->
-        </div>
-    </footer>
+        <footer>
+            <div id="logo__footer">
+                <h6>ohmyfood</h6>
+            </div>
+            <div id="line1">
+                <h6>Proposer un restaurant</h6>
+            </div>
+            <div id="line2">
+                <h6>Devenir partenaire</h6>
+            </div>
+            <h6>Mentions légales</h6>
+            <div id="contact">
+                <a href="mailto:ohmyfood@test.com?subject=contact"><h6>Contact</h6></a>  <!--ce lien est la solution la plus simple. Une autre serait de créer une nouvelle page html avec l'email et un partie texte pour taper le message-->
+            </div>
+        </footer>
+    </body>
 </html>

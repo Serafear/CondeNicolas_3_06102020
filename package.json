@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./scss-pages/main-scss/main.scss:./css-pages/main-css/style.css ./scss-pages/palette-scss/palette_menu.scss:./css-pages/palette-css/palette_menu.css ./scss-pages/lanote-scss/lanote_menu.scss:./css-pages/lanote-css/lanote_menu.css ./scss-pages/alafrançaise-scss/alafrançaise_menu.scss:./css-pages/alafrançaise-css/alafrançaise_menu.css ./scss-pages/délice-scss/délice_menu.scss:./css-pages/délice-css/délice_menu.css",
+    "sass": "sass --watch ./scss-pages/main-scss/main.scss:./css-pages/main-css/style.css ./scss-pages/palette-scss/palette_menu.scss:./css-pages/palette-css/palette_menu.css ./scss-pages/lanote-scss/lanote_menu.scss:./css-pages/lanote-css/lanote_menu.css ./scss-pages/alafrançaise-scss/alafrançaise_menu.scss:./css-pages/alafrançaise-css/alafrançaise_menu.css ./scss-pages/délice-scss/délice_menu.scss:./css-pages/délice-css/délice_menu.css ./Utils/main/__mixins--main.scss:./css-pages/main-css/style.css",
     "prefix": "postcss ./style.css --use autoprefixer -d ./prefixed/"
   },
   "repository": {

@@ -6417,6 +6417,9 @@ footer #line1 h6::before {
   background-color: #9356DC;
   color: white;
 }
+#navigation #navigation__choix ul {
+  list-style-type: none;
+}
 #navigation #navigation__choix:hover {
   cursor: pointer;
 }
@@ -6457,6 +6460,9 @@ footer #line1 h6::before {
   padding: 0.2em 0.5em 0.2em 0.5em;
   background-color: #9356DC;
   color: white;
+}
+#navigation #navigation__composition ul {
+  list-style-type: none;
 }
 #navigation #navigation__composition a {
   padding-right: 0.6em;
@@ -6501,6 +6507,9 @@ footer #line1 h6::before {
   padding: 0.2em 0.5em 0.2em 0.5em;
   background-color: #9356DC;
   color: white;
+}
+#navigation #navigation__dégustation ul {
+  list-style-type: none;
 }
 #navigation #navigation__dégustation a {
   padding-left: 1em;
@@ -6670,12 +6679,7 @@ footer #contact a {
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
-#restaurants #restaurants__palette a {
-  /*the text-decoration : none, work only with the a, in case an a exist ?*/
-  text-decoration: none;
-  color: black;
-}
-#restaurants #restaurants__palette a article {
+#restaurants #restaurants__palette article {
   height: 13.5em;
   width: auto;
   border-style: hidden;
@@ -6684,7 +6688,12 @@ footer #contact a {
   padding-top: 2em;
   box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
 }
-#restaurants #restaurants__palette a article h5 {
+#restaurants #restaurants__palette article a {
+  /*the text-decoration : none, work only with the a, in case an a exist ?*/
+  text-decoration: none;
+  color: black;
+}
+#restaurants #restaurants__palette article h5 {
   display: flex;
   justify-content: flex-end;
   color: green;
@@ -6694,10 +6703,6 @@ footer #contact a {
   border-style: hidden;
   background-color: #99E2D0;
   font-weight: lighter;
-}
-#restaurants #restaurants__palette a:hover {
-  cursor: pointer;
-  /*here, if i want to change the cursor for the article*/
 }
 #restaurants #restaurants__palette .overlay__text--1 {
   background-color: white;
@@ -6711,7 +6716,7 @@ footer #contact a {
   border-bottom-right-radius: 20px;
   box-shadow: 0.1em 1em 1em 0.5em #EAEAEA;
 }
-#restaurants #restaurants__palette .overlay__text--1 #texte {
+#restaurants #restaurants__palette .overlay__text--1 #text--1 {
   flex-direction: column;
   padding-bottom: 1em;
 }
@@ -6778,12 +6783,7 @@ footer #contact a {
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
-#restaurants #restaurants__lanote a {
-  /*the text-decoration : none, work only with the a, in case an a exist ?*/
-  text-decoration: none;
-  color: black;
-}
-#restaurants #restaurants__lanote a article {
+#restaurants #restaurants__lanote article {
   height: 13.5em;
   width: auto;
   border-style: hidden;
@@ -6792,7 +6792,12 @@ footer #contact a {
   padding-top: 2em;
   box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
 }
-#restaurants #restaurants__lanote a article h5 {
+#restaurants #restaurants__lanote article a {
+  /*the text-decoration : none, work only with the a, in case an a exist ?*/
+  text-decoration: none;
+  color: black;
+}
+#restaurants #restaurants__lanote article h5 {
   display: flex;
   justify-content: flex-end;
   color: green;
@@ -6802,10 +6807,6 @@ footer #contact a {
   border-style: hidden;
   background-color: #99E2D0;
   font-weight: lighter;
-}
-#restaurants #restaurants__lanote a:hover {
-  cursor: pointer;
-  /*here, if i want to change the cursor for the article*/
 }
 #restaurants #restaurants__lanote .overlay__text--2 {
   background-color: white;
@@ -6820,7 +6821,7 @@ footer #contact a {
   box-shadow: 0.1em 1em 1em 0.5em #EAEAEA;
   /*the first 1em put the vertcal shadow bottom*/
 }
-#restaurants #restaurants__lanote .overlay__text--2 #texte {
+#restaurants #restaurants__lanote .overlay__text--2 #text--2 {
   flex-direction: column;
   padding-bottom: 1em;
 }
@@ -6886,12 +6887,7 @@ footer #contact a {
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
-#restaurants #restaurants__alafrançaise a {
-  /*the text-decoration : none, work only with the a, in case an a exist ?*/
-  text-decoration: none;
-  color: black;
-}
-#restaurants #restaurants__alafrançaise a article {
+#restaurants #restaurants__alafrançaise article {
   height: 13.5em;
   width: auto;
   border-style: hidden;
@@ -6900,7 +6896,12 @@ footer #contact a {
   padding-top: 2em;
   box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
 }
-#restaurants #restaurants__alafrançaise a article h5 {
+#restaurants #restaurants__alafrançaise article a {
+  /*the text-decoration : none, work only with the a, in case an a exist ?*/
+  text-decoration: none;
+  color: black;
+}
+#restaurants #restaurants__alafrançaise article h5 {
   display: flex;
   justify-content: flex-end;
   color: green;
@@ -6910,10 +6911,6 @@ footer #contact a {
   border-style: hidden;
   background-color: #99E2D0;
   font-weight: lighter;
-}
-#restaurants #restaurants__alafrançaise a:hover {
-  cursor: pointer;
-  /*here, if i want to change the cursor for the article*/
 }
 #restaurants #restaurants__alafrançaise .overlay__text--3 {
   background-color: white;
@@ -6927,7 +6924,7 @@ footer #contact a {
   border-bottom-right-radius: 20px;
   box-shadow: 0.1em 1em 1em 0.5em #EAEAEA;
 }
-#restaurants #restaurants__alafrançaise .overlay__text--3 #texte {
+#restaurants #restaurants__alafrançaise .overlay__text--3 #text--3 {
   flex-direction: column;
   padding-bottom: 1em;
 }
@@ -6993,12 +6990,7 @@ footer #contact a {
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
-#restaurants #restaurants__délice a {
-  /*the text-decoration : none, work only with the a, in case an a exist ?*/
-  text-decoration: none;
-  color: black;
-}
-#restaurants #restaurants__délice a article {
+#restaurants #restaurants__délice article {
   height: 13.5em;
   width: auto;
   border-style: hidden;
@@ -7007,7 +6999,12 @@ footer #contact a {
   padding-top: 2em;
   box-shadow: 0.1em 0.1em 1em 0.5em #EAEAEA;
 }
-#restaurants #restaurants__délice a article h5 {
+#restaurants #restaurants__délice article a {
+  /*the text-decoration : none, work only with the a, in case an a exist ?*/
+  text-decoration: none;
+  color: black;
+}
+#restaurants #restaurants__délice article h5 {
   display: flex;
   justify-content: flex-end;
   color: green;
@@ -7017,10 +7014,6 @@ footer #contact a {
   border-style: hidden;
   background-color: #99E2D0;
   font-weight: lighter;
-}
-#restaurants #restaurants__délice a:hover {
-  cursor: pointer;
-  /*here, if i want to change the cursor for the article*/
 }
 #restaurants #restaurants__délice .overlay__text--4 {
   background-color: white;
@@ -7034,7 +7027,7 @@ footer #contact a {
   border-bottom-right-radius: 20px;
   box-shadow: 0.1em 1em 1em 0.5em #EAEAEA;
 }
-#restaurants #restaurants__délice .overlay__text--4 #texte {
+#restaurants #restaurants__délice .overlay__text--4 #text--4 {
   flex-direction: column;
   padding-bottom: 1em;
 }

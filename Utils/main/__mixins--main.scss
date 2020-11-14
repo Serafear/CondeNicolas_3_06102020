@@ -30,6 +30,9 @@
         background-color: $purple;
         color: white;
     }
+    ul {
+        list-style-type: none;
+    }
     
 }
 
@@ -37,38 +40,32 @@
     padding-top: 1em;
     padding-bottom: 5em;
     padding-left: 1.5em;
-    padding-right: 1.5em;
-
+    padding-right: 1.5em;   
+    article {
+        height: 13.5em;
+        width: auto;
+        border-style: hidden;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        padding-top: 2em;
+        box-shadow: 0.1em 0.1em 1em 0.5em $gray-darker;
         a {        /*the text-decoration : none, work only with the a, in case an a exist ?*/
             text-decoration: none;
-            color: black;    
-            article {
-                height: 13.5em;
-                width: auto;
-                border-style: hidden;
-                border-top-right-radius: 15px;
-                border-top-left-radius: 15px;
-                padding-top: 2em;
-                box-shadow: 0.1em 0.1em 1em 0.5em $gray-darker;
-                
-                h5 {
-                    display: flex;
-                    justify-content: flex-end;
-                    color: green;
-                    margin-right: 1em;
-                    margin-left: 26em;
-                    padding: 0.5em 0.5em 0.5em 0.5em;
-                    border-style: hidden;
-                    background-color: $green;
-                    font-weight: lighter;
-                }
-                
-            }
-            &:hover {
-                cursor: pointer;   /*here, if i want to change the cursor for the article*/
-            }   
+            color: black; 
+        }
+        h5 {
+            display: flex;
+            justify-content: flex-end;
+            color: green;
+            margin-right: 1em;
+            margin-left: 26em;
+            padding: 0.5em 0.5em 0.5em 0.5em;
+            border-style: hidden;
+            background-color: $green;
+            font-weight: lighter;
         }
         
+    }         
 }
 @mixin article__setting--1{
     .overlay__text--1 {
@@ -82,7 +79,7 @@
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         box-shadow: 0.1em 1em 1em 0.5em $gray-darker;
-        #texte {
+        #text--1 {
             flex-direction: column;
             padding-bottom: 1em;
         }
@@ -149,7 +146,7 @@
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         box-shadow: 0.1em 1em 1em 0.5em $gray-darker;  /*the first 1em put the vertcal shadow bottom*/
-        #texte {
+        #text--2 {
             flex-direction: column;
             padding-bottom: 1em;
         }
@@ -215,7 +212,7 @@
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         box-shadow: 0.1em 1em 1em 0.5em $gray-darker;
-        #texte {
+        #text--3 {
             flex-direction: column;
             padding-bottom: 1em;
         }
@@ -281,7 +278,7 @@
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         box-shadow: 0.1em 1em 1em 0.5em $gray-darker;
-        #texte {
+        #text--4 {
             flex-direction: column;
             padding-bottom: 1em;
         }
