@@ -6558,11 +6558,10 @@ footer #line1 h6::before,
   display: flex;
   flex-direction: row;
 }
-#menu #palette__entrées--all #palette__entrées--1 input + label span p.bold {
+#menu #palette__entrées--all #palette__entrées--1 input + label h3 {
   white-space: nowrap;
-  font-weight: bold;
 }
-#menu #palette__entrées--all #palette__entrées--1 input + label span p.normal {
+#menu #palette__entrées--all #palette__entrées--1 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
 }
@@ -6646,11 +6645,10 @@ footer #line1 h6::before,
   display: flex;
   flex-direction: row;
 }
-#menu #palette__entrées--all #palette__entrées--2 input + label span p.bold {
+#menu #palette__entrées--all #palette__entrées--2 input + label h3 {
   white-space: nowrap;
-  font-weight: bold;
 }
-#menu #palette__entrées--all #palette__entrées--2 input + label span p.normal {
+#menu #palette__entrées--all #palette__entrées--2 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
 }
@@ -6734,11 +6732,10 @@ footer #line1 h6::before,
   display: flex;
   flex-direction: row;
 }
-#menu #palette__entrées--all #palette__entrées--3 input + label span p.bold {
+#menu #palette__entrées--all #palette__entrées--3 input + label h3 {
   white-space: nowrap;
-  font-weight: bold;
 }
-#menu #palette__entrées--all #palette__entrées--3 input + label span p.normal {
+#menu #palette__entrées--all #palette__entrées--3 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
 }
@@ -6849,11 +6846,10 @@ footer #line1 h6::before,
   display: flex;
   flex-direction: row;
 }
-#menu #palette__plats--all #palette__plats--1 input + label span p.bold {
+#menu #palette__plats--all #palette__plats--1 input + label h3 {
   white-space: nowrap;
-  font-weight: bold;
 }
-#menu #palette__plats--all #palette__plats--1 input + label span p.normal {
+#menu #palette__plats--all #palette__plats--1 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
 }
@@ -6947,11 +6943,10 @@ footer #line1 h6::before,
   display: flex;
   flex-direction: row;
 }
-#menu #palette__plats--all #palette__plats--2 input + label span p.bold {
+#menu #palette__plats--all #palette__plats--2 input + label h3 {
   white-space: nowrap;
-  font-weight: bold;
 }
-#menu #palette__plats--all #palette__plats--2 input + label span p.normal {
+#menu #palette__plats--all #palette__plats--2 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
 }
@@ -7048,11 +7043,10 @@ footer #line1 h6::before,
   display: flex;
   flex-direction: row;
 }
-#menu #palette__plats--all #palette__plats--3 input + label span p.bold {
+#menu #palette__plats--all #palette__plats--3 input + label h3 {
   white-space: nowrap;
-  font-weight: bold;
 }
-#menu #palette__plats--all #palette__plats--3 input + label span p.normal {
+#menu #palette__plats--all #palette__plats--3 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
 }
@@ -7159,11 +7153,10 @@ footer #line1 h6::before,
   display: flex;
   flex-direction: row;
 }
-#menu #palette__desserts--all #palette__desserts--1 input + label span p.bold {
+#menu #palette__desserts--all #palette__desserts--1 input + label h3 {
   white-space: nowrap;
-  font-weight: bold;
 }
-#menu #palette__desserts--all #palette__desserts--1 input + label span p.normal {
+#menu #palette__desserts--all #palette__desserts--1 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
 }
@@ -7254,11 +7247,10 @@ footer #line1 h6::before,
   display: flex;
   flex-direction: row;
 }
-#menu #palette__desserts--all #palette__desserts--2 input + label span p.bold {
+#menu #palette__desserts--all #palette__desserts--2 input + label h3 {
   white-space: nowrap;
-  font-weight: bold;
 }
-#menu #palette__desserts--all #palette__desserts--2 input + label span p.normal {
+#menu #palette__desserts--all #palette__desserts--2 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
 }
@@ -7371,11 +7363,10 @@ footer #line1 h6::before,
   display: flex;
   flex-direction: row;
 }
-#menu #palette__desserts--all #palette__desserts--3 input + label span p.bold {
+#menu #palette__desserts--all #palette__desserts--3 input + label h3 {
   white-space: nowrap;
-  font-weight: bold;
 }
-#menu #palette__desserts--all #palette__desserts--3 input + label span p.normal {
+#menu #palette__desserts--all #palette__desserts--3 input + label h4 {
   white-space: nowrap;
   font-weight: lighter;
 }
@@ -7475,13 +7466,11 @@ footer #line1 h6::before,
 }
 @-webkit-keyframes price-animation {
   0% {
-    margin-left: 4.5rem;
-    padding-right: 3.3em;
+    margin-left: 14rem;
     transform: translate(2em);
   }
   100% {
-    margin-left: 4.5rem;
-    padding-right: 3.3em;
+    margin-left: 14rem;
   }
 }
 @keyframes price-animation {
@@ -7495,14 +7484,11 @@ footer #line1 h6::before,
 }
 @-webkit-keyframes price-animation--lenghty {
   0% {
-    transform: translate(2em);
+    transform: translate(2.5rem);
     /*translate me permet de commencer l'animation à partir d'un certain niveau*/
-    padding: 0em 1em 0em 1em;
-    /*this padding is fo the overlay. I put it here for the "au cas où"*/
   }
   100% {
     margin-left: -7.3rem;
-    padding: 0em 1em 0em 1em;
   }
 }
 @keyframes price-animation--lenghty {
@@ -7534,11 +7520,11 @@ footer #line1 h6::before,
 }
 @-webkit-keyframes price-animation--short {
   0% {
-    padding-left: 14em;
-    transform: translate(2rem);
+    margin-left: 12.6rem;
+    transform: translate(2em);
   }
   100% {
-    margin-left: -1rem;
+    margin-left: 12.6rem;
   }
 }
 @keyframes price-animation--short {
@@ -7548,6 +7534,48 @@ footer #line1 h6::before,
   }
   100% {
     margin-left: 12.6rem;
+  }
+}
+@-webkit-keyframes checked-background-translate--menu {
+  0% {
+    transform: translate(2em);
+    transition: ease-in-out;
+  }
+  100% {
+    margin-left: 1em;
+    /*this remove the blur effect on the animation. the blur is caused by the calculation of the position, i think*/
+  }
+  0% {
+    transition-delay: 2s;
+  }
+  100% {
+    transform: rotate(2turn);
+    transition: ease-in-out;
+  }
+}
+@keyframes checked-background-translate--menu {
+  0% {
+    transform: translate(2em);
+    transition: ease-in-out;
+  }
+  100% {
+    margin-left: 1em;
+    /*this remove the blur effect on the animation. the blur is caused by the calculation of the position, i think*/
+  }
+}
+@-webkit-keyframes checked-ok-rotate--menu {
+  100% {
+    transform: rotate(2turn);
+    transition: ease-in-out;
+  }
+}
+@keyframes checked-ok-rotate--menu {
+  0% {
+    transition-delay: 2s;
+  }
+  100% {
+    transform: rotate(2turn);
+    transition: ease-in-out;
   }
 }
 #menu {
@@ -7575,9 +7603,8 @@ footer #line1 h6::before,
   padding-left: 0.5em;
 }
 #menu #palette__entrées--all #palette__entrées--1 {
-  -webkit-animation: loading-menus 0.5s ease-in-out;
-  animation: loading-menus 0.5s ease-in-out;
-  margin-top: 1em;
+  margin-top: 0.95em;
+  /*not 1em, for some reason there is a very small space betweel the green and he top of the div if i set margin to 1*/
   border-style: hidden;
   background-color: white;
   padding: 0.9em 0.5em 0.9em 0.5em;
@@ -7587,6 +7614,8 @@ footer #line1 h6::before,
   overflow-x: hidden;
   overflow-y: hidden;
   height: 3em;
+  -webkit-animation: loading-menus 0.5s ease-in-out;
+  animation: loading-menus 0.5s ease-in-out;
 }
 #menu #palette__entrées--all #palette__entrées--1 input {
   -webkit-font-smoothing: antialiased;
@@ -7609,6 +7638,7 @@ footer #line1 h6::before,
   width: 17.5em;
   white-space: nowrap;
   margin-top: 1.6em;
+  position: absolute;
 }
 #menu #palette__entrées--all #palette__entrées--1 input + label span.price {
   position: absolute;
@@ -7624,13 +7654,13 @@ footer #line1 h6::before,
   /*here the spans are used for templates, in case of need*/
 }
 #menu #palette__entrées--all #palette__entrées--1 input + label span.normal {
-  margin-left: -17.5em;
+  margin-left: 0.5em;
 }
 #menu #palette__entrées--all #palette__entrées--1 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-right: -0.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  margin-right: -0.55em;
+  margin-top: -1em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -7641,6 +7671,8 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
   z-index: 150;
+  -webkit-filter: blur(0);
+  filter: blur(0);
 }
 #menu #palette__entrées--all #palette__entrées--1 input:checked + label span.green::after {
   content: "";
@@ -7656,7 +7688,7 @@ footer #line1 h6::before,
   justify-content: center;
 }
 #menu #palette__entrées--all #palette__entrées--1 input:checked + label span.normal {
-  margin-left: -15.85em;
+  margin-left: 0.5em;
 }
 #menu #palette__entrées--all #palette__entrées--1 input:checked + label span.price {
   margin-left: 14rem;
@@ -7665,7 +7697,7 @@ footer #line1 h6::before,
   animation-name: price-animation;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
-  transition: ease-out;
+  transition: ease-in-out;
 }
 #menu #palette__entrées--all #palette__entrées--2 {
   margin-top: 1em;
@@ -7702,6 +7734,7 @@ footer #line1 h6::before,
   width: 17.5em;
   white-space: nowrap;
   margin-top: 1.6em;
+  position: absolute;
 }
 #menu #palette__entrées--all #palette__entrées--2 input + label span.price {
   position: absolute;
@@ -7717,16 +7750,16 @@ footer #line1 h6::before,
   /*here the spans are used for templates, in case of need*/
 }
 #menu #palette__entrées--all #palette__entrées--2 input + label span.normal {
-  margin-left: -17.5em;
+  margin-left: 0.5em;
 }
 #menu #palette__entrées--all #palette__entrées--2 input + label span.price {
   margin-left: 18em;
 }
 #menu #palette__entrées--all #palette__entrées--2 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-right: -0.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  margin-right: -0.55em;
+  margin-top: -1em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -7737,6 +7770,8 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
   z-index: 150;
+  -webkit-filter: blur(0);
+  filter: blur(0);
 }
 #menu #palette__entrées--all #palette__entrées--2 input:checked + label span.green::after {
   content: "";
@@ -7752,11 +7787,11 @@ footer #line1 h6::before,
   justify-content: center;
 }
 #menu #palette__entrées--all #palette__entrées--2 input:checked + label span.normal {
-  margin-left: -15.85em;
+  margin-left: 0.5em;
 }
 #menu #palette__entrées--all #palette__entrées--2 input:checked + label span.price {
   margin-left: 12.6rem;
-  padding-left: 0em;
+  padding-right: 1em;
   -webkit-animation-name: price-animation--short;
   animation-name: price-animation--short;
   -webkit-animation-duration: 2s;
@@ -7804,6 +7839,7 @@ footer #line1 h6::before,
   width: 17.5em;
   white-space: nowrap;
   margin-top: 1.6em;
+  position: absolute;
 }
 #menu #palette__entrées--all #palette__entrées--3 input + label span.price {
   position: absolute;
@@ -7819,16 +7855,16 @@ footer #line1 h6::before,
   /*here the spans are used for templates, in case of need*/
 }
 #menu #palette__entrées--all #palette__entrées--3 input + label span.normal {
-  margin-left: -17.5em;
+  margin-left: 0.5em;
 }
 #menu #palette__entrées--all #palette__entrées--3 input + label span.price {
   margin-left: 18em;
 }
 #menu #palette__entrées--all #palette__entrées--3 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-right: -0.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  margin-right: -0.55em;
+  margin-top: -1em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -7839,6 +7875,8 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
   z-index: 150;
+  -webkit-filter: blur(0);
+  filter: blur(0);
 }
 #menu #palette__entrées--all #palette__entrées--3 input:checked + label span.green::after {
   content: "";
@@ -7855,7 +7893,6 @@ footer #line1 h6::before,
 }
 #menu #palette__entrées--all #palette__entrées--3 input:checked + label span.normal {
   margin-left: 0.5em;
-  position: absolute;
 }
 #menu #palette__entrées--all #palette__entrées--3 input:checked + label span.price {
   margin-left: 12.6rem;
@@ -7928,6 +7965,7 @@ footer #line1 h6::before,
   width: 17.5em;
   white-space: nowrap;
   margin-top: 1.6em;
+  position: absolute;
 }
 #menu #palette__plats--all #palette__plats--1 input + label span.price {
   position: absolute;
@@ -7943,16 +7981,16 @@ footer #line1 h6::before,
   /*here the spans are used for templates, in case of need*/
 }
 #menu #palette__plats--all #palette__plats--1 input + label span.normal {
-  margin-left: -17.5em;
+  margin-left: 0.5em;
 }
 #menu #palette__plats--all #palette__plats--1 input + label span.price {
   margin-top: 2.8em;
 }
 #menu #palette__plats--all #palette__plats--1 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-right: -0.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  margin-right: -0.55em;
+  margin-top: -1em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -7963,6 +8001,8 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
   z-index: 150;
+  -webkit-filter: blur(0);
+  filter: blur(0);
 }
 #menu #palette__plats--all #palette__plats--1 input:checked + label span.green::after {
   content: "";
@@ -7978,7 +8018,7 @@ footer #line1 h6::before,
   justify-content: center;
 }
 #menu #palette__plats--all #palette__plats--1 input:checked + label span.normal {
-  margin-left: -15.85em;
+  margin-left: 0.5em;
 }
 #menu #palette__plats--all #palette__plats--1 input:checked + label span.green {
   margin-top: -1em;
@@ -7998,7 +8038,8 @@ footer #line1 h6::before,
   font-weight: 600;
 }
 #menu #palette__plats--all #palette__plats--2 {
-  margin-top: 1em;
+  margin-top: 0.9em;
+  /*here too, something is strange with the distance*/
   border-style: hidden;
   background-color: white;
   padding: 0.9em 0.5em 0.9em 0.5em;
@@ -8032,6 +8073,7 @@ footer #line1 h6::before,
   width: 17.5em;
   white-space: nowrap;
   margin-top: 1.6em;
+  position: absolute;
 }
 #menu #palette__plats--all #palette__plats--2 input + label span.price {
   position: absolute;
@@ -8047,16 +8089,16 @@ footer #line1 h6::before,
   /*here the spans are used for templates, in case of need*/
 }
 #menu #palette__plats--all #palette__plats--2 input + label span.normal {
-  margin-left: -17.5em;
+  margin-left: 0.53em;
 }
 #menu #palette__plats--all #palette__plats--2 input + label span.price {
   margin-left: 18em;
 }
 #menu #palette__plats--all #palette__plats--2 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-right: -0.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  margin-right: -0.55em;
+  margin-top: -1em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -8067,6 +8109,8 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
   z-index: 150;
+  -webkit-filter: blur(0);
+  filter: blur(0);
 }
 #menu #palette__plats--all #palette__plats--2 input:checked + label span.green::after {
   content: "";
@@ -8082,8 +8126,7 @@ footer #line1 h6::before,
   justify-content: center;
 }
 #menu #palette__plats--all #palette__plats--2 input:checked + label span.normal {
-  margin-left: 0.5em;
-  position: absolute;
+  margin-left: 0.53em;
 }
 #menu #palette__plats--all #palette__plats--2 input:checked + label span.price {
   margin-left: 12.6rem;
@@ -8136,6 +8179,7 @@ footer #line1 h6::before,
   width: 17.5em;
   white-space: nowrap;
   margin-top: 1.6em;
+  position: absolute;
 }
 #menu #palette__plats--all #palette__plats--3 input + label span.price {
   position: absolute;
@@ -8151,13 +8195,13 @@ footer #line1 h6::before,
   /*here the spans are used for templates, in case of need*/
 }
 #menu #palette__plats--all #palette__plats--3 input + label span.normal {
-  margin-left: -17.5em;
+  margin-left: 0.5em;
 }
 #menu #palette__plats--all #palette__plats--3 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-right: -0.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  margin-right: -0.55em;
+  margin-top: -1em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -8168,6 +8212,8 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
   z-index: 150;
+  -webkit-filter: blur(0);
+  filter: blur(0);
 }
 #menu #palette__plats--all #palette__plats--3 input:checked + label span.green::after {
   content: "";
@@ -8183,7 +8229,7 @@ footer #line1 h6::before,
   justify-content: center;
 }
 #menu #palette__plats--all #palette__plats--3 input:checked + label span.normal {
-  margin-left: -15.85em;
+  margin-left: 0.5em;
 }
 #menu #palette__plats--all #palette__plats--3 input:checked + label span.price {
   margin-left: 14rem;
@@ -8247,6 +8293,7 @@ footer #line1 h6::before,
   width: 17.5em;
   white-space: nowrap;
   margin-top: 1.6em;
+  position: absolute;
 }
 #menu #palette__desserts--all #palette__desserts--1 input + label span.price {
   position: absolute;
@@ -8262,13 +8309,13 @@ footer #line1 h6::before,
   /*here the spans are used for templates, in case of need*/
 }
 #menu #palette__desserts--all #palette__desserts--1 input + label span.normal {
-  margin-left: -17.5em;
+  margin-left: 0.5em;
 }
 #menu #palette__desserts--all #palette__desserts--1 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-right: -0.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  margin-right: -0.55em;
+  margin-top: -1em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -8279,6 +8326,8 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
   z-index: 150;
+  -webkit-filter: blur(0);
+  filter: blur(0);
 }
 #menu #palette__desserts--all #palette__desserts--1 input:checked + label span.green::after {
   content: "";
@@ -8294,7 +8343,7 @@ footer #line1 h6::before,
   justify-content: center;
 }
 #menu #palette__desserts--all #palette__desserts--1 input:checked + label span.normal {
-  margin-left: -15.85em;
+  margin-left: 0.5em;
 }
 #menu #palette__desserts--all #palette__desserts--1 input:checked + label span.price {
   margin-left: 14rem;
@@ -8340,6 +8389,7 @@ footer #line1 h6::before,
   width: 17.5em;
   white-space: nowrap;
   margin-top: 1.6em;
+  position: absolute;
 }
 #menu #palette__desserts--all #palette__desserts--2 input + label span.price {
   position: absolute;
@@ -8355,16 +8405,16 @@ footer #line1 h6::before,
   /*here the spans are used for templates, in case of need*/
 }
 #menu #palette__desserts--all #palette__desserts--2 input + label span.normal {
-  margin-left: -17.5em;
+  margin-left: 0.51em;
 }
 #menu #palette__desserts--all #palette__desserts--2 input + label span.price {
   margin-left: 18em;
 }
 #menu #palette__desserts--all #palette__desserts--2 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-right: -0.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  margin-right: -0.55em;
+  margin-top: -1em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -8375,6 +8425,8 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
   z-index: 150;
+  -webkit-filter: blur(0);
+  filter: blur(0);
 }
 #menu #palette__desserts--all #palette__desserts--2 input:checked + label span.green::after {
   content: "";
@@ -8390,8 +8442,7 @@ footer #line1 h6::before,
   justify-content: center;
 }
 #menu #palette__desserts--all #palette__desserts--2 input:checked + label span.normal {
-  margin-left: 0.5em;
-  position: absolute;
+  margin-left: 0.51em;
 }
 #menu #palette__desserts--all #palette__desserts--2 input:checked + label span.green {
   margin-top: -1em;
@@ -8457,6 +8508,7 @@ footer #line1 h6::before,
   width: 17.5em;
   white-space: nowrap;
   margin-top: 1.6em;
+  position: absolute;
 }
 #menu #palette__desserts--all #palette__desserts--3 input + label span.price {
   position: absolute;
@@ -8472,7 +8524,7 @@ footer #line1 h6::before,
   /*here the spans are used for templates, in case of need*/
 }
 #menu #palette__desserts--all #palette__desserts--3 input + label span.normal {
-  margin-left: -18.5em;
+  margin-left: 0.5em;
   font-size: 0.95em;
   padding-top: 0.15em;
 }
@@ -8481,9 +8533,9 @@ footer #line1 h6::before,
 }
 #menu #palette__desserts--all #palette__desserts--3 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-right: -0.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  margin-right: -0.55em;
+  margin-top: -1em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -8494,6 +8546,8 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
   z-index: 150;
+  -webkit-filter: blur(0);
+  filter: blur(0);
 }
 #menu #palette__desserts--all #palette__desserts--3 input:checked + label span.green::after {
   content: "";
@@ -8510,7 +8564,6 @@ footer #line1 h6::before,
 }
 #menu #palette__desserts--all #palette__desserts--3 input:checked + label span.normal {
   margin-left: 0.47em;
-  position: absolute;
   font-size: 0.97em;
   padding-top: 0.05em;
 }
