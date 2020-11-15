@@ -5,10 +5,13 @@
     font-family: $font-text;
     #palette__entrées {
         padding-bottom: 0.5em;
-            p {
+            h2 {
                 border-bottom: solid $green;
                 border-width: 0.3em;
-                margin-right: 20em;
+                margin-right: 15em;
+                font-weight: lighter;
+                font-size: 1.3em;
+                padding-bottom: 0.3em;
             }
         }
     #palette__entrées--all {
@@ -19,37 +22,35 @@
         padding-left: 0.5em;
         
         #palette__entrées--1 {
+            margin-top: 0.95em;  /*not 1em, for some reason there is a very small space betweel the green and he top of the div if i set margin to 1*/
+            @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
                     animation: loading-menus 0.5s ease-in-out;
-            margin-top: 1em;
-            @include div-principal-menus;
             input {
                 @include fa-icon;
                 display: none;   
                 &+label {
                     @include label-settings-menus;
-                    #palette__entrées--prix {
-                    padding-left: 9em;
-                    margin-top: 1.5em;
-                        h5 {
-                            margin-left: -1em;
-                        }
-                    }        
+                    span.bold {
+                        padding: 0;  /*here the spans are used for templates, in case of need*/
+                    }
+                    span.normal {
+                        margin-left: 0.5em;
+                    }  
                 }
                 &:checked+label { 
                     @include checked-ok; 
-                    #palette__entrées--prix {
-                        padding-left: 9em;
-                        margin-top: 1.5em;
-                        h5 {
-                            margin-left: -5rem;
-                            padding-right: 0em;
-                            -webkit-animation-name: price-animation;
-                                    animation-name: price-animation;
-                            -webkit-animation-duration: 2s;
-                                    animation-duration: 2s;
-                            transition: ease-out;
-                        }
+                    span.normal {
+                        margin-left: 0.5em;
+                    }
+                    span.price {
+                        margin-left: 14rem;
+                        padding-left: 0em;
+                        -webkit-animation-name: price-animation;
+                                animation-name: price-animation;
+                        -webkit-animation-duration: 2s;
+                                animation-duration: 2s;
+                        transition: ease-in-out;
                     }
                 }
             }
@@ -64,28 +65,34 @@
                 display: none;
                 &+label {
                     @include label-settings-menus;
-                    #palette__entrées--prix {
-                        padding-left: 5.6em;
-                        margin-top: 1.5em;
-                        h5 {
-                            margin-left: -1em;
-                        }
+                    span.bold {
+                        padding: 0;  /*here the spans are used for templates, in case of need*/
+                    }
+                    span.normal {
+                        margin-left: 0.5em;
+                    } 
+                    span.price {
+                        margin-left: 18em;
                     }
                 }
                 &:checked+label {
-                    @include checked-ok; 
-                    #palette__entrées--prix {
-                        padding-left: 5.6em;
-                        margin-top: 1.5em;
-                        h5 {
-                            
-                            margin-left: -5rem;
-                            padding-right: 0em;
-                            -webkit-animation-name: price-animation;
-                                    animation-name: price-animation;
-                            -webkit-animation-duration: 2s;
-                                    animation-duration: 2s;
-                            transition: ease-out;
+                    @include checked-ok;
+                    span.normal {
+                        margin-left: 0.5em;
+                    }
+                    span.price {
+                        margin-left: 12.6rem;
+                        padding-right: 1em;
+                        -webkit-animation-name: price-animation--short;
+                                animation-name: price-animation--short;
+                        -webkit-animation-duration: 2s;
+                                animation-duration: 2s;
+                        transition: ease-in-out;
+                        z-index: 100;
+                        background: white;
+                        &::before {
+                            content: "...";
+                            padding-right: 0.5em;
                         }
                     }
                 }
@@ -101,41 +108,35 @@
                 display: none;
                 &+label {
                     @include label-settings-menus;
-                    #palette__entrées--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
-                        h5 {
-                            margin-left: -1em;
-                            &.overlay--1 {
-                                margin-top: 0.1rem;
-                            }
-                        }
-                        
+                    span.bold {
+                        padding: 0;  /*here the spans are used for templates, in case of need*/
+                    }
+                    span.normal {
+                        margin-left: 0.5em;
+                    } 
+                    span.price {
+                        margin-left: 18em;
                     }
                 }
                 &:checked+label {
                     @include checked-ok; 
-                    #palette__entrées--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
-                        h5 {
-                            &.overlay--1 {
-                                margin-top: 0.1rem;
-                                margin-left: -7.3rem;
-                                -webkit-animation-name: price-animation--lenghty;
-                                        animation-name: price-animation--lenghty;
-                                -webkit-animation-duration: 2s;
-                                        animation-duration: 2s;
-                                transition: ease-in;
-                                background-color: white;
-                                padding: 0em 0em 0em 1em;
-                                transform-origin: right;
-                                &:before {
-                                    content: "...";
-                                    padding-right: 1em;
-                                }
-                            }
-                        } 
+                    span.normal {
+                        margin-left: 0.5em;
+                    }
+                    span.price {
+                        margin-left: 12.6rem;
+                        padding-right: 1em;   /*mask the text ont some menus*/
+                        -webkit-animation-name: price-animation--short;
+                                animation-name: price-animation--short;
+                        -webkit-animation-duration: 2s;
+                                animation-duration: 2s;
+                        transition: ease-in-out;
+                        z-index: 100;
+                        background: white;
+                        &::before {
+                            content: "...";
+                            padding-right: 0.5em;
+                        }
                     }
                 }
             }
@@ -144,10 +145,13 @@
     
     #palette__plats {
         padding-bottom: 0.5em; /*distance between the last div and the desserts*/
-            p {
+            h2 {
                 border-bottom: solid $green;
                 border-width: 0.3em;
-                margin-right: 20em;
+                margin-right: 15em;
+                font-weight: lighter;
+                font-size: 1.3em;
+                padding-bottom: 0.3em;
             }
         }
         #palette__plats--all {
@@ -167,47 +171,42 @@
                 display: none;
                 &+label {
                     @include label-settings-menus;
-                    #palette__plats--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
-                        h5 {
-                            margin-left: 1em;
-                            &.overlay--2 {
-                                margin-top: 1.2rem;
-                            }
-                        }
-                        
+                    span.bold {
+                        padding: 0;  /*here the spans are used for templates, in case of need*/
+                    }
+                    span.normal {
+                        margin-left: 0.5em;
+                    }  
+                    span.price {
+                        margin-top: 2.8em;
                     }
                 }
-                &:checked+label {
+                &:checked+label { 
                     @include checked-ok; 
-                    #checked-font-place {
-                        background-color: $green;
-                        padding: 1.8em 1.3em 1.8em 1.3em;
-                        margin-left: -0.8em;
+                    span.normal {
+                        margin-left: 0.5em;
                     }
-                    #palette__plats--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
-                        h5 {
-                            &.overlay--2 {
-                                margin-top: 1.2rem;
-                                margin-left: -3.5rem;
-                                -webkit-animation-name: price-animation--large;
-                                        animation-name: price-animation--large;
-                                -webkit-animation-duration: 2s;
-                                        animation-duration: 2s;
-                                transition: ease-in;
-                                background-color: white;
-                                padding: 0em 1em 0em 1em;
-                            }
-                        } 
+                    span.green {
+                        margin-top: -1em;
+                        padding-top: 2em;
+                        padding-bottom: 2em;
+                        margin-left: -0.3em;
+                    }
+                    span.price {
+                        margin-left: 14rem;
+                        padding-right: 4em;  /*mask the text ont some menus*/
+                        -webkit-animation-name: price-animation;
+                                animation-name: price-animation;
+                        -webkit-animation-duration: 2s;
+                                animation-duration: 2s;
+                        transition: ease-in-out;
+                        font-weight: 600;
                     }
                 }
             }
         }
         #palette__plats--2 {
-            margin-top: 1em;
+            margin-top: 0.9em;   /*here too, something is strange with the distance*/
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
                     animation: loading-menus 0.5s ease-in-out;
@@ -216,44 +215,35 @@
                 display: none;
                 &+label {
                     @include label-settings-menus;
-                    #palette__plats--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
-                        h5 {
-                            margin-left: -1.7em;
-                            &.overlay--3 {
-                                margin-top: 0.1rem;
-                            }
-                        }
-                        
+                    span.bold {
+                        padding: 0;  /*here the spans are used for templates, in case of need*/
+                    }
+                    span.normal {
+                        margin-left: 0.53em;
+                    } 
+                    span.price {
+                        margin-left: 18em;
                     }
                 }
                 &:checked+label {
                     @include checked-ok; 
-                    #checked-font-place {
-                        margin-left: -3em;
+                    span.normal {
+                        margin-left: 0.53em;
                     }
-                    #palette__plats--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
-                        h5 {
-                            &.overlay--3 {
-                                margin-top: 0.1rem;
-                                margin-left: -7.3rem;
-                                -webkit-animation-name: price-animation--lenghty;
-                                        animation-name: price-animation--lenghty;
-                                -webkit-animation-duration: 1s;
-                                        animation-duration: 1s;
-                                transition: ease-in;
-                                background-color: white;
-                                padding: 0em 0em 0em 1em;
-                                transform-origin: right;
-                                &:before {
-                                    content: "...";
-                                    padding-right: 1em;
-                                }
-                            }
-                        } 
+                    span.price {
+                        margin-left: 12.6rem;
+                        padding-right: 1em;   /*mask the text ont some menus*/
+                        -webkit-animation-name: price-animation--short;
+                                animation-name: price-animation--short;
+                        -webkit-animation-duration: 2s;
+                                animation-duration: 2s;
+                        transition: ease-in-out;
+                        z-index: 100;
+                        background: white;
+                        &::before {
+                            content: "...";
+                            padding-right: 0.5em;
+                        }
                     }
                 }
             }
@@ -268,35 +258,26 @@
                 display: none;
                 &+label {
                     @include label-settings-menus;
-                    h3 {
-                        padding-right: 5em;  /*this setting help me push the price to reduce the div prive margin so that i can use the animation short more frequently*/
+                    span.bold {
+                        padding: 0;  /*here the spans are used for templates, in case of need*/
                     }
-                    #palette__plats--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
-                        h5 {
-                            margin-left: 2.5rem;
-                        }
-                        
-                    }
+                    span.normal {
+                        margin-left: 0.5em;
+                    }  
                 }
-                &:checked+label {
+                &:checked+label { 
                     @include checked-ok; 
-                    #checked-font-place {
-                        margin-left: 0.5em;   /*this margin set up the background and the distance it will be from the price*/
+                    span.normal {
+                        margin-left: 0.5em;
                     }
-                    #palette__plats--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
-                        h5 {
-                            margin-left: -1rem;
-                            padding-right: 0em;
-                            -webkit-animation-name: price-animation--short;
-                                    animation-name: price-animation--short;
-                            -webkit-animation-duration: 2s;
-                                    animation-duration: 2s;
-                            transition: ease-out;
-                        } 
+                    span.price {
+                        margin-left: 14rem;
+                        padding-left: 0em;
+                        -webkit-animation-name: price-animation;
+                                animation-name: price-animation;
+                        -webkit-animation-duration: 2s;
+                                animation-duration: 2s;
+                        transition: ease-out;
                     }
                 }
             }
@@ -304,10 +285,13 @@
     }
     #palette__desserts {
         padding-bottom: 0.5em;
-            p {
+            h2 {
                 border-bottom: solid $green;
                 border-width: 0.3em;
-                margin-right: 20em;
+                margin-right: 15em;
+                font-weight: lighter;
+                font-size: 1.3em;
+                padding-bottom: 0.3em;
             }
     }
     #palette__desserts--all {      
@@ -327,35 +311,26 @@
                 display: none;
                 &+label {
                     @include label-settings-menus;
-                    h3 {
-                        padding-right: 6.5em;  
+                    span.bold {
+                        padding: 0;  /*here the spans are used for templates, in case of need*/
                     }
-                    #palette__desserts--prix {
-                        padding-left: 3em;
-                        margin-top: 1.5em;
-                        h5 {
-                            margin-left: 2.5rem;
-                        }
-                        
-                    }
+                    span.normal {
+                        margin-left: 0.5em;
+                    }  
                 }
-                &:checked+label {
+                &:checked+label { 
                     @include checked-ok; 
-                    #checked-font-place {
-                        margin-left: 0.5em;  
+                    span.normal {
+                        margin-left: 0.5em;
                     }
-                    #palette__desserts--prix {
-                        padding-left: 2.5em;  /*for this page, this customize the distance of the checked ok green background*/
-                        margin-top: 1.5em;
-                        h5 {
-                            margin-left: -1rem;
-                            padding-right: 0em;
-                            -webkit-animation-name: price-animation--short;
-                                    animation-name: price-animation--short;
-                            -webkit-animation-duration: 2s;
-                                    animation-duration: 2s;
-                            transition: ease-out;
-                        } 
+                    span.price {
+                        margin-left: 14rem;
+                        padding-left: 0em;
+                        -webkit-animation-name: price-animation;
+                                animation-name: price-animation;
+                        -webkit-animation-duration: 2s;
+                                animation-duration: 2s;
+                        transition: ease-out;
                     }
                 }
             }
@@ -370,59 +345,50 @@
                 display: none;
                 &+label {
                     @include label-settings-menus;
-                    h3 {
-                        padding-right: 0em;  
+                    span.bold {
+                        padding: 0;  /*here the spans are used for templates, in case of need*/
                     }
-                    #palette__desserts--prix {
-                        padding-left: 0em;
-                        margin-top: 1.5em;
-                        h5 {
-                            margin-left: 1.7rem;
-                        }
-                        
+                    span.normal {
+                        margin-left: 0.51em;
+                    } 
+                    span.price {
+                        margin-left: 18em;
                     }
                 }
                 &:checked+label {
                     @include checked-ok; 
-                    #checked-font-place {
-                        margin-left: -3.9em;  
+                    span.normal {
+                        margin-left: 0.51em;
                     }
-                    h3 {
-                        padding-right: 3em;
+                    span.green {
+                        margin-top: -1em;
                     }
-                    #palette__desserts--prix {
-                        padding-left: 0em;
-                        margin-top: 1.5em;
-                        h5 {
-                            margin-left: -7.3rem;
-                            padding-right: 0em;
-                            -webkit-animation-name: price-animation--lenghty;
-                                    animation-name: price-animation--lenghty;
-                            -webkit-animation-duration: 2s;
-                                    animation-duration: 2s;
-                            transition: ease-out;
-                            z-index: 100;
-                            background: white;
-                            padding-bottom: 0.2em;
-                            
-                            &::before {
-                                content: "...";
-                                padding-right: 0.7em;
-                                z-index: 90;
-                                background: white;
-                                margin-left: -0.25em;
-                            }
-                            &::after {
+                    span.price {
+                        margin-left: 12.6rem;
+                        padding-right: 1em;   /*mask the text ont some menus*/
+                        -webkit-animation-name: price-animation--short;
+                                animation-name: price-animation--short;
+                        -webkit-animation-duration: 2s;
+                                animation-duration: 2s;
+                        transition: ease-in-out;
+                        z-index: 100;
+                        background: white;
+                        &::before {
+                            content: "...";
+                            padding-right: 0.5em;
+                        }
+                    
+                        &::after {
                                 content: "...";
                                 position: absolute;
                                 font-size: 2em;
-                                margin-left: -1.5em;
-                                margin-top: -1.2em;
+                                margin-left: -1.6em;
+                                margin-top: -1.25em;
                                 z-index: 90;
                                 background: white;
                                 padding-right: 2em;
                                 
-                            }
+                            
                         } 
                     }
                 }
@@ -438,44 +404,39 @@
                 display: none;
                 &+label {
                     @include label-settings-menus;
-                    h3 {
-                        padding-right: 0em;  
+                    span.bold {
+                        padding: 0;  /*here the spans are used for templates, in case of need*/
                     }
-                    #palette__desserts--prix {
-                        padding-left: 0em;
-                        margin-top: 1.5em;
-                        h5 {
-                            margin-left: 1.2rem;
-                        }
-                        
+                    span.normal {
+                        margin-left: 0.5em;
+                        font-size: 0.95em;
+                        padding-top: 0.15em;
+                    } 
+                    span.price {
+                        margin-left: 18em;
                     }
                 }
                 &:checked+label {
                     @include checked-ok; 
-                    #checked-font-place {
-                        margin-left: -4em;  
+                    span.normal {
+                        margin-left: 0.47em;
+                        font-size: 0.97em;
+                        padding-top: 0.05em;
                     }
-                    h3 {
-                        padding-right: 5em;
-                    }
-                    #palette__desserts--prix {
-                        padding-left: 3em;
-                        margin-top: 1.55em;
-                        h5 {
-                            margin-left: -7.3rem;
-                            padding-right: 0em;
-                            -webkit-animation-name: price-animation--lenghty;
-                                    animation-name: price-animation--lenghty;
-                            -webkit-animation-duration: 2s;
-                                    animation-duration: 2s;
-                            transition: ease-out;
-                            z-index: 100;
-                            background: white;
-                            &::before {
-                                content: "...";
-                                padding-right: 0.7em;
-                            }
-                        } 
+                    span.price {
+                        margin-left: 12.6rem;
+                        padding-right: 1em;   /*mask the text ont some menus*/
+                        -webkit-animation-name: price-animation--short;
+                                animation-name: price-animation--short;
+                        -webkit-animation-duration: 2s;
+                                animation-duration: 2s;
+                        transition: ease-in-out;
+                        z-index: 100;
+                        background: white;
+                        &::before {
+                            content: "...";
+                            padding-right: 0.5em;
+                        }
                     }
                 }
             }

@@ -7456,14 +7456,6 @@ footer #line1 h6::before,
   /*this make the button lighter*/
 }
 
-@font-face {
-  font-family: "shrikhand";
-  src: url("../../fonts/shrikhand/Shrikhand-Regular.ttf");
-}
-@font-face {
-  font-family: "roboto";
-  src: url("../../fonts/roboto/Roboto-Regular.ttf");
-}
 @-webkit-keyframes price-animation {
   0% {
     margin-left: 14rem;
