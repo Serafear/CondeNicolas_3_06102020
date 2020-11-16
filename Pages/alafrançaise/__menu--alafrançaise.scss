@@ -1,3 +1,4 @@
+
 #menu {
     background-color: $gray-light;
     padding-top: 0.5em;
@@ -5,10 +6,13 @@
     font-family: $font-text;
     #alafrançaise__entrées {
         padding-bottom: 0.5em;
-            p {
+            h2 {
                 border-bottom: solid $green;
                 border-width: 0.3em;
-                margin-right: 20em;
+                margin-right: 15em;
+                font-weight: lighter;
+                font-size: 1.3em;
+                padding-bottom: 0.3em;
             }
         }
     #alafrançaise__entrées--all {
@@ -17,44 +21,38 @@
         overflow-x: hidden;
         height: 17.5em;
         padding-left: 0.5em;
+       
         #alafrançaise__entrées--1 {
-            margin-top: 1em;
+            margin-top: 0.95em;  /*not 1em, for some reason there is a very small space betweel the green and he top of the div if i set margin to 1*/
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
                     animation: loading-menus 0.5s ease-in-out;
+                    width: 20.5em;  /*fixes a minor visual imperfection*/
             input {
                 @include fa-icon;
-                display: none;
+                display: none;   
                 &+label {
                     @include label-settings-menus;
-                    h3 {
-                        padding-right: 3.5em;  
+                    span.bold {
+                        padding: 0;  /*here the spans are used for templates, in case of need*/
                     }
-                    #alafrançaise__entrées--prix {
-                        padding-left: 3em;
-                        margin-top: 1.6em;
-                        h5 {
-                            margin-left: -1.5rem;
-                        }
-                    }
+                    span.normal {
+                        margin-left: 0.5em;
+                    }  
                 }
-                &:checked+label {
+                &:checked+label { 
                     @include checked-ok; 
-                    #checked-font-place {
-                        margin-left: -1.7em;  
+                    span.normal {
+                        margin-left: 0.5em;
                     }
-                    #alafrançaise__entrées--prix {
-                        padding-left: 1em;
-                        margin-top: 1.6em;
-                        h5 {
-                            margin-left: -3.6rem;
-                            padding-right: 0em;
-                            -webkit-animation-name: price-animation--short;
-                                    animation-name: price-animation--short;
-                            -webkit-animation-duration: 1.5s;
-                                    animation-duration: 1.5s;
-                            transition: ease-out;
-                        } 
+                    span.price {
+                        margin-left: 14rem;
+                        padding-right: 2em;
+                        -webkit-animation-name: price-animation;
+                                animation-name: price-animation;
+                        -webkit-animation-duration: 2s;
+                                animation-duration: 2s;
+                        transition: ease-in-out;
                     }
                 }
             }
@@ -64,42 +62,35 @@
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
                     animation: loading-menus 0.5s ease-in-out;
+                    width: 20.5em;
             input {
                 @include fa-icon;
                 display: none;
                 &+label {
                     @include label-settings-menus;
-                    h3 {
-                        padding-right: 3.5em;  
+                    span.bold {
+                        padding: 0;  /*here the spans are used for templates, in case of need*/
                     }
-                    #alafrançaise__entrées--prix {
-                        padding-left: 1.8em;
-                        margin-top: 1.6em;
-                        h5 {
-                            margin-left: -1.5rem;
-                        }
+                    span.normal {
+                        margin-left: 0.5em;
+                    } 
+                    span.price {
+                        margin-left: 19.7em;
                     }
                 }
                 &:checked+label {
-                    @include checked-ok; 
-                    #checked-font-place {
-                        margin-left: -1.5em;  
+                    @include checked-ok;
+                    span.normal {
+                        margin-left: 0.5em;
                     }
-                    h3 {
-                        padding-right: 3.2em;    /*this padding help me position the price*/
-                    }
-                    #alafrançaise__entrées--prix {
-                        padding-left: 0em;
-                        margin-top: 1.6em;
-                        h5 {
-                            margin-left: -3.6rem;
-                            padding-right: 0em;
-                            -webkit-animation-name: price-animation--short;
-                                    animation-name: price-animation--short;
-                            -webkit-animation-duration: 1.5s;
-                                    animation-duration: 1.5s;
-                            transition: ease-out;
-                        } 
+                    span.price {
+                        margin-left: 14rem;
+                        padding-right: 1em;
+                        -webkit-animation-name: price-animation;
+                                animation-name: price-animation;
+                        -webkit-animation-duration: 2s;
+                                animation-duration: 2s;
+                        transition: ease-in-out;
                     }
                 }
             }
@@ -109,42 +100,35 @@
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
                     animation: loading-menus 0.5s ease-in-out;
+                    width: 20.5em;
             input {
                 @include fa-icon;
                 display: none;
                 &+label {
                     @include label-settings-menus;
-                    h3 {
-                        padding-right: 8.5em;  
+                    span.bold {
+                        padding: 0;  /*here the spans are used for templates, in case of need*/
                     }
-                    #alafrançaise__entrées--prix {
-                        padding-left: 1.8em;
-                        margin-top: 1.6em;
-                        h5 {
-                            margin-left: -1.5rem;
-                        }
+                    span.normal {
+                        margin-left: 0.5em;
+                    } 
+                    span.price {
+                        margin-left: 19.7em;
                     }
                 }
                 &:checked+label {
                     @include checked-ok; 
-                    #checked-font-place {
-                        margin-left: -1.5em;  
+                    span.normal {
+                        margin-left: 0.5em;
                     }
-                    h3 {
-                        padding-right: 8.2em;    /*this padding help me position the price*/
-                    }
-                    #alafrançaise__entrées--prix {
-                        padding-left: 0em;
-                        margin-top: 1.6em;
-                        h5 {
-                            margin-left: -3.6rem;
-                            padding-right: 0em;
-                            -webkit-animation-name: price-animation--short;
-                                    animation-name: price-animation--short;
-                            -webkit-animation-duration: 1.5s;
-                                    animation-duration: 1.5s;
-                            transition: ease-out;
-                        } 
+                    span.price {
+                        margin-left: 14rem;
+                        padding-right: 1.5em;   /*mask the text ont some menus*/
+                        -webkit-animation-name: price-animation;
+                                animation-name: price-animation;
+                        -webkit-animation-duration: 2s;
+                                animation-duration: 2s;
+                        transition: ease-in-out;
                     }
                 }
             }
@@ -153,10 +137,13 @@
     
     #alafrançaise__plats {
         padding-bottom: 0.5em; /*distance between the last div and the desserts*/
-            p {
+            h2 {
                 border-bottom: solid $green;
                 border-width: 0.3em;
-                margin-right: 20em;
+                margin-right: 15em;
+                font-weight: lighter;
+                font-size: 1.3em;
+                padding-bottom: 0.3em;
             }
         }
         #alafrançaise__plats--all {
@@ -164,112 +151,95 @@
             overflow-y: hidden;
             overflow-x: hidden;
             height: 17.5em;
+            
             padding-left: 0.5em;
         #alafrançaise__plats--1 {
-            margin-top: 1em;
+            margin-top: 0.95em;  /*not 1em, for some reason there is a very small space betweel the green and he top of the div if i set margin to 1*/
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
                     animation: loading-menus 0.5s ease-in-out;
+                    width: 20.5em;
             input {
                 @include fa-icon;
-                display: none;
+                display: none;   
                 &+label {
                     @include label-settings-menus;
-                    h3 {
-                        padding-right: 6.6em;  
+                    span.bold {
+                        padding: 0;  /*here the spans are used for templates, in case of need*/
                     }
-                    #alafrançaise__plats--prix {
-                        padding-left: 0em;
-                        margin-top: 1.6em;
-                        h5 {
-                            margin-left: -1.5rem;
-                        }
-                        
-                    }
+                    span.normal {
+                        margin-left: 0.5em;
+                    }  
                 }
-                &:checked+label {
-                    @include checked-ok;
-                    #checked-font-place {
-                        margin-left: -3.2em;
+                &:checked+label { 
+                    @include checked-ok; 
+                    span.normal {
+                        margin-left: 0.5em;
                     }
-                    h3 {
-                        padding-right: 0em;
-                        padding-bottom: 0.08em;
-                    }
-                    #alafrançaise__plats--prix {
-                        padding-left: 2.3em;
-                        margin-top: 1.6em;
-                        margin-left: -1.9em;
-                        h5 {
-                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
-                            padding-right: 2em;
-                            margin-right: 2rem;
-                            -webkit-animation-name: price-animation--short;
-                                    animation-name: price-animation--short;
-                            -webkit-animation-duration: 1.5s;
-                                    animation-duration: 1.5s;
-                            transition: ease-out;
-                            z-index: 100;
+                    span.price {
+                        margin-left: 12.6rem;
+                        padding-right: 2em;
+                        -webkit-animation-name: price-animation--short;
+                                animation-name: price-animation--short;
+                        -webkit-animation-duration: 2s;
+                                animation-duration: 2s;
+                        transition: ease-in-out;
+                        z-index: 100;
+                        background: white;
+                        &::before {
+                            content: "...";
+                            padding-right: 0.5em;
+                            z-index: 95;
                             background: white;
-                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-                            &:before {
-                                content: "...";
-                                padding-right: 0.7em;
-                            }
-                        } 
+                            margin-left: -0.2em;
+                        }
                     }
                 }
             }
         }
         #alafrançaise__plats--2 {
-            margin-top: 1em;
+            margin-top: 0.9em;   /*here too, something is strange with the distance*/
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
                     animation: loading-menus 0.5s ease-in-out;
+                    width: 20.5em;
             input {
                 @include fa-icon;
                 display: none;
                 &+label {
                     @include label-settings-menus;
-                    h3 {
-                        padding-right: 1em;  
+                    span.bold {
+                        padding: 0;  /*here the spans are used for templates, in case of need*/
                     }
-                    #alafrançaise__plats--prix {
-                        padding-left: 4.5em;
-                        margin-top: 1.6em;
-                        h5 {
-                            margin-left: -1.5rem;
-                        }
-                        
+                    span.normal {
+                        margin-left: 0.53em;
+                    } 
+                    span.price {
+                        margin-left: 19.7em;
                     }
                 }
                 &:checked+label {
-                    @include checked-ok;
-                    #checked-font-place {
-                        margin-left: -1.7em;
+                    @include checked-ok; 
+                    span.normal {
+                        margin-left: 0.53em;
                     }
-                    
-                    #alafrançaise__plats--prix {
-                        padding-left: 3.3em;
-                        margin-top: 1.6em;
-                        margin-left: -1.9em;
-                        h5 {
-                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                    span.price {
+                        margin-left: 12.6rem;
+                        padding-right: 1em;   /*mask the text ont some menus*/
+                        -webkit-animation-name: price-animation--short;
+                                animation-name: price-animation--short;
+                        -webkit-animation-duration: 2s;
+                                animation-duration: 2s;
+                        transition: ease-in-out;
+                        z-index: 100;
+                        background: white;
+                        &::before {
+                            content: "...";
                             padding-right: 0.5em;
-                            margin-right: 2rem;
-                            -webkit-animation-name: price-animation--short;
-                                    animation-name: price-animation--short;
-                            -webkit-animation-duration: 1.5s;
-                                    animation-duration: 1.5s;
-                            transition: ease-out;
-                            z-index: 100;
+                            z-index: 95;
                             background: white;
-                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-                            &:before {
-                                content: "...";
-                                padding-right: 0.7em;
-                            }
-                        } 
+                            margin-left: -0.4em;
+                        }
                     }
                 }
             }
@@ -279,50 +249,41 @@
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
                     animation: loading-menus 0.5s ease-in-out;
+                    width: 20.5em;
             input {
                 @include fa-icon;
                 display: none;
                 &+label {
                     @include label-settings-menus;
-                    h3 {
-                        padding-right: 1em;  
+                    span.bold {
+                        padding: 0;  /*here the spans are used for templates, in case of need*/
                     }
-                    #alafrançaise__plats--prix {
-                        padding-left: 4.5em;
-                        margin-top: 1.6em;
-                        h5 {
-                            margin-left: -1.5rem;
-                        }
-                        
-                    }
+                    span.normal {
+                        margin-left: 0.5em;
+                    }  
                 }
-                &:checked+label {
-                    @include checked-ok;
-                    #checked-font-place {
-                        margin-left: -1.7em;
+                &:checked+label { 
+                    @include checked-ok; 
+                    span.normal {
+                        margin-left: 0.5em;
                     }
-                    
-                    #alafrançaise__plats--prix {
-                        padding-left: 3em;
-                        margin-top: 1.6em;
-                        margin-left: -1.9em;
-                        h5 {
-                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
+                    span.price {
+                        margin-left: 12.6rem;
+                        padding-right: 2em;
+                        -webkit-animation-name: price-animation--short;
+                                animation-name: price-animation--short;
+                        -webkit-animation-duration: 2s;
+                                animation-duration: 2s;
+                        transition: ease-out;
+                        z-index: 100;
+                        background: white;
+                        &::before {
+                            content: "...";
                             padding-right: 0.5em;
-                            margin-right: 2rem;
-                            -webkit-animation-name: price-animation--short;
-                                    animation-name: price-animation--short;
-                            -webkit-animation-duration: 1.5s;
-                                    animation-duration: 1.5s;
-                            transition: ease-out;
-                            z-index: 100;
+                            z-index: 95;
                             background: white;
-                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-                            &:before {
-                                content: "...";
-                                padding-right: 0.7em;
-                            }
-                        } 
+                            margin-left: -0.35em;
+                        }
                     }
                 }
             }
@@ -330,10 +291,13 @@
     }
     #alafrançaise__desserts {
         padding-bottom: 0.5em;
-            p {
+            h2 {
                 border-bottom: solid $green;
                 border-width: 0.3em;
-                margin-right: 20em;
+                margin-right: 15em;
+                font-weight: lighter;
+                font-size: 1.3em;
+                padding-bottom: 0.3em;
             }
     }
     #alafrançaise__desserts--all {      
@@ -344,52 +308,36 @@
         padding-left: 0.5em;
         
         #alafrançaise__desserts--1 {
-            margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
                     animation: loading-menus 0.5s ease-in-out;
+            margin-top: 1em;
+            width: 20.5em;
             input {
                 @include fa-icon;
                 display: none;
                 &+label {
                     @include label-settings-menus;
-                    h3 {
-                        padding-right: 0em;  
-                        padding-bottom: 0.1rem;
+                    span.bold {
+                        padding: 0;  /*here the spans are used for templates, in case of need*/
                     }
-                    
-                    #alafrançaise__desserts--prix {
-                        padding-left: 7.2em;
-                        margin-top: 1.6em;
-                        h5 {
-                            margin-left: -2.5rem;
-                        }
-                        
-                    }
+                    span.normal {
+                        margin-left: 0.5em;
+                    }  
                 }
-                &:checked+label {
-                    @include checked-ok;
-                    #checked-font-place {
-                        margin-left: -3em;
+                &:checked+label { 
+                    @include checked-ok; 
+                    span.normal {
+                        margin-left: 0.5em;
                     }
-                    
-                    #alafrançaise__desserts--prix {
-                        padding-left: 5.8em;
-                        margin-top: 1.6em;
-                        margin-left: -1.5em;
-                        h5 {
-                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
-                            padding-right: 2em;
-                            margin-right: 2rem;
-                            -webkit-animation-name: price-animation--short;
-                                    animation-name: price-animation--short;
-                            -webkit-animation-duration: 1.5s;
-                                    animation-duration: 1.5s;
-                            transition: ease-out;
-                            z-index: 100;
-                            background: white;
-                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-                        } 
+                    span.price {
+                        margin-left: 14rem;
+                        padding-right: 2em;
+                        -webkit-animation-name: price-animation;
+                                animation-name: price-animation;
+                        -webkit-animation-duration: 2s;
+                                animation-duration: 2s;
+                        transition: ease-out;
                     }
                 }
             }
@@ -399,46 +347,36 @@
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
                     animation: loading-menus 0.5s ease-in-out;
+                    width: 20.5em;
             input {
                 @include fa-icon;
                 display: none;
                 &+label {
                     @include label-settings-menus;
-                    h3 {
-                        padding-right: 3em;  
+                    span.bold {
+                        padding: 0;  /*here the spans are used for templates, in case of need*/
                     }
-                    #alafrançaise__desserts--prix {
-                        padding-left: 6em;
-                        margin-top: 1.6em;
-                        h5 {
-                            margin-left: -1.5rem;
-                        }
-                        
+                    span.normal {
+                        margin-left: 0.51em;
+                    } 
+                    span.price {
+                        margin-left: 19.7em;
                     }
                 }
                 &:checked+label {
-                    @include checked-ok;
-                    #checked-font-place {
-                        margin-left: -1.7em;
+                    @include checked-ok; 
+                    span.normal {
+                        margin-left: 0.51em;
                     }
                     
-                    #alafrançaise__desserts--prix {
-                        padding-left: 5.9em;
-                        margin-top: 1.6em;
-                        margin-left: -1.9em;
-                        h5 {
-                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
-                            padding-right: 0.5em;
-                            margin-right: 2rem;
-                            -webkit-animation-name: price-animation--short;
-                                    animation-name: price-animation--short;
-                            -webkit-animation-duration: 1.5s;
-                                    animation-duration: 1.5s;
-                            transition: ease-out;
-                            z-index: 100;
-                            background: white;
-                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-                        } 
+                    span.price {
+                        margin-left: 14rem;
+                        padding-right: 2em;   /*mask the text ont some menus*/
+                        -webkit-animation-name: price-animation;
+                                animation-name: price-animation;
+                        -webkit-animation-duration: 2s;
+                                animation-duration: 2s;
+                        transition: ease-in-out;
                     }
                 }
             }
@@ -448,46 +386,38 @@
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
                     animation: loading-menus 0.5s ease-in-out;
+                    width: 20.5em;
             input {
                 @include fa-icon;
                 display: none;
                 &+label {
                     @include label-settings-menus;
-                    h3 {
-                        padding-right: 3em;  
+                    span.bold {
+                        padding: 0;  /*here the spans are used for templates, in case of need*/
                     }
-                    #alafrançaise__desserts--prix {
-                        padding-left: 5em;
-                        margin-top: 1.6em;
-                        h5 {
-                            margin-left: -1.5rem;
-                        }
+                    span.normal {
+                        margin-left: 0.5em;
+                        font-size: 0.95em;
                         
+                    } 
+                    span.price {
+                        margin-left: 19.7em;
                     }
                 }
                 &:checked+label {
-                    @include checked-ok;
-                    #checked-font-place {
-                        margin-left: -1.7em;
+                    @include checked-ok; 
+                    span.normal {
+                        margin-left: 0.5em;
+                        font-size: 0.95em;
                     }
-                    
-                    #alafrançaise__desserts--prix {
-                        padding-left: 4.8em;
-                        margin-top: 1.6em;
-                        margin-left: -1.9em;
-                        h5 {
-                            margin-left: -3.6rem;  /*to better understand the positionning i use the border solid*/
-                            padding-right: 0.5em;
-                            margin-right: 2rem;
-                            -webkit-animation-name: price-animation--short;
-                                    animation-name: price-animation--short;
-                            -webkit-animation-duration: 1.5s;
-                                    animation-duration: 1.5s;
-                            transition: ease-out;
-                            z-index: 100;
-                            background: white;
-                            padding-left: 0em;  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-                        } 
+                    span.price {
+                        margin-left: 14rem;
+                        padding-right: 2em;   /*mask the text ont some menus*/
+                        -webkit-animation-name: price-animation;
+                                animation-name: price-animation;
+                        -webkit-animation-duration: 2s;
+                                animation-duration: 2s;
+                        transition: ease-in-out;
                     }
                 }
             }

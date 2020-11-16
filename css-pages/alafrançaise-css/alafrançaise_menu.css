@@ -13,15 +13,15 @@
 footer #line2 h6::before,
 footer #line1 h6::before,
 #logo a::before,
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input:checked + label #checked-font-place::after,
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input:checked + label #checked-font-place::after,
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label #checked-font-place::after,
-#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label #checked-font-place::after,
-#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label #checked-font-place::after,
-#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label #checked-font-place::after,
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label #checked-font-place::after,
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label #checked-font-place::after,
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label #checked-font-place::after,
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input:checked + label span.green::after,
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input:checked + label span.green::after,
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label span.green::after,
+#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label span.green::after,
+#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label span.green::after,
+#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label span.green::after,
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label span.green::after,
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label span.green::after,
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label span.green::after,
 .far,
 #alafrançaise-image .overlay__menu--1 #alafrançaise__title input:checked + label::before,
 #alafrançaise-image .overlay__menu--1 #alafrançaise__title input + label::before,
@@ -132,15 +132,15 @@ footer #line1 h6::before,
 footer #line2 h6.fa-pull-left::before,
 footer #line1 h6.fa-pull-left::before,
 #logo a.fa-pull-left::before,
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input:checked + label span.fa-pull-left.green::after,
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input:checked + label span.fa-pull-left.green::after,
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label span.fa-pull-left.green::after,
+#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label span.fa-pull-left.green::after,
+#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label span.fa-pull-left.green::after,
+#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label span.fa-pull-left.green::after,
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label span.fa-pull-left.green::after,
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label span.fa-pull-left.green::after,
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label span.fa-pull-left.green::after,
 .far.fa-pull-left,
 #alafrançaise-image .overlay__menu--1 #alafrançaise__title input + label.fa-pull-left::before,
 .fal.fa-pull-left,
@@ -152,15 +152,15 @@ footer #line1 h6.fa-pull-left::before,
 footer #line2 h6.fa-pull-right::before,
 footer #line1 h6.fa-pull-right::before,
 #logo a.fa-pull-right::before,
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input:checked + label span.fa-pull-right.green::after,
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input:checked + label span.fa-pull-right.green::after,
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label span.fa-pull-right.green::after,
+#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label span.fa-pull-right.green::after,
+#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label span.fa-pull-right.green::after,
+#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label span.fa-pull-right.green::after,
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label span.fa-pull-right.green::after,
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label span.fa-pull-right.green::after,
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label span.fa-pull-right.green::after,
 .far.fa-pull-right,
 #alafrançaise-image .overlay__menu--1 #alafrançaise__title input + label.fa-pull-right::before,
 .fal.fa-pull-right,
@@ -6127,15 +6127,15 @@ readers do not read off random characters that represent icons */
 footer #line2 h6::before,
 footer #line1 h6::before,
 #logo a::before,
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input:checked + label #checked-font-place::after,
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input:checked + label #checked-font-place::after,
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label #checked-font-place::after,
-#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label #checked-font-place::after,
-#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label #checked-font-place::after,
-#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label #checked-font-place::after,
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label #checked-font-place::after,
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label #checked-font-place::after,
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label #checked-font-place::after {
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input:checked + label span.green::after,
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input:checked + label span.green::after,
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label span.green::after,
+#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label span.green::after,
+#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label span.green::after,
+#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label span.green::after,
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label span.green::after,
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label span.green::after,
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label span.green::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
@@ -6278,71 +6278,42 @@ footer #line1 h6::before,
     -webkit-text-fill-color: transparent;
   }
 }
-@-webkit-keyframes checked-background-translate--menu {
-  0% {
-    transform: translate(3em);
-  }
-}
-@keyframes checked-background-translate--menu {
-  0% {
-    transform: translate(2em);
-    transform-origin: 100% right;
-    transition: ease-out;
-  }
-}
-@-webkit-keyframes checked-ok-rotate--menu {
-  100% {
-    transform: rotate(2turn);
-    transition: ease-in-out;
-  }
-}
-@keyframes checked-ok-rotate--menu {
-  0% {
-    transition-delay: 2s;
-  }
-  100% {
-    transform: rotate(2turn);
-    transition: ease-in-out;
-  }
-}
 @-webkit-keyframes price-animation {
   0% {
-    padding-left: 9em;
-    transform: translate(-4em);
+    margin-left: 14rem;
+    transform: translate(2em);
   }
   100% {
-    margin-left: -5rem;
+    margin-left: 14rem;
   }
 }
 @keyframes price-animation {
   0% {
-    transform: translate(-3.5em);
+    margin-left: 14rem;
+    transform: translate(2em);
   }
   100% {
-    margin-left: -2.5rem;
+    margin-left: 14rem;
   }
 }
 @-webkit-keyframes price-animation--lenghty {
   0% {
-    padding-left: 9em;
+    margin-left: 11rem;
     transform: translate(2em);
     /*translate me permet de commencer l'animation à partir d'un certain niveau*/
-    padding: 0em 1em 0em 1em;
-    /*this padding is fo the overlay. I put it here for the "au cas où"*/
   }
   100% {
-    margin-left: -7.3rem;
-    padding: 0em 1em 0em 1em;
+    margin-left: 11rem;
   }
 }
 @keyframes price-animation--lenghty {
   0% {
-    transform: translate(1.5em);
+    margin-left: 11rem;
+    transform: translate(2em);
     /*translate me permet de commencer l'animation à partir d'un certain niveau*/
   }
   100% {
-    margin-left: -7.3rem;
-    /*with the z index no overlay needed*/
+    margin-left: 11rem;
   }
 }
 @-webkit-keyframes price-animation--large {
@@ -6365,20 +6336,55 @@ footer #line1 h6::before,
 }
 @-webkit-keyframes price-animation--short {
   0% {
-    padding-left: 1em;
-    transform: translate(2rem);
+    margin-left: 12.6rem;
+    transform: translate(2em);
   }
   100% {
-    margin-left: -1rem;
+    margin-left: 12.6rem;
   }
 }
 @keyframes price-animation--short {
   0% {
-    padding-left: 0em;
-    transform: translate(2.3rem);
+    margin-left: 12.6rem;
+    transform: translate(2em);
   }
   100% {
-    margin-left: -3.6rem;
+    margin-left: 12.6rem;
+  }
+}
+@-webkit-keyframes checked-background-translate--menu {
+  0% {
+    transform: translate(-2em);
+    transition: ease-in-out;
+  }
+  100% {
+    margin-left: 17em;
+    /*this remove the blur effect on the animation. the blur is caused by the calculation of the position, i think*/
+  }
+}
+@keyframes checked-background-translate--menu {
+  0% {
+    transform: translate(2em);
+    transition: ease-in-out;
+  }
+  100% {
+    margin-left: 17em;
+    /*this remove the blur effect on the animation. the blur is caused by the calculation of the position, i think*/
+  }
+}
+@-webkit-keyframes checked-ok-rotate--menu {
+  100% {
+    transform: rotate(2turn);
+    transition: ease-in-out;
+  }
+}
+@keyframes checked-ok-rotate--menu {
+  0% {
+    transition-delay: 2s;
+  }
+  100% {
+    transform: rotate(2turn);
+    transition: ease-in-out;
   }
 }
 @-webkit-keyframes loading-menus {
@@ -6484,10 +6490,13 @@ footer #line1 h6::before,
 #menu #alafrançaise__entrées {
   padding-bottom: 0.5em;
 }
-#menu #alafrançaise__entrées p {
+#menu #alafrançaise__entrées h2 {
   border-bottom: solid #99E2D0;
   border-width: 0.3em;
-  margin-right: 20em;
+  margin-right: 15em;
+  font-weight: lighter;
+  font-size: 1.3em;
+  padding-bottom: 0.3em;
 }
 #menu #alafrançaise__entrées--all {
   padding-bottom: 2em;
@@ -6497,7 +6506,8 @@ footer #line1 h6::before,
   padding-left: 0.5em;
 }
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--1 {
-  margin-top: 1em;
+  margin-top: 0.95em;
+  /*not 1em, for some reason there is a very small space betweel the green and he top of the div if i set margin to 1*/
   border-style: hidden;
   background-color: white;
   padding: 0.9em 0.5em 0.9em 0.5em;
@@ -6509,6 +6519,8 @@ footer #line1 h6::before,
   height: 3em;
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
+  width: 20.5em;
+  /*fixes a minor visual imperfection*/
 }
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input {
   -webkit-font-smoothing: antialiased;
@@ -6520,36 +6532,54 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input + label {
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input + label span.bold, #menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input + label span.bold {
+  width: 17em;
+  /*the width is here to harmonize all the animations*/
+  white-space: nowrap;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  padding-bottom: 2em;
+}
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input + label span.normal {
+  width: 17.5em;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+  font-size: 0.95em;
+}
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input + label span.price, #menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input + label span.green {
   display: flex;
   flex-direction: row;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input + label h3 {
-  white-space: nowrap;
-}
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input + label span.price {
+  position: absolute;
+  width: 3em;
+  margin-left: 19.5em;
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  font-weight: bold;
 }
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input + label:hover {
   cursor: pointer;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input + label h3 {
-  padding-right: 3.5em;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input + label span.bold {
+  padding: 0;
+  /*here the spans are used for templates, in case of need*/
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input + label #alafrançaise__entrées--prix {
-  padding-left: 3em;
-  margin-top: 1.6em;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input + label #alafrançaise__entrées--prix h5 {
-  margin-left: -1.5rem;
-}
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label #checked-font-place {
-  z-index: 95;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  width: 3em;
+  margin-left: 17em;
+  margin-top: -2.3em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -6559,8 +6589,9 @@ footer #line1 h6::before,
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   transition: ease-in-out;
+  z-index: 150;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label #checked-font-place::after {
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label span.green::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -6573,21 +6604,17 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label #checked-font-place {
-  margin-left: -1.7em;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label #alafrançaise__entrées--prix {
-  padding-left: 1em;
-  margin-top: 1.6em;
-}
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label #alafrançaise__entrées--prix h5 {
-  margin-left: -3.6rem;
-  padding-right: 0em;
-  -webkit-animation-name: price-animation--short;
-  animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--1 input:checked + label span.price {
+  margin-left: 14rem;
+  padding-right: 2em;
+  -webkit-animation-name: price-animation;
+  animation-name: price-animation;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
 }
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--2 {
   margin-top: 1em;
@@ -6602,6 +6629,7 @@ footer #line1 h6::before,
   height: 3em;
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
+  width: 20.5em;
 }
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input {
   -webkit-font-smoothing: antialiased;
@@ -6613,36 +6641,57 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label {
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label span.bold, #menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label span.bold {
+  width: 17em;
+  /*the width is here to harmonize all the animations*/
+  white-space: nowrap;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  padding-bottom: 2em;
+}
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label span.normal {
+  width: 17.5em;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+  font-size: 0.95em;
+}
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label span.price, #menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label span.green {
   display: flex;
   flex-direction: row;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label h3 {
-  white-space: nowrap;
-}
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label span.price {
+  position: absolute;
+  width: 3em;
+  margin-left: 19.5em;
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  font-weight: bold;
 }
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label:hover {
   cursor: pointer;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label h3 {
-  padding-right: 3.5em;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label span.bold {
+  padding: 0;
+  /*here the spans are used for templates, in case of need*/
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label #alafrançaise__entrées--prix {
-  padding-left: 1.8em;
-  margin-top: 1.6em;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label #alafrançaise__entrées--prix h5 {
-  margin-left: -1.5rem;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input + label span.price {
+  margin-left: 19.7em;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label #checked-font-place {
-  z-index: 95;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  width: 3em;
+  margin-left: 17em;
+  margin-top: -2.3em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -6652,8 +6701,9 @@ footer #line1 h6::before,
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   transition: ease-in-out;
+  z-index: 150;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label #checked-font-place::after {
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label span.green::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -6666,25 +6716,17 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label #checked-font-place {
-  margin-left: -1.5em;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label h3 {
-  padding-right: 3.2em;
-  /*this padding help me position the price*/
-}
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label #alafrançaise__entrées--prix {
-  padding-left: 0em;
-  margin-top: 1.6em;
-}
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label #alafrançaise__entrées--prix h5 {
-  margin-left: -3.6rem;
-  padding-right: 0em;
-  -webkit-animation-name: price-animation--short;
-  animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--2 input:checked + label span.price {
+  margin-left: 14rem;
+  padding-right: 1em;
+  -webkit-animation-name: price-animation;
+  animation-name: price-animation;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
 }
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 {
   margin-top: 1em;
@@ -6699,6 +6741,7 @@ footer #line1 h6::before,
   height: 3em;
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
+  width: 20.5em;
 }
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input {
   -webkit-font-smoothing: antialiased;
@@ -6710,36 +6753,57 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label {
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label span.bold, #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label span.bold {
+  width: 17em;
+  /*the width is here to harmonize all the animations*/
+  white-space: nowrap;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  padding-bottom: 2em;
+}
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label span.normal {
+  width: 17.5em;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+  font-size: 0.95em;
+}
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label span.price, #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label span.green {
   display: flex;
   flex-direction: row;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label h3 {
-  white-space: nowrap;
-}
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label span.price {
+  position: absolute;
+  width: 3em;
+  margin-left: 19.5em;
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  font-weight: bold;
 }
 #menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label:hover {
   cursor: pointer;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label h3 {
-  padding-right: 8.5em;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label span.bold {
+  padding: 0;
+  /*here the spans are used for templates, in case of need*/
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label #alafrançaise__entrées--prix {
-  padding-left: 1.8em;
-  margin-top: 1.6em;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label #alafrançaise__entrées--prix h5 {
-  margin-left: -1.5rem;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input + label span.price {
+  margin-left: 19.7em;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label #checked-font-place {
-  z-index: 95;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  width: 3em;
+  margin-left: 17em;
+  margin-top: -2.3em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -6749,8 +6813,9 @@ footer #line1 h6::before,
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   transition: ease-in-out;
+  z-index: 150;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label #checked-font-place::after {
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label span.green::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -6763,34 +6828,30 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label #checked-font-place {
-  margin-left: -1.5em;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label h3 {
-  padding-right: 8.2em;
-  /*this padding help me position the price*/
-}
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label #alafrançaise__entrées--prix {
-  padding-left: 0em;
-  margin-top: 1.6em;
-}
-#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label #alafrançaise__entrées--prix h5 {
-  margin-left: -3.6rem;
-  padding-right: 0em;
-  -webkit-animation-name: price-animation--short;
-  animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
+#menu #alafrançaise__entrées--all #alafrançaise__entrées--3 input:checked + label span.price {
+  margin-left: 14rem;
+  padding-right: 1.5em;
+  /*mask the text ont some menus*/
+  -webkit-animation-name: price-animation;
+  animation-name: price-animation;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
 }
 #menu #alafrançaise__plats {
   padding-bottom: 0.5em;
   /*distance between the last div and the desserts*/
 }
-#menu #alafrançaise__plats p {
+#menu #alafrançaise__plats h2 {
   border-bottom: solid #99E2D0;
   border-width: 0.3em;
-  margin-right: 20em;
+  margin-right: 15em;
+  font-weight: lighter;
+  font-size: 1.3em;
+  padding-bottom: 0.3em;
 }
 #menu #alafrançaise__plats--all {
   padding-bottom: 2em;
@@ -6800,7 +6861,8 @@ footer #line1 h6::before,
   padding-left: 0.5em;
 }
 #menu #alafrançaise__plats--all #alafrançaise__plats--1 {
-  margin-top: 1em;
+  margin-top: 0.95em;
+  /*not 1em, for some reason there is a very small space betweel the green and he top of the div if i set margin to 1*/
   border-style: hidden;
   background-color: white;
   padding: 0.9em 0.5em 0.9em 0.5em;
@@ -6812,6 +6874,7 @@ footer #line1 h6::before,
   height: 3em;
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
+  width: 20.5em;
 }
 #menu #alafrançaise__plats--all #alafrançaise__plats--1 input {
   -webkit-font-smoothing: antialiased;
@@ -6823,36 +6886,54 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--1 input + label {
+#menu #alafrançaise__plats--all #alafrançaise__plats--1 input + label span.bold, #menu #alafrançaise__plats--all #alafrançaise__plats--1 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
+#menu #alafrançaise__plats--all #alafrançaise__plats--1 input + label span.bold {
+  width: 17em;
+  /*the width is here to harmonize all the animations*/
+  white-space: nowrap;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  padding-bottom: 2em;
+}
+#menu #alafrançaise__plats--all #alafrançaise__plats--1 input + label span.normal {
+  width: 17.5em;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+  font-size: 0.95em;
+}
+#menu #alafrançaise__plats--all #alafrançaise__plats--1 input + label span.price, #menu #alafrançaise__plats--all #alafrançaise__plats--1 input + label span.green {
   display: flex;
   flex-direction: row;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--1 input + label h3 {
-  white-space: nowrap;
-}
-#menu #alafrançaise__plats--all #alafrançaise__plats--1 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
+#menu #alafrançaise__plats--all #alafrançaise__plats--1 input + label span.price {
+  position: absolute;
+  width: 3em;
+  margin-left: 19.5em;
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  font-weight: bold;
 }
 #menu #alafrançaise__plats--all #alafrançaise__plats--1 input + label:hover {
   cursor: pointer;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--1 input + label h3 {
-  padding-right: 6.6em;
+#menu #alafrançaise__plats--all #alafrançaise__plats--1 input + label span.bold {
+  padding: 0;
+  /*here the spans are used for templates, in case of need*/
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--1 input + label #alafrançaise__plats--prix {
-  padding-left: 0em;
-  margin-top: 1.6em;
+#menu #alafrançaise__plats--all #alafrançaise__plats--1 input + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--1 input + label #alafrançaise__plats--prix h5 {
-  margin-left: -1.5rem;
-}
-#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label #checked-font-place {
-  z-index: 95;
+#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  width: 3em;
+  margin-left: 17em;
+  margin-top: -2.3em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -6862,8 +6943,9 @@ footer #line1 h6::before,
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   transition: ease-in-out;
+  z-index: 150;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label #checked-font-place::after {
+#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label span.green::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -6876,39 +6958,30 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label #checked-font-place {
-  margin-left: -3.2em;
+#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label h3 {
-  padding-right: 0em;
-  padding-bottom: 0.08em;
-}
-#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label #alafrançaise__plats--prix {
-  padding-left: 2.3em;
-  margin-top: 1.6em;
-  margin-left: -1.9em;
-}
-#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label #alafrançaise__plats--prix h5 {
-  margin-left: -3.6rem;
-  /*to better understand the positionning i use the border solid*/
+#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label span.price {
+  margin-left: 12.6rem;
   padding-right: 2em;
-  margin-right: 2rem;
   -webkit-animation-name: price-animation--short;
   animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
   z-index: 100;
   background: white;
-  padding-left: 0em;
-  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label #alafrançaise__plats--prix h5:before {
+#menu #alafrançaise__plats--all #alafrançaise__plats--1 input:checked + label span.price::before {
   content: "...";
-  padding-right: 0.7em;
+  padding-right: 0.5em;
+  z-index: 95;
+  background: white;
+  margin-left: -0.2em;
 }
 #menu #alafrançaise__plats--all #alafrançaise__plats--2 {
-  margin-top: 1em;
+  margin-top: 0.9em;
+  /*here too, something is strange with the distance*/
   border-style: hidden;
   background-color: white;
   padding: 0.9em 0.5em 0.9em 0.5em;
@@ -6920,6 +6993,7 @@ footer #line1 h6::before,
   height: 3em;
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
+  width: 20.5em;
 }
 #menu #alafrançaise__plats--all #alafrançaise__plats--2 input {
   -webkit-font-smoothing: antialiased;
@@ -6931,36 +7005,57 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label {
+#menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label span.bold, #menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
+#menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label span.bold {
+  width: 17em;
+  /*the width is here to harmonize all the animations*/
+  white-space: nowrap;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  padding-bottom: 2em;
+}
+#menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label span.normal {
+  width: 17.5em;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+  font-size: 0.95em;
+}
+#menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label span.price, #menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label span.green {
   display: flex;
   flex-direction: row;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label h3 {
-  white-space: nowrap;
-}
-#menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
+#menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label span.price {
+  position: absolute;
+  width: 3em;
+  margin-left: 19.5em;
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  font-weight: bold;
 }
 #menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label:hover {
   cursor: pointer;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label h3 {
-  padding-right: 1em;
+#menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label span.bold {
+  padding: 0;
+  /*here the spans are used for templates, in case of need*/
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label #alafrançaise__plats--prix {
-  padding-left: 4.5em;
-  margin-top: 1.6em;
+#menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label span.normal {
+  margin-left: 0.53em;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label #alafrançaise__plats--prix h5 {
-  margin-left: -1.5rem;
+#menu #alafrançaise__plats--all #alafrançaise__plats--2 input + label span.price {
+  margin-left: 19.7em;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label #checked-font-place {
-  z-index: 95;
+#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  width: 3em;
+  margin-left: 17em;
+  margin-top: -2.3em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -6970,8 +7065,9 @@ footer #line1 h6::before,
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   transition: ease-in-out;
+  z-index: 150;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label #checked-font-place::after {
+#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label span.green::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -6984,32 +7080,27 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label #checked-font-place {
-  margin-left: -1.7em;
+#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label span.normal {
+  margin-left: 0.53em;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label #alafrançaise__plats--prix {
-  padding-left: 3.3em;
-  margin-top: 1.6em;
-  margin-left: -1.9em;
-}
-#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label #alafrançaise__plats--prix h5 {
-  margin-left: -3.6rem;
-  /*to better understand the positionning i use the border solid*/
-  padding-right: 0.5em;
-  margin-right: 2rem;
+#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label span.price {
+  margin-left: 12.6rem;
+  padding-right: 1em;
+  /*mask the text ont some menus*/
   -webkit-animation-name: price-animation--short;
   animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
   z-index: 100;
   background: white;
-  padding-left: 0em;
-  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label #alafrançaise__plats--prix h5:before {
+#menu #alafrançaise__plats--all #alafrançaise__plats--2 input:checked + label span.price::before {
   content: "...";
-  padding-right: 0.7em;
+  padding-right: 0.5em;
+  z-index: 95;
+  background: white;
+  margin-left: -0.4em;
 }
 #menu #alafrançaise__plats--all #alafrançaise__plats--3 {
   margin-top: 1em;
@@ -7024,6 +7115,7 @@ footer #line1 h6::before,
   height: 3em;
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
+  width: 20.5em;
 }
 #menu #alafrançaise__plats--all #alafrançaise__plats--3 input {
   -webkit-font-smoothing: antialiased;
@@ -7035,36 +7127,54 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label {
+#menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label span.bold, #menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
+#menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label span.bold {
+  width: 17em;
+  /*the width is here to harmonize all the animations*/
+  white-space: nowrap;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  padding-bottom: 2em;
+}
+#menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label span.normal {
+  width: 17.5em;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+  font-size: 0.95em;
+}
+#menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label span.price, #menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label span.green {
   display: flex;
   flex-direction: row;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label h3 {
-  white-space: nowrap;
-}
-#menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
+#menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label span.price {
+  position: absolute;
+  width: 3em;
+  margin-left: 19.5em;
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  font-weight: bold;
 }
 #menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label:hover {
   cursor: pointer;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label h3 {
-  padding-right: 1em;
+#menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label span.bold {
+  padding: 0;
+  /*here the spans are used for templates, in case of need*/
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label #alafrançaise__plats--prix {
-  padding-left: 4.5em;
-  margin-top: 1.6em;
+#menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--3 input + label #alafrançaise__plats--prix h5 {
-  margin-left: -1.5rem;
-}
-#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label #checked-font-place {
-  z-index: 95;
+#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  width: 3em;
+  margin-left: 17em;
+  margin-top: -2.3em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -7074,8 +7184,9 @@ footer #line1 h6::before,
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   transition: ease-in-out;
+  z-index: 150;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label #checked-font-place::after {
+#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label span.green::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -7088,40 +7199,37 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label #checked-font-place {
-  margin-left: -1.7em;
+#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label #alafrançaise__plats--prix {
-  padding-left: 3em;
-  margin-top: 1.6em;
-  margin-left: -1.9em;
-}
-#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label #alafrançaise__plats--prix h5 {
-  margin-left: -3.6rem;
-  /*to better understand the positionning i use the border solid*/
-  padding-right: 0.5em;
-  margin-right: 2rem;
+#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label span.price {
+  margin-left: 12.6rem;
+  padding-right: 2em;
   -webkit-animation-name: price-animation--short;
   animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   transition: ease-out;
   z-index: 100;
   background: white;
-  padding-left: 0em;
-  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
 }
-#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label #alafrançaise__plats--prix h5:before {
+#menu #alafrançaise__plats--all #alafrançaise__plats--3 input:checked + label span.price::before {
   content: "...";
-  padding-right: 0.7em;
+  padding-right: 0.5em;
+  z-index: 95;
+  background: white;
+  margin-left: -0.35em;
 }
 #menu #alafrançaise__desserts {
   padding-bottom: 0.5em;
 }
-#menu #alafrançaise__desserts p {
+#menu #alafrançaise__desserts h2 {
   border-bottom: solid #99E2D0;
   border-width: 0.3em;
-  margin-right: 20em;
+  margin-right: 15em;
+  font-weight: lighter;
+  font-size: 1.3em;
+  padding-bottom: 0.3em;
 }
 #menu #alafrançaise__desserts--all {
   padding-bottom: 3em;
@@ -7131,7 +7239,6 @@ footer #line1 h6::before,
   padding-left: 0.5em;
 }
 #menu #alafrançaise__desserts--all #alafrançaise__desserts--1 {
-  margin-top: 1em;
   border-style: hidden;
   background-color: white;
   padding: 0.9em 0.5em 0.9em 0.5em;
@@ -7143,6 +7250,8 @@ footer #line1 h6::before,
   height: 3em;
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
+  margin-top: 1em;
+  width: 20.5em;
 }
 #menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input {
   -webkit-font-smoothing: antialiased;
@@ -7154,37 +7263,54 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label {
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label span.bold, #menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label span.bold {
+  width: 17em;
+  /*the width is here to harmonize all the animations*/
+  white-space: nowrap;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  padding-bottom: 2em;
+}
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label span.normal {
+  width: 17.5em;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+  font-size: 0.95em;
+}
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label span.price, #menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label span.green {
   display: flex;
   flex-direction: row;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label h3 {
-  white-space: nowrap;
-}
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label span.price {
+  position: absolute;
+  width: 3em;
+  margin-left: 19.5em;
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  font-weight: bold;
 }
 #menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label:hover {
   cursor: pointer;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label h3 {
-  padding-right: 0em;
-  padding-bottom: 0.1rem;
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label span.bold {
+  padding: 0;
+  /*here the spans are used for templates, in case of need*/
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label #alafrançaise__desserts--prix {
-  padding-left: 7.2em;
-  margin-top: 1.6em;
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input + label #alafrançaise__desserts--prix h5 {
-  margin-left: -2.5rem;
-}
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label #checked-font-place {
-  z-index: 95;
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  width: 3em;
+  margin-left: 17em;
+  margin-top: -2.3em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -7194,8 +7320,9 @@ footer #line1 h6::before,
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   transition: ease-in-out;
+  z-index: 150;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label #checked-font-place::after {
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label span.green::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -7208,28 +7335,17 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label #checked-font-place {
-  margin-left: -3em;
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label #alafrançaise__desserts--prix {
-  padding-left: 5.8em;
-  margin-top: 1.6em;
-  margin-left: -1.5em;
-}
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label #alafrançaise__desserts--prix h5 {
-  margin-left: -3.6rem;
-  /*to better understand the positionning i use the border solid*/
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--1 input:checked + label span.price {
+  margin-left: 14rem;
   padding-right: 2em;
-  margin-right: 2rem;
-  -webkit-animation-name: price-animation--short;
-  animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
+  -webkit-animation-name: price-animation;
+  animation-name: price-animation;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   transition: ease-out;
-  z-index: 100;
-  background: white;
-  padding-left: 0em;
-  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
 }
 #menu #alafrançaise__desserts--all #alafrançaise__desserts--2 {
   margin-top: 1em;
@@ -7244,6 +7360,7 @@ footer #line1 h6::before,
   height: 3em;
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
+  width: 20.5em;
 }
 #menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input {
   -webkit-font-smoothing: antialiased;
@@ -7255,36 +7372,57 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label {
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label span.bold, #menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label span.bold {
+  width: 17em;
+  /*the width is here to harmonize all the animations*/
+  white-space: nowrap;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  padding-bottom: 2em;
+}
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label span.normal {
+  width: 17.5em;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+  font-size: 0.95em;
+}
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label span.price, #menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label span.green {
   display: flex;
   flex-direction: row;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label h3 {
-  white-space: nowrap;
-}
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label span.price {
+  position: absolute;
+  width: 3em;
+  margin-left: 19.5em;
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  font-weight: bold;
 }
 #menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label:hover {
   cursor: pointer;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label h3 {
-  padding-right: 3em;
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label span.bold {
+  padding: 0;
+  /*here the spans are used for templates, in case of need*/
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label #alafrançaise__desserts--prix {
-  padding-left: 6em;
-  margin-top: 1.6em;
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label span.normal {
+  margin-left: 0.51em;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label #alafrançaise__desserts--prix h5 {
-  margin-left: -1.5rem;
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input + label span.price {
+  margin-left: 19.7em;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input:checked + label #checked-font-place {
-  z-index: 95;
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  width: 3em;
+  margin-left: 17em;
+  margin-top: -2.3em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -7294,8 +7432,9 @@ footer #line1 h6::before,
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   transition: ease-in-out;
+  z-index: 150;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input:checked + label #checked-font-place::after {
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input:checked + label span.green::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -7308,28 +7447,18 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input:checked + label #checked-font-place {
-  margin-left: -1.7em;
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input:checked + label span.normal {
+  margin-left: 0.51em;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input:checked + label #alafrançaise__desserts--prix {
-  padding-left: 5.9em;
-  margin-top: 1.6em;
-  margin-left: -1.9em;
-}
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input:checked + label #alafrançaise__desserts--prix h5 {
-  margin-left: -3.6rem;
-  /*to better understand the positionning i use the border solid*/
-  padding-right: 0.5em;
-  margin-right: 2rem;
-  -webkit-animation-name: price-animation--short;
-  animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
-  z-index: 100;
-  background: white;
-  padding-left: 0em;
-  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--2 input:checked + label span.price {
+  margin-left: 14rem;
+  padding-right: 2em;
+  /*mask the text ont some menus*/
+  -webkit-animation-name: price-animation;
+  animation-name: price-animation;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
 }
 #menu #alafrançaise__desserts--all #alafrançaise__desserts--3 {
   margin-top: 1em;
@@ -7344,6 +7473,7 @@ footer #line1 h6::before,
   height: 3em;
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
+  width: 20.5em;
 }
 #menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input {
   -webkit-font-smoothing: antialiased;
@@ -7355,36 +7485,58 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label {
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label span.bold, #menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label span.bold {
+  width: 17em;
+  /*the width is here to harmonize all the animations*/
+  white-space: nowrap;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  padding-bottom: 2em;
+}
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label span.normal {
+  width: 17.5em;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+  font-size: 0.95em;
+}
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label span.price, #menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label span.green {
   display: flex;
   flex-direction: row;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label h3 {
-  white-space: nowrap;
-}
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label span.price {
+  position: absolute;
+  width: 3em;
+  margin-left: 19.5em;
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  font-weight: bold;
 }
 #menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label:hover {
   cursor: pointer;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label h3 {
-  padding-right: 3em;
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label span.bold {
+  padding: 0;
+  /*here the spans are used for templates, in case of need*/
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label #alafrançaise__desserts--prix {
-  padding-left: 5em;
-  margin-top: 1.6em;
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label span.normal {
+  margin-left: 0.5em;
+  font-size: 0.95em;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label #alafrançaise__desserts--prix h5 {
-  margin-left: -1.5rem;
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input + label span.price {
+  margin-left: 19.7em;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input:checked + label #checked-font-place {
-  z-index: 95;
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  width: 3em;
+  margin-left: 17em;
+  margin-top: -2.3em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -7394,8 +7546,9 @@ footer #line1 h6::before,
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   transition: ease-in-out;
+  z-index: 150;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input:checked + label #checked-font-place::after {
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input:checked + label span.green::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -7408,28 +7561,19 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input:checked + label #checked-font-place {
-  margin-left: -1.7em;
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input:checked + label span.normal {
+  margin-left: 0.5em;
+  font-size: 0.95em;
 }
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input:checked + label #alafrançaise__desserts--prix {
-  padding-left: 4.8em;
-  margin-top: 1.6em;
-  margin-left: -1.9em;
-}
-#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input:checked + label #alafrançaise__desserts--prix h5 {
-  margin-left: -3.6rem;
-  /*to better understand the positionning i use the border solid*/
-  padding-right: 0.5em;
-  margin-right: 2rem;
-  -webkit-animation-name: price-animation--short;
-  animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
-  z-index: 100;
-  background: white;
-  padding-left: 0em;
-  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+#menu #alafrançaise__desserts--all #alafrançaise__desserts--3 input:checked + label span.price {
+  margin-left: 14rem;
+  padding-right: 2em;
+  /*mask the text ont some menus*/
+  -webkit-animation-name: price-animation;
+  animation-name: price-animation;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
 }
 #menu .button-pink--large {
   padding-bottom: 5em;

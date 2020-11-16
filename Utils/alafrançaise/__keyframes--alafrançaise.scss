@@ -94,76 +94,40 @@
         -webkit-text-fill-color: transparent;
     }
 }
-@-webkit-keyframes checked-background-translate--menu {
-    0% {
-        transform: translate(3em);
-    }
-}
-@keyframes checked-background-translate--menu {
-    0% {
-        transform: translate(2em);
-        transform-origin: 100% right;
-        transition: ease-out;
-    }
-}
-@-webkit-keyframes checked-ok-rotate--menu {
-    0% {
-        
-    }
-    100%{
-        transform: rotate(2turn);
-        transition: ease-in-out;
-    }
-}
-@keyframes checked-ok-rotate--menu {
-    0% {
-        transition-delay: 2s;
-    }
-    100%{
-        transform: rotate(2turn);
-        transition: ease-in-out;
-        
-    }
-}
 @-webkit-keyframes price-animation {
     0% {
-        padding-left: 9em;
-        transform: translate(-4em);
+        margin-left: 14rem;
+        transform: translate(2em);
     }
     100% {
-        margin-left: -5rem
+        margin-left: 14rem;
     }
 }
 @keyframes price-animation {
     0% {
-        
-        transform: translate(-3.5em);
+        margin-left: 14rem;
+        transform: translate(2em);
     }
     100% {
-        margin-left: -2.5rem
+        margin-left: 14rem;
     }
 }
 @-webkit-keyframes price-animation--lenghty {
     0% {
-        padding-left: 9em;         
-        transform: translate(2em); /*translate me permet de commencer l'animation à partir d'un certain niveau*/
-        padding: 0em 1em 0em 1em;  /*this padding is fo the overlay. I put it here for the "au cas où"*/
+        margin-left: 11rem;
+        transform: translate(2em);   /*translate me permet de commencer l'animation à partir d'un certain niveau*/
     }
     100% {
-        margin-left: -7.3rem;
-        padding: 0em 1em 0em 1em;
+        margin-left: 11rem;
     }
 }
 @keyframes price-animation--lenghty {
     0% {
-                   
-        transform: translate(1.5em); /*translate me permet de commencer l'animation à partir d'un certain niveau*/
-        
+        margin-left: 11rem;
+        transform: translate(2em);   /*translate me permet de commencer l'animation à partir d'un certain niveau*/
     }
     100% {
-        margin-left: -7.3rem;
-        /*with the z index no overlay needed*/
-        
+        margin-left: 11rem;
     }
 }
 @-webkit-keyframes price-animation--large {
@@ -188,21 +152,59 @@
 }
 @-webkit-keyframes price-animation--short {
     0% {
-        padding-left: 1em;
-        transform: translate(2rem);
+        margin-left: 12.6rem;
+        transform: translate(2em);
     }
-    
     100% {
-        margin-left: -1rem;
+        margin-left: 12.6rem;
     }
 }
 @keyframes price-animation--short {
     0% {
-        padding-left: 0em;
-        transform: translate(2.3rem);
+        margin-left: 12.6rem;
+        transform: translate(2em);
     }
     100% {
-        margin-left: -3.6rem;
+        margin-left: 12.6rem;
+    }
+}
+
+@-webkit-keyframes checked-background-translate--menu {
+    0% {
+        transform: translate(-2em);
+        transition: ease-in-out;
+    }
+    100% {
+        margin-left: 17em;     /*this remove the blur effect on the animation. the blur is caused by the calculation of the position, i think*/
+        
+    } 
+}
+@keyframes checked-background-translate--menu {
+    0% {
+        transform: translate(2em);
+        transition: ease-in-out;
+    }
+    100% {
+        margin-left: 17em;     /*this remove the blur effect on the animation. the blur is caused by the calculation of the position, i think*/
+    }
+}
+@-webkit-keyframes checked-ok-rotate--menu {
+    0% {
+        
+    }
+    100%{
+        transform: rotate(2turn);
+        transition: ease-in-out;
+    }
+}
+@keyframes checked-ok-rotate--menu {
+    0% {
+        transition-delay: 2s;
+    }
+    100%{
+        transform: rotate(2turn);
+        transition: ease-in-out;
+        
     }
 }
 @-webkit-keyframes loading-menus {

@@ -6553,6 +6553,7 @@ footer #line1 h6::before,
   width: 3em;
   margin-left: 18em;
   margin-top: 0.7em;
+  font-weight: bold;
 }
 #menu #palette__entrées--all #palette__entrées--1 input + label:hover {
   cursor: pointer;
@@ -6658,6 +6659,7 @@ footer #line1 h6::before,
   width: 3em;
   margin-left: 18em;
   margin-top: 0.7em;
+  font-weight: bold;
 }
 #menu #palette__entrées--all #palette__entrées--2 input + label:hover {
   cursor: pointer;
@@ -6772,6 +6774,7 @@ footer #line1 h6::before,
   width: 3em;
   margin-left: 18em;
   margin-top: 0.7em;
+  font-weight: bold;
 }
 #menu #palette__entrées--all #palette__entrées--3 input + label:hover {
   cursor: pointer;
@@ -6907,6 +6910,7 @@ footer #line1 h6::before,
   width: 3em;
   margin-left: 18em;
   margin-top: 0.7em;
+  font-weight: bold;
 }
 #menu #palette__plats--all #palette__plats--1 input + label:hover {
   cursor: pointer;
@@ -7024,6 +7028,7 @@ footer #line1 h6::before,
   width: 3em;
   margin-left: 18em;
   margin-top: 0.7em;
+  font-weight: bold;
 }
 #menu #palette__plats--all #palette__plats--2 input + label:hover {
   cursor: pointer;
@@ -7139,6 +7144,7 @@ footer #line1 h6::before,
   width: 3em;
   margin-left: 18em;
   margin-top: 0.7em;
+  font-weight: bold;
 }
 #menu #palette__plats--all #palette__plats--3 input + label:hover {
   cursor: pointer;
@@ -7262,6 +7268,7 @@ footer #line1 h6::before,
   width: 3em;
   margin-left: 18em;
   margin-top: 0.7em;
+  font-weight: bold;
 }
 #menu #palette__desserts--all #palette__desserts--1 input + label:hover {
   cursor: pointer;
@@ -7367,6 +7374,7 @@ footer #line1 h6::before,
   width: 3em;
   margin-left: 18em;
   margin-top: 0.7em;
+  font-weight: bold;
 }
 #menu #palette__desserts--all #palette__desserts--2 input + label:hover {
   cursor: pointer;
@@ -7495,6 +7503,7 @@ footer #line1 h6::before,
   width: 3em;
   margin-left: 18em;
   margin-top: 0.7em;
+  font-weight: bold;
 }
 #menu #palette__desserts--all #palette__desserts--3 input + label:hover {
   cursor: pointer;
