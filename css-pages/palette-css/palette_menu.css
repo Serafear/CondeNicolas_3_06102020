@@ -22,15 +22,6 @@ footer #line1 h6::before,
 #menu #palette__entrées--all #palette__entrées--3 input:checked + label span.green::after,
 #menu #palette__entrées--all #palette__entrées--2 input:checked + label span.green::after,
 #menu #palette__entrées--all #palette__entrées--1 input:checked + label span.green::after,
-#menu #palette__desserts--all #palette__desserts--3 input:checked + label #checked-font-place::after,
-#menu #palette__desserts--all #palette__desserts--2 input:checked + label #checked-font-place::after,
-#menu #palette__desserts--all #palette__desserts--1 input:checked + label #checked-font-place::after,
-#menu #palette__plats--all #palette__plats--3 input:checked + label #checked-font-place::after,
-#menu #palette__plats--all #palette__plats--2 input:checked + label #checked-font-place::after,
-#menu #palette__plats--all #palette__plats--1 input:checked + label #checked-font-place::after,
-#menu #palette__entrées--all #palette__entrées--3 input:checked + label #checked-font-place::after,
-#menu #palette__entrées--all #palette__entrées--2 input:checked + label #checked-font-place::after,
-#menu #palette__entrées--all #palette__entrées--1 input:checked + label #checked-font-place::after,
 .far,
 #palette-image .overlay__menu--1 #palette__title input:checked + label::before,
 #palette-image .overlay__menu--1 #palette__title input + label::before,
@@ -150,15 +141,6 @@ footer #line1 h6.fa-pull-left::before,
 #menu #palette__entrées--all #palette__entrées--3 input:checked + label span.fa-pull-left.green::after,
 #menu #palette__entrées--all #palette__entrées--2 input:checked + label span.fa-pull-left.green::after,
 #menu #palette__entrées--all #palette__entrées--1 input:checked + label span.fa-pull-left.green::after,
-#menu #palette__desserts--all #palette__desserts--3 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #palette__desserts--all #palette__desserts--2 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #palette__desserts--all #palette__desserts--1 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #palette__plats--all #palette__plats--3 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #palette__plats--all #palette__plats--2 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #palette__plats--all #palette__plats--1 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #palette__entrées--all #palette__entrées--3 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #palette__entrées--all #palette__entrées--2 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #palette__entrées--all #palette__entrées--1 input:checked + label .fa-pull-left#checked-font-place::after,
 .far.fa-pull-left,
 #palette-image .overlay__menu--1 #palette__title input + label.fa-pull-left::before,
 .fal.fa-pull-left,
@@ -179,15 +161,6 @@ footer #line1 h6.fa-pull-right::before,
 #menu #palette__entrées--all #palette__entrées--3 input:checked + label span.fa-pull-right.green::after,
 #menu #palette__entrées--all #palette__entrées--2 input:checked + label span.fa-pull-right.green::after,
 #menu #palette__entrées--all #palette__entrées--1 input:checked + label span.fa-pull-right.green::after,
-#menu #palette__desserts--all #palette__desserts--3 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #palette__desserts--all #palette__desserts--2 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #palette__desserts--all #palette__desserts--1 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #palette__plats--all #palette__plats--3 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #palette__plats--all #palette__plats--2 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #palette__plats--all #palette__plats--1 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #palette__entrées--all #palette__entrées--3 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #palette__entrées--all #palette__entrées--2 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #palette__entrées--all #palette__entrées--1 input:checked + label .fa-pull-right#checked-font-place::after,
 .far.fa-pull-right,
 #palette-image .overlay__menu--1 #palette__title input + label.fa-pull-right::before,
 .fal.fa-pull-right,
@@ -6162,16 +6135,7 @@ footer #line1 h6::before,
 #menu #palette__plats--all #palette__plats--1 input:checked + label span.green::after,
 #menu #palette__entrées--all #palette__entrées--3 input:checked + label span.green::after,
 #menu #palette__entrées--all #palette__entrées--2 input:checked + label span.green::after,
-#menu #palette__entrées--all #palette__entrées--1 input:checked + label span.green::after,
-#menu #palette__desserts--all #palette__desserts--3 input:checked + label #checked-font-place::after,
-#menu #palette__desserts--all #palette__desserts--2 input:checked + label #checked-font-place::after,
-#menu #palette__desserts--all #palette__desserts--1 input:checked + label #checked-font-place::after,
-#menu #palette__plats--all #palette__plats--3 input:checked + label #checked-font-place::after,
-#menu #palette__plats--all #palette__plats--2 input:checked + label #checked-font-place::after,
-#menu #palette__plats--all #palette__plats--1 input:checked + label #checked-font-place::after,
-#menu #palette__entrées--all #palette__entrées--3 input:checked + label #checked-font-place::after,
-#menu #palette__entrées--all #palette__entrées--2 input:checked + label #checked-font-place::after,
-#menu #palette__entrées--all #palette__entrées--1 input:checked + label #checked-font-place::after {
+#menu #palette__entrées--all #palette__entrées--1 input:checked + label span.green::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
@@ -6314,63 +6278,31 @@ footer #line1 h6::before,
     -webkit-text-fill-color: transparent;
   }
 }
-@-webkit-keyframes checked-background-translate--menu {
-  0% {
-    transform: translate(3em);
-  }
-}
-@keyframes checked-background-translate--menu {
-  0% {
-    transform: translate(2em);
-    transform-origin: 100% right;
-    transition: ease-out;
-  }
-}
-@-webkit-keyframes checked-ok-rotate--menu {
-  100% {
-    transform: rotate(2turn);
-    transition: ease-in-out;
-  }
-}
-@keyframes checked-ok-rotate--menu {
-  0% {
-    transition-delay: 2s;
-  }
-  100% {
-    transform: rotate(2turn);
-    transition: ease-in-out;
-  }
-}
 @-webkit-keyframes price-animation {
   0% {
-    padding-left: 9em;
-    transform: translate(-4em);
+    margin-left: 14rem;
+    transform: translate(2em);
   }
   100% {
-    margin-left: -5rem;
+    margin-left: 14rem;
   }
 }
 @keyframes price-animation {
   0% {
-    padding-left: 9em;
-    transform: translate(-4em);
+    margin-left: 14rem;
+    transform: translate(2em);
   }
   100% {
-    margin-left: -5rem;
+    margin-left: 14rem;
   }
 }
 @-webkit-keyframes price-animation--lenghty {
   0% {
-    padding-left: 9em;
-    /*why did i put that here ?*/
-    transform: translate(2em);
+    transform: translate(2.5rem);
     /*translate me permet de commencer l'animation à partir d'un certain niveau*/
-    padding: 0em 1em 0em 1em;
-    /*this padding is fo the overlay. I put it here for the "au cas où"*/
   }
   100% {
     margin-left: -7.3rem;
-    padding: 0em 1em 0em 1em;
   }
 }
 @keyframes price-animation--lenghty {
@@ -6402,20 +6334,55 @@ footer #line1 h6::before,
 }
 @-webkit-keyframes price-animation--short {
   0% {
-    padding-left: 1em;
-    transform: translate(2rem);
+    margin-left: 12.6rem;
+    transform: translate(2em);
   }
   100% {
-    margin-left: -1rem;
+    margin-left: 12.6rem;
   }
 }
 @keyframes price-animation--short {
   0% {
-    padding-left: 1em;
-    transform: translate(2rem);
+    margin-left: 12.6rem;
+    transform: translate(2em);
   }
   100% {
-    margin-left: -1rem;
+    margin-left: 12.6rem;
+  }
+}
+@-webkit-keyframes checked-background-translate--menu {
+  0% {
+    transform: translate(-2em);
+    transition: ease-in-out;
+  }
+  100% {
+    margin-left: 17em;
+    /*this remove the blur effect on the animation. the blur is caused by the calculation of the position, i think*/
+  }
+}
+@keyframes checked-background-translate--menu {
+  0% {
+    transform: translate(2em);
+    transition: ease-in-out;
+  }
+  100% {
+    margin-left: 17em;
+    /*this remove the blur effect on the animation. the blur is caused by the calculation of the position, i think*/
+  }
+}
+@-webkit-keyframes checked-ok-rotate--menu {
+  100% {
+    transform: rotate(2turn);
+    transition: ease-in-out;
+  }
+}
+@keyframes checked-ok-rotate--menu {
+  0% {
+    transition-delay: 2s;
+  }
+  100% {
+    transform: rotate(2turn);
+    transition: ease-in-out;
   }
 }
 @-webkit-keyframes loading-menus {
@@ -6518,1067 +6485,6 @@ footer #line1 h6::before,
 #menu #palette__entrées {
   padding-bottom: 0.5em;
 }
-#menu #palette__entrées p {
-  border-bottom: solid #99E2D0;
-  border-width: 0.3em;
-  margin-right: 20em;
-}
-#menu #palette__entrées--all {
-  padding-bottom: 2em;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  height: 17em;
-  padding-left: 0.5em;
-}
-#menu #palette__entrées--all #palette__entrées--1 {
-  -webkit-animation: loading-menus 0.5s ease-in-out;
-  animation: loading-menus 0.5s ease-in-out;
-  margin-top: 1em;
-  border-style: hidden;
-  background-color: white;
-  padding: 0.9em 0.5em 0.9em 0.5em;
-  border-radius: 20px;
-  box-shadow: 0em 0em 0.6em -0.2em;
-  margin-right: 0.7em;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 3em;
-}
-#menu #palette__entrées--all #palette__entrées--1 input {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  display: none;
-}
-#menu #palette__entrées--all #palette__entrées--1 input + label {
-  display: flex;
-  flex-direction: row;
-}
-#menu #palette__entrées--all #palette__entrées--1 input + label h3 {
-  white-space: nowrap;
-}
-#menu #palette__entrées--all #palette__entrées--1 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
-}
-#menu #palette__entrées--all #palette__entrées--1 input + label:hover {
-  cursor: pointer;
-}
-#menu #palette__entrées--all #palette__entrées--1 input + label #palette__entrées--prix {
-  padding-left: 9em;
-  margin-top: 1.5em;
-}
-#menu #palette__entrées--all #palette__entrées--1 input + label #palette__entrées--prix h5 {
-  margin-left: -1em;
-}
-#menu #palette__entrées--all #palette__entrées--1 input:checked + label #checked-font-place {
-  background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
-  position: relative;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  -webkit-animation-name: checked-background-translate--menu;
-  animation-name: checked-background-translate--menu;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-in-out;
-  z-index: 95;
-}
-#menu #palette__entrées--all #palette__entrées--1 input:checked + label #checked-font-place::after {
-  content: "";
-  font-size: 2rem;
-  animation-name: checked-ok-rotate--menu;
-  -webkit-animation-name: checked-ok-rotate--menu;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: white;
-  justify-content: center;
-}
-#menu #palette__entrées--all #palette__entrées--1 input:checked + label #palette__entrées--prix {
-  padding-left: 9em;
-  margin-top: 1.5em;
-}
-#menu #palette__entrées--all #palette__entrées--1 input:checked + label #palette__entrées--prix h5 {
-  margin-left: -5rem;
-  padding-right: 0em;
-  -webkit-animation-name: price-animation;
-  animation-name: price-animation;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-out;
-}
-#menu #palette__entrées--all #palette__entrées--2 {
-  margin-top: 1em;
-  border-style: hidden;
-  background-color: white;
-  padding: 0.9em 0.5em 0.9em 0.5em;
-  border-radius: 20px;
-  box-shadow: 0em 0em 0.6em -0.2em;
-  margin-right: 0.7em;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 3em;
-  -webkit-animation: loading-menus 0.5s ease-in-out;
-  animation: loading-menus 0.5s ease-in-out;
-}
-#menu #palette__entrées--all #palette__entrées--2 input {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  display: none;
-}
-#menu #palette__entrées--all #palette__entrées--2 input + label {
-  display: flex;
-  flex-direction: row;
-}
-#menu #palette__entrées--all #palette__entrées--2 input + label h3 {
-  white-space: nowrap;
-}
-#menu #palette__entrées--all #palette__entrées--2 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
-}
-#menu #palette__entrées--all #palette__entrées--2 input + label:hover {
-  cursor: pointer;
-}
-#menu #palette__entrées--all #palette__entrées--2 input + label #palette__entrées--prix {
-  padding-left: 5.6em;
-  margin-top: 1.5em;
-}
-#menu #palette__entrées--all #palette__entrées--2 input + label #palette__entrées--prix h5 {
-  margin-left: -1em;
-}
-#menu #palette__entrées--all #palette__entrées--2 input:checked + label #checked-font-place {
-  background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
-  position: relative;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  -webkit-animation-name: checked-background-translate--menu;
-  animation-name: checked-background-translate--menu;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-in-out;
-  z-index: 95;
-}
-#menu #palette__entrées--all #palette__entrées--2 input:checked + label #checked-font-place::after {
-  content: "";
-  font-size: 2rem;
-  animation-name: checked-ok-rotate--menu;
-  -webkit-animation-name: checked-ok-rotate--menu;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: white;
-  justify-content: center;
-}
-#menu #palette__entrées--all #palette__entrées--2 input:checked + label #palette__entrées--prix {
-  padding-left: 5.6em;
-  margin-top: 1.5em;
-}
-#menu #palette__entrées--all #palette__entrées--2 input:checked + label #palette__entrées--prix h5 {
-  margin-left: -5rem;
-  padding-right: 0em;
-  -webkit-animation-name: price-animation;
-  animation-name: price-animation;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-out;
-}
-#menu #palette__entrées--all #palette__entrées--3 {
-  margin-top: 1em;
-  border-style: hidden;
-  background-color: white;
-  padding: 0.9em 0.5em 0.9em 0.5em;
-  border-radius: 20px;
-  box-shadow: 0em 0em 0.6em -0.2em;
-  margin-right: 0.7em;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 3em;
-  -webkit-animation: loading-menus 0.5s ease-in-out;
-  animation: loading-menus 0.5s ease-in-out;
-}
-#menu #palette__entrées--all #palette__entrées--3 input {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  display: none;
-}
-#menu #palette__entrées--all #palette__entrées--3 input + label {
-  display: flex;
-  flex-direction: row;
-}
-#menu #palette__entrées--all #palette__entrées--3 input + label h3 {
-  white-space: nowrap;
-}
-#menu #palette__entrées--all #palette__entrées--3 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
-}
-#menu #palette__entrées--all #palette__entrées--3 input + label:hover {
-  cursor: pointer;
-}
-#menu #palette__entrées--all #palette__entrées--3 input + label #palette__entrées--prix {
-  padding-left: 3em;
-  margin-top: 1.5em;
-}
-#menu #palette__entrées--all #palette__entrées--3 input + label #palette__entrées--prix h5 {
-  margin-left: -1em;
-}
-#menu #palette__entrées--all #palette__entrées--3 input + label #palette__entrées--prix h5.overlay--1 {
-  margin-top: 0.1rem;
-}
-#menu #palette__entrées--all #palette__entrées--3 input:checked + label #checked-font-place {
-  background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
-  position: relative;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  -webkit-animation-name: checked-background-translate--menu;
-  animation-name: checked-background-translate--menu;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-in-out;
-  z-index: 95;
-}
-#menu #palette__entrées--all #palette__entrées--3 input:checked + label #checked-font-place::after {
-  content: "";
-  font-size: 2rem;
-  animation-name: checked-ok-rotate--menu;
-  -webkit-animation-name: checked-ok-rotate--menu;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: white;
-  justify-content: center;
-}
-#menu #palette__entrées--all #palette__entrées--3 input:checked + label #palette__entrées--prix {
-  padding-left: 3em;
-  margin-top: 1.5em;
-}
-#menu #palette__entrées--all #palette__entrées--3 input:checked + label #palette__entrées--prix h5.overlay--1 {
-  margin-top: 0.1rem;
-  margin-left: -7.3rem;
-  -webkit-animation-name: price-animation--lenghty;
-  animation-name: price-animation--lenghty;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-in;
-  background-color: white;
-  padding: 0em 0em 0em 1em;
-  transform-origin: right;
-}
-#menu #palette__entrées--all #palette__entrées--3 input:checked + label #palette__entrées--prix h5.overlay--1:before {
-  content: "...";
-  padding-right: 1em;
-}
-#menu #palette__plats {
-  padding-bottom: 0.5em;
-  /*distance between the last div and the desserts*/
-}
-#menu #palette__plats p {
-  border-bottom: solid #99E2D0;
-  border-width: 0.3em;
-  margin-right: 20em;
-}
-#menu #palette__plats--all {
-  padding-bottom: 2em;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  height: 17.5em;
-  padding-left: 0.5em;
-}
-#menu #palette__plats--all #palette__plats--1 {
-  border-style: hidden;
-  background-color: white;
-  padding: 0.9em 0.5em 0.9em 0.5em;
-  border-radius: 20px;
-  box-shadow: 0em 0em 0.6em -0.2em;
-  margin-right: 0.7em;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 3em;
-  height: 3.5em;
-  -webkit-animation: loading-menus 0.5s ease-in-out;
-  animation: loading-menus 0.5s ease-in-out;
-  margin-top: 1em;
-}
-#menu #palette__plats--all #palette__plats--1 input {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  display: none;
-}
-#menu #palette__plats--all #palette__plats--1 input + label {
-  display: flex;
-  flex-direction: row;
-}
-#menu #palette__plats--all #palette__plats--1 input + label h3 {
-  white-space: nowrap;
-}
-#menu #palette__plats--all #palette__plats--1 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
-}
-#menu #palette__plats--all #palette__plats--1 input + label:hover {
-  cursor: pointer;
-}
-#menu #palette__plats--all #palette__plats--1 input + label #palette__plats--prix {
-  padding-left: 3em;
-  margin-top: 1.5em;
-}
-#menu #palette__plats--all #palette__plats--1 input + label #palette__plats--prix h5 {
-  margin-left: 1em;
-}
-#menu #palette__plats--all #palette__plats--1 input + label #palette__plats--prix h5.overlay--2 {
-  margin-top: 1.2rem;
-}
-#menu #palette__plats--all #palette__plats--1 input:checked + label #checked-font-place {
-  background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
-  position: relative;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  -webkit-animation-name: checked-background-translate--menu;
-  animation-name: checked-background-translate--menu;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-in-out;
-  z-index: 95;
-}
-#menu #palette__plats--all #palette__plats--1 input:checked + label #checked-font-place::after {
-  content: "";
-  font-size: 2rem;
-  animation-name: checked-ok-rotate--menu;
-  -webkit-animation-name: checked-ok-rotate--menu;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: white;
-  justify-content: center;
-}
-#menu #palette__plats--all #palette__plats--1 input:checked + label #checked-font-place {
-  background-color: #99E2D0;
-  padding: 1.8em 1.3em 1.8em 1.3em;
-  margin-left: -0.8em;
-}
-#menu #palette__plats--all #palette__plats--1 input:checked + label #palette__plats--prix {
-  padding-left: 3em;
-  margin-top: 1.5em;
-}
-#menu #palette__plats--all #palette__plats--1 input:checked + label #palette__plats--prix h5.overlay--2 {
-  margin-top: 1.2rem;
-  margin-left: -3.5rem;
-  -webkit-animation-name: price-animation--large;
-  animation-name: price-animation--large;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-in;
-  background-color: white;
-  padding: 0em 1em 0em 1em;
-}
-#menu #palette__plats--all #palette__plats--2 {
-  margin-top: 1em;
-  border-style: hidden;
-  background-color: white;
-  padding: 0.9em 0.5em 0.9em 0.5em;
-  border-radius: 20px;
-  box-shadow: 0em 0em 0.6em -0.2em;
-  margin-right: 0.7em;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 3em;
-  -webkit-animation: loading-menus 0.5s ease-in-out;
-  animation: loading-menus 0.5s ease-in-out;
-}
-#menu #palette__plats--all #palette__plats--2 input {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  display: none;
-}
-#menu #palette__plats--all #palette__plats--2 input + label {
-  display: flex;
-  flex-direction: row;
-}
-#menu #palette__plats--all #palette__plats--2 input + label h3 {
-  white-space: nowrap;
-}
-#menu #palette__plats--all #palette__plats--2 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
-}
-#menu #palette__plats--all #palette__plats--2 input + label:hover {
-  cursor: pointer;
-}
-#menu #palette__plats--all #palette__plats--2 input + label #palette__plats--prix {
-  padding-left: 3em;
-  margin-top: 1.5em;
-}
-#menu #palette__plats--all #palette__plats--2 input + label #palette__plats--prix h5 {
-  margin-left: -1.7em;
-}
-#menu #palette__plats--all #palette__plats--2 input + label #palette__plats--prix h5.overlay--3 {
-  margin-top: 0.1rem;
-}
-#menu #palette__plats--all #palette__plats--2 input:checked + label #checked-font-place {
-  background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
-  position: relative;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  -webkit-animation-name: checked-background-translate--menu;
-  animation-name: checked-background-translate--menu;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-in-out;
-  z-index: 95;
-}
-#menu #palette__plats--all #palette__plats--2 input:checked + label #checked-font-place::after {
-  content: "";
-  font-size: 2rem;
-  animation-name: checked-ok-rotate--menu;
-  -webkit-animation-name: checked-ok-rotate--menu;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: white;
-  justify-content: center;
-}
-#menu #palette__plats--all #palette__plats--2 input:checked + label #checked-font-place {
-  margin-left: -3em;
-}
-#menu #palette__plats--all #palette__plats--2 input:checked + label #palette__plats--prix {
-  padding-left: 3em;
-  margin-top: 1.5em;
-}
-#menu #palette__plats--all #palette__plats--2 input:checked + label #palette__plats--prix h5.overlay--3 {
-  margin-top: 0.1rem;
-  margin-left: -7.3rem;
-  -webkit-animation-name: price-animation--lenghty;
-  animation-name: price-animation--lenghty;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  transition: ease-in;
-  background-color: white;
-  padding: 0em 0em 0em 1em;
-  transform-origin: right;
-}
-#menu #palette__plats--all #palette__plats--2 input:checked + label #palette__plats--prix h5.overlay--3:before {
-  content: "...";
-  padding-right: 1em;
-}
-#menu #palette__plats--all #palette__plats--3 {
-  margin-top: 1em;
-  border-style: hidden;
-  background-color: white;
-  padding: 0.9em 0.5em 0.9em 0.5em;
-  border-radius: 20px;
-  box-shadow: 0em 0em 0.6em -0.2em;
-  margin-right: 0.7em;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 3em;
-  -webkit-animation: loading-menus 0.5s ease-in-out;
-  animation: loading-menus 0.5s ease-in-out;
-}
-#menu #palette__plats--all #palette__plats--3 input {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  display: none;
-}
-#menu #palette__plats--all #palette__plats--3 input + label {
-  display: flex;
-  flex-direction: row;
-}
-#menu #palette__plats--all #palette__plats--3 input + label h3 {
-  white-space: nowrap;
-}
-#menu #palette__plats--all #palette__plats--3 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
-}
-#menu #palette__plats--all #palette__plats--3 input + label:hover {
-  cursor: pointer;
-}
-#menu #palette__plats--all #palette__plats--3 input + label h3 {
-  padding-right: 5em;
-  /*this setting help me push the price to reduce the div prive margin so that i can use the animation short more frequently*/
-}
-#menu #palette__plats--all #palette__plats--3 input + label #palette__plats--prix {
-  padding-left: 3em;
-  margin-top: 1.5em;
-}
-#menu #palette__plats--all #palette__plats--3 input + label #palette__plats--prix h5 {
-  margin-left: 2.5rem;
-}
-#menu #palette__plats--all #palette__plats--3 input:checked + label #checked-font-place {
-  background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
-  position: relative;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  -webkit-animation-name: checked-background-translate--menu;
-  animation-name: checked-background-translate--menu;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-in-out;
-  z-index: 95;
-}
-#menu #palette__plats--all #palette__plats--3 input:checked + label #checked-font-place::after {
-  content: "";
-  font-size: 2rem;
-  animation-name: checked-ok-rotate--menu;
-  -webkit-animation-name: checked-ok-rotate--menu;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: white;
-  justify-content: center;
-}
-#menu #palette__plats--all #palette__plats--3 input:checked + label #checked-font-place {
-  margin-left: 0.5em;
-  /*this margin set up the background and the distance it will be from the price*/
-}
-#menu #palette__plats--all #palette__plats--3 input:checked + label #palette__plats--prix {
-  padding-left: 3em;
-  margin-top: 1.5em;
-}
-#menu #palette__plats--all #palette__plats--3 input:checked + label #palette__plats--prix h5 {
-  margin-left: -1rem;
-  padding-right: 0em;
-  -webkit-animation-name: price-animation--short;
-  animation-name: price-animation--short;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-out;
-}
-#menu #palette__desserts {
-  padding-bottom: 0.5em;
-}
-#menu #palette__desserts p {
-  border-bottom: solid #99E2D0;
-  border-width: 0.3em;
-  margin-right: 20em;
-}
-#menu #palette__desserts--all {
-  padding-bottom: 3em;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  height: 17.5em;
-  padding-left: 0.5em;
-}
-#menu #palette__desserts--all #palette__desserts--1 {
-  border-style: hidden;
-  background-color: white;
-  padding: 0.9em 0.5em 0.9em 0.5em;
-  border-radius: 20px;
-  box-shadow: 0em 0em 0.6em -0.2em;
-  margin-right: 0.7em;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 3em;
-  -webkit-animation: loading-menus 0.5s ease-in-out;
-  animation: loading-menus 0.5s ease-in-out;
-  margin-top: 1em;
-}
-#menu #palette__desserts--all #palette__desserts--1 input {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  display: none;
-}
-#menu #palette__desserts--all #palette__desserts--1 input + label {
-  display: flex;
-  flex-direction: row;
-}
-#menu #palette__desserts--all #palette__desserts--1 input + label h3 {
-  white-space: nowrap;
-}
-#menu #palette__desserts--all #palette__desserts--1 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
-}
-#menu #palette__desserts--all #palette__desserts--1 input + label:hover {
-  cursor: pointer;
-}
-#menu #palette__desserts--all #palette__desserts--1 input + label h3 {
-  padding-right: 6.5em;
-}
-#menu #palette__desserts--all #palette__desserts--1 input + label #palette__desserts--prix {
-  padding-left: 3em;
-  margin-top: 1.5em;
-}
-#menu #palette__desserts--all #palette__desserts--1 input + label #palette__desserts--prix h5 {
-  margin-left: 2.5rem;
-}
-#menu #palette__desserts--all #palette__desserts--1 input:checked + label #checked-font-place {
-  background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
-  position: relative;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  -webkit-animation-name: checked-background-translate--menu;
-  animation-name: checked-background-translate--menu;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-in-out;
-  z-index: 95;
-}
-#menu #palette__desserts--all #palette__desserts--1 input:checked + label #checked-font-place::after {
-  content: "";
-  font-size: 2rem;
-  animation-name: checked-ok-rotate--menu;
-  -webkit-animation-name: checked-ok-rotate--menu;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: white;
-  justify-content: center;
-}
-#menu #palette__desserts--all #palette__desserts--1 input:checked + label #checked-font-place {
-  margin-left: 0.5em;
-}
-#menu #palette__desserts--all #palette__desserts--1 input:checked + label #palette__desserts--prix {
-  padding-left: 2.5em;
-  /*for this page, this customize the distance of the checked ok green background*/
-  margin-top: 1.5em;
-}
-#menu #palette__desserts--all #palette__desserts--1 input:checked + label #palette__desserts--prix h5 {
-  margin-left: -1rem;
-  padding-right: 0em;
-  -webkit-animation-name: price-animation--short;
-  animation-name: price-animation--short;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-out;
-}
-#menu #palette__desserts--all #palette__desserts--2 {
-  margin-top: 1em;
-  border-style: hidden;
-  background-color: white;
-  padding: 0.9em 0.5em 0.9em 0.5em;
-  border-radius: 20px;
-  box-shadow: 0em 0em 0.6em -0.2em;
-  margin-right: 0.7em;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 3em;
-  -webkit-animation: loading-menus 0.5s ease-in-out;
-  animation: loading-menus 0.5s ease-in-out;
-}
-#menu #palette__desserts--all #palette__desserts--2 input {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  display: none;
-}
-#menu #palette__desserts--all #palette__desserts--2 input + label {
-  display: flex;
-  flex-direction: row;
-}
-#menu #palette__desserts--all #palette__desserts--2 input + label h3 {
-  white-space: nowrap;
-}
-#menu #palette__desserts--all #palette__desserts--2 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
-}
-#menu #palette__desserts--all #palette__desserts--2 input + label:hover {
-  cursor: pointer;
-}
-#menu #palette__desserts--all #palette__desserts--2 input + label h3 {
-  padding-right: 0em;
-}
-#menu #palette__desserts--all #palette__desserts--2 input + label #palette__desserts--prix {
-  padding-left: 0em;
-  margin-top: 1.5em;
-}
-#menu #palette__desserts--all #palette__desserts--2 input + label #palette__desserts--prix h5 {
-  margin-left: 1.7rem;
-}
-#menu #palette__desserts--all #palette__desserts--2 input:checked + label #checked-font-place {
-  background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
-  position: relative;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  -webkit-animation-name: checked-background-translate--menu;
-  animation-name: checked-background-translate--menu;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-in-out;
-  z-index: 95;
-}
-#menu #palette__desserts--all #palette__desserts--2 input:checked + label #checked-font-place::after {
-  content: "";
-  font-size: 2rem;
-  animation-name: checked-ok-rotate--menu;
-  -webkit-animation-name: checked-ok-rotate--menu;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: white;
-  justify-content: center;
-}
-#menu #palette__desserts--all #palette__desserts--2 input:checked + label #checked-font-place {
-  margin-left: -3.9em;
-}
-#menu #palette__desserts--all #palette__desserts--2 input:checked + label h3 {
-  padding-right: 3em;
-}
-#menu #palette__desserts--all #palette__desserts--2 input:checked + label #palette__desserts--prix {
-  padding-left: 0em;
-  margin-top: 1.5em;
-}
-#menu #palette__desserts--all #palette__desserts--2 input:checked + label #palette__desserts--prix h5 {
-  margin-left: -7.3rem;
-  padding-right: 0em;
-  -webkit-animation-name: price-animation--lenghty;
-  animation-name: price-animation--lenghty;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-out;
-  z-index: 100;
-  background: white;
-  padding-bottom: 0.2em;
-}
-#menu #palette__desserts--all #palette__desserts--2 input:checked + label #palette__desserts--prix h5::before {
-  content: "...";
-  padding-right: 0.7em;
-  z-index: 90;
-  background: white;
-  margin-left: -0.25em;
-}
-#menu #palette__desserts--all #palette__desserts--2 input:checked + label #palette__desserts--prix h5::after {
-  content: "...";
-  position: absolute;
-  font-size: 2em;
-  margin-left: -1.5em;
-  margin-top: -1.2em;
-  z-index: 90;
-  background: white;
-  padding-right: 2em;
-}
-#menu #palette__desserts--all #palette__desserts--3 {
-  margin-top: 1em;
-  border-style: hidden;
-  background-color: white;
-  padding: 0.9em 0.5em 0.9em 0.5em;
-  border-radius: 20px;
-  box-shadow: 0em 0em 0.6em -0.2em;
-  margin-right: 0.7em;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 3em;
-  -webkit-animation: loading-menus 0.5s ease-in-out;
-  animation: loading-menus 0.5s ease-in-out;
-}
-#menu #palette__desserts--all #palette__desserts--3 input {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  display: none;
-}
-#menu #palette__desserts--all #palette__desserts--3 input + label {
-  display: flex;
-  flex-direction: row;
-}
-#menu #palette__desserts--all #palette__desserts--3 input + label h3 {
-  white-space: nowrap;
-}
-#menu #palette__desserts--all #palette__desserts--3 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
-}
-#menu #palette__desserts--all #palette__desserts--3 input + label:hover {
-  cursor: pointer;
-}
-#menu #palette__desserts--all #palette__desserts--3 input + label h3 {
-  padding-right: 0em;
-}
-#menu #palette__desserts--all #palette__desserts--3 input + label #palette__desserts--prix {
-  padding-left: 0em;
-  margin-top: 1.5em;
-}
-#menu #palette__desserts--all #palette__desserts--3 input + label #palette__desserts--prix h5 {
-  margin-left: 1.2rem;
-}
-#menu #palette__desserts--all #palette__desserts--3 input:checked + label #checked-font-place {
-  background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
-  position: relative;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  -webkit-animation-name: checked-background-translate--menu;
-  animation-name: checked-background-translate--menu;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-in-out;
-  z-index: 95;
-}
-#menu #palette__desserts--all #palette__desserts--3 input:checked + label #checked-font-place::after {
-  content: "";
-  font-size: 2rem;
-  animation-name: checked-ok-rotate--menu;
-  -webkit-animation-name: checked-ok-rotate--menu;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: white;
-  justify-content: center;
-}
-#menu #palette__desserts--all #palette__desserts--3 input:checked + label #checked-font-place {
-  margin-left: -4em;
-}
-#menu #palette__desserts--all #palette__desserts--3 input:checked + label h3 {
-  padding-right: 5em;
-}
-#menu #palette__desserts--all #palette__desserts--3 input:checked + label #palette__desserts--prix {
-  padding-left: 3em;
-  margin-top: 1.55em;
-}
-#menu #palette__desserts--all #palette__desserts--3 input:checked + label #palette__desserts--prix h5 {
-  margin-left: -7.3rem;
-  padding-right: 0em;
-  -webkit-animation-name: price-animation--lenghty;
-  animation-name: price-animation--lenghty;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-out;
-  z-index: 100;
-  background: white;
-}
-#menu #palette__desserts--all #palette__desserts--3 input:checked + label #palette__desserts--prix h5::before {
-  content: "...";
-  padding-right: 0.7em;
-}
-#menu .button-pink--large {
-  padding-bottom: 5em;
-}
-#menu .button-pink--large button {
-  margin-left: 5.5em;
-  font-size: 1em;
-  color: white;
-  border-radius: 25px;
-  border-style: hidden;
-  padding: 0.8em 2.5em 0.8em 2.5em;
-  background: linear-gradient(-10deg, #9356DC 30%, #FF79DA);
-}
-#menu .button-pink--large button:hover {
-  cursor: pointer;
-  -webkit-filter: opacity(85%);
-  filter: opacity(85%);
-  /*this make the button lighter*/
-}
-
-@-webkit-keyframes price-animation {
-  0% {
-    margin-left: 14rem;
-    transform: translate(2em);
-  }
-  100% {
-    margin-left: 14rem;
-  }
-}
-@keyframes price-animation {
-  0% {
-    margin-left: 14rem;
-    transform: translate(2em);
-  }
-  100% {
-    margin-left: 14rem;
-  }
-}
-@-webkit-keyframes price-animation--lenghty {
-  0% {
-    transform: translate(2.5rem);
-    /*translate me permet de commencer l'animation à partir d'un certain niveau*/
-  }
-  100% {
-    margin-left: -7.3rem;
-  }
-}
-@keyframes price-animation--lenghty {
-  0% {
-    transform: translate(2.5rem);
-    /*translate me permet de commencer l'animation à partir d'un certain niveau*/
-  }
-  100% {
-    margin-left: -7.3rem;
-  }
-}
-@-webkit-keyframes price-animation--large {
-  0% {
-    padding-left: 1em;
-    transform: translate(2rem);
-  }
-  100% {
-    margin-left: -3.5rem;
-  }
-}
-@keyframes price-animation--large {
-  0% {
-    padding-left: 1em;
-    transform: translate(2rem);
-  }
-  100% {
-    margin-left: -3.5rem;
-  }
-}
-@-webkit-keyframes price-animation--short {
-  0% {
-    margin-left: 12.6rem;
-    transform: translate(2em);
-  }
-  100% {
-    margin-left: 12.6rem;
-  }
-}
-@keyframes price-animation--short {
-  0% {
-    margin-left: 12.6rem;
-    transform: translate(2em);
-  }
-  100% {
-    margin-left: 12.6rem;
-  }
-}
-@-webkit-keyframes checked-background-translate--menu {
-  0% {
-    transform: translate(2em);
-    transition: ease-in-out;
-  }
-  100% {
-    margin-left: 1em;
-    /*this remove the blur effect on the animation. the blur is caused by the calculation of the position, i think*/
-  }
-  0% {
-    transition-delay: 2s;
-  }
-  100% {
-    transform: rotate(2turn);
-    transition: ease-in-out;
-  }
-}
-@keyframes checked-background-translate--menu {
-  0% {
-    transform: translate(2em);
-    transition: ease-in-out;
-  }
-  100% {
-    margin-left: 1em;
-    /*this remove the blur effect on the animation. the blur is caused by the calculation of the position, i think*/
-  }
-}
-@-webkit-keyframes checked-ok-rotate--menu {
-  100% {
-    transform: rotate(2turn);
-    transition: ease-in-out;
-  }
-}
-@keyframes checked-ok-rotate--menu {
-  0% {
-    transition-delay: 2s;
-  }
-  100% {
-    transform: rotate(2turn);
-    transition: ease-in-out;
-  }
-}
-#menu {
-  background-color: #F6F6F6;
-  padding-top: 0.5em;
-  padding-left: 0.8em;
-  font-family: "roboto";
-}
-#menu #palette__entrées {
-  padding-bottom: 0.5em;
-}
 #menu #palette__entrées h2 {
   border-bottom: solid #99E2D0;
   border-width: 0.3em;
@@ -7619,24 +6525,34 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
+#menu #palette__entrées--all #palette__entrées--1 input + label span.bold, #menu #palette__entrées--all #palette__entrées--1 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
 #menu #palette__entrées--all #palette__entrées--1 input + label span.bold {
   width: 17.5em;
   /*the width is here to harmonize all the animations*/
   white-space: nowrap;
   font-weight: bolder;
   margin-left: 0.5em;
+  padding-bottom: 2em;
 }
 #menu #palette__entrées--all #palette__entrées--1 input + label span.normal {
   width: 17.5em;
   white-space: nowrap;
-  margin-top: 1.6em;
   position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+}
+#menu #palette__entrées--all #palette__entrées--1 input + label span.price, #menu #palette__entrées--all #palette__entrées--1 input + label span.green {
+  display: flex;
+  flex-direction: row;
 }
 #menu #palette__entrées--all #palette__entrées--1 input + label span.price {
   position: absolute;
   width: 3em;
-  margin-top: 1.6em;
   margin-left: 18em;
+  margin-top: 0.7em;
 }
 #menu #palette__entrées--all #palette__entrées--1 input + label:hover {
   cursor: pointer;
@@ -7651,8 +6567,9 @@ footer #line1 h6::before,
 #menu #palette__entrées--all #palette__entrées--1 input:checked + label span.green {
   background-color: #99E2D0;
   padding: 1.65em 1.3em 1.65em 1.3em;
-  margin-right: -0.55em;
-  margin-top: -1em;
+  width: 2.5em;
+  margin-left: 17em;
+  margin-top: -2.2em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -7663,8 +6580,6 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
   z-index: 150;
-  -webkit-filter: blur(0);
-  filter: blur(0);
 }
 #menu #palette__entrées--all #palette__entrées--1 input:checked + label span.green::after {
   content: "";
@@ -7715,24 +6630,34 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
+#menu #palette__entrées--all #palette__entrées--2 input + label span.bold, #menu #palette__entrées--all #palette__entrées--2 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
 #menu #palette__entrées--all #palette__entrées--2 input + label span.bold {
   width: 17.5em;
   /*the width is here to harmonize all the animations*/
   white-space: nowrap;
   font-weight: bolder;
   margin-left: 0.5em;
+  padding-bottom: 2em;
 }
 #menu #palette__entrées--all #palette__entrées--2 input + label span.normal {
   width: 17.5em;
   white-space: nowrap;
-  margin-top: 1.6em;
   position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+}
+#menu #palette__entrées--all #palette__entrées--2 input + label span.price, #menu #palette__entrées--all #palette__entrées--2 input + label span.green {
+  display: flex;
+  flex-direction: row;
 }
 #menu #palette__entrées--all #palette__entrées--2 input + label span.price {
   position: absolute;
   width: 3em;
-  margin-top: 1.6em;
   margin-left: 18em;
+  margin-top: 0.7em;
 }
 #menu #palette__entrées--all #palette__entrées--2 input + label:hover {
   cursor: pointer;
@@ -7750,8 +6675,9 @@ footer #line1 h6::before,
 #menu #palette__entrées--all #palette__entrées--2 input:checked + label span.green {
   background-color: #99E2D0;
   padding: 1.65em 1.3em 1.65em 1.3em;
-  margin-right: -0.55em;
-  margin-top: -1em;
+  width: 2.5em;
+  margin-left: 17em;
+  margin-top: -2.2em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -7762,8 +6688,6 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
   z-index: 150;
-  -webkit-filter: blur(0);
-  filter: blur(0);
 }
 #menu #palette__entrées--all #palette__entrées--2 input:checked + label span.green::after {
   content: "";
@@ -7820,24 +6744,34 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
+#menu #palette__entrées--all #palette__entrées--3 input + label span.bold, #menu #palette__entrées--all #palette__entrées--3 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
 #menu #palette__entrées--all #palette__entrées--3 input + label span.bold {
   width: 17.5em;
   /*the width is here to harmonize all the animations*/
   white-space: nowrap;
   font-weight: bolder;
   margin-left: 0.5em;
+  padding-bottom: 2em;
 }
 #menu #palette__entrées--all #palette__entrées--3 input + label span.normal {
   width: 17.5em;
   white-space: nowrap;
-  margin-top: 1.6em;
   position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+}
+#menu #palette__entrées--all #palette__entrées--3 input + label span.price, #menu #palette__entrées--all #palette__entrées--3 input + label span.green {
+  display: flex;
+  flex-direction: row;
 }
 #menu #palette__entrées--all #palette__entrées--3 input + label span.price {
   position: absolute;
   width: 3em;
-  margin-top: 1.6em;
   margin-left: 18em;
+  margin-top: 0.7em;
 }
 #menu #palette__entrées--all #palette__entrées--3 input + label:hover {
   cursor: pointer;
@@ -7855,8 +6789,9 @@ footer #line1 h6::before,
 #menu #palette__entrées--all #palette__entrées--3 input:checked + label span.green {
   background-color: #99E2D0;
   padding: 1.65em 1.3em 1.65em 1.3em;
-  margin-right: -0.55em;
-  margin-top: -1em;
+  width: 2.5em;
+  margin-left: 17em;
+  margin-top: -2.2em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -7867,8 +6802,6 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
   z-index: 150;
-  -webkit-filter: blur(0);
-  filter: blur(0);
 }
 #menu #palette__entrées--all #palette__entrées--3 input:checked + label span.green::after {
   content: "";
@@ -7888,7 +6821,7 @@ footer #line1 h6::before,
 }
 #menu #palette__entrées--all #palette__entrées--3 input:checked + label span.price {
   margin-left: 12.6rem;
-  padding-right: 1em;
+  padding-right: 1.5em;
   /*mask the text ont some menus*/
   -webkit-animation-name: price-animation--short;
   animation-name: price-animation--short;
@@ -7946,24 +6879,34 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
+#menu #palette__plats--all #palette__plats--1 input + label span.bold, #menu #palette__plats--all #palette__plats--1 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
 #menu #palette__plats--all #palette__plats--1 input + label span.bold {
   width: 17.5em;
   /*the width is here to harmonize all the animations*/
   white-space: nowrap;
   font-weight: bolder;
   margin-left: 0.5em;
+  padding-bottom: 2em;
 }
 #menu #palette__plats--all #palette__plats--1 input + label span.normal {
   width: 17.5em;
   white-space: nowrap;
-  margin-top: 1.6em;
   position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+}
+#menu #palette__plats--all #palette__plats--1 input + label span.price, #menu #palette__plats--all #palette__plats--1 input + label span.green {
+  display: flex;
+  flex-direction: row;
 }
 #menu #palette__plats--all #palette__plats--1 input + label span.price {
   position: absolute;
   width: 3em;
-  margin-top: 1.6em;
   margin-left: 18em;
+  margin-top: 0.7em;
 }
 #menu #palette__plats--all #palette__plats--1 input + label:hover {
   cursor: pointer;
@@ -7974,15 +6917,17 @@ footer #line1 h6::before,
 }
 #menu #palette__plats--all #palette__plats--1 input + label span.normal {
   margin-left: 0.5em;
+  margin-top: -0.5em;
 }
 #menu #palette__plats--all #palette__plats--1 input + label span.price {
-  margin-top: 2.8em;
+  margin-top: 1.5em;
 }
 #menu #palette__plats--all #palette__plats--1 input:checked + label span.green {
   background-color: #99E2D0;
   padding: 1.65em 1.3em 1.65em 1.3em;
-  margin-right: -0.55em;
-  margin-top: -1em;
+  width: 2.5em;
+  margin-left: 17em;
+  margin-top: -2.2em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -7993,8 +6938,6 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
   z-index: 150;
-  -webkit-filter: blur(0);
-  filter: blur(0);
 }
 #menu #palette__plats--all #palette__plats--1 input:checked + label span.green::after {
   content: "";
@@ -8013,10 +6956,9 @@ footer #line1 h6::before,
   margin-left: 0.5em;
 }
 #menu #palette__plats--all #palette__plats--1 input:checked + label span.green {
-  margin-top: -1em;
+  margin-top: -2.2em;
   padding-top: 2em;
   padding-bottom: 2em;
-  margin-left: -0.3em;
 }
 #menu #palette__plats--all #palette__plats--1 input:checked + label span.price {
   margin-left: 14rem;
@@ -8054,24 +6996,34 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
+#menu #palette__plats--all #palette__plats--2 input + label span.bold, #menu #palette__plats--all #palette__plats--2 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
 #menu #palette__plats--all #palette__plats--2 input + label span.bold {
   width: 17.5em;
   /*the width is here to harmonize all the animations*/
   white-space: nowrap;
   font-weight: bolder;
   margin-left: 0.5em;
+  padding-bottom: 2em;
 }
 #menu #palette__plats--all #palette__plats--2 input + label span.normal {
   width: 17.5em;
   white-space: nowrap;
-  margin-top: 1.6em;
   position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+}
+#menu #palette__plats--all #palette__plats--2 input + label span.price, #menu #palette__plats--all #palette__plats--2 input + label span.green {
+  display: flex;
+  flex-direction: row;
 }
 #menu #palette__plats--all #palette__plats--2 input + label span.price {
   position: absolute;
   width: 3em;
-  margin-top: 1.6em;
   margin-left: 18em;
+  margin-top: 0.7em;
 }
 #menu #palette__plats--all #palette__plats--2 input + label:hover {
   cursor: pointer;
@@ -8089,8 +7041,9 @@ footer #line1 h6::before,
 #menu #palette__plats--all #palette__plats--2 input:checked + label span.green {
   background-color: #99E2D0;
   padding: 1.65em 1.3em 1.65em 1.3em;
-  margin-right: -0.55em;
-  margin-top: -1em;
+  width: 2.5em;
+  margin-left: 17em;
+  margin-top: -2.2em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -8101,8 +7054,6 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
   z-index: 150;
-  -webkit-filter: blur(0);
-  filter: blur(0);
 }
 #menu #palette__plats--all #palette__plats--2 input:checked + label span.green::after {
   content: "";
@@ -8122,7 +7073,7 @@ footer #line1 h6::before,
 }
 #menu #palette__plats--all #palette__plats--2 input:checked + label span.price {
   margin-left: 12.6rem;
-  padding-right: 1em;
+  padding-right: 2em;
   /*mask the text ont some menus*/
   -webkit-animation-name: price-animation--short;
   animation-name: price-animation--short;
@@ -8160,24 +7111,34 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
+#menu #palette__plats--all #palette__plats--3 input + label span.bold, #menu #palette__plats--all #palette__plats--3 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
 #menu #palette__plats--all #palette__plats--3 input + label span.bold {
   width: 17.5em;
   /*the width is here to harmonize all the animations*/
   white-space: nowrap;
   font-weight: bolder;
   margin-left: 0.5em;
+  padding-bottom: 2em;
 }
 #menu #palette__plats--all #palette__plats--3 input + label span.normal {
   width: 17.5em;
   white-space: nowrap;
-  margin-top: 1.6em;
   position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+}
+#menu #palette__plats--all #palette__plats--3 input + label span.price, #menu #palette__plats--all #palette__plats--3 input + label span.green {
+  display: flex;
+  flex-direction: row;
 }
 #menu #palette__plats--all #palette__plats--3 input + label span.price {
   position: absolute;
   width: 3em;
-  margin-top: 1.6em;
   margin-left: 18em;
+  margin-top: 0.7em;
 }
 #menu #palette__plats--all #palette__plats--3 input + label:hover {
   cursor: pointer;
@@ -8192,8 +7153,9 @@ footer #line1 h6::before,
 #menu #palette__plats--all #palette__plats--3 input:checked + label span.green {
   background-color: #99E2D0;
   padding: 1.65em 1.3em 1.65em 1.3em;
-  margin-right: -0.55em;
-  margin-top: -1em;
+  width: 2.5em;
+  margin-left: 17em;
+  margin-top: -2.2em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -8204,8 +7166,6 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
   z-index: 150;
-  -webkit-filter: blur(0);
-  filter: blur(0);
 }
 #menu #palette__plats--all #palette__plats--3 input:checked + label span.green::after {
   content: "";
@@ -8274,24 +7234,34 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
+#menu #palette__desserts--all #palette__desserts--1 input + label span.bold, #menu #palette__desserts--all #palette__desserts--1 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
 #menu #palette__desserts--all #palette__desserts--1 input + label span.bold {
   width: 17.5em;
   /*the width is here to harmonize all the animations*/
   white-space: nowrap;
   font-weight: bolder;
   margin-left: 0.5em;
+  padding-bottom: 2em;
 }
 #menu #palette__desserts--all #palette__desserts--1 input + label span.normal {
   width: 17.5em;
   white-space: nowrap;
-  margin-top: 1.6em;
   position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+}
+#menu #palette__desserts--all #palette__desserts--1 input + label span.price, #menu #palette__desserts--all #palette__desserts--1 input + label span.green {
+  display: flex;
+  flex-direction: row;
 }
 #menu #palette__desserts--all #palette__desserts--1 input + label span.price {
   position: absolute;
   width: 3em;
-  margin-top: 1.6em;
   margin-left: 18em;
+  margin-top: 0.7em;
 }
 #menu #palette__desserts--all #palette__desserts--1 input + label:hover {
   cursor: pointer;
@@ -8306,8 +7276,9 @@ footer #line1 h6::before,
 #menu #palette__desserts--all #palette__desserts--1 input:checked + label span.green {
   background-color: #99E2D0;
   padding: 1.65em 1.3em 1.65em 1.3em;
-  margin-right: -0.55em;
-  margin-top: -1em;
+  width: 2.5em;
+  margin-left: 17em;
+  margin-top: -2.2em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -8318,8 +7289,6 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
   z-index: 150;
-  -webkit-filter: blur(0);
-  filter: blur(0);
 }
 #menu #palette__desserts--all #palette__desserts--1 input:checked + label span.green::after {
   content: "";
@@ -8370,24 +7339,34 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
+#menu #palette__desserts--all #palette__desserts--2 input + label span.bold, #menu #palette__desserts--all #palette__desserts--2 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
 #menu #palette__desserts--all #palette__desserts--2 input + label span.bold {
   width: 17.5em;
   /*the width is here to harmonize all the animations*/
   white-space: nowrap;
   font-weight: bolder;
   margin-left: 0.5em;
+  padding-bottom: 2em;
 }
 #menu #palette__desserts--all #palette__desserts--2 input + label span.normal {
   width: 17.5em;
   white-space: nowrap;
-  margin-top: 1.6em;
   position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+}
+#menu #palette__desserts--all #palette__desserts--2 input + label span.price, #menu #palette__desserts--all #palette__desserts--2 input + label span.green {
+  display: flex;
+  flex-direction: row;
 }
 #menu #palette__desserts--all #palette__desserts--2 input + label span.price {
   position: absolute;
   width: 3em;
-  margin-top: 1.6em;
   margin-left: 18em;
+  margin-top: 0.7em;
 }
 #menu #palette__desserts--all #palette__desserts--2 input + label:hover {
   cursor: pointer;
@@ -8405,8 +7384,9 @@ footer #line1 h6::before,
 #menu #palette__desserts--all #palette__desserts--2 input:checked + label span.green {
   background-color: #99E2D0;
   padding: 1.65em 1.3em 1.65em 1.3em;
-  margin-right: -0.55em;
-  margin-top: -1em;
+  width: 2.5em;
+  margin-left: 17em;
+  margin-top: -2.2em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -8417,8 +7397,6 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
   z-index: 150;
-  -webkit-filter: blur(0);
-  filter: blur(0);
 }
 #menu #palette__desserts--all #palette__desserts--2 input:checked + label span.green::after {
   content: "";
@@ -8437,11 +7415,11 @@ footer #line1 h6::before,
   margin-left: 0.51em;
 }
 #menu #palette__desserts--all #palette__desserts--2 input:checked + label span.green {
-  margin-top: -1em;
+  margin-top: -2.2em;
 }
 #menu #palette__desserts--all #palette__desserts--2 input:checked + label span.price {
   margin-left: 12.6rem;
-  padding-right: 1em;
+  padding-right: 2em;
   /*mask the text ont some menus*/
   -webkit-animation-name: price-animation--short;
   animation-name: price-animation--short;
@@ -8459,8 +7437,8 @@ footer #line1 h6::before,
   content: "...";
   position: absolute;
   font-size: 2em;
-  margin-left: -1.6em;
-  margin-top: -1.25em;
+  margin-left: -0.1em;
+  margin-top: -1.4em;
   z-index: 90;
   background: white;
   padding-right: 2em;
@@ -8489,24 +7467,34 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
+#menu #palette__desserts--all #palette__desserts--3 input + label span.bold, #menu #palette__desserts--all #palette__desserts--3 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
 #menu #palette__desserts--all #palette__desserts--3 input + label span.bold {
   width: 17.5em;
   /*the width is here to harmonize all the animations*/
   white-space: nowrap;
   font-weight: bolder;
   margin-left: 0.5em;
+  padding-bottom: 2em;
 }
 #menu #palette__desserts--all #palette__desserts--3 input + label span.normal {
   width: 17.5em;
   white-space: nowrap;
-  margin-top: 1.6em;
   position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+}
+#menu #palette__desserts--all #palette__desserts--3 input + label span.price, #menu #palette__desserts--all #palette__desserts--3 input + label span.green {
+  display: flex;
+  flex-direction: row;
 }
 #menu #palette__desserts--all #palette__desserts--3 input + label span.price {
   position: absolute;
   width: 3em;
-  margin-top: 1.6em;
   margin-left: 18em;
+  margin-top: 0.7em;
 }
 #menu #palette__desserts--all #palette__desserts--3 input + label:hover {
   cursor: pointer;
@@ -8518,16 +7506,17 @@ footer #line1 h6::before,
 #menu #palette__desserts--all #palette__desserts--3 input + label span.normal {
   margin-left: 0.5em;
   font-size: 0.95em;
-  padding-top: 0.15em;
 }
 #menu #palette__desserts--all #palette__desserts--3 input + label span.price {
   margin-left: 18em;
+  margin-top: 0.6em;
 }
 #menu #palette__desserts--all #palette__desserts--3 input:checked + label span.green {
   background-color: #99E2D0;
   padding: 1.65em 1.3em 1.65em 1.3em;
-  margin-right: -0.55em;
-  margin-top: -1em;
+  width: 2.5em;
+  margin-left: 17em;
+  margin-top: -2.2em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -8538,8 +7527,6 @@ footer #line1 h6::before,
   animation-duration: 2s;
   transition: ease-in-out;
   z-index: 150;
-  -webkit-filter: blur(0);
-  filter: blur(0);
 }
 #menu #palette__desserts--all #palette__desserts--3 input:checked + label span.green::after {
   content: "";
@@ -8555,13 +7542,12 @@ footer #line1 h6::before,
   justify-content: center;
 }
 #menu #palette__desserts--all #palette__desserts--3 input:checked + label span.normal {
-  margin-left: 0.47em;
-  font-size: 0.97em;
-  padding-top: 0.05em;
+  margin-left: 0.5em;
+  font-size: 0.95em;
 }
 #menu #palette__desserts--all #palette__desserts--3 input:checked + label span.price {
   margin-left: 12.6rem;
-  padding-right: 1em;
+  padding-right: 2em;
   /*mask the text ont some menus*/
   -webkit-animation-name: price-animation--short;
   animation-name: price-animation--short;

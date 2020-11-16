@@ -125,7 +125,7 @@
                     }
                     span.price {
                         margin-left: 12.6rem;
-                        padding-right: 1em;   /*mask the text ont some menus*/
+                        padding-right: 1.5em;   /*mask the text ont some menus*/
                         -webkit-animation-name: price-animation--short;
                                 animation-name: price-animation--short;
                         -webkit-animation-duration: 2s;
@@ -176,9 +176,10 @@
                     }
                     span.normal {
                         margin-left: 0.5em;
+                        margin-top: -0.5em;
                     }  
                     span.price {
-                        margin-top: 2.8em;
+                        margin-top: 1.5em;
                     }
                 }
                 &:checked+label { 
@@ -187,10 +188,9 @@
                         margin-left: 0.5em;
                     }
                     span.green {
-                        margin-top: -1em;
+                        margin-top: -2.2em;
                         padding-top: 2em;
                         padding-bottom: 2em;
-                        margin-left: -0.3em;
                     }
                     span.price {
                         margin-left: 14rem;
@@ -232,7 +232,7 @@
                     }
                     span.price {
                         margin-left: 12.6rem;
-                        padding-right: 1em;   /*mask the text ont some menus*/
+                        padding-right: 2em;   /*mask the text ont some menus*/
                         -webkit-animation-name: price-animation--short;
                                 animation-name: price-animation--short;
                         -webkit-animation-duration: 2s;
@@ -361,11 +361,11 @@
                         margin-left: 0.51em;
                     }
                     span.green {
-                        margin-top: -1em;
+                        margin-top: -2.2em;
                     }
                     span.price {
                         margin-left: 12.6rem;
-                        padding-right: 1em;   /*mask the text ont some menus*/
+                        padding-right: 2em;   /*mask the text ont some menus*/
                         -webkit-animation-name: price-animation--short;
                                 animation-name: price-animation--short;
                         -webkit-animation-duration: 2s;
@@ -379,16 +379,14 @@
                         }
                     
                         &::after {
-                                content: "...";
-                                position: absolute;
-                                font-size: 2em;
-                                margin-left: -1.6em;
-                                margin-top: -1.25em;
-                                z-index: 90;
-                                background: white;
-                                padding-right: 2em;
-                                
-                            
+                            content: "...";
+                            position: absolute;
+                            font-size: 2em;
+                            margin-left: -0.1em;
+                            margin-top: -1.4em;
+                            z-index: 90;
+                            background: white;
+                            padding-right: 2em;
                         } 
                     }
                 }
@@ -410,22 +408,22 @@
                     span.normal {
                         margin-left: 0.5em;
                         font-size: 0.95em;
-                        padding-top: 0.15em;
+                        
                     } 
                     span.price {
                         margin-left: 18em;
+                        margin-top: 0.6em;
                     }
                 }
                 &:checked+label {
                     @include checked-ok; 
                     span.normal {
-                        margin-left: 0.47em;
-                        font-size: 0.97em;
-                        padding-top: 0.05em;
+                        margin-left: 0.5em;
+                        font-size: 0.95em;
                     }
                     span.price {
                         margin-left: 12.6rem;
-                        padding-right: 1em;   /*mask the text ont some menus*/
+                        padding-right: 2em;   /*mask the text ont some menus*/
                         -webkit-animation-name: price-animation--short;
                                 animation-name: price-animation--short;
                         -webkit-animation-duration: 2s;

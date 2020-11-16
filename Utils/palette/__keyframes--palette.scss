@@ -175,19 +175,13 @@
 
 @-webkit-keyframes checked-background-translate--menu {
     0% {
-        transform: translate(2em);
+        transform: translate(-2em);
         transition: ease-in-out;
     }
     100% {
-        margin-left: 1em;     /*this remove the blur effect on the animation. the blur is caused by the calculation of the position, i think*/
-    } 0% {
-        transition-delay: 2s;
-    }
-    100%{
-        transform: rotate(2turn);
-        transition: ease-in-out;
+        margin-left: 17em;     /*this remove the blur effect on the animation. the blur is caused by the calculation of the position, i think*/
         
-    }
+    } 
 }
 @keyframes checked-background-translate--menu {
     0% {
@@ -195,7 +189,7 @@
         transition: ease-in-out;
     }
     100% {
-        margin-left: 1em;     /*this remove the blur effect on the animation. the blur is caused by the calculation of the position, i think*/
+        margin-left: 17em;     /*this remove the blur effect on the animation. the blur is caused by the calculation of the position, i think*/
     }
 }
 @-webkit-keyframes checked-ok-rotate--menu {

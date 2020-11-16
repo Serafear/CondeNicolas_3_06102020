@@ -39,24 +39,33 @@
 }
 
 @mixin label-settings-menus {
-    
+    span.bold,span.normal {
+        display: flex;
+        flex-direction: column;
+    }
     span.bold {
         width: 17.5em;   /*the width is here to harmonize all the animations*/
         white-space: nowrap;
         font-weight: bolder;
         margin-left: 0.5em;
+        padding-bottom: 2em;
     }
     span.normal {
         width: 17.5em;
         white-space: nowrap;
-        margin-top: 1.6em;
         position: absolute;
+        margin-top: 0em;
+        padding-top: 0.7em;
     }  
+    span.price,span.green {
+        display: flex;
+        flex-direction: row;
+    }
     span.price {
         position: absolute;
         width: 3em;
-        margin-top: 1.6em;
         margin-left: 18em;
+        margin-top: 0.7em;
     }
     &:hover {
         cursor: pointer;
@@ -67,8 +76,9 @@
     span.green {
         background-color: $green;
         padding: 1.65em 1.3em 1.65em 1.3em;
-        margin-right: -0.55em;
-        margin-top: -1em;
+        width: 2.5em;
+        margin-left: 17em;
+        margin-top: -2.2em;
         position: relative;
         border-style: hidden;
         border-top-right-radius: 20px;
@@ -79,8 +89,6 @@
         animation-duration: 2s;
         transition: ease-in-out;
         z-index: 150;
-        -webkit-filter: blur(0);
-                filter: blur(0);
         &::after {
             @extend .fas;
             content: fa-content($fa-var-check-circle);
