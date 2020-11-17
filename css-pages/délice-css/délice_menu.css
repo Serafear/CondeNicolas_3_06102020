@@ -13,15 +13,15 @@
 footer #line2 h6::before,
 footer #line1 h6::before,
 #logo a::before,
-#menu #délice__desserts--all #délice__desserts--3 input:checked + label #checked-font-place::after,
-#menu #délice__desserts--all #délice__desserts--2 input:checked + label #checked-font-place::after,
-#menu #délice__desserts--all #délice__desserts--1 input:checked + label #checked-font-place::after,
-#menu #délice__plats--all #délice__plats--3 input:checked + label #checked-font-place::after,
-#menu #délice__plats--all #délice__plats--2 input:checked + label #checked-font-place::after,
-#menu #délice__plats--all #délice__plats--1 input:checked + label #checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label #checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label #checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label #checked-font-place::after,
+#menu #délice__desserts--all #délice__desserts--3 input:checked + label span.green::after,
+#menu #délice__desserts--all #délice__desserts--2 input:checked + label span.green::after,
+#menu #délice__desserts--all #délice__desserts--1 input:checked + label span.green::after,
+#menu #délice__plats--all #délice__plats--3 input:checked + label span.green::after,
+#menu #délice__plats--all #délice__plats--2 input:checked + label span.green::after,
+#menu #délice__plats--all #délice__plats--1 input:checked + label span.green::after,
+#menu #délice__entrées--all #délice__entrées--3 input:checked + label span.green::after,
+#menu #délice__entrées--all #délice__entrées--2 input:checked + label span.green::after,
+#menu #délice__entrées--all #délice__entrées--1 input:checked + label span.green::after,
 .far,
 #délice-image .overlay__menu--1 #délice__title input:checked + label::before,
 #délice-image .overlay__menu--1 #délice__title input + label::before,
@@ -132,15 +132,15 @@ footer #line1 h6::before,
 footer #line2 h6.fa-pull-left::before,
 footer #line1 h6.fa-pull-left::before,
 #logo a.fa-pull-left::before,
-#menu #délice__desserts--all #délice__desserts--3 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #délice__desserts--all #délice__desserts--2 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #délice__desserts--all #délice__desserts--1 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #délice__plats--all #délice__plats--3 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #délice__plats--all #délice__plats--2 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #délice__plats--all #délice__plats--1 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label .fa-pull-left#checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label .fa-pull-left#checked-font-place::after,
+#menu #délice__desserts--all #délice__desserts--3 input:checked + label span.fa-pull-left.green::after,
+#menu #délice__desserts--all #délice__desserts--2 input:checked + label span.fa-pull-left.green::after,
+#menu #délice__desserts--all #délice__desserts--1 input:checked + label span.fa-pull-left.green::after,
+#menu #délice__plats--all #délice__plats--3 input:checked + label span.fa-pull-left.green::after,
+#menu #délice__plats--all #délice__plats--2 input:checked + label span.fa-pull-left.green::after,
+#menu #délice__plats--all #délice__plats--1 input:checked + label span.fa-pull-left.green::after,
+#menu #délice__entrées--all #délice__entrées--3 input:checked + label span.fa-pull-left.green::after,
+#menu #délice__entrées--all #délice__entrées--2 input:checked + label span.fa-pull-left.green::after,
+#menu #délice__entrées--all #délice__entrées--1 input:checked + label span.fa-pull-left.green::after,
 .far.fa-pull-left,
 #délice-image .overlay__menu--1 #délice__title input + label.fa-pull-left::before,
 .fal.fa-pull-left,
@@ -152,15 +152,15 @@ footer #line1 h6.fa-pull-left::before,
 footer #line2 h6.fa-pull-right::before,
 footer #line1 h6.fa-pull-right::before,
 #logo a.fa-pull-right::before,
-#menu #délice__desserts--all #délice__desserts--3 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #délice__desserts--all #délice__desserts--2 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #délice__desserts--all #délice__desserts--1 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #délice__plats--all #délice__plats--3 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #délice__plats--all #délice__plats--2 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #délice__plats--all #délice__plats--1 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label .fa-pull-right#checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label .fa-pull-right#checked-font-place::after,
+#menu #délice__desserts--all #délice__desserts--3 input:checked + label span.fa-pull-right.green::after,
+#menu #délice__desserts--all #délice__desserts--2 input:checked + label span.fa-pull-right.green::after,
+#menu #délice__desserts--all #délice__desserts--1 input:checked + label span.fa-pull-right.green::after,
+#menu #délice__plats--all #délice__plats--3 input:checked + label span.fa-pull-right.green::after,
+#menu #délice__plats--all #délice__plats--2 input:checked + label span.fa-pull-right.green::after,
+#menu #délice__plats--all #délice__plats--1 input:checked + label span.fa-pull-right.green::after,
+#menu #délice__entrées--all #délice__entrées--3 input:checked + label span.fa-pull-right.green::after,
+#menu #délice__entrées--all #délice__entrées--2 input:checked + label span.fa-pull-right.green::after,
+#menu #délice__entrées--all #délice__entrées--1 input:checked + label span.fa-pull-right.green::after,
 .far.fa-pull-right,
 #délice-image .overlay__menu--1 #délice__title input + label.fa-pull-right::before,
 .fal.fa-pull-right,
@@ -6127,15 +6127,15 @@ readers do not read off random characters that represent icons */
 footer #line2 h6::before,
 footer #line1 h6::before,
 #logo a::before,
-#menu #délice__desserts--all #délice__desserts--3 input:checked + label #checked-font-place::after,
-#menu #délice__desserts--all #délice__desserts--2 input:checked + label #checked-font-place::after,
-#menu #délice__desserts--all #délice__desserts--1 input:checked + label #checked-font-place::after,
-#menu #délice__plats--all #délice__plats--3 input:checked + label #checked-font-place::after,
-#menu #délice__plats--all #délice__plats--2 input:checked + label #checked-font-place::after,
-#menu #délice__plats--all #délice__plats--1 input:checked + label #checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label #checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label #checked-font-place::after,
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label #checked-font-place::after {
+#menu #délice__desserts--all #délice__desserts--3 input:checked + label span.green::after,
+#menu #délice__desserts--all #délice__desserts--2 input:checked + label span.green::after,
+#menu #délice__desserts--all #délice__desserts--1 input:checked + label span.green::after,
+#menu #délice__plats--all #délice__plats--3 input:checked + label span.green::after,
+#menu #délice__plats--all #délice__plats--2 input:checked + label span.green::after,
+#menu #délice__plats--all #délice__plats--1 input:checked + label span.green::after,
+#menu #délice__entrées--all #délice__entrées--3 input:checked + label span.green::after,
+#menu #délice__entrées--all #délice__entrées--2 input:checked + label span.green::after,
+#menu #délice__entrées--all #délice__entrées--1 input:checked + label span.green::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
@@ -6278,71 +6278,42 @@ footer #line1 h6::before,
     -webkit-text-fill-color: transparent;
   }
 }
-@-webkit-keyframes checked-background-translate--menu {
-  0% {
-    transform: translate(3em);
-  }
-}
-@keyframes checked-background-translate--menu {
-  0% {
-    transform: translate(2em);
-    transform-origin: 100% right;
-    transition: ease-out;
-  }
-}
-@-webkit-keyframes checked-ok-rotate--menu {
-  100% {
-    transform: rotate(2turn);
-    transition: ease-in-out;
-  }
-}
-@keyframes checked-ok-rotate--menu {
-  0% {
-    transition-delay: 2s;
-  }
-  100% {
-    transform: rotate(2turn);
-    transition: ease-in-out;
-  }
-}
 @-webkit-keyframes price-animation {
   0% {
-    padding-left: 9em;
-    transform: translate(-4em);
+    margin-left: 14rem;
+    transform: translate(2em);
   }
   100% {
-    margin-left: -5rem;
+    margin-left: 14rem;
   }
 }
 @keyframes price-animation {
   0% {
-    transform: translate(-3.5em);
+    margin-left: 14rem;
+    transform: translate(2em);
   }
   100% {
-    margin-left: -2.5rem;
+    margin-left: 14rem;
   }
 }
 @-webkit-keyframes price-animation--lenghty {
   0% {
-    padding-left: 9em;
+    margin-left: 11rem;
     transform: translate(2em);
     /*translate me permet de commencer l'animation à partir d'un certain niveau*/
-    padding: 0em 1em 0em 1em;
-    /*this padding is fo the overlay. I put it here for the "au cas où"*/
   }
   100% {
-    margin-left: -7.3rem;
-    padding: 0em 1em 0em 1em;
+    margin-left: 11rem;
   }
 }
 @keyframes price-animation--lenghty {
   0% {
-    transform: translate(1.5em);
+    margin-left: 11rem;
+    transform: translate(2em);
     /*translate me permet de commencer l'animation à partir d'un certain niveau*/
   }
   100% {
-    margin-left: -7.3rem;
-    /*with the z index no overlay needed*/
+    margin-left: 11rem;
   }
 }
 @-webkit-keyframes price-animation--large {
@@ -6365,20 +6336,55 @@ footer #line1 h6::before,
 }
 @-webkit-keyframes price-animation--short {
   0% {
-    padding-left: 1em;
-    transform: translate(2rem);
+    margin-left: 12.6rem;
+    transform: translate(2em);
   }
   100% {
-    margin-left: -1rem;
+    margin-left: 12.6rem;
   }
 }
 @keyframes price-animation--short {
   0% {
-    padding-left: 0em;
-    transform: translate(2.3rem);
+    margin-left: 12.6rem;
+    transform: translate(2em);
   }
   100% {
-    margin-left: -3.6rem;
+    margin-left: 12.6rem;
+  }
+}
+@-webkit-keyframes checked-background-translate--menu {
+  0% {
+    transform: translate(-2em);
+    transition: ease-in-out;
+  }
+  100% {
+    margin-left: 17em;
+    /*this remove the blur effect on the animation. the blur is caused by the calculation of the position, i think*/
+  }
+}
+@keyframes checked-background-translate--menu {
+  0% {
+    transform: translate(2em);
+    transition: ease-in-out;
+  }
+  100% {
+    margin-left: 17em;
+    /*this remove the blur effect on the animation. the blur is caused by the calculation of the position, i think*/
+  }
+}
+@-webkit-keyframes checked-ok-rotate--menu {
+  100% {
+    transform: rotate(2turn);
+    transition: ease-in-out;
+  }
+}
+@keyframes checked-ok-rotate--menu {
+  0% {
+    transition-delay: 2s;
+  }
+  100% {
+    transform: rotate(2turn);
+    transition: ease-in-out;
   }
 }
 @-webkit-keyframes loading-menus {
@@ -6483,10 +6489,13 @@ footer #line1 h6::before,
 #menu #délice__entrées {
   padding-bottom: 0.5em;
 }
-#menu #délice__entrées p {
+#menu #délice__entrées h2 {
   border-bottom: solid #99E2D0;
   border-width: 0.3em;
-  margin-right: 20em;
+  margin-right: 15em;
+  font-weight: lighter;
+  font-size: 1.3em;
+  padding-bottom: 0.3em;
 }
 #menu #délice__entrées--all {
   padding-bottom: 2em;
@@ -6496,7 +6505,8 @@ footer #line1 h6::before,
   padding-left: 0.5em;
 }
 #menu #délice__entrées--all #délice__entrées--1 {
-  margin-top: 1em;
+  margin-top: 0.95em;
+  /*not 1em, for some reason there is a very small space betweel the green and he top of the div if i set margin to 1*/
   border-style: hidden;
   background-color: white;
   padding: 0.9em 0.5em 0.9em 0.5em;
@@ -6508,6 +6518,8 @@ footer #line1 h6::before,
   height: 3em;
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
+  width: 20.5em;
+  /*fixes a minor visual imperfection*/
 }
 #menu #délice__entrées--all #délice__entrées--1 input {
   -webkit-font-smoothing: antialiased;
@@ -6519,37 +6531,54 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #délice__entrées--all #délice__entrées--1 input + label {
+#menu #délice__entrées--all #délice__entrées--1 input + label span.bold, #menu #délice__entrées--all #délice__entrées--1 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
+#menu #délice__entrées--all #délice__entrées--1 input + label span.bold {
+  width: 17em;
+  /*the width is here to harmonize all the animations*/
+  white-space: nowrap;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  padding-bottom: 2em;
+}
+#menu #délice__entrées--all #délice__entrées--1 input + label span.normal {
+  width: 17.5em;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+  font-size: 0.95em;
+}
+#menu #délice__entrées--all #délice__entrées--1 input + label span.price, #menu #délice__entrées--all #délice__entrées--1 input + label span.green {
   display: flex;
   flex-direction: row;
 }
-#menu #délice__entrées--all #délice__entrées--1 input + label h3 {
-  white-space: nowrap;
-  padding-bottom: 0.095rem;
-}
-#menu #délice__entrées--all #délice__entrées--1 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
+#menu #délice__entrées--all #délice__entrées--1 input + label span.price {
+  position: absolute;
+  width: 3em;
+  margin-left: 19.5em;
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  font-weight: bold;
 }
 #menu #délice__entrées--all #délice__entrées--1 input + label:hover {
   cursor: pointer;
 }
-#menu #délice__entrées--all #délice__entrées--1 input + label h3 {
-  padding-right: 8em;
+#menu #délice__entrées--all #délice__entrées--1 input + label span.bold {
+  padding: 0;
+  /*here the spans are used for templates, in case of need*/
 }
-#menu #délice__entrées--all #délice__entrées--1 input + label #délice__entrées--prix {
-  padding-left: 3em;
-  margin-top: 1.6em;
+#menu #délice__entrées--all #délice__entrées--1 input + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #délice__entrées--all #délice__entrées--1 input + label #délice__entrées--prix h5 {
-  margin-left: -1.5rem;
-}
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label #checked-font-place {
-  z-index: 95;
+#menu #délice__entrées--all #délice__entrées--1 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  width: 3em;
+  margin-left: 17em;
+  margin-top: -2.3em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -6559,8 +6588,9 @@ footer #line1 h6::before,
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   transition: ease-in-out;
+  z-index: 150;
 }
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label #checked-font-place::after {
+#menu #délice__entrées--all #délice__entrées--1 input:checked + label span.green::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -6573,21 +6603,17 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label #checked-font-place {
-  margin-left: -1.6em;
+#menu #délice__entrées--all #délice__entrées--1 input:checked + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label #délice__entrées--prix {
-  padding-left: 1em;
-  margin-top: 1.6em;
-}
-#menu #délice__entrées--all #délice__entrées--1 input:checked + label #délice__entrées--prix h5 {
-  margin-left: -3.6rem;
-  padding-right: 0em;
-  -webkit-animation-name: price-animation--short;
-  animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
+#menu #délice__entrées--all #délice__entrées--1 input:checked + label span.price {
+  margin-left: 14rem;
+  padding-right: 2em;
+  -webkit-animation-name: price-animation;
+  animation-name: price-animation;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
 }
 #menu #délice__entrées--all #délice__entrées--2 {
   margin-top: 1em;
@@ -6602,6 +6628,7 @@ footer #line1 h6::before,
   height: 3em;
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
+  width: 20.5em;
 }
 #menu #délice__entrées--all #délice__entrées--2 input {
   -webkit-font-smoothing: antialiased;
@@ -6613,37 +6640,57 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #délice__entrées--all #délice__entrées--2 input + label {
+#menu #délice__entrées--all #délice__entrées--2 input + label span.bold, #menu #délice__entrées--all #délice__entrées--2 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
+#menu #délice__entrées--all #délice__entrées--2 input + label span.bold {
+  width: 17em;
+  /*the width is here to harmonize all the animations*/
+  white-space: nowrap;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  padding-bottom: 2em;
+}
+#menu #délice__entrées--all #délice__entrées--2 input + label span.normal {
+  width: 17.5em;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+  font-size: 0.95em;
+}
+#menu #délice__entrées--all #délice__entrées--2 input + label span.price, #menu #délice__entrées--all #délice__entrées--2 input + label span.green {
   display: flex;
   flex-direction: row;
 }
-#menu #délice__entrées--all #délice__entrées--2 input + label h3 {
-  white-space: nowrap;
-  padding-bottom: 0.095rem;
-}
-#menu #délice__entrées--all #délice__entrées--2 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
+#menu #délice__entrées--all #délice__entrées--2 input + label span.price {
+  position: absolute;
+  width: 3em;
+  margin-left: 19.5em;
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  font-weight: bold;
 }
 #menu #délice__entrées--all #délice__entrées--2 input + label:hover {
   cursor: pointer;
 }
-#menu #délice__entrées--all #délice__entrées--2 input + label h3 {
-  padding-right: 1.7em;
+#menu #délice__entrées--all #délice__entrées--2 input + label span.bold {
+  padding: 0;
+  /*here the spans are used for templates, in case of need*/
 }
-#menu #délice__entrées--all #délice__entrées--2 input + label #délice__entrées--prix {
-  padding-left: 1.8em;
-  margin-top: 1.6em;
+#menu #délice__entrées--all #délice__entrées--2 input + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #délice__entrées--all #délice__entrées--2 input + label #délice__entrées--prix h5 {
-  margin-left: -1.5rem;
+#menu #délice__entrées--all #délice__entrées--2 input + label span.price {
+  margin-left: 19.7em;
 }
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label #checked-font-place {
-  z-index: 95;
+#menu #délice__entrées--all #délice__entrées--2 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  width: 3em;
+  margin-left: 17em;
+  margin-top: -2.3em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -6653,8 +6700,9 @@ footer #line1 h6::before,
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   transition: ease-in-out;
+  z-index: 150;
 }
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label #checked-font-place::after {
+#menu #délice__entrées--all #délice__entrées--2 input:checked + label span.green::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -6667,31 +6715,23 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label #checked-font-place {
-  margin-left: -0.65em;
+#menu #délice__entrées--all #délice__entrées--2 input:checked + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label h3 {
-  padding-right: 0.7em;
-  /*this padding help me position the price*/
-}
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label #délice__entrées--prix {
-  padding-left: 0em;
-  margin-top: 1.6em;
-}
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label #délice__entrées--prix h5 {
-  margin-left: -3.6rem;
-  padding-right: 0em;
+#menu #délice__entrées--all #délice__entrées--2 input:checked + label span.price {
+  margin-left: 12.6rem;
+  padding-right: 1em;
   -webkit-animation-name: price-animation--short;
   animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
   z-index: 100;
   background: white;
 }
-#menu #délice__entrées--all #délice__entrées--2 input:checked + label #délice__entrées--prix h5:before {
+#menu #délice__entrées--all #délice__entrées--2 input:checked + label span.price::before {
   content: "...";
-  padding-right: 0.4em;
+  padding-right: 0.5em;
 }
 #menu #délice__entrées--all #délice__entrées--3 {
   margin-top: 1em;
@@ -6706,6 +6746,7 @@ footer #line1 h6::before,
   height: 3em;
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
+  width: 20.5em;
 }
 #menu #délice__entrées--all #délice__entrées--3 input {
   -webkit-font-smoothing: antialiased;
@@ -6717,37 +6758,57 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #délice__entrées--all #délice__entrées--3 input + label {
+#menu #délice__entrées--all #délice__entrées--3 input + label span.bold, #menu #délice__entrées--all #délice__entrées--3 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
+#menu #délice__entrées--all #délice__entrées--3 input + label span.bold {
+  width: 17em;
+  /*the width is here to harmonize all the animations*/
+  white-space: nowrap;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  padding-bottom: 2em;
+}
+#menu #délice__entrées--all #délice__entrées--3 input + label span.normal {
+  width: 17.5em;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+  font-size: 0.95em;
+}
+#menu #délice__entrées--all #délice__entrées--3 input + label span.price, #menu #délice__entrées--all #délice__entrées--3 input + label span.green {
   display: flex;
   flex-direction: row;
 }
-#menu #délice__entrées--all #délice__entrées--3 input + label h3 {
-  white-space: nowrap;
-  padding-bottom: 0.095rem;
-}
-#menu #délice__entrées--all #délice__entrées--3 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
+#menu #délice__entrées--all #délice__entrées--3 input + label span.price {
+  position: absolute;
+  width: 3em;
+  margin-left: 19.5em;
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  font-weight: bold;
 }
 #menu #délice__entrées--all #délice__entrées--3 input + label:hover {
   cursor: pointer;
 }
-#menu #délice__entrées--all #délice__entrées--3 input + label h3 {
-  padding-right: 8.2em;
+#menu #délice__entrées--all #délice__entrées--3 input + label span.bold {
+  padding: 0;
+  /*here the spans are used for templates, in case of need*/
 }
-#menu #délice__entrées--all #délice__entrées--3 input + label #délice__entrées--prix {
-  padding-left: 1.8em;
-  margin-top: 1.6em;
+#menu #délice__entrées--all #délice__entrées--3 input + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #délice__entrées--all #délice__entrées--3 input + label #délice__entrées--prix h5 {
-  margin-left: -1.5rem;
+#menu #délice__entrées--all #délice__entrées--3 input + label span.price {
+  margin-left: 19.7em;
 }
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label #checked-font-place {
-  z-index: 95;
+#menu #délice__entrées--all #délice__entrées--3 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  width: 3em;
+  margin-left: 17em;
+  margin-top: -2.3em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -6757,8 +6818,9 @@ footer #line1 h6::before,
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   transition: ease-in-out;
+  z-index: 150;
 }
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label #checked-font-place::after {
+#menu #délice__entrées--all #délice__entrées--3 input:checked + label span.green::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -6771,153 +6833,41 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label #checked-font-place {
-  margin-left: -1.5em;
+#menu #délice__entrées--all #délice__entrées--3 input:checked + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label h3 {
-  padding-right: 7.9em;
-  /*this padding help me position the price*/
-}
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label #délice__entrées--prix {
-  padding-left: 0em;
-  margin-top: 1.6em;
-}
-#menu #délice__entrées--all #délice__entrées--3 input:checked + label #délice__entrées--prix h5 {
-  margin-left: -3.6rem;
-  padding-right: 0em;
-  -webkit-animation-name: price-animation--short;
-  animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
+#menu #délice__entrées--all #délice__entrées--3 input:checked + label span.price {
+  margin-left: 14rem;
+  padding-right: 1.5em;
+  /*mask the text ont some menus*/
+  -webkit-animation-name: price-animation;
+  animation-name: price-animation;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
 }
 #menu #délice__plats {
   padding-bottom: 0.5em;
   /*distance between the last div and the desserts*/
 }
-#menu #délice__plats p {
+#menu #délice__plats h2 {
   border-bottom: solid #99E2D0;
   border-width: 0.3em;
-  margin-right: 20em;
+  margin-right: 15em;
+  font-weight: lighter;
+  font-size: 1.3em;
+  padding-bottom: 0.3em;
 }
 #menu #délice__plats--all {
   padding-bottom: 2em;
   overflow-y: hidden;
   overflow-x: hidden;
-  height: 18.5em;
+  height: 17.5em;
   padding-left: 0.5em;
 }
 #menu #délice__plats--all #délice__plats--1 {
-  margin-top: 1em;
-  border-style: hidden;
-  background-color: white;
-  padding: 0.9em 0.5em 0.9em 0.5em;
-  border-radius: 20px;
-  box-shadow: 0em 0em 0.6em -0.2em;
-  margin-right: 0.7em;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 4.2em;
-  /*there are 2 variants, one normal and the -- large*/
-  -webkit-animation: loading-menus 0.5s ease-in-out;
-  animation: loading-menus 0.5s ease-in-out;
-}
-#menu #délice__plats--all #délice__plats--1 input {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  display: none;
-}
-#menu #délice__plats--all #délice__plats--1 input + label {
-  display: flex;
-  flex-direction: row;
-}
-#menu #délice__plats--all #délice__plats--1 input + label h3 {
-  white-space: nowrap;
-  padding-bottom: 0.095rem;
-}
-#menu #délice__plats--all #délice__plats--1 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
-}
-#menu #délice__plats--all #délice__plats--1 input + label:hover {
-  cursor: pointer;
-}
-#menu #délice__plats--all #délice__plats--1 input + label h3 {
-  padding-right: 6.2em;
-}
-#menu #délice__plats--all #délice__plats--1 input + label #délice__plats--prix {
-  padding-left: 0em;
-  margin-top: 1.6em;
-}
-#menu #délice__plats--all #délice__plats--1 input + label #délice__plats--prix h5 {
-  margin-left: -1.5rem;
-  padding-top: 2em;
-}
-#menu #délice__plats--all #délice__plats--1 input:checked + label {
-  /*2 variants, large and normal (without a modifier)*/
-}
-#menu #délice__plats--all #délice__plats--1 input:checked + label #checked-font-place {
-  z-index: 95;
-  background-color: #99E2D0;
-  padding: 2em 1.3em 2em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
-  position: relative;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  -webkit-animation-name: checked-background-translate--menu;
-  animation-name: checked-background-translate--menu;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  transition: ease-in-out;
-}
-#menu #délice__plats--all #délice__plats--1 input:checked + label #checked-font-place::after {
-  content: "";
-  font-size: 2rem;
-  animation-name: checked-ok-rotate--menu;
-  -webkit-animation-name: checked-ok-rotate--menu;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: white;
-  justify-content: center;
-}
-#menu #délice__plats--all #délice__plats--1 input:checked + label #checked-font-place {
-  margin-left: -3.1em;
-}
-#menu #délice__plats--all #délice__plats--1 input:checked + label h3 {
-  padding-right: 4.2em;
-}
-#menu #délice__plats--all #délice__plats--1 input:checked + label #délice__plats--prix {
-  padding-left: 2.3em;
-  margin-top: 1.5em;
-  margin-left: -1.9em;
-}
-#menu #délice__plats--all #délice__plats--1 input:checked + label #délice__plats--prix h5 {
-  margin-left: -3.5rem;
-  /*to better understand the positionning i use the border solid*/
-  padding-right: 2em;
-  margin-right: 2rem;
-  -webkit-animation-name: price-animation--large;
-  animation-name: price-animation--large;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
-  z-index: 100;
-  background: white;
-  padding-left: 0em;
-  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
-}
-#menu #délice__plats--all #délice__plats--2 {
-  margin-top: 1em;
+  margin-top: 0.95em;
+  /*not 1em, for some reason there is a very small space betweel the green and he top of the div if i set margin to 1*/
   border-style: hidden;
   background-color: white;
   padding: 0.9em 0.5em 0.9em 0.5em;
@@ -6929,8 +6879,10 @@ footer #line1 h6::before,
   height: 3em;
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
+  width: 20.5em;
+  height: 4em;
 }
-#menu #délice__plats--all #délice__plats--2 input {
+#menu #délice__plats--all #délice__plats--1 input {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -6940,37 +6892,55 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #délice__plats--all #délice__plats--2 input + label {
+#menu #délice__plats--all #délice__plats--1 input + label span.bold, #menu #délice__plats--all #délice__plats--1 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
+#menu #délice__plats--all #délice__plats--1 input + label span.bold {
+  width: 17em;
+  /*the width is here to harmonize all the animations*/
+  white-space: nowrap;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  padding-bottom: 2em;
+}
+#menu #délice__plats--all #délice__plats--1 input + label span.normal {
+  width: 17.5em;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+  font-size: 0.95em;
+}
+#menu #délice__plats--all #délice__plats--1 input + label span.price, #menu #délice__plats--all #délice__plats--1 input + label span.green {
   display: flex;
   flex-direction: row;
 }
-#menu #délice__plats--all #délice__plats--2 input + label h3 {
-  white-space: nowrap;
-  padding-bottom: 0.095rem;
+#menu #délice__plats--all #délice__plats--1 input + label span.price {
+  position: absolute;
+  width: 3em;
+  margin-left: 19.5em;
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  font-weight: bold;
 }
-#menu #délice__plats--all #délice__plats--2 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
-}
-#menu #délice__plats--all #délice__plats--2 input + label:hover {
+#menu #délice__plats--all #délice__plats--1 input + label:hover {
   cursor: pointer;
 }
-#menu #délice__plats--all #délice__plats--2 input + label h3 {
-  padding-right: 1em;
+#menu #délice__plats--all #délice__plats--1 input + label span.bold {
+  padding: 0;
+  /*here the spans are used for templates, in case of need*/
 }
-#menu #délice__plats--all #délice__plats--2 input + label #délice__plats--prix {
-  padding-left: 8.7em;
-  margin-top: 1.6em;
+#menu #délice__plats--all #délice__plats--1 input + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #délice__plats--all #délice__plats--2 input + label #délice__plats--prix h5 {
-  margin-left: -1.5rem;
-}
-#menu #délice__plats--all #délice__plats--2 input:checked + label #checked-font-place {
+#menu #délice__plats--all #délice__plats--1 input:checked + label span.green {
   z-index: 95;
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
+  padding: 2em 1.3em 2em 1.3em;
+  margin-left: 17em;
+  width: 3em;
+  margin-top: -3.3em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -6980,8 +6950,9 @@ footer #line1 h6::before,
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   transition: ease-in-out;
+  z-index: 150;
 }
-#menu #délice__plats--all #délice__plats--2 input:checked + label #checked-font-place::after {
+#menu #délice__plats--all #délice__plats--1 input:checked + label span.green::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -6994,29 +6965,131 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #délice__plats--all #délice__plats--2 input:checked + label #checked-font-place {
-  margin-left: -1.6em;
+#menu #délice__plats--all #délice__plats--1 input:checked + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #délice__plats--all #délice__plats--2 input:checked + label h3 {
-  padding-right: 6.5em;
+#menu #délice__plats--all #délice__plats--1 input:checked + label span.price {
+  margin-left: 14rem;
+  padding-right: 2em;
+  -webkit-animation-name: price-animation;
+  animation-name: price-animation;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
 }
-#menu #délice__plats--all #délice__plats--2 input:checked + label #délice__plats--prix {
-  padding-left: 3.3em;
-  margin-top: 1.6em;
-  margin-left: -1.9em;
+#menu #délice__plats--all #délice__plats--2 {
+  margin-top: 0.9em;
+  /*here too, something is strange with the distance*/
+  border-style: hidden;
+  background-color: white;
+  padding: 0.9em 0.5em 0.9em 0.5em;
+  border-radius: 20px;
+  box-shadow: 0em 0em 0.6em -0.2em;
+  margin-right: 0.7em;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 3em;
+  -webkit-animation: loading-menus 0.5s ease-in-out;
+  animation: loading-menus 0.5s ease-in-out;
+  width: 20.5em;
 }
-#menu #délice__plats--all #délice__plats--2 input:checked + label #délice__plats--prix h5 {
-  margin-left: -3.6rem;
-  /*to better understand the positionning i use the border solid*/
-  padding-right: 0.5em;
-  margin-right: 2rem;
+#menu #délice__plats--all #délice__plats--2 input {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  display: none;
+}
+#menu #délice__plats--all #délice__plats--2 input + label span.bold, #menu #délice__plats--all #délice__plats--2 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
+#menu #délice__plats--all #délice__plats--2 input + label span.bold {
+  width: 17em;
+  /*the width is here to harmonize all the animations*/
+  white-space: nowrap;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  padding-bottom: 2em;
+}
+#menu #délice__plats--all #délice__plats--2 input + label span.normal {
+  width: 17.5em;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+  font-size: 0.95em;
+}
+#menu #délice__plats--all #délice__plats--2 input + label span.price, #menu #délice__plats--all #délice__plats--2 input + label span.green {
+  display: flex;
+  flex-direction: row;
+}
+#menu #délice__plats--all #délice__plats--2 input + label span.price {
+  position: absolute;
+  width: 3em;
+  margin-left: 19.5em;
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  font-weight: bold;
+}
+#menu #délice__plats--all #délice__plats--2 input + label:hover {
+  cursor: pointer;
+}
+#menu #délice__plats--all #délice__plats--2 input + label span.bold {
+  padding: 0;
+  /*here the spans are used for templates, in case of need*/
+}
+#menu #délice__plats--all #délice__plats--2 input + label span.normal {
+  margin-left: 0.53em;
+}
+#menu #délice__plats--all #délice__plats--2 input + label span.price {
+  margin-left: 19.7em;
+}
+#menu #délice__plats--all #délice__plats--2 input:checked + label span.green {
+  background-color: #99E2D0;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  width: 3em;
+  margin-left: 17em;
+  margin-top: -2.3em;
+  position: relative;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-animation-name: checked-background-translate--menu;
+  animation-name: checked-background-translate--menu;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
+  z-index: 150;
+}
+#menu #délice__plats--all #délice__plats--2 input:checked + label span.green::after {
+  content: "";
+  font-size: 2rem;
+  animation-name: checked-ok-rotate--menu;
+  -webkit-animation-name: checked-ok-rotate--menu;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+#menu #délice__plats--all #délice__plats--2 input:checked + label span.normal {
+  margin-left: 0.53em;
+}
+#menu #délice__plats--all #délice__plats--2 input:checked + label span.price {
+  margin-left: 12.6rem;
+  padding-right: 1em;
+  /*mask the text ont some menus*/
   -webkit-animation-name: price-animation--short;
   animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
-  padding-left: 0em;
-  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
 }
 #menu #délice__plats--all #délice__plats--3 {
   margin-top: 1em;
@@ -7031,6 +7104,7 @@ footer #line1 h6::before,
   height: 3em;
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
+  width: 20.5em;
 }
 #menu #délice__plats--all #délice__plats--3 input {
   -webkit-font-smoothing: antialiased;
@@ -7042,37 +7116,54 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #délice__plats--all #délice__plats--3 input + label {
+#menu #délice__plats--all #délice__plats--3 input + label span.bold, #menu #délice__plats--all #délice__plats--3 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
+#menu #délice__plats--all #délice__plats--3 input + label span.bold {
+  width: 17em;
+  /*the width is here to harmonize all the animations*/
+  white-space: nowrap;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  padding-bottom: 2em;
+}
+#menu #délice__plats--all #délice__plats--3 input + label span.normal {
+  width: 17.5em;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+  font-size: 0.95em;
+}
+#menu #délice__plats--all #délice__plats--3 input + label span.price, #menu #délice__plats--all #délice__plats--3 input + label span.green {
   display: flex;
   flex-direction: row;
 }
-#menu #délice__plats--all #délice__plats--3 input + label h3 {
-  white-space: nowrap;
-  padding-bottom: 0.095rem;
-}
-#menu #délice__plats--all #délice__plats--3 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
+#menu #délice__plats--all #délice__plats--3 input + label span.price {
+  position: absolute;
+  width: 3em;
+  margin-left: 19.5em;
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  font-weight: bold;
 }
 #menu #délice__plats--all #délice__plats--3 input + label:hover {
   cursor: pointer;
 }
-#menu #délice__plats--all #délice__plats--3 input + label h3 {
-  padding-right: 4.1em;
+#menu #délice__plats--all #délice__plats--3 input + label span.bold {
+  padding: 0;
+  /*here the spans are used for templates, in case of need*/
 }
-#menu #délice__plats--all #délice__plats--3 input + label #délice__plats--prix {
-  padding-left: 4.5em;
-  margin-top: 1.6em;
+#menu #délice__plats--all #délice__plats--3 input + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #délice__plats--all #délice__plats--3 input + label #délice__plats--prix h5 {
-  margin-left: -1.5rem;
-}
-#menu #délice__plats--all #délice__plats--3 input:checked + label #checked-font-place {
-  z-index: 95;
+#menu #délice__plats--all #délice__plats--3 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  width: 3em;
+  margin-left: 17em;
+  margin-top: -2.3em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -7082,8 +7173,9 @@ footer #line1 h6::before,
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   transition: ease-in-out;
+  z-index: 150;
 }
-#menu #délice__plats--all #délice__plats--3 input:checked + label #checked-font-place::after {
+#menu #délice__plats--all #délice__plats--3 input:checked + label span.green::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -7096,37 +7188,28 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #délice__plats--all #délice__plats--3 input:checked + label #checked-font-place {
-  margin-left: -1.5em;
+#menu #délice__plats--all #délice__plats--3 input:checked + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #délice__plats--all #délice__plats--3 input:checked + label h3 {
-  padding-right: 5.2em;
-}
-#menu #délice__plats--all #délice__plats--3 input:checked + label #délice__plats--prix {
-  padding-left: 3em;
-  margin-top: 1.6em;
-  margin-left: -1.9em;
-}
-#menu #délice__plats--all #délice__plats--3 input:checked + label #délice__plats--prix h5 {
-  margin-left: -3.6rem;
-  /*to better understand the positionning i use the border solid*/
-  padding-right: 0.5em;
-  margin-right: 2rem;
+#menu #délice__plats--all #délice__plats--3 input:checked + label span.price {
+  margin-left: 12.6rem;
+  padding-right: 2em;
   -webkit-animation-name: price-animation--short;
   animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   transition: ease-out;
-  padding-left: 0em;
-  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
 }
 #menu #délice__desserts {
   padding-bottom: 0.5em;
 }
-#menu #délice__desserts p {
+#menu #délice__desserts h2 {
   border-bottom: solid #99E2D0;
   border-width: 0.3em;
-  margin-right: 20em;
+  margin-right: 15em;
+  font-weight: lighter;
+  font-size: 1.3em;
+  padding-bottom: 0.3em;
 }
 #menu #délice__desserts--all {
   padding-bottom: 3em;
@@ -7136,7 +7219,6 @@ footer #line1 h6::before,
   padding-left: 0.5em;
 }
 #menu #délice__desserts--all #délice__desserts--1 {
-  margin-top: 1em;
   border-style: hidden;
   background-color: white;
   padding: 0.9em 0.5em 0.9em 0.5em;
@@ -7148,6 +7230,8 @@ footer #line1 h6::before,
   height: 3em;
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
+  margin-top: 1em;
+  width: 20.5em;
 }
 #menu #délice__desserts--all #délice__desserts--1 input {
   -webkit-font-smoothing: antialiased;
@@ -7159,38 +7243,54 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #délice__desserts--all #délice__desserts--1 input + label {
+#menu #délice__desserts--all #délice__desserts--1 input + label span.bold, #menu #délice__desserts--all #délice__desserts--1 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
+#menu #délice__desserts--all #délice__desserts--1 input + label span.bold {
+  width: 17em;
+  /*the width is here to harmonize all the animations*/
+  white-space: nowrap;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  padding-bottom: 2em;
+}
+#menu #délice__desserts--all #délice__desserts--1 input + label span.normal {
+  width: 17.5em;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+  font-size: 0.95em;
+}
+#menu #délice__desserts--all #délice__desserts--1 input + label span.price, #menu #délice__desserts--all #délice__desserts--1 input + label span.green {
   display: flex;
   flex-direction: row;
 }
-#menu #délice__desserts--all #délice__desserts--1 input + label h3 {
-  white-space: nowrap;
-  padding-bottom: 0.095rem;
-}
-#menu #délice__desserts--all #délice__desserts--1 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
+#menu #délice__desserts--all #délice__desserts--1 input + label span.price {
+  position: absolute;
+  width: 3em;
+  margin-left: 19.5em;
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  font-weight: bold;
 }
 #menu #délice__desserts--all #délice__desserts--1 input + label:hover {
   cursor: pointer;
 }
-#menu #délice__desserts--all #délice__desserts--1 input + label h3 {
-  padding-right: 2em;
-  padding-bottom: 0.1rem;
+#menu #délice__desserts--all #délice__desserts--1 input + label span.bold {
+  padding: 0;
+  /*here the spans are used for templates, in case of need*/
 }
-#menu #délice__desserts--all #délice__desserts--1 input + label #délice__desserts--prix {
-  padding-left: 7.2em;
-  margin-top: 1.6em;
+#menu #délice__desserts--all #délice__desserts--1 input + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #délice__desserts--all #délice__desserts--1 input + label #délice__desserts--prix h5 {
-  margin-left: -2.5rem;
-}
-#menu #délice__desserts--all #délice__desserts--1 input:checked + label #checked-font-place {
-  z-index: 95;
+#menu #délice__desserts--all #délice__desserts--1 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  width: 3em;
+  margin-left: 17em;
+  margin-top: -2.3em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -7200,8 +7300,9 @@ footer #line1 h6::before,
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   transition: ease-in-out;
+  z-index: 150;
 }
-#menu #délice__desserts--all #délice__desserts--1 input:checked + label #checked-font-place::after {
+#menu #délice__desserts--all #délice__desserts--1 input:checked + label span.green::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -7214,28 +7315,17 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #délice__desserts--all #délice__desserts--1 input:checked + label #checked-font-place {
-  margin-left: -2.9em;
+#menu #délice__desserts--all #délice__desserts--1 input:checked + label span.normal {
+  margin-left: 0.5em;
 }
-#menu #délice__desserts--all #délice__desserts--1 input:checked + label #délice__desserts--prix {
-  padding-left: 5.8em;
-  margin-top: 1.6em;
-  margin-left: -1.5em;
-}
-#menu #délice__desserts--all #délice__desserts--1 input:checked + label #délice__desserts--prix h5 {
-  margin-left: -3.6rem;
-  /*to better understand the positionning i use the border solid*/
+#menu #délice__desserts--all #délice__desserts--1 input:checked + label span.price {
+  margin-left: 14rem;
   padding-right: 2em;
-  margin-right: 2rem;
-  -webkit-animation-name: price-animation--short;
-  animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
+  -webkit-animation-name: price-animation;
+  animation-name: price-animation;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   transition: ease-out;
-  z-index: 100;
-  background: white;
-  padding-left: 0em;
-  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
 }
 #menu #délice__desserts--all #délice__desserts--2 {
   margin-top: 1em;
@@ -7250,6 +7340,7 @@ footer #line1 h6::before,
   height: 3em;
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
+  width: 20.5em;
 }
 #menu #délice__desserts--all #délice__desserts--2 input {
   -webkit-font-smoothing: antialiased;
@@ -7261,37 +7352,57 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #délice__desserts--all #délice__desserts--2 input + label {
+#menu #délice__desserts--all #délice__desserts--2 input + label span.bold, #menu #délice__desserts--all #délice__desserts--2 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
+#menu #délice__desserts--all #délice__desserts--2 input + label span.bold {
+  width: 17em;
+  /*the width is here to harmonize all the animations*/
+  white-space: nowrap;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  padding-bottom: 2em;
+}
+#menu #délice__desserts--all #délice__desserts--2 input + label span.normal {
+  width: 17.5em;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+  font-size: 0.95em;
+}
+#menu #délice__desserts--all #délice__desserts--2 input + label span.price, #menu #délice__desserts--all #délice__desserts--2 input + label span.green {
   display: flex;
   flex-direction: row;
 }
-#menu #délice__desserts--all #délice__desserts--2 input + label h3 {
-  white-space: nowrap;
-  padding-bottom: 0.095rem;
-}
-#menu #délice__desserts--all #délice__desserts--2 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
+#menu #délice__desserts--all #délice__desserts--2 input + label span.price {
+  position: absolute;
+  width: 3em;
+  margin-left: 19.5em;
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  font-weight: bold;
 }
 #menu #délice__desserts--all #délice__desserts--2 input + label:hover {
   cursor: pointer;
 }
-#menu #délice__desserts--all #délice__desserts--2 input + label h3 {
-  padding-right: 6.1em;
+#menu #délice__desserts--all #délice__desserts--2 input + label span.bold {
+  padding: 0;
+  /*here the spans are used for templates, in case of need*/
 }
-#menu #délice__desserts--all #délice__desserts--2 input + label #délice__desserts--prix {
-  padding-left: 6em;
-  margin-top: 1.6em;
+#menu #délice__desserts--all #délice__desserts--2 input + label span.normal {
+  margin-left: 0.51em;
 }
-#menu #délice__desserts--all #délice__desserts--2 input + label #délice__desserts--prix h5 {
-  margin-left: -1.5rem;
+#menu #délice__desserts--all #délice__desserts--2 input + label span.price {
+  margin-left: 19.7em;
 }
-#menu #délice__desserts--all #délice__desserts--2 input:checked + label #checked-font-place {
-  z-index: 95;
+#menu #délice__desserts--all #délice__desserts--2 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  width: 3em;
+  margin-left: 17em;
+  margin-top: -2.3em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -7301,8 +7412,9 @@ footer #line1 h6::before,
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   transition: ease-in-out;
+  z-index: 150;
 }
-#menu #délice__desserts--all #délice__desserts--2 input:checked + label #checked-font-place::after {
+#menu #délice__desserts--all #délice__desserts--2 input:checked + label span.green::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -7315,28 +7427,18 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #délice__desserts--all #délice__desserts--2 input:checked + label #checked-font-place {
-  margin-left: -1.6em;
+#menu #délice__desserts--all #délice__desserts--2 input:checked + label span.normal {
+  margin-left: 0.51em;
 }
-#menu #délice__desserts--all #délice__desserts--2 input:checked + label #délice__desserts--prix {
-  padding-left: 5.9em;
-  margin-top: 1.6em;
-  margin-left: -1.9em;
-}
-#menu #délice__desserts--all #délice__desserts--2 input:checked + label #délice__desserts--prix h5 {
-  margin-left: -3.6rem;
-  /*to better understand the positionning i use the border solid*/
-  padding-right: 0.5em;
-  margin-right: 2rem;
-  -webkit-animation-name: price-animation--short;
-  animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
-  z-index: 100;
-  background: white;
-  padding-left: 0em;
-  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+#menu #délice__desserts--all #délice__desserts--2 input:checked + label span.price {
+  margin-left: 14rem;
+  padding-right: 2em;
+  /*mask the text ont some menus*/
+  -webkit-animation-name: price-animation;
+  animation-name: price-animation;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
 }
 #menu #délice__desserts--all #délice__desserts--3 {
   margin-top: 1em;
@@ -7351,6 +7453,7 @@ footer #line1 h6::before,
   height: 3em;
   -webkit-animation: loading-menus 0.5s ease-in-out;
   animation: loading-menus 0.5s ease-in-out;
+  width: 20.5em;
 }
 #menu #délice__desserts--all #délice__desserts--3 input {
   -webkit-font-smoothing: antialiased;
@@ -7362,37 +7465,58 @@ footer #line1 h6::before,
   line-height: 1;
   display: none;
 }
-#menu #délice__desserts--all #délice__desserts--3 input + label {
+#menu #délice__desserts--all #délice__desserts--3 input + label span.bold, #menu #délice__desserts--all #délice__desserts--3 input + label span.normal {
+  display: flex;
+  flex-direction: column;
+}
+#menu #délice__desserts--all #délice__desserts--3 input + label span.bold {
+  width: 17em;
+  /*the width is here to harmonize all the animations*/
+  white-space: nowrap;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  padding-bottom: 2em;
+}
+#menu #délice__desserts--all #délice__desserts--3 input + label span.normal {
+  width: 17.5em;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 0em;
+  padding-top: 0.7em;
+  font-size: 0.95em;
+}
+#menu #délice__desserts--all #délice__desserts--3 input + label span.price, #menu #délice__desserts--all #délice__desserts--3 input + label span.green {
   display: flex;
   flex-direction: row;
 }
-#menu #délice__desserts--all #délice__desserts--3 input + label h3 {
-  white-space: nowrap;
-  padding-bottom: 0.095rem;
-}
-#menu #délice__desserts--all #délice__desserts--3 input + label h4 {
-  white-space: nowrap;
-  font-weight: lighter;
+#menu #délice__desserts--all #délice__desserts--3 input + label span.price {
+  position: absolute;
+  width: 3em;
+  margin-left: 19.5em;
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  font-weight: bold;
 }
 #menu #délice__desserts--all #délice__desserts--3 input + label:hover {
   cursor: pointer;
 }
-#menu #délice__desserts--all #délice__desserts--3 input + label h3 {
-  padding-right: 8.8em;
+#menu #délice__desserts--all #délice__desserts--3 input + label span.bold {
+  padding: 0;
+  /*here the spans are used for templates, in case of need*/
 }
-#menu #délice__desserts--all #délice__desserts--3 input + label #délice__desserts--prix {
-  padding-left: 5em;
-  margin-top: 1.6em;
+#menu #délice__desserts--all #délice__desserts--3 input + label span.normal {
+  margin-left: 0.5em;
+  font-size: 0.95em;
 }
-#menu #délice__desserts--all #délice__desserts--3 input + label #délice__desserts--prix h5 {
-  margin-left: -1.5rem;
+#menu #délice__desserts--all #délice__desserts--3 input + label span.price {
+  margin-left: 19.7em;
 }
-#menu #délice__desserts--all #délice__desserts--3 input:checked + label #checked-font-place {
-  z-index: 95;
+#menu #délice__desserts--all #délice__desserts--3 input:checked + label span.green {
   background-color: #99E2D0;
-  padding: 1.5em 1.3em 1.5em 1.3em;
-  margin-left: -2.5em;
-  margin-top: -0.9em;
+  padding: 1.65em 1.3em 1.65em 1.3em;
+  width: 3em;
+  margin-left: 17em;
+  margin-top: -2.3em;
   position: relative;
   border-style: hidden;
   border-top-right-radius: 20px;
@@ -7402,8 +7526,9 @@ footer #line1 h6::before,
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   transition: ease-in-out;
+  z-index: 150;
 }
-#menu #délice__desserts--all #délice__desserts--3 input:checked + label #checked-font-place::after {
+#menu #délice__desserts--all #délice__desserts--3 input:checked + label span.green::after {
   content: "";
   font-size: 2rem;
   animation-name: checked-ok-rotate--menu;
@@ -7416,28 +7541,19 @@ footer #line1 h6::before,
   color: white;
   justify-content: center;
 }
-#menu #délice__desserts--all #délice__desserts--3 input:checked + label #checked-font-place {
-  margin-left: -1.5em;
+#menu #délice__desserts--all #délice__desserts--3 input:checked + label span.normal {
+  margin-left: 0.5em;
+  font-size: 0.95em;
 }
-#menu #délice__desserts--all #délice__desserts--3 input:checked + label #délice__desserts--prix {
-  padding-left: 5em;
-  margin-top: 1.6em;
-  margin-left: -1.9em;
-}
-#menu #délice__desserts--all #délice__desserts--3 input:checked + label #délice__desserts--prix h5 {
-  margin-left: -3.6rem;
-  /*to better understand the positionning i use the border solid*/
-  padding-right: 0.5em;
-  margin-right: 2rem;
-  -webkit-animation-name: price-animation--short;
-  animation-name: price-animation--short;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transition: ease-out;
-  z-index: 100;
-  background: white;
-  padding-left: 0em;
-  /*can be used to adjust the distance. Can it be important to reuse the keyframes ? by using it i can set the margin as identical to the one define in the keyframe ?*/
+#menu #délice__desserts--all #délice__desserts--3 input:checked + label span.price {
+  margin-left: 14rem;
+  padding-right: 2em;
+  /*mask the text ont some menus*/
+  -webkit-animation-name: price-animation;
+  animation-name: price-animation;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transition: ease-in-out;
 }
 #menu .button-pink--large {
   padding-bottom: 5em;
