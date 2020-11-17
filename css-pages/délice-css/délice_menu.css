@@ -7591,7 +7591,7 @@ footer #line1 h6::before,
   padding: 1em;
   font-size: 1em;
   padding-right: 3em;
-  margin-left: -5em;
+  margin-left: -10em;
 }
 #logo a::before {
   content: "";
@@ -7665,7 +7665,7 @@ footer #contact a {
   header #logo {
     padding-left: 3em;
     padding-bottom: 1em;
-    margin-left: 11em;
+    margin-left: 15em;
   }
   header #logo a {
     padding-right: 2em;
@@ -7717,7 +7717,7 @@ footer #contact a {
   header #logo {
     padding-left: 3em;
     padding-bottom: 2em;
-    margin-left: 10em;
+    margin-left: 15em;
   }
   header #logo a {
     padding-right: 2em;
@@ -7769,7 +7769,7 @@ footer #contact a {
   header #logo {
     padding-left: 3em;
     padding-bottom: 3em;
-    margin-left: 10em;
+    margin-left: 15em;
   }
   header #logo a {
     padding-right: 2em;
@@ -7821,7 +7821,7 @@ footer #contact a {
   header #logo {
     padding-left: 3em;
     padding-bottom: 3em;
-    margin-left: 10em;
+    margin-left: 14em;
   }
   header #logo a {
     padding-right: 2em;
@@ -7873,7 +7873,7 @@ footer #contact a {
   header #logo {
     padding-left: 3em;
     padding-bottom: 3em;
-    margin-left: 10em;
+    margin-left: 14em;
   }
   header #logo a {
     padding-right: 2em;
@@ -7925,7 +7925,7 @@ footer #contact a {
   header #logo {
     padding-left: 3em;
     padding-bottom: 3em;
-    margin-left: 10em;
+    margin-left: 14em;
   }
   header #logo a {
     padding-right: 2em;
@@ -7977,7 +7977,7 @@ footer #contact a {
   header #logo {
     padding-left: 3em;
     padding-bottom: 3em;
-    margin-left: 10em;
+    margin-left: 14em;
   }
   header #logo a {
     padding-right: 2em;

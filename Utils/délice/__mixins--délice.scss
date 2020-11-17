@@ -8,7 +8,7 @@
         padding: 1em;
         font-size: 1em;
         padding-right: 3em;
-        margin-left: -5em;   
+        margin-left: -10em;   
         &::before {
             @extend .fas;
             content: fa-content($fa-var-arrow-left);
