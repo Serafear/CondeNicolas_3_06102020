@@ -6327,7 +6327,28 @@ footer #line1 h6::before {
     height: 32px;
   }
 }
-.loader {
+@font-face {
+  font-family: "shrikhand";
+  src: url("../../fonts/shrikhand/Shrikhand-Regular.ttf");
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../../fonts/roboto/Roboto-Regular.ttf");
+}
+#loader {
+  width: 0%;
+  height: 0%;
+  z-index: 100;
+  /*the z index is the importance order. By putting it at 100 i make it so that the loader is the first place so that his background cover everything. It only work if a position is choosed like fixed*/
+  -webkit-animation-name: loader-background;
+  animation-name: loader-background;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  margin-left: 0em;
+  margin-top: 0em;
+}
+
+.grower {
   display: inline-block;
   position: fixed;
   width: 0%;
@@ -6336,11 +6357,13 @@ footer #line1 h6::before {
   /*the z index is the importance order. By putting it at 100 i make it so that the loader is the first place so that his background cover everything. It only work if a position is choosed like fixed*/
   -webkit-animation-name: loader-background;
   animation-name: loader-background;
-  -webkit-animation-duration: 4s;
-  animation-duration: 4s;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  margin-left: -10em;
+  margin-top: -4em;
 }
 
-.loader div {
+.grower div {
   display: inline-block;
   position: absolute;
   left: 8px;
@@ -6353,28 +6376,220 @@ footer #line1 h6::before {
   animation-duration: 1.2s;
   -webkit-animation-iteration-count: 4;
   animation-iteration-count: 4;
-  margin-top: 65%;
-  margin-left: 15%;
+  margin-top: 25%;
+  margin-left: 20%;
 }
 
-.loader div:nth-child(1) {
+.grower div:nth-child(1) {
   left: 8px;
   -webkit-animation-delay: -0.24s;
   animation-delay: -0.24s;
 }
 
-.loader div:nth-child(2) {
+.grower div:nth-child(2) {
   left: 32px;
   -webkit-animation-delay: -0.12s;
   animation-delay: -0.12s;
 }
 
-.loader div:nth-child(3) {
+.grower div:nth-child(3) {
   left: 56px;
   -webkit-animation-delay: 0;
   animation-delay: 0;
 }
 
+.spinner {
+  position: fixed;
+  z-index: 100;
+  width: 0%;
+  height: 0%;
+  margin-left: 12em;
+  margin-top: 24.8em;
+}
+
+.spinner div {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  background: linear-gradient(-10deg, #9356DC 30%, #FF79DA);
+  margin-top: 25%;
+  margin-left: 20%;
+}
+
+.spinner div:nth-child(1) {
+  left: 0px;
+  top: 0px;
+  -webkit-animation-name: border-move--1;
+  animation-name: border-move--1;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: 2.5;
+  animation-iteration-count: 2.5;
+}
+
+.spinner div:nth-child(2) {
+  left: 120px;
+  -webkit-animation-name: border-move--2;
+  animation-name: border-move--2;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: 2.5;
+  animation-iteration-count: 2.5;
+}
+
+.spinner div:nth-child(3) {
+  top: 90px;
+  left: 0px;
+  -webkit-animation-name: border-move--3;
+  animation-name: border-move--3;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: 2.5;
+  animation-iteration-count: 2.5;
+}
+
+.spinner div:nth-child(4) {
+  top: 90px;
+  left: 120px;
+  -webkit-animation-name: border-move--4;
+  animation-name: border-move--4;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: 2.5;
+  animation-iteration-count: 2.5;
+}
+
+@keyframes border-move--1 {
+  0% {
+    left: 0px;
+    top: 0px;
+    width: 16px;
+    height: 16px;
+  }
+  25% {
+    left: 120px;
+    top: 0px;
+    width: 16px;
+    height: 16px;
+  }
+  50% {
+    top: 90px;
+    left: 120px;
+    width: 16px;
+    height: 16px;
+  }
+  75% {
+    left: 0px;
+    top: 90px;
+    width: 16px;
+    height: 16px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+  }
+}
+@keyframes border-move--2 {
+  0% {
+    left: 120px;
+    top: 0px;
+    width: 16px;
+    height: 16px;
+  }
+  25% {
+    top: 90px;
+    left: 120px;
+    width: 16px;
+    height: 16px;
+  }
+  50% {
+    left: 0px;
+    top: 90px;
+    width: 16px;
+    height: 16px;
+  }
+  75% {
+    top: 0px;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+  }
+  100% {
+    left: 120px;
+    top: 0px;
+    background-color: white;
+    width: 16px;
+    height: 16px;
+  }
+}
+@keyframes border-move--3 {
+  0% {
+    left: 0px;
+    top: 90px;
+    width: 16px;
+    height: 16px;
+  }
+  25% {
+    top: 0px;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+  }
+  50% {
+    left: 120px;
+    top: 0px;
+    width: 16px;
+    height: 16px;
+  }
+  75% {
+    left: 120px;
+    top: 90px;
+    width: 16px;
+    height: 16px;
+  }
+  100% {
+    left: 0px;
+    top: 90px;
+    background-color: white;
+    width: 16px;
+    height: 16px;
+  }
+}
+@keyframes border-move--4 {
+  0% {
+    left: 120px;
+    top: 90px;
+    width: 16px;
+    height: 16px;
+  }
+  25% {
+    left: 0px;
+    top: 90px;
+    width: 16px;
+    height: 16px;
+  }
+  50% {
+    top: 0px;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+  }
+  75% {
+    left: 120px;
+    top: 0px;
+    width: 16px;
+    height: 16px;
+  }
+  100% {
+    left: 120px;
+    top: 90px;
+    background-color: white;
+    width: 16px;
+    height: 16px;
+  }
+}
 #navigation {
   padding-top: 3em;
   padding-bottom: 2em;
@@ -7088,29 +7303,58 @@ footer #contact a {
   background-position-y: -4em;
 }
 
-body {
-  /*noob mistake, but its ok. Start by the mobile version first without the media querrie. Check other pages*/
-  padding-left: 40em;
-  width: 30em;
-}
-
-@media screen and (min-width: 280px) and (max-width: 450px) {
+@media screen and (min-width: 320.1px) and (max-width: 450px) {
   body {
     padding-left: 0em;
-    margin: 0;
+    margin: 0em;
   }
 
-  .loader {
+  #loader {
+    -webkit-animation-name: loader-background;
+    animation-name: loader-background;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: 0em;
+    margin-top: 4em;
+  }
+
+  .grower {
     -webkit-animation-duration: 5s;
     animation-duration: 5s;
     margin-left: 0em;
   }
 
-  .loader div {
+  .grower div {
     -webkit-animation-iteration-count: 4;
     animation-iteration-count: 4;
     margin-top: 20em;
-    margin-left: 12.5em;
+    margin-left: 10em;
+  }
+
+  .spinner {
+    margin-left: 8.2em;
+    margin-top: 15em;
+  }
+
+  .spinner div {
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+
+  #logo {
+    border: solid;
+  }
+
+  header {
+    border: solid;
+  }
+
+  section {
+    border: solid;
+  }
+
+  footer {
+    border: solid;
   }
 }
 @media screen and (min-width: 450.1px) and (max-width: 667px) {
