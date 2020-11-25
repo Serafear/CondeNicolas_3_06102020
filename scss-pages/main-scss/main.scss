@@ -30,14 +30,121 @@
 
 @media screen and (min-width: 250px) and (max-width: 320px)
 {
+    header {
+        .button-pink {
+            .fas {
+                margin-left: 1em;
+            }
+            button {
+                margin-left: 20%;
+            }
+        }
+    }
+    #logo {
+        width: 15em;
+        margin-left: 2em;
+    }
+    #navigation {
+        width: 20em;
+    }
+    section {
+        width: 20em;
+    }
+   h5 {
+       width: 4em;
+       margin-left: 70%;   /*erased it from the mixins and put it here to manipulate for each querries*/
+   }
+    .search {
+        margin-left: 2em;  /*erased it from the header and put it here to manipulate for each querries*/
+    }
+   #loader {
+    -webkit-animation-name: loader-background;
+            animation-name: loader-background;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+            margin-left: 0em;
+            margin-top: 4em;
+}
+    .grower {
+        -webkit-animation-duration: 5s;
+                animation-duration: 5s;
+                margin-left: 0em;
+    }
+    .grower div {
+        -webkit-animation-iteration-count: 4;
+                animation-iteration-count: 4;
+        margin-top: 20em;
+        margin-left: 7.8em;
+    }
+    .spinner {
+        margin-left: 6.2em;
+        margin-top: 15em;
+    }
+    .spinner div {
+        margin-top: 25%;
+        margin-left: 20%;
+    }
+    footer {
+        width: 87%;
+    }
+    .overlay__text--1 {
+        margin-top: 7.8em;
+    }
+    .overlay__text--2 {
+        margin-top: 7.8em;
+    }
+    .overlay__text--3 {
+        margin-top: 7.8em;
+    }
+    .overlay__text--4 {
+        margin-top: 7.8em;
+    }
+    #restaurants__palette {
+        article {
+            background-position-y: -1.5em;
+            background-position-x: -3em;
+        }
+    }
+    #restaurants__lanote {
+        article {
+            background-position-y: -6em;
+            background-position-x: 0em;
+        }
+    }
+    #restaurants__délice {
+        article {
+            background-position-y: -4em;
+            background-position-x: -1.5em;
+        }
+    }
+    #restaurants__alafrançaise {
+        article {
+            background-position-y: -4em;
+            background-position-x: -1.5em;
+        }
+    }
+
 
 }
-@media screen and (min-width: 320.1px) and (max-width: 450px)
+@media screen and (min-width: 320.1px) and (max-width: 375px)
 {
-    body {
-        padding-left: 0em;
-        margin: 0em;
+    #logo {
+        width: 15em;
+        margin-left: 4em;
     }
+    #navigation {
+        width: 23em;
+    }
+    section {
+        width: 23.5em;
+    }
+    h5 {
+        width: 4em;
+        margin-left: 70%;   /*erased it from the mixins and put it here to manipulate for each querries*/
+    }
+     .search {
+         margin-left: 5em;  /*erased it from the header and put it here to manipulate for each querries*/
+     }
     #loader {
     -webkit-animation-name: loader-background;
             animation-name: loader-background;
@@ -65,332 +172,1368 @@
         margin-top: 25%;
         margin-left: 20%;
     }
-    #logo {
-        
-        border: solid;
+    #search-bar {
+        width: 22.5em;
+        .fas {
+            margin-left: 2.4em; /*moves the fas under the O*/
+        }
     }
-    header {
-        
-        border: solid;
+    h5 {
+        width: 4em;
     }
-    section {
-        
-        border: solid;
+    .overlay__text--1 {
+        margin-top: 7.8em;
     }
-    footer {
-        
-        border: solid;
+    .overlay__text--2 {
+        margin-top: 7.8em;
     }
-}
-
-@media screen and (min-width: 450.1px) and (max-width: 667px)
-{
-    
-    body{
-        padding-left: 6em;
-        padding-right: 0;
-        
+    .overlay__text--3 {
+        margin-top: 7.8em;
     }
-    #logo {
-        transform: scale(1.4);
-        padding-top: 1em;
+    .overlay__text--4 {
+        margin-top: 7.8em;
     }
-    header {
-        transform: scale(1.4);
-        margin-top: 5em;
+    #restaurants__palette {
+        article {
+            background-position-y: -1.5em;
+            background-position-x: -3em;
+        }
     }
-    #navigation {
-        transform: scale(1.4);
-        margin-top: 5em;
+    #restaurants__délice {
+        article {
+            background-position-y: -4em;
+            background-position-x: -1em;
+        }
     }
-    section {
-        transform: scale(1.4);
-        margin-top: 22em;
-        a {
-            outline: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);   /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
+    #restaurants__alafrançaise {
+        article {
+            background-position-y: -4em;
+            background-position-x: -1em;
+        }
+    }
+    #restaurants__lanote {
+        article {
+            background-position-y: -8.5em;
+            background-position-x: 0em;
         }
     }
     footer {
-        transform: scale(1.4);
-        margin-top: 15em;
+        width: 16em;
     }
-    
-    .loader {
+}  
+@media screen and (min-width: 375.1px) and (max-width: 450px)
+{
+    #logo {
+        width: 15em;
+        margin-left: 6em;
+    }
+    h5 {
+        width: 4em;
+        margin-left: 75%;   /*erased it from the mixins and put it here to manipulate for each querries*/
+    }
+    header {
+        .button-pink {
+            .fas {
+                margin-left: 2em;
+            }
+            button {
+                margin-left: 27%;
+            }
+        }
+    }
+    #navigation {
+        width: 26em;
+    }
+    section {
+        width: 26.5em;
+    }
+    #loader {
+    -webkit-animation-name: loader-background;
+            animation-name: loader-background;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+            margin-left: 0em;
+            margin-top: 4em;
+}
+    .grower {
         -webkit-animation-duration: 5s;
                 animation-duration: 5s;
-                margin-left: -6em;
+                margin-left: 0em;
     }
-    .loader div {
+    .grower div {
+        -webkit-animation-iteration-count: 4;
+                animation-iteration-count: 4;
+        margin-top: 20em;
+        margin-left: 12em;
+    }
+    .spinner {
+        margin-left: 10.2em;
+        margin-top: 15em;
+    }
+    .spinner div {
+        margin-top: 25%;
+        margin-left: 20%;
+    }
+    #search-bar {
+        .fas {
+            padding-left: 2em;
+        }
+        .search {
+            margin-left: 5em;  /*erased it from the header and put it here to manipulate for each querries*/
+        }
+    }
+    footer {
+        width: 18.4em;
+    }
+    .overlay__text--1 {
+        margin-top: 10.8em;
+    }
+    .overlay__text--2 {
+        margin-top: 10.8em;
+    }
+    .overlay__text--3 {
+        margin-top: 10.8em;
+    }
+    .overlay__text--4 {
+        margin-top: 10.8em;
+    }
+    #restaurants__palette {
+        article {
+            background-position-y: -1.5em;
+            background-position-x: -3em;
+            height: 18em;
+        }
+    }
+    #restaurants__délice {
+        article {
+            background-position-y: -4em;
+            background-position-x: -1em;
+            height: 18em;
+        }
+    }
+    #restaurants__alafrançaise {
+        article {
+            background-position-y: -4em;
+            background-position-x: -1em;
+            height: 18em;
+        }
+    }
+    #restaurants__lanote {
+        article {
+            background-position-y: -8.5em;
+            background-position-x: -1em;
+            height: 18em;
+        }
+    }
+}
+@media screen and (min-width: 450.1px) and (max-width: 568px)
+{
+    body {
+        padding-top: 0.5em;
+        padding-left: 0em;
+    }
+    #logo {
+        width: 18em;
+        margin-left: 9em;
+    }
+    h5 {
+        width: 4em;
+        margin-left: 75%;   /*erased it from the mixins and put it here to manipulate for each querries*/
+    }
+    #navigation {
+        width: 35.5em;
+    }
+    section {
+        width: 35.5em;
+    }
+    header {
+        margin-top: 1em;
+        width: 35.5em;
+        #search-bar {
+            width: 34.5em;
+            .fas {
+                margin-left: 6.5em;
+            }
+            .search {
+                margin-left: 12em;  /*erase it from the header and put it here to manipulate for each querries*/
+            }
+        }
+        .button-pink {
+            button {
+                margin-left: 35%;
+            }
+        }
+        
+    }
+    #loader {
+    -webkit-animation-name: loader-background;
+            animation-name: loader-background;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+            margin-left: 0em;
+            margin-top: 3.5em;
+}
+    .grower {
+        -webkit-animation-duration: 5s;
+                animation-duration: 5s;
+                margin-left: 0em;
+    }
+    .grower div {
         -webkit-animation-iteration-count: 4;
                 animation-iteration-count: 4;
         margin-top: 10em;
-        margin-left: 19em;
+        margin-left: 15em;
+    }
+    .spinner {
+        margin-left: 13.2em;
+        margin-top: 5em;
+    }
+    .spinner div {
+        margin-top: 25%;
+        margin-left: 20%;
+    }
+    footer {
+        width: 25.3em;
+    }
+    .overlay__text--1 {
+        margin-top: 11.8em;
+    }
+    .overlay__text--2 {
+        margin-top: 11.8em;
+    }
+    .overlay__text--3 {
+        margin-top: 11.8em;
+    }
+    .overlay__text--4 {
+        margin-top: 11.8em;
+    }
+    #restaurants__palette {
+        article {
+            background-position-y: -1.5em;
+            background-position-x: 0em;
+            height: 18em;
+        }
+    }
+    #restaurants__délice {
+        article {
+            background-position-y: -5em;
+            background-position-x: 0em;
+            height: 18em;
+        }
+    }
+    #restaurants__alafrançaise {
+        article {
+            background-position-y: -4em;
+            background-position-x: 0em;
+            height: 18em;
+        }
+    }
+    #restaurants__lanote {
+        article {
+            background-position-y: -14.5em;
+            background-position-x: 0em;
+            height: 18em;
+        }
     }
 }
-@media screen and (min-width: 667.1px) and (max-width: 767px) /*i-pad*/
+@media screen and (min-width: 568.1px) and (max-width: 667px)
 {
-    body{
-        padding-left: 6em;
-        padding-right: 0;
-        
+    h5 {
+        font-size: 1.1em;
+        width: 4em;
+        margin-left: 75%;   /*erased it from the mixins and put it here to manipulate for each querries*/
+    }
+    body {
+        padding-top: 2.5em;
+        padding-left: 0em;
     }
     #logo {
-        transform: scale(1.4);
-        padding-top: 1em;
+        width: 18em;
+        margin-left: 11em;
+        transform: scale(1);
+        padding-top: 0em;
+        padding-bottom: 1em;
     }
     header {
-        transform: scale(1.4);
-        margin-top: 5em;
+        transform: scale(1);
+        margin-top: 0em;
+        width: 42em;
+        #search-bar {
+            width: 41em;
+            .fas {
+                margin-left: 8em;
+            }
+            .search {
+                margin-left: 14em;  /*erase it from the header and put it here to manipulate for each querries*/
+            }
+        }
+        .button-pink {
+            button {
+                margin-left: 35%;
+            }
+        } 
     }
     #navigation {
-        transform: scale(1.4);
-        margin-top: 5em;
+        transform: scale(1);
+        margin-top: 0em;
+        width: 41.5em;
     }
     section {
-        transform: scale(1.4);
-        margin-top: 22em;
+        width: 41.5em;
+        transform: scale(1);
+        margin-top: 0em;
         a {
             outline: none;
             -webkit-tap-highlight-color: rgba(0,0,0,0);   /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
         }
     }
     footer {
+        transform: scale(1.1);
+        margin-top: 0em;
+        width: 28.75em;
+        #logo {
+            padding-left: 2em;
+        }
+        h6 {
+            padding-left: 4em;
+        }
+    }
+    #loader {
+        -webkit-animation-name: loader-background;
+                animation-name: loader-background;
+        -webkit-animation-duration: 5s;
+                animation-duration: 5s;
+                margin-left: 0em;
+                margin-top: 1.5em;
+    }
+        .grower {
+            -webkit-animation-duration: 5s;
+                    animation-duration: 5s;
+                    margin-left: 0em;
+        }
+        .grower div {
+            -webkit-animation-iteration-count: 4;
+                    animation-iteration-count: 4;
+            margin-top: 9em;
+            margin-left: 19em;
+        }
+        .spinner {
+            margin-left: 17.3em;
+            margin-top: 4em;
+        }
+        .spinner div {
+            margin-top: 25%;
+            margin-left: 20%;
+        }
+        .overlay__text--1 {
+            margin-top: 12.8em;
+            font-size: 1.1em;
+        }
+        .overlay__text--2 {
+            margin-top: 12.8em;
+            font-size: 1.1em;
+        }
+        .overlay__text--3 {
+            margin-top: 10.8em;
+            font-size: 1.1em;
+        }
+        .overlay__text--4 {
+            margin-top: 11.8em;
+            font-size: 1.1em;
+        }
+        #restaurants__palette {
+            article {
+                background-position-y: -4em;
+                background-position-x: 0em;
+                height: 20em;
+            }
+        }
+        #restaurants__délice {
+            article {
+                background-position-y: -9em;
+                background-position-x: 0em;
+                height: 20em;
+            }
+        }
+        #restaurants__alafrançaise {
+            article {
+                background-position-y: -9em;
+                background-position-x: 0em;
+                height: 20em;
+            }
+        }
+        #restaurants__lanote {
+            article {
+                background-position-y: -18em;
+                background-position-x: 0em;
+                height: 20em;
+            }
+        }
+}
+@media screen and (min-width: 667.1px) and (max-width: 768px) /*i-pad*/
+{
+    h5 {
+        width: 4em;
+        font-size: 1.2em;
+        margin-left: 75%;   /*erased it from the mixins and put it here to manipulate for each querries*/
+    }
+    body {
+        padding-top: 1.5em;
+    }
+    #logo {
+        width: 20em;
+        margin-left: 13em;
+        transform: scale(1);
+        padding-top: 0.5em;
+        padding-bottom: 2.5em;
+    }
+    header {
+        margin-left: 3.75em;
+        transform: scale(1.185);
+        margin-top: 0em;
+        width: 40.5em;
+        #search-bar {
+            width: 39.5em;
+            .fas {
+                padding-left: 8.5em;
+            }
+            .search {
+                margin-left: 15em;  /*erase it from the header and put it here to manipulate for each querries*/
+            }
+        }
+        .button-pink {
+            button {
+                margin-left: 35%;
+            }
+        }
+        
+    }
+    #navigation {
+        transform: scale(1);
+        margin-top: 0em;
+        width: 45em;
+    }
+    section {
+        width: 47.5em;
+        transform: scale(1);
+        margin-top: 0em;
+        a {
+            outline: none;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);   /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
+        }
+    }
+    footer {
+        transform: scale(1.12);
+        margin-top: 0em;
+        width: 32.5em;
+        #logo__footer {
+            margin-left: -0.8em;
+        }
+        h6 {
+            padding-left: 4em;
+        }
+    }
+    #loader {
+        -webkit-animation-name: loader-background;
+                animation-name: loader-background;
+        -webkit-animation-duration: 5s;
+                animation-duration: 5s;
+                margin-left: 0em;
+                margin-top: 2.5em;
+    }
+        .grower {
+            -webkit-animation-duration: 5s;
+                    animation-duration: 5s;
+                    margin-left: 0em;
+        }
+        .grower div {
+            -webkit-animation-iteration-count: 4;
+                    animation-iteration-count: 4;
+            margin-top: 15em;
+            margin-left: 22.5em;
+        }
+        .spinner {
+            margin-left: 20.3em;
+            margin-top: 10em;
+        }
+        .spinner div {
+            margin-top: 25%;
+            margin-left: 20%;
+        }
+        .overlay__text--1 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--2 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--3 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--4 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        #restaurants__palette {
+            article {
+                background-position-y: -7em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__délice {
+            article {
+                background-position-y: -9em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__alafrançaise {
+            article {
+                background-position-y: -9em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__lanote {
+            article {
+                background-position-y: -21.5em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+}
+@media screen and (min-width: 768.1px) and (max-width: 900px) 
+{
+    
+    h5 {
+        width: 4em;
+        font-size: 1.2em;
+        margin-left: 75%;   /*erased it from the mixins and put it here to manipulate for each querries*/
+    }
+    body {
+        padding-top: 1.5em;
+    }
+    #logo {
+        width: 20em;
+        margin-left: 14em;
+        transform: scale(1);
+        padding-top: 0.5em;
+        padding-bottom: 2.5em;
+    }
+    header {
+        margin-left: 5.2em;
+        transform: scale(1.185);
+        margin-top: 0em;
+        width: 40.5em;
+        #search-bar {
+            width: 39.5em;
+            .fas {
+                padding-left: 8.7em;
+            }
+            .search {
+                margin-left: 15.5em;  /*erase it from the header and put it here to manipulate for each querries*/
+            }
+        }
+        .button-pink {
+            button {
+                margin-left: 35%;
+            }
+        }
+        
+    }
+    #navigation {
+        transform: scale(1);
+        margin-top: 0em;
+        width: 50em;
+    }
+    section {
+        width: 51em;
+        transform: scale(1);
+        margin-top: 0em;
+        a {
+            outline: none;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);   /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
+        }
+    }
+    footer {
+        transform: scale(1.12);
+        margin-top: 0em;
+        width: 34.75em;
+        #logo__footer {
+            margin-left: -0.8em;
+        }
+        h6 {
+            padding-left: 4em;
+        }
+    }
+    #loader {
+        -webkit-animation-name: loader-background;
+                animation-name: loader-background;
+        -webkit-animation-duration: 5s;
+                animation-duration: 5s;
+                margin-left: 0em;
+                margin-top: 2.5em;
+    }
+        .grower {
+            -webkit-animation-duration: 5s;
+                    animation-duration: 5s;
+                    margin-left: 0em;
+        }
+        .grower div {
+            -webkit-animation-iteration-count: 4;
+                    animation-iteration-count: 4;
+            margin-top: 8em;
+            margin-left: 22.5em;
+        }
+        .spinner {
+            margin-left: 20.3em;
+            margin-top: 3em;
+        }
+        .spinner div {
+            margin-top: 25%;
+            margin-left: 20%;
+        }
+        .overlay__text--1 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--2 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--3 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--4 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        #restaurants__palette {
+            article {
+                background-position-y: -7em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__délice {
+            article {
+                background-position-y: -9em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__alafrançaise {
+            article {
+                background-position-y: -9em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__lanote {
+            article {
+                background-position-y: -21.5em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+}
+@media screen and (min-width: 900.1px) and (max-width: 1024px) /*i-pad*/
+{
+    h5 {
+        width: 4em;
+        font-size: 1.2em;
+        margin-left: 75%;   /*erased it from the mixins and put it here to manipulate for each querries*/
+    }
+    body {
+        padding-top: 1.5em;
+        padding-left: 5em;
+    }
+    #logo {
+        width: 20em;
+        transform: scale(1.2);
+        margin-right: 9em;
+        padding-top: 0.5em;
+        padding-bottom: 2.5em;
+        margin-left: 16em; /*to fix the logo ?*/
+    }
+    header {
+        margin-left: 6.4em;
         transform: scale(1.4);
+        margin-top: 1em;
+        width: 40em;
+        #search-bar {
+            width: 39em;
+            .fas {
+                margin-left: 8.7em;
+            }
+            .search {
+                margin-left: 15em;  /*erase it from the header and put it here to manipulate for each querries*/
+            }
+        }
+        .button-pink {
+            button {
+                margin-left: 35%;
+            }
+        }
+        
+    }
+    #navigation {
+        transform: scale(1.2);
+        margin-top: 3em;
+        margin-left: 1.7em;
+        width: 50em;
+    }
+    section {
+        transform: scale(1.18);
         margin-top: 15em;
-    }
-    
-    .loader {
-        -webkit-animation-duration: 5s;
-                animation-duration: 5s;
-                margin-left: -6em;
-    }
-    .loader div {
-        -webkit-animation-iteration-count: 4;
-                animation-iteration-count: 4;
-        margin-top: 10em;
-        margin-left: 19em;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) /*i-pad*/
-{
-    body{
-        padding-left: 8.5em;
-        padding-right: 0;
-        
-    }
-    #logo {
-        transform: scale(1.6);
-        padding-top: 1em;
-        padding-bottom: 1em;
-    }
-    header {
-        transform: scale(1.6);
-        margin-top: 5em;
-    }
-    #navigation {
-        transform: scale(1.6);
-        margin-top: 8em;
-    }
-    section {
-        transform: scale(1.6);
-        margin-top: 35em;
+        width: 50em;
+        margin-left: 2em;
         a {
             outline: none;
             -webkit-tap-highlight-color: rgba(0,0,0,0);   /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
         }
     }
     footer {
-        transform: scale(1.6);
-        margin-top: 23em;
+        transform: scale(1.075);
+        margin-top: 9em;
+        margin-left: -0.4em;
+        width: 40.2em;
+        #logo__footer {
+            margin-left: -0.8em;
+        }
+        h6 {
+            padding-left: 4em;
+        }
     }
-    
-    .loader {
+    #loader {
+        -webkit-animation-name: loader-background;
+                animation-name: loader-background;
         -webkit-animation-duration: 5s;
                 animation-duration: 5s;
-                margin-left: -9em;
+                margin-left: -5em;
+                margin-top: 2.5em;
     }
-    .loader div {
-        -webkit-animation-iteration-count: 4;
-                animation-iteration-count: 4;
-        margin-top: 25em;
-        margin-left: 24em;
-    }
+        .grower {
+            -webkit-animation-duration: 5s;
+                    animation-duration: 5s;
+                    margin-left: 0em;
+        }
+        .grower div {
+            -webkit-animation-iteration-count: 4;
+                    animation-iteration-count: 4;
+            margin-top: 19em;
+            margin-left: 27.5em;
+        }
+        .spinner {
+            margin-left: 25.6em;
+            margin-top: 14em;
+        }
+        .spinner div {
+            margin-top: 25%;
+            margin-left: 20%;
+        }
+        .overlay__text--1 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--2 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--3 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--4 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        #restaurants__palette {
+            article {
+                background-position-y: -7em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__délice {
+            article {
+                background-position-y: -9em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__alafrançaise {
+            article {
+                background-position-y: -9em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__lanote {
+            article {
+                background-position-y: -21.5em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
 }
-@media screen and (min-width: 1023.1px) and (max-width: 1224px) /*i-pad*/
+@media screen and (min-width: 1024.1px) and (max-width: 1224px) /*i-pad*/
 {
-    body{
-        padding-left: 17em;
-        padding-right: 0;
-        
+    h5 {
+        width: 4em;
+        font-size: 1.2em;
+        margin-left: 75%;   /*erased it from the mixins and put it here to manipulate for each querries*/
+    }
+    body {
+        padding-top: 1.5em;
+        padding-left: 5em;
     }
     #logo {
-        transform: scale(1.6);
-        padding-top: 1em;
-        padding-bottom: 1em;
+        width: 20em;
+        transform: scale(1.2);
+        margin-right: 9em;
+        padding-top: 0.5em;
+        padding-bottom: 2.5em;
+        margin-left: 16em; /*to fix the logo ?*/
     }
     header {
-        transform: scale(1.6);
-        margin-top: 5em;
+        margin-left: 6.4em;
+        transform: scale(1.4);
+        margin-top: 1em;
+        width: 40em;
+        #search-bar {
+            width: 39em;
+            .fas {
+                margin-left: 8.7em;
+            }
+            .search {
+                margin-left: 15em;  /*erase it from the header and put it here to manipulate for each querries*/
+            }
+        }
+        .button-pink {
+            button {
+                margin-left: 35%;
+            }
+        }
+        
     }
     #navigation {
-        transform: scale(1.6);
-        margin-top: 8em;
+        transform: scale(1.2);
+        margin-top: 3em;
+        margin-left: 1.7em;
+        width: 50em;
     }
     section {
-        transform: scale(1.6);
-        margin-top: 35em;
+        transform: scale(1.18);
+        margin-top: 15em;
+        width: 50em;
+        margin-left: 2em;
         a {
             outline: none;
             -webkit-tap-highlight-color: rgba(0,0,0,0);   /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
         }
     }
     footer {
-        transform: scale(1.6);
-        margin-top: 23em;
+        transform: scale(1.075);
+        margin-top: 9em;
+        margin-left: -0.4em;
+        width: 40.2em;
+        #logo__footer {
+            margin-left: -0.8em;
+        }
+        h6 {
+            padding-left: 4em;
+        }
     }
-    
-    .loader {
+    #loader {
+        -webkit-animation-name: loader-background;
+                animation-name: loader-background;
         -webkit-animation-duration: 5s;
                 animation-duration: 5s;
-                margin-left: -9em;
+                margin-left: -5em;
+                margin-top: 2.5em;
     }
-    .loader div {
-        -webkit-animation-iteration-count: 4;
-                animation-iteration-count: 4;
-        margin-top: 25em;
-        margin-left: 23em;
-    }
+        .grower {
+            -webkit-animation-duration: 5s;
+                    animation-duration: 5s;
+                    margin-left: 0em;
+        }
+        .grower div {
+            -webkit-animation-iteration-count: 4;
+                    animation-iteration-count: 4;
+            margin-top: 19em;
+            margin-left: 27.5em;
+        }
+        .spinner {
+            margin-left: 25.6em;
+            margin-top: 14em;
+        }
+        .spinner div {
+            margin-top: 25%;
+            margin-left: 20%;
+        }
+        .overlay__text--1 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--2 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--3 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--4 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        #restaurants__palette {
+            article {
+                background-position-y: -7em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__délice {
+            article {
+                background-position-y: -9em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__alafrançaise {
+            article {
+                background-position-y: -9em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__lanote {
+            article {
+                background-position-y: -21.5em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
 }
-@media screen and (min-width: 1224.1px) and (max-width: 1424px) 
+@media screen and (min-width: 1224.1px) and (max-width: 1440px) 
 {
-    body{
-        padding-left: 30em;
-        padding-right: 0;
-        
+    h5 {
+        width: 4em;
+        font-size: 1.2em;
+        margin-left: 75%;   /*erased it from the mixins and put it here to manipulate for each querries*/
+    }
+    body {
+        padding-top: 1.5em;
+        padding-left: 8em;
     }
     #logo {
-        transform: scale(1.6);
-        padding-top: 1em;
-        padding-bottom: 1em;
+        transform: scale(1.2);
+        margin-right: 9em;
+        padding-top: 1.5em;
+        padding-bottom: 2.5em;
+        margin-left: 1em; /*to fix the logo ?*/
     }
     header {
-        transform: scale(1.6);
-        margin-top: 5em;
+        margin-left: 15.4em;
+        transform: scale(1.4);
+        margin-top: 1em;
+        width: 40em;
+        #search-bar {
+            width: 39em;
+            .fas {
+                margin-left: 30%;
+            }
+            .search {
+                margin-left: 30%;  /*erase it from the header and put it here to manipulate for each querries*/
+            }
+        }
+        .button-pink {
+            button {
+                margin-left: 35%;
+            }
+        }
+        
     }
     #navigation {
-        transform: scale(1.6);
-        margin-top: 8em;
+        transform: scale(1.2);
+        margin-top: 3em;
+        margin-left: 10.7em;
     }
     section {
-        transform: scale(1.6);
-        margin-top: 35em;
+        transform: scale(1.18);
+        margin-top: 15em;
+        width: 50em;
+        margin-left: 10em;
         a {
             outline: none;
             -webkit-tap-highlight-color: rgba(0,0,0,0);   /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
         }
     }
     footer {
-        transform: scale(1.6);
-        margin-top: 23em;
+        transform: scale(1.08);
+        margin-top: 9em;
+        margin-left: 5.9em;
+        width: 40em;
+        #logo__footer {
+            margin-left: -0.8em;
+        }
+        h6 {
+            padding-left: 4em;
+        }
     }
-    
-    .loader {
+    #loader {
+        -webkit-animation-name: loader-background;
+                animation-name: loader-background;
         -webkit-animation-duration: 5s;
                 animation-duration: 5s;
-                margin-left: -10em;
+                margin-left: -5em;
+                margin-top: 2.5em;
     }
-    .loader div {
-        -webkit-animation-iteration-count: 4;
-                animation-iteration-count: 4;
-        margin-top: 25em;
-        margin-left: 25em;
-    }
+        .grower {
+            -webkit-animation-duration: 5s;
+                    animation-duration: 5s;
+                    margin-left: 0em;
+        }
+        .grower div {
+            -webkit-animation-iteration-count: 4;
+                    animation-iteration-count: 4;
+            margin-top: 19em;
+            margin-left: 42em;
+        }
+        .spinner {
+            margin-left: 40.2em;
+            margin-top: 14em;
+        }
+        .spinner div {
+            margin-top: 25%;
+            margin-left: 20%;
+        }
+        .overlay__text--1 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--2 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--3 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--4 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        #restaurants__palette {
+            article {
+                background-position-y: -7em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__délice {
+            article {
+                background-position-y: -9em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__alafrançaise {
+            article {
+                background-position-y: -9em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__lanote {
+            article {
+                background-position-y: -21.5em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
 }
-@media screen and (min-width: 1424.1px) and (max-width: 1600px) 
+@media screen and (min-width: 1440.1px) and (max-width: 1600px) 
 {
-    body{
-        padding-left: 40em;
-        padding-right: 0;
-        
+    h5 {
+        width: 4em;
+        font-size: 1.2em;
+        margin-left: 75%;   /*erased it from the mixins and put it here to manipulate for each querries*/
+    }
+    body {
+        padding-top: 1.5em;
+        padding-left: 8em;
     }
     #logo {
-        transform: scale(1.6);
-        padding-top: 1em;
-        padding-bottom: 1em;
+        width: 20em;
+        transform: scale(1.2);
+        margin-right: 9em;
+        padding-top: 1.5em;
+        padding-bottom: 2.5em;
+        margin-left: 1em; /*to fix the logo ?*/
     }
     header {
-        transform: scale(1.6);
-        margin-top: 5em;
+        margin-left: 15.4em;
+        transform: scale(1.4);
+        margin-top: 1em;
+        width: 40em;
+        #search-bar {
+            width: 39em;
+            .fas {
+                margin-left: 30%;
+            }
+            .search {
+                margin-left: 30%;  /*erase it from the header and put it here to manipulate for each querries*/
+            }
+        }
+        .button-pink {
+            button {
+                margin-left: 35%;
+            }
+        }
+        
     }
     #navigation {
-        transform: scale(1.6);
-        margin-top: 8em;
+        transform: scale(1.2);
+        margin-top: 3em;
+        margin-left: 10.7em;
+        width: 50em;
     }
     section {
-        transform: scale(1.6);
-        margin-top: 35em;
+        transform: scale(1.18);
+        margin-top: 15em;
+        width: 50em;
+        margin-left: 10em;
         a {
             outline: none;
             -webkit-tap-highlight-color: rgba(0,0,0,0);   /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
         }
     }
     footer {
-        transform: scale(1.6);
-        margin-top: 23em;
+        transform: scale(1.08);
+        margin-top: 9em;
+        margin-left: 5.9em;
+        width: 40em;
+        #logo__footer {
+            margin-left: -0.8em;
+        }
+        h6 {
+            padding-left: 4em;
+        }
     }
-    
-    .loader {
+    #loader {
+        -webkit-animation-name: loader-background;
+                animation-name: loader-background;
         -webkit-animation-duration: 5s;
                 animation-duration: 5s;
-                margin-left: -10em;
+                margin-left: -5em;
+                margin-top: 2.5em;
     }
-    .loader div {
-        -webkit-animation-iteration-count: 4;
-                animation-iteration-count: 4;
-        margin-top: 25em;
-        margin-left: 25em;
-    }
+        .grower {
+            -webkit-animation-duration: 5s;
+                    animation-duration: 5s;
+                    margin-left: 0em;
+        }
+        .grower div {
+            -webkit-animation-iteration-count: 4;
+                    animation-iteration-count: 4;
+            margin-top: 19em;
+            margin-left: 42em;
+        }
+        .spinner {
+            margin-left: 40.2em;
+            margin-top: 14em;
+        }
+        .spinner div {
+            margin-top: 25%;
+            margin-left: 20%;
+        }
+        .overlay__text--1 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--2 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--3 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--4 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        #restaurants__palette {
+            article {
+                background-position-y: -7em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__délice {
+            article {
+                background-position-y: -9em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__alafrançaise {
+            article {
+                background-position-y: -9em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__lanote {
+            article {
+                background-position-y: -21.5em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
 }
 @media screen and (min-width: 1600.1px) 
 {
+    h5 {
+        width: 4em;
+        font-size: 1.2em;
+        margin-left: 75%;   /*erased it from the mixins and put it here to manipulate for each querries*/
+    }
     body {
-        padding-left: 45em;
-        padding-top: 4em;
-        
+        padding-top: 1.5em;
+        padding-left: 8em;
     }
     #logo {
-        transform: scale(1.6);
-        padding-bottom: 5em;
+        transform: scale(1.2);
+        margin-right: 9em;
+        padding-top: 1.5em;
+        padding-bottom: 2.5em;
+        margin-left: 1em; /*to fix the logo ?*/
     }
     header {
-        transform: scale(1.6);
-        -webkit-transform: scale(1.6);
+        margin-left: 15.4em;
+        transform: scale(1.4);
+        margin-top: 1em;
+        width: 40em;
+        #search-bar {
+            width: 39em;
+            .fas {
+                margin-left: 30%;
+            }
+            .search {
+                margin-left: 30%;  /*erase it from the header and put it here to manipulate for each querries*/
+            }
+        }
+        .button-pink {
+            button {
+                margin-left: 35%;
+            }
+        }
+        
     }
-    
-    
     #navigation {
-        margin-top: 12em;
-        transform: scale(1.6);
+        transform: scale(1.2);
+        margin-top: 3em;
+        margin-left: 10.7em;
     }
     section {
-        transform: scale(1.6);
-        margin-top: 33em;
+        transform: scale(1.18);
+        margin-top: 15em;
+        width: 50em;
+        margin-left: 10em;
+        a {
+            outline: none;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);   /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
+        }
     }
-    
     footer {
-        transform: scale(1.6);
-        margin-top: 23em;
+        transform: scale(1.08);
+        margin-top: 9em;
+        margin-left: 5.9em;
+        width: 40em;
+        #logo__footer {
+            margin-left: -0.8em;
+        }
+        h6 {
+            padding-left: 4em;
+        }
     }
-    .loader {
-        margin-left: -9em;
-        margin-top: -4em;
+    #loader {
+        -webkit-animation-name: loader-background;
+                animation-name: loader-background;
         -webkit-animation-duration: 5s;
                 animation-duration: 5s;
+                margin-left: -5em;
+                margin-top: 2.5em;
     }
-    .loader div {
-        
-        margin-top: 25em;
-        margin-left: 21em;
+        .grower {
+            -webkit-animation-duration: 5s;
+                    animation-duration: 5s;
+                    margin-left: 0em;
+        }
+        .grower div {
+            -webkit-animation-iteration-count: 4;
+                    animation-iteration-count: 4;
+            margin-top: 19em;
+            margin-left: 42em;
+        }
+        .spinner {
+            margin-left: 40.2em;
+            margin-top: 14em;
+        }
+        .spinner div {
+            margin-top: 25%;
+            margin-left: 20%;
+        }
+        .overlay__text--1 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--2 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--3 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        .overlay__text--4 {
+            margin-top: 13.8em;
+            font-size: 1.2em;
+        }
+        #restaurants__palette {
+            article {
+                background-position-y: -7em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__délice {
+            article {
+                background-position-y: -9em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__alafrançaise {
+            article {
+                background-position-y: -9em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
+        #restaurants__lanote {
+            article {
+                background-position-y: -21.5em;
+                background-position-x: 0em;
+                height: 22em;
+            }
+        }
     }
-}

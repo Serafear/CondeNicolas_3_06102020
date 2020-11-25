@@ -6,7 +6,7 @@ header {
      .button-pink {
          padding-bottom: 3em;
          #search-bar {
-             padding-left: 5em;
+             padding-left: 1em;
              margin-top: -0.5em;
              background-color: $gray-darker;  
              border-top-style: hidden;
@@ -18,7 +18,7 @@ header {
                  border-style: none;
                  font-weight: bolder;
                  padding-left: 2em;
-                 margin-left: 5em;
+                 
              }
                  textarea:focus, input:focus {
                      outline: none
@@ -28,10 +28,8 @@ header {
                  color: #323232;
                  font-size: 1.3em;    
                  position: absolute;
-                 padding-right: 1em;
-                 margin-right: 4em;
                  padding-top: 0.5em;
-                 padding-left: 1.5em;  /*this push the geo icon under the O, but is push the earch bar too.Thats why i used absolute*/ 
+                
              }
          }
          
@@ -58,7 +56,7 @@ header {
  
          button {
              display: flex;
-             margin-left: 30%;  /*here im trying to automate the screens transitions with %. I dont know if it will work*/
+             margin-left: 22%;  /*here im trying to automate the screens transitions with %. I dont know if it will work*/
              font-size: 1em;
              color: white;
              border-radius: 25px;

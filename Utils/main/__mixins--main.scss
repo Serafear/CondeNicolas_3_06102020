@@ -1,5 +1,4 @@
 @mixin nav-settings {
-   
     display: flex;
     justify-content: center;
     padding-top: 1em;
@@ -42,8 +41,7 @@
     padding-left: 1.5em;
     padding-right: 1.5em;   
     article {
-        height: 13.5em;
-        width: auto;
+        
         border-style: hidden;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
@@ -54,11 +52,8 @@
             color: black; 
         }
         h5 {
-            display: flex;
-            justify-content: flex-end;
             color: green;
             margin-right: 1em;
-            margin-left: 26em;
             padding: 0.5em 0.5em 0.5em 0.5em;
             border-style: hidden;
             background-color: $green;
@@ -72,7 +67,7 @@
         background-color: white;
         opacity: 1;
         width: 100%;
-        margin-top: 9.8em;
+        
         display: flex;
         justify-content: space-around;
         border-style: hidden;
@@ -139,7 +134,7 @@
         background-color: white;
         opacity: 1;
         width: 100%;
-        margin-top: 9.8em;
+        
         display: flex;
         justify-content: space-around;
         border-style: hidden;
@@ -205,7 +200,7 @@
         background-color: white;
         opacity: 1;
         width: 100%;
-        margin-top: 9.8em;
+        
         display: flex;
         justify-content: space-around;
         border-style: hidden;
@@ -271,7 +266,6 @@
         background-color: white;
         opacity: 1;
         width: 100%;
-        margin-top: 9.8em;
         display: flex;
         justify-content: space-around;
         border-style: hidden;
@@ -335,7 +329,6 @@
 @mixin footer__settings {
     padding: 1em 1em 1em 1em;
     background-color: darken($gray-darker, $amount: 75%);
-    width: 91.1%;
     color: white;
     font-size: 1.3em;
     font-family: $font-text;

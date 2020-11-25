@@ -6748,7 +6748,7 @@ header .button-pink {
   padding-bottom: 3em;
 }
 header .button-pink #search-bar {
-  padding-left: 5em;
+  padding-left: 1em;
   margin-top: -0.5em;
   background-color: #EAEAEA;
   border-top-style: hidden;
@@ -6760,7 +6760,6 @@ header .button-pink #search-bar .search {
   border-style: none;
   font-weight: bolder;
   padding-left: 2em;
-  margin-left: 5em;
 }
 header .button-pink #search-bar textarea:focus, header .button-pink #search-bar input:focus {
   outline: none;
@@ -6769,11 +6768,7 @@ header .button-pink #search-bar .fas, header .button-pink #search-bar #restauran
   color: #323232;
   font-size: 1.3em;
   position: absolute;
-  padding-right: 1em;
-  margin-right: 4em;
   padding-top: 0.5em;
-  padding-left: 1.5em;
-  /*this push the geo icon under the O, but is push the earch bar too.Thats why i used absolute*/
 }
 header .button-pink h1 {
   font-size: 1.5em;
@@ -6796,7 +6791,7 @@ header .button-pink h3 {
 }
 header .button-pink button {
   display: flex;
-  margin-left: 30%;
+  margin-left: 22%;
   /*here im trying to automate the screens transitions with %. I dont know if it will work*/
   font-size: 1em;
   color: white;
@@ -6817,16 +6812,14 @@ header .button-pink button:hover {
   justify-content: center;
 }
 #logo img {
-  height: 2.5em;
-  width: auto;
-  padding-bottom: 1em;
-  padding-top: 0.5em;
+  height: 3em;
+  margin-bottom: 0.8em;
+  margin-top: -2.2em;
 }
 
 footer {
   padding: 1em 1em 1em 1em;
   background-color: #2b2b2b;
-  width: 91.1%;
   color: white;
   font-size: 1.3em;
   font-family: "roboto";
@@ -6895,8 +6888,6 @@ footer #contact a {
   padding-right: 1.5em;
 }
 #restaurants #restaurants__palette article {
-  height: 13.5em;
-  width: auto;
   border-style: hidden;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
@@ -6909,11 +6900,8 @@ footer #contact a {
   color: black;
 }
 #restaurants #restaurants__palette article h5 {
-  display: flex;
-  justify-content: flex-end;
   color: green;
   margin-right: 1em;
-  margin-left: 26em;
   padding: 0.5em 0.5em 0.5em 0.5em;
   border-style: hidden;
   background-color: #99E2D0;
@@ -6923,7 +6911,6 @@ footer #contact a {
   background-color: white;
   opacity: 1;
   width: 100%;
-  margin-top: 9.8em;
   display: flex;
   justify-content: space-around;
   border-style: hidden;
@@ -6990,7 +6977,6 @@ footer #contact a {
   background-image: url(../../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: -4em;
 }
 #restaurants #restaurants__lanote {
   padding-top: 1em;
@@ -6999,8 +6985,6 @@ footer #contact a {
   padding-right: 1.5em;
 }
 #restaurants #restaurants__lanote article {
-  height: 13.5em;
-  width: auto;
   border-style: hidden;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
@@ -7013,11 +6997,8 @@ footer #contact a {
   color: black;
 }
 #restaurants #restaurants__lanote article h5 {
-  display: flex;
-  justify-content: flex-end;
   color: green;
   margin-right: 1em;
-  margin-left: 26em;
   padding: 0.5em 0.5em 0.5em 0.5em;
   border-style: hidden;
   background-color: #99E2D0;
@@ -7027,7 +7008,6 @@ footer #contact a {
   background-color: white;
   opacity: 1;
   width: 100%;
-  margin-top: 9.8em;
   display: flex;
   justify-content: space-around;
   border-style: hidden;
@@ -7094,7 +7074,6 @@ footer #contact a {
   background-image: url(../../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: -12.5em;
 }
 #restaurants #restaurants__alafrançaise {
   padding-top: 1em;
@@ -7103,8 +7082,6 @@ footer #contact a {
   padding-right: 1.5em;
 }
 #restaurants #restaurants__alafrançaise article {
-  height: 13.5em;
-  width: auto;
   border-style: hidden;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
@@ -7117,11 +7094,8 @@ footer #contact a {
   color: black;
 }
 #restaurants #restaurants__alafrançaise article h5 {
-  display: flex;
-  justify-content: flex-end;
   color: green;
   margin-right: 1em;
-  margin-left: 26em;
   padding: 0.5em 0.5em 0.5em 0.5em;
   border-style: hidden;
   background-color: #99E2D0;
@@ -7131,7 +7105,6 @@ footer #contact a {
   background-color: white;
   opacity: 1;
   width: 100%;
-  margin-top: 9.8em;
   display: flex;
   justify-content: space-around;
   border-style: hidden;
@@ -7197,7 +7170,6 @@ footer #contact a {
   background-image: url(../../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: -4em;
 }
 #restaurants #restaurants__délice {
   padding-top: 1em;
@@ -7206,8 +7178,6 @@ footer #contact a {
   padding-right: 1.5em;
 }
 #restaurants #restaurants__délice article {
-  height: 13.5em;
-  width: auto;
   border-style: hidden;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
@@ -7220,11 +7190,8 @@ footer #contact a {
   color: black;
 }
 #restaurants #restaurants__délice article h5 {
-  display: flex;
-  justify-content: flex-end;
   color: green;
   margin-right: 1em;
-  margin-left: 26em;
   padding: 0.5em 0.5em 0.5em 0.5em;
   border-style: hidden;
   background-color: #99E2D0;
@@ -7234,7 +7201,6 @@ footer #contact a {
   background-color: white;
   opacity: 1;
   width: 100%;
-  margin-top: 9.8em;
   display: flex;
   justify-content: space-around;
   border-style: hidden;
@@ -7300,13 +7266,135 @@ footer #contact a {
   background-image: url(../../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: -4em;
 }
 
-@media screen and (min-width: 320.1px) and (max-width: 450px) {
-  body {
-    padding-left: 0em;
-    margin: 0em;
+@media screen and (min-width: 250px) and (max-width: 320px) {
+  header .button-pink .fas, header .button-pink footer #line1 h6::before, footer #line1 header .button-pink h6::before, header .button-pink footer #line2 h6::before, footer #line2 header .button-pink h6::before, header .button-pink #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 header .button-pink input:checked + label::before, header .button-pink #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 header .button-pink input:checked + label::before, header .button-pink #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 header .button-pink input:checked + label::before {
+    margin-left: 1em;
+  }
+  header .button-pink button {
+    margin-left: 20%;
+  }
+
+  #logo {
+    width: 15em;
+    margin-left: 2em;
+  }
+
+  #navigation {
+    width: 20em;
+  }
+
+  section {
+    width: 20em;
+  }
+
+  h5 {
+    width: 4em;
+    margin-left: 70%;
+    /*erased it from the mixins and put it here to manipulate for each querries*/
+  }
+
+  .search {
+    margin-left: 2em;
+    /*erased it from the header and put it here to manipulate for each querries*/
+  }
+
+  #loader {
+    -webkit-animation-name: loader-background;
+    animation-name: loader-background;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: 0em;
+    margin-top: 4em;
+  }
+
+  .grower {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: 0em;
+  }
+
+  .grower div {
+    -webkit-animation-iteration-count: 4;
+    animation-iteration-count: 4;
+    margin-top: 20em;
+    margin-left: 7.8em;
+  }
+
+  .spinner {
+    margin-left: 6.2em;
+    margin-top: 15em;
+  }
+
+  .spinner div {
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+
+  footer {
+    width: 87%;
+  }
+
+  .overlay__text--1 {
+    margin-top: 7.8em;
+  }
+
+  .overlay__text--2 {
+    margin-top: 7.8em;
+  }
+
+  .overlay__text--3 {
+    margin-top: 7.8em;
+  }
+
+  .overlay__text--4 {
+    margin-top: 7.8em;
+  }
+
+  #restaurants__palette article {
+    background-position-y: -1.5em;
+    background-position-x: -3em;
+  }
+
+  #restaurants__lanote article {
+    background-position-y: -6em;
+    background-position-x: 0em;
+  }
+
+  #restaurants__délice article {
+    background-position-y: -4em;
+    background-position-x: -1.5em;
+  }
+
+  #restaurants__alafrançaise article {
+    background-position-y: -4em;
+    background-position-x: -1.5em;
+  }
+}
+@media screen and (min-width: 320.1px) and (max-width: 375px) {
+  #logo {
+    width: 15em;
+    margin-left: 4em;
+  }
+
+  #navigation {
+    width: 23em;
+  }
+
+  section {
+    width: 23.5em;
+  }
+
+  h5 {
+    width: 4em;
+    margin-left: 70%;
+    /*erased it from the mixins and put it here to manipulate for each querries*/
+  }
+
+  .search {
+    margin-left: 5em;
+    /*erased it from the header and put it here to manipulate for each querries*/
   }
 
   #loader {
@@ -7341,46 +7429,338 @@ footer #contact a {
     margin-left: 20%;
   }
 
-  #logo {
-    border: solid;
+  #search-bar {
+    width: 22.5em;
+  }
+  #search-bar .fas, #search-bar footer #line1 h6::before, footer #line1 #search-bar h6::before, #search-bar footer #line2 h6::before, footer #line2 #search-bar h6::before, #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #search-bar input:checked + label::before, #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #search-bar input:checked + label::before, #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #search-bar input:checked + label::before {
+    margin-left: 2.4em;
+    /*moves the fas under the O*/
   }
 
-  header {
-    border: solid;
+  h5 {
+    width: 4em;
   }
 
-  section {
-    border: solid;
+  .overlay__text--1 {
+    margin-top: 7.8em;
+  }
+
+  .overlay__text--2 {
+    margin-top: 7.8em;
+  }
+
+  .overlay__text--3 {
+    margin-top: 7.8em;
+  }
+
+  .overlay__text--4 {
+    margin-top: 7.8em;
+  }
+
+  #restaurants__palette article {
+    background-position-y: -1.5em;
+    background-position-x: -3em;
+  }
+
+  #restaurants__délice article {
+    background-position-y: -4em;
+    background-position-x: -1em;
+  }
+
+  #restaurants__alafrançaise article {
+    background-position-y: -4em;
+    background-position-x: -1em;
+  }
+
+  #restaurants__lanote article {
+    background-position-y: -8.5em;
+    background-position-x: 0em;
   }
 
   footer {
-    border: solid;
+    width: 16em;
   }
 }
-@media screen and (min-width: 450.1px) and (max-width: 667px) {
-  body {
-    padding-left: 6em;
-    padding-right: 0;
-  }
-
+@media screen and (min-width: 375.1px) and (max-width: 450px) {
   #logo {
-    transform: scale(1.4);
-    padding-top: 1em;
+    width: 15em;
+    margin-left: 6em;
   }
 
-  header {
-    transform: scale(1.4);
-    margin-top: 5em;
+  h5 {
+    width: 4em;
+    margin-left: 75%;
+    /*erased it from the mixins and put it here to manipulate for each querries*/
+  }
+
+  header .button-pink .fas, header .button-pink footer #line1 h6::before, footer #line1 header .button-pink h6::before, header .button-pink footer #line2 h6::before, footer #line2 header .button-pink h6::before, header .button-pink #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 header .button-pink input:checked + label::before, header .button-pink #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 header .button-pink input:checked + label::before, header .button-pink #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 header .button-pink input:checked + label::before {
+    margin-left: 2em;
+  }
+  header .button-pink button {
+    margin-left: 27%;
   }
 
   #navigation {
-    transform: scale(1.4);
-    margin-top: 5em;
+    width: 26em;
   }
 
   section {
-    transform: scale(1.4);
-    margin-top: 22em;
+    width: 26.5em;
+  }
+
+  #loader {
+    -webkit-animation-name: loader-background;
+    animation-name: loader-background;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: 0em;
+    margin-top: 4em;
+  }
+
+  .grower {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: 0em;
+  }
+
+  .grower div {
+    -webkit-animation-iteration-count: 4;
+    animation-iteration-count: 4;
+    margin-top: 20em;
+    margin-left: 12em;
+  }
+
+  .spinner {
+    margin-left: 10.2em;
+    margin-top: 15em;
+  }
+
+  .spinner div {
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+
+  #search-bar .fas, #search-bar footer #line1 h6::before, footer #line1 #search-bar h6::before, #search-bar footer #line2 h6::before, footer #line2 #search-bar h6::before, #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 #search-bar input:checked + label::before, #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 #search-bar input:checked + label::before, #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 #search-bar input:checked + label::before {
+    padding-left: 2em;
+  }
+  #search-bar .search {
+    margin-left: 5em;
+    /*erased it from the header and put it here to manipulate for each querries*/
+  }
+
+  footer {
+    width: 18.4em;
+  }
+
+  .overlay__text--1 {
+    margin-top: 10.8em;
+  }
+
+  .overlay__text--2 {
+    margin-top: 10.8em;
+  }
+
+  .overlay__text--3 {
+    margin-top: 10.8em;
+  }
+
+  .overlay__text--4 {
+    margin-top: 10.8em;
+  }
+
+  #restaurants__palette article {
+    background-position-y: -1.5em;
+    background-position-x: -3em;
+    height: 18em;
+  }
+
+  #restaurants__délice article {
+    background-position-y: -4em;
+    background-position-x: -1em;
+    height: 18em;
+  }
+
+  #restaurants__alafrançaise article {
+    background-position-y: -4em;
+    background-position-x: -1em;
+    height: 18em;
+  }
+
+  #restaurants__lanote article {
+    background-position-y: -8.5em;
+    background-position-x: -1em;
+    height: 18em;
+  }
+}
+@media screen and (min-width: 450.1px) and (max-width: 568px) {
+  body {
+    padding-top: 0.5em;
+    padding-left: 0em;
+  }
+
+  #logo {
+    width: 18em;
+    margin-left: 9em;
+  }
+
+  h5 {
+    width: 4em;
+    margin-left: 75%;
+    /*erased it from the mixins and put it here to manipulate for each querries*/
+  }
+
+  #navigation {
+    width: 35.5em;
+  }
+
+  section {
+    width: 35.5em;
+  }
+
+  header {
+    margin-top: 1em;
+    width: 35.5em;
+  }
+  header #search-bar {
+    width: 34.5em;
+  }
+  header #search-bar .fas, header #search-bar footer #line1 h6::before, footer #line1 header #search-bar h6::before, header #search-bar footer #line2 h6::before, footer #line2 header #search-bar h6::before, header #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 header #search-bar input:checked + label::before {
+    margin-left: 6.5em;
+  }
+  header #search-bar .search {
+    margin-left: 12em;
+    /*erase it from the header and put it here to manipulate for each querries*/
+  }
+  header .button-pink button {
+    margin-left: 35%;
+  }
+
+  #loader {
+    -webkit-animation-name: loader-background;
+    animation-name: loader-background;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: 0em;
+    margin-top: 3.5em;
+  }
+
+  .grower {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: 0em;
+  }
+
+  .grower div {
+    -webkit-animation-iteration-count: 4;
+    animation-iteration-count: 4;
+    margin-top: 10em;
+    margin-left: 15em;
+  }
+
+  .spinner {
+    margin-left: 13.2em;
+    margin-top: 5em;
+  }
+
+  .spinner div {
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+
+  footer {
+    width: 25.3em;
+  }
+
+  .overlay__text--1 {
+    margin-top: 11.8em;
+  }
+
+  .overlay__text--2 {
+    margin-top: 11.8em;
+  }
+
+  .overlay__text--3 {
+    margin-top: 11.8em;
+  }
+
+  .overlay__text--4 {
+    margin-top: 11.8em;
+  }
+
+  #restaurants__palette article {
+    background-position-y: -1.5em;
+    background-position-x: 0em;
+    height: 18em;
+  }
+
+  #restaurants__délice article {
+    background-position-y: -5em;
+    background-position-x: 0em;
+    height: 18em;
+  }
+
+  #restaurants__alafrançaise article {
+    background-position-y: -4em;
+    background-position-x: 0em;
+    height: 18em;
+  }
+
+  #restaurants__lanote article {
+    background-position-y: -14.5em;
+    background-position-x: 0em;
+    height: 18em;
+  }
+}
+@media screen and (min-width: 568.1px) and (max-width: 667px) {
+  h5 {
+    font-size: 1.1em;
+    width: 4em;
+    margin-left: 75%;
+    /*erased it from the mixins and put it here to manipulate for each querries*/
+  }
+
+  body {
+    padding-top: 2.5em;
+    padding-left: 0em;
+  }
+
+  #logo {
+    width: 18em;
+    margin-left: 11em;
+    transform: scale(1);
+    padding-top: 0em;
+    padding-bottom: 1em;
+  }
+
+  header {
+    transform: scale(1);
+    margin-top: 0em;
+    width: 42em;
+  }
+  header #search-bar {
+    width: 41em;
+  }
+  header #search-bar .fas, header #search-bar footer #line1 h6::before, footer #line1 header #search-bar h6::before, header #search-bar footer #line2 h6::before, footer #line2 header #search-bar h6::before, header #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 header #search-bar input:checked + label::before {
+    margin-left: 8em;
+  }
+  header #search-bar .search {
+    margin-left: 14em;
+    /*erase it from the header and put it here to manipulate for each querries*/
+  }
+  header .button-pink button {
+    margin-left: 35%;
+  }
+
+  #navigation {
+    transform: scale(1);
+    margin-top: 0em;
+    width: 41.5em;
+  }
+
+  section {
+    width: 41.5em;
+    transform: scale(1);
+    margin-top: 0em;
   }
   section a {
     outline: none;
@@ -7389,97 +7769,143 @@ footer #contact a {
   }
 
   footer {
-    transform: scale(1.4);
-    margin-top: 15em;
+    transform: scale(1.1);
+    margin-top: 0em;
+    width: 28.75em;
+  }
+  footer #logo {
+    padding-left: 2em;
+  }
+  footer h6 {
+    padding-left: 4em;
   }
 
-  .loader {
+  #loader {
+    -webkit-animation-name: loader-background;
+    animation-name: loader-background;
     -webkit-animation-duration: 5s;
     animation-duration: 5s;
-    margin-left: -6em;
+    margin-left: 0em;
+    margin-top: 1.5em;
   }
 
-  .loader div {
+  .grower {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: 0em;
+  }
+
+  .grower div {
     -webkit-animation-iteration-count: 4;
     animation-iteration-count: 4;
-    margin-top: 10em;
+    margin-top: 9em;
     margin-left: 19em;
   }
+
+  .spinner {
+    margin-left: 17.3em;
+    margin-top: 4em;
+  }
+
+  .spinner div {
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+
+  .overlay__text--1 {
+    margin-top: 12.8em;
+    font-size: 1.1em;
+  }
+
+  .overlay__text--2 {
+    margin-top: 12.8em;
+    font-size: 1.1em;
+  }
+
+  .overlay__text--3 {
+    margin-top: 10.8em;
+    font-size: 1.1em;
+  }
+
+  .overlay__text--4 {
+    margin-top: 11.8em;
+    font-size: 1.1em;
+  }
+
+  #restaurants__palette article {
+    background-position-y: -4em;
+    background-position-x: 0em;
+    height: 20em;
+  }
+
+  #restaurants__délice article {
+    background-position-y: -9em;
+    background-position-x: 0em;
+    height: 20em;
+  }
+
+  #restaurants__alafrançaise article {
+    background-position-y: -9em;
+    background-position-x: 0em;
+    height: 20em;
+  }
+
+  #restaurants__lanote article {
+    background-position-y: -18em;
+    background-position-x: 0em;
+    height: 20em;
+  }
 }
-@media screen and (min-width: 667.1px) and (max-width: 767px) {
+@media screen and (min-width: 667.1px) and (max-width: 768px) {
+  h5 {
+    width: 4em;
+    font-size: 1.2em;
+    margin-left: 75%;
+    /*erased it from the mixins and put it here to manipulate for each querries*/
+  }
+
   body {
-    padding-left: 6em;
-    padding-right: 0;
+    padding-top: 1.5em;
   }
 
   #logo {
-    transform: scale(1.4);
-    padding-top: 1em;
+    width: 20em;
+    margin-left: 13em;
+    transform: scale(1);
+    padding-top: 0.5em;
+    padding-bottom: 2.5em;
   }
 
   header {
-    transform: scale(1.4);
-    margin-top: 5em;
+    margin-left: 3.75em;
+    transform: scale(1.185);
+    margin-top: 0em;
+    width: 40.5em;
   }
-
-  #navigation {
-    transform: scale(1.4);
-    margin-top: 5em;
+  header #search-bar {
+    width: 39.5em;
   }
-
-  section {
-    transform: scale(1.4);
-    margin-top: 22em;
-  }
-  section a {
-    outline: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
-  }
-
-  footer {
-    transform: scale(1.4);
-    margin-top: 15em;
-  }
-
-  .loader {
-    -webkit-animation-duration: 5s;
-    animation-duration: 5s;
-    margin-left: -6em;
-  }
-
-  .loader div {
-    -webkit-animation-iteration-count: 4;
-    animation-iteration-count: 4;
-    margin-top: 10em;
-    margin-left: 19em;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  body {
+  header #search-bar .fas, header #search-bar footer #line1 h6::before, footer #line1 header #search-bar h6::before, header #search-bar footer #line2 h6::before, footer #line2 header #search-bar h6::before, header #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 header #search-bar input:checked + label::before {
     padding-left: 8.5em;
-    padding-right: 0;
   }
-
-  #logo {
-    transform: scale(1.6);
-    padding-top: 1em;
-    padding-bottom: 1em;
+  header #search-bar .search {
+    margin-left: 15em;
+    /*erase it from the header and put it here to manipulate for each querries*/
   }
-
-  header {
-    transform: scale(1.6);
-    margin-top: 5em;
+  header .button-pink button {
+    margin-left: 35%;
   }
 
   #navigation {
-    transform: scale(1.6);
-    margin-top: 8em;
+    transform: scale(1);
+    margin-top: 0em;
+    width: 45em;
   }
 
   section {
-    transform: scale(1.6);
-    margin-top: 35em;
+    width: 47.5em;
+    transform: scale(1);
+    margin-top: 0em;
   }
   section a {
     outline: none;
@@ -7488,48 +7914,143 @@ footer #contact a {
   }
 
   footer {
-    transform: scale(1.6);
-    margin-top: 23em;
+    transform: scale(1.12);
+    margin-top: 0em;
+    width: 32.5em;
+  }
+  footer #logo__footer {
+    margin-left: -0.8em;
+  }
+  footer h6 {
+    padding-left: 4em;
   }
 
-  .loader {
+  #loader {
+    -webkit-animation-name: loader-background;
+    animation-name: loader-background;
     -webkit-animation-duration: 5s;
     animation-duration: 5s;
-    margin-left: -9em;
+    margin-left: 0em;
+    margin-top: 2.5em;
   }
 
-  .loader div {
+  .grower {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: 0em;
+  }
+
+  .grower div {
     -webkit-animation-iteration-count: 4;
     animation-iteration-count: 4;
-    margin-top: 25em;
-    margin-left: 24em;
+    margin-top: 15em;
+    margin-left: 22.5em;
+  }
+
+  .spinner {
+    margin-left: 20.3em;
+    margin-top: 10em;
+  }
+
+  .spinner div {
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+
+  .overlay__text--1 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--2 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--3 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--4 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  #restaurants__palette article {
+    background-position-y: -7em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__délice article {
+    background-position-y: -9em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__alafrançaise article {
+    background-position-y: -9em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__lanote article {
+    background-position-y: -21.5em;
+    background-position-x: 0em;
+    height: 22em;
   }
 }
-@media screen and (min-width: 1023.1px) and (max-width: 1224px) {
+@media screen and (min-width: 768.1px) and (max-width: 900px) {
+  h5 {
+    width: 4em;
+    font-size: 1.2em;
+    margin-left: 75%;
+    /*erased it from the mixins and put it here to manipulate for each querries*/
+  }
+
   body {
-    padding-left: 17em;
-    padding-right: 0;
+    padding-top: 1.5em;
   }
 
   #logo {
-    transform: scale(1.6);
-    padding-top: 1em;
-    padding-bottom: 1em;
+    width: 20em;
+    margin-left: 14em;
+    transform: scale(1);
+    padding-top: 0.5em;
+    padding-bottom: 2.5em;
   }
 
   header {
-    transform: scale(1.6);
-    margin-top: 5em;
+    margin-left: 5.2em;
+    transform: scale(1.185);
+    margin-top: 0em;
+    width: 40.5em;
+  }
+  header #search-bar {
+    width: 39.5em;
+  }
+  header #search-bar .fas, header #search-bar footer #line1 h6::before, footer #line1 header #search-bar h6::before, header #search-bar footer #line2 h6::before, footer #line2 header #search-bar h6::before, header #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 header #search-bar input:checked + label::before {
+    padding-left: 8.7em;
+  }
+  header #search-bar .search {
+    margin-left: 15.5em;
+    /*erase it from the header and put it here to manipulate for each querries*/
+  }
+  header .button-pink button {
+    margin-left: 35%;
   }
 
   #navigation {
-    transform: scale(1.6);
-    margin-top: 8em;
+    transform: scale(1);
+    margin-top: 0em;
+    width: 50em;
   }
 
   section {
-    transform: scale(1.6);
-    margin-top: 35em;
+    width: 51em;
+    transform: scale(1);
+    margin-top: 0em;
   }
   section a {
     outline: none;
@@ -7538,48 +8059,148 @@ footer #contact a {
   }
 
   footer {
-    transform: scale(1.6);
-    margin-top: 23em;
+    transform: scale(1.12);
+    margin-top: 0em;
+    width: 34.75em;
+  }
+  footer #logo__footer {
+    margin-left: -0.8em;
+  }
+  footer h6 {
+    padding-left: 4em;
   }
 
-  .loader {
+  #loader {
+    -webkit-animation-name: loader-background;
+    animation-name: loader-background;
     -webkit-animation-duration: 5s;
     animation-duration: 5s;
-    margin-left: -9em;
+    margin-left: 0em;
+    margin-top: 2.5em;
   }
 
-  .loader div {
+  .grower {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: 0em;
+  }
+
+  .grower div {
     -webkit-animation-iteration-count: 4;
     animation-iteration-count: 4;
-    margin-top: 25em;
-    margin-left: 23em;
+    margin-top: 8em;
+    margin-left: 22.5em;
+  }
+
+  .spinner {
+    margin-left: 20.3em;
+    margin-top: 3em;
+  }
+
+  .spinner div {
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+
+  .overlay__text--1 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--2 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--3 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--4 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  #restaurants__palette article {
+    background-position-y: -7em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__délice article {
+    background-position-y: -9em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__alafrançaise article {
+    background-position-y: -9em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__lanote article {
+    background-position-y: -21.5em;
+    background-position-x: 0em;
+    height: 22em;
   }
 }
-@media screen and (min-width: 1224.1px) and (max-width: 1424px) {
+@media screen and (min-width: 900.1px) and (max-width: 1024px) {
+  h5 {
+    width: 4em;
+    font-size: 1.2em;
+    margin-left: 75%;
+    /*erased it from the mixins and put it here to manipulate for each querries*/
+  }
+
   body {
-    padding-left: 30em;
-    padding-right: 0;
+    padding-top: 1.5em;
+    padding-left: 5em;
   }
 
   #logo {
-    transform: scale(1.6);
-    padding-top: 1em;
-    padding-bottom: 1em;
+    width: 20em;
+    transform: scale(1.2);
+    margin-right: 9em;
+    padding-top: 0.5em;
+    padding-bottom: 2.5em;
+    margin-left: 16em;
+    /*to fix the logo ?*/
   }
 
   header {
-    transform: scale(1.6);
-    margin-top: 5em;
+    margin-left: 6.4em;
+    transform: scale(1.4);
+    margin-top: 1em;
+    width: 40em;
+  }
+  header #search-bar {
+    width: 39em;
+  }
+  header #search-bar .fas, header #search-bar footer #line1 h6::before, footer #line1 header #search-bar h6::before, header #search-bar footer #line2 h6::before, footer #line2 header #search-bar h6::before, header #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 header #search-bar input:checked + label::before {
+    margin-left: 8.7em;
+  }
+  header #search-bar .search {
+    margin-left: 15em;
+    /*erase it from the header and put it here to manipulate for each querries*/
+  }
+  header .button-pink button {
+    margin-left: 35%;
   }
 
   #navigation {
-    transform: scale(1.6);
-    margin-top: 8em;
+    transform: scale(1.2);
+    margin-top: 3em;
+    margin-left: 1.7em;
+    width: 50em;
   }
 
   section {
-    transform: scale(1.6);
-    margin-top: 35em;
+    transform: scale(1.18);
+    margin-top: 15em;
+    width: 50em;
+    margin-left: 2em;
   }
   section a {
     outline: none;
@@ -7588,48 +8209,149 @@ footer #contact a {
   }
 
   footer {
-    transform: scale(1.6);
-    margin-top: 23em;
+    transform: scale(1.075);
+    margin-top: 9em;
+    margin-left: -0.4em;
+    width: 40.2em;
+  }
+  footer #logo__footer {
+    margin-left: -0.8em;
+  }
+  footer h6 {
+    padding-left: 4em;
   }
 
-  .loader {
+  #loader {
+    -webkit-animation-name: loader-background;
+    animation-name: loader-background;
     -webkit-animation-duration: 5s;
     animation-duration: 5s;
-    margin-left: -10em;
+    margin-left: -5em;
+    margin-top: 2.5em;
   }
 
-  .loader div {
+  .grower {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: 0em;
+  }
+
+  .grower div {
     -webkit-animation-iteration-count: 4;
     animation-iteration-count: 4;
-    margin-top: 25em;
-    margin-left: 25em;
+    margin-top: 19em;
+    margin-left: 27.5em;
+  }
+
+  .spinner {
+    margin-left: 25.6em;
+    margin-top: 14em;
+  }
+
+  .spinner div {
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+
+  .overlay__text--1 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--2 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--3 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--4 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  #restaurants__palette article {
+    background-position-y: -7em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__délice article {
+    background-position-y: -9em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__alafrançaise article {
+    background-position-y: -9em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__lanote article {
+    background-position-y: -21.5em;
+    background-position-x: 0em;
+    height: 22em;
   }
 }
-@media screen and (min-width: 1424.1px) and (max-width: 1600px) {
+@media screen and (min-width: 1024.1px) and (max-width: 1224px) {
+  h5 {
+    width: 4em;
+    font-size: 1.2em;
+    margin-left: 75%;
+    /*erased it from the mixins and put it here to manipulate for each querries*/
+  }
+
   body {
-    padding-left: 40em;
-    padding-right: 0;
+    padding-top: 1.5em;
+    padding-left: 5em;
   }
 
   #logo {
-    transform: scale(1.6);
-    padding-top: 1em;
-    padding-bottom: 1em;
+    width: 20em;
+    transform: scale(1.2);
+    margin-right: 9em;
+    padding-top: 0.5em;
+    padding-bottom: 2.5em;
+    margin-left: 16em;
+    /*to fix the logo ?*/
   }
 
   header {
-    transform: scale(1.6);
-    margin-top: 5em;
+    margin-left: 6.4em;
+    transform: scale(1.4);
+    margin-top: 1em;
+    width: 40em;
+  }
+  header #search-bar {
+    width: 39em;
+  }
+  header #search-bar .fas, header #search-bar footer #line1 h6::before, footer #line1 header #search-bar h6::before, header #search-bar footer #line2 h6::before, footer #line2 header #search-bar h6::before, header #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 header #search-bar input:checked + label::before {
+    margin-left: 8.7em;
+  }
+  header #search-bar .search {
+    margin-left: 15em;
+    /*erase it from the header and put it here to manipulate for each querries*/
+  }
+  header .button-pink button {
+    margin-left: 35%;
   }
 
   #navigation {
-    transform: scale(1.6);
-    margin-top: 8em;
+    transform: scale(1.2);
+    margin-top: 3em;
+    margin-left: 1.7em;
+    width: 50em;
   }
 
   section {
-    transform: scale(1.6);
-    margin-top: 35em;
+    transform: scale(1.18);
+    margin-top: 15em;
+    width: 50em;
+    margin-left: 2em;
   }
   section a {
     outline: none;
@@ -7638,64 +8360,541 @@ footer #contact a {
   }
 
   footer {
-    transform: scale(1.6);
-    margin-top: 23em;
+    transform: scale(1.075);
+    margin-top: 9em;
+    margin-left: -0.4em;
+    width: 40.2em;
+  }
+  footer #logo__footer {
+    margin-left: -0.8em;
+  }
+  footer h6 {
+    padding-left: 4em;
   }
 
-  .loader {
+  #loader {
+    -webkit-animation-name: loader-background;
+    animation-name: loader-background;
     -webkit-animation-duration: 5s;
     animation-duration: 5s;
-    margin-left: -10em;
+    margin-left: -5em;
+    margin-top: 2.5em;
   }
 
-  .loader div {
+  .grower {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: 0em;
+  }
+
+  .grower div {
     -webkit-animation-iteration-count: 4;
     animation-iteration-count: 4;
-    margin-top: 25em;
-    margin-left: 25em;
+    margin-top: 19em;
+    margin-left: 27.5em;
+  }
+
+  .spinner {
+    margin-left: 25.6em;
+    margin-top: 14em;
+  }
+
+  .spinner div {
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+
+  .overlay__text--1 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--2 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--3 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--4 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  #restaurants__palette article {
+    background-position-y: -7em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__délice article {
+    background-position-y: -9em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__alafrançaise article {
+    background-position-y: -9em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__lanote article {
+    background-position-y: -21.5em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+}
+@media screen and (min-width: 1224.1px) and (max-width: 1440px) {
+  h5 {
+    width: 4em;
+    font-size: 1.2em;
+    margin-left: 75%;
+    /*erased it from the mixins and put it here to manipulate for each querries*/
+  }
+
+  body {
+    padding-top: 1.5em;
+    padding-left: 8em;
+  }
+
+  #logo {
+    transform: scale(1.2);
+    margin-right: 9em;
+    padding-top: 1.5em;
+    padding-bottom: 2.5em;
+    margin-left: 1em;
+    /*to fix the logo ?*/
+  }
+
+  header {
+    margin-left: 15.4em;
+    transform: scale(1.4);
+    margin-top: 1em;
+    width: 40em;
+  }
+  header #search-bar {
+    width: 39em;
+  }
+  header #search-bar .fas, header #search-bar footer #line1 h6::before, footer #line1 header #search-bar h6::before, header #search-bar footer #line2 h6::before, footer #line2 header #search-bar h6::before, header #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 header #search-bar input:checked + label::before {
+    margin-left: 30%;
+  }
+  header #search-bar .search {
+    margin-left: 30%;
+    /*erase it from the header and put it here to manipulate for each querries*/
+  }
+  header .button-pink button {
+    margin-left: 35%;
+  }
+
+  #navigation {
+    transform: scale(1.2);
+    margin-top: 3em;
+    margin-left: 10.7em;
+  }
+
+  section {
+    transform: scale(1.18);
+    margin-top: 15em;
+    width: 50em;
+    margin-left: 10em;
+  }
+  section a {
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
+  }
+
+  footer {
+    transform: scale(1.08);
+    margin-top: 9em;
+    margin-left: 5.9em;
+    width: 40em;
+  }
+  footer #logo__footer {
+    margin-left: -0.8em;
+  }
+  footer h6 {
+    padding-left: 4em;
+  }
+
+  #loader {
+    -webkit-animation-name: loader-background;
+    animation-name: loader-background;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: -5em;
+    margin-top: 2.5em;
+  }
+
+  .grower {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: 0em;
+  }
+
+  .grower div {
+    -webkit-animation-iteration-count: 4;
+    animation-iteration-count: 4;
+    margin-top: 19em;
+    margin-left: 42em;
+  }
+
+  .spinner {
+    margin-left: 40.2em;
+    margin-top: 14em;
+  }
+
+  .spinner div {
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+
+  .overlay__text--1 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--2 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--3 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--4 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  #restaurants__palette article {
+    background-position-y: -7em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__délice article {
+    background-position-y: -9em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__alafrançaise article {
+    background-position-y: -9em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__lanote article {
+    background-position-y: -21.5em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+}
+@media screen and (min-width: 1440.1px) and (max-width: 1600px) {
+  h5 {
+    width: 4em;
+    font-size: 1.2em;
+    margin-left: 75%;
+    /*erased it from the mixins and put it here to manipulate for each querries*/
+  }
+
+  body {
+    padding-top: 1.5em;
+    padding-left: 8em;
+  }
+
+  #logo {
+    width: 20em;
+    transform: scale(1.2);
+    margin-right: 9em;
+    padding-top: 1.5em;
+    padding-bottom: 2.5em;
+    margin-left: 1em;
+    /*to fix the logo ?*/
+  }
+
+  header {
+    margin-left: 15.4em;
+    transform: scale(1.4);
+    margin-top: 1em;
+    width: 40em;
+  }
+  header #search-bar {
+    width: 39em;
+  }
+  header #search-bar .fas, header #search-bar footer #line1 h6::before, footer #line1 header #search-bar h6::before, header #search-bar footer #line2 h6::before, footer #line2 header #search-bar h6::before, header #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 header #search-bar input:checked + label::before {
+    margin-left: 30%;
+  }
+  header #search-bar .search {
+    margin-left: 30%;
+    /*erase it from the header and put it here to manipulate for each querries*/
+  }
+  header .button-pink button {
+    margin-left: 35%;
+  }
+
+  #navigation {
+    transform: scale(1.2);
+    margin-top: 3em;
+    margin-left: 10.7em;
+    width: 50em;
+  }
+
+  section {
+    transform: scale(1.18);
+    margin-top: 15em;
+    width: 50em;
+    margin-left: 10em;
+  }
+  section a {
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
+  }
+
+  footer {
+    transform: scale(1.08);
+    margin-top: 9em;
+    margin-left: 5.9em;
+    width: 40em;
+  }
+  footer #logo__footer {
+    margin-left: -0.8em;
+  }
+  footer h6 {
+    padding-left: 4em;
+  }
+
+  #loader {
+    -webkit-animation-name: loader-background;
+    animation-name: loader-background;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: -5em;
+    margin-top: 2.5em;
+  }
+
+  .grower {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: 0em;
+  }
+
+  .grower div {
+    -webkit-animation-iteration-count: 4;
+    animation-iteration-count: 4;
+    margin-top: 19em;
+    margin-left: 42em;
+  }
+
+  .spinner {
+    margin-left: 40.2em;
+    margin-top: 14em;
+  }
+
+  .spinner div {
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+
+  .overlay__text--1 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--2 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--3 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--4 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  #restaurants__palette article {
+    background-position-y: -7em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__délice article {
+    background-position-y: -9em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__alafrançaise article {
+    background-position-y: -9em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__lanote article {
+    background-position-y: -21.5em;
+    background-position-x: 0em;
+    height: 22em;
   }
 }
 @media screen and (min-width: 1600.1px) {
+  h5 {
+    width: 4em;
+    font-size: 1.2em;
+    margin-left: 75%;
+    /*erased it from the mixins and put it here to manipulate for each querries*/
+  }
+
   body {
-    padding-left: 45em;
-    padding-top: 4em;
+    padding-top: 1.5em;
+    padding-left: 8em;
   }
 
   #logo {
-    transform: scale(1.6);
-    padding-bottom: 5em;
+    transform: scale(1.2);
+    margin-right: 9em;
+    padding-top: 1.5em;
+    padding-bottom: 2.5em;
+    margin-left: 1em;
+    /*to fix the logo ?*/
   }
 
   header {
-    transform: scale(1.6);
-    -webkit-transform: scale(1.6);
+    margin-left: 15.4em;
+    transform: scale(1.4);
+    margin-top: 1em;
+    width: 40em;
+  }
+  header #search-bar {
+    width: 39em;
+  }
+  header #search-bar .fas, header #search-bar footer #line1 h6::before, footer #line1 header #search-bar h6::before, header #search-bar footer #line2 h6::before, footer #line2 header #search-bar h6::before, header #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 header #search-bar input:checked + label::before {
+    margin-left: 30%;
+  }
+  header #search-bar .search {
+    margin-left: 30%;
+    /*erase it from the header and put it here to manipulate for each querries*/
+  }
+  header .button-pink button {
+    margin-left: 35%;
   }
 
   #navigation {
-    margin-top: 12em;
-    transform: scale(1.6);
+    transform: scale(1.2);
+    margin-top: 3em;
+    margin-left: 10.7em;
   }
 
   section {
-    transform: scale(1.6);
-    margin-top: 33em;
+    transform: scale(1.18);
+    margin-top: 15em;
+    width: 50em;
+    margin-left: 10em;
+  }
+  section a {
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
   }
 
   footer {
-    transform: scale(1.6);
-    margin-top: 23em;
+    transform: scale(1.08);
+    margin-top: 9em;
+    margin-left: 5.9em;
+    width: 40em;
+  }
+  footer #logo__footer {
+    margin-left: -0.8em;
+  }
+  footer h6 {
+    padding-left: 4em;
   }
 
-  .loader {
-    margin-left: -9em;
-    margin-top: -4em;
+  #loader {
+    -webkit-animation-name: loader-background;
+    animation-name: loader-background;
     -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    margin-left: -5em;
+    margin-top: 2.5em;
   }
 
-  .loader div {
-    margin-top: 25em;
-    margin-left: 21em;
+  .grower {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: 0em;
+  }
+
+  .grower div {
+    -webkit-animation-iteration-count: 4;
+    animation-iteration-count: 4;
+    margin-top: 19em;
+    margin-left: 42em;
+  }
+
+  .spinner {
+    margin-left: 40.2em;
+    margin-top: 14em;
+  }
+
+  .spinner div {
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+
+  .overlay__text--1 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--2 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--3 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--4 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  #restaurants__palette article {
+    background-position-y: -7em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__délice article {
+    background-position-y: -9em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__alafrançaise article {
+    background-position-y: -9em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__lanote article {
+    background-position-y: -21.5em;
+    background-position-x: 0em;
+    height: 22em;
   }
 }
 
