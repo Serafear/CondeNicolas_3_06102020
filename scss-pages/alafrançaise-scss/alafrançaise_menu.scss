@@ -29,6 +29,101 @@ footer {
     @include footer__settings
 }
 
+@media screen and (min-width: 250px) and (max-width: 320px)
+{
+    body {
+        padding-left: 0em;
+        padding-top: 0em;
+    }
+    header {
+        transform: scale(0.8);
+        width: 487px;
+        margin-left: -10em;  /*help to reduce the whole page width*/
+        #logo {
+            padding-left: 3em; 
+            padding-bottom: 0.5em;
+            margin-left: 11em;
+            a {
+                padding-right: 2em;  /*this pushed the arrow toward the logo*/
+            }
+        }
+    }
+    #alafrançaise-image {
+        transform: scale(0.832);
+        width: 24em; 
+        margin-top: -2em;
+        margin-left: -2em;
+        margin-right: 20em;
+        .overlay__menu--1 {
+            width: 386px;
+            margin-left: -0.09em;
+        }
+    }
+    section {
+        transform: scale(0.855);
+        width: 22.8em;
+        margin-top: -7.2em;
+        margin-left: -1.9em;
+    }
+    footer {
+        position: absolute;
+        transform: scale(0.8);
+        width: 17.9em;
+        margin-left: -3.4rem;
+        margin-top: -5.2em;
+        #footer__nav {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
+@media screen and (min-width: 425px) and (max-width: 499.9px)
+{
+    body {
+        padding-left: 0em;
+        padding-top: 0.5em;
+    }
+    header {
+        transform: scale(1.1);
+        width: 487px;
+        margin-left: -9em;  /*help to reduce the whole page width*/
+        #logo {
+            padding-left: 3em; 
+            padding-bottom: 0.5em;
+            margin-left: 12em;
+            a {
+                padding-right: 2em;  /*this pushed the arrow toward the logo*/
+            }
+        }
+    }
+    #alafrançaise-image {
+        transform: scale(1.1);
+        width: 24em; 
+        margin-top: 1em;
+        margin-left: 1.29em;
+        .overlay__menu--1 {
+            width: 386px;
+            margin-left: -0.09em;
+        }
+    }
+    section {
+        transform: scale(1.123);
+        width: 22.8em;
+        margin-top: 5em;
+        margin-left: 1.45em;
+    }
+    footer {
+        position: absolute;
+        transform: scale(1.05);
+        width: 17.9em;
+        margin-left: 0rem;
+        margin-top: 2em;
+        #footer__nav {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
 @media screen and (min-width: 500px) and (max-width: 667px)
 {
     body {
