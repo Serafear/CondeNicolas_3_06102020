@@ -6643,6 +6643,7 @@ footer #line1 h6::before {
 }
 #navigation #navigation__choix:hover li {
   background-color: #f2eafb;
+  box-shadow: 0.1em 0.1em 1em 1em gray;
 }
 #navigation #navigation__composition {
   display: flex;
@@ -6690,6 +6691,7 @@ footer #line1 h6::before {
 }
 #navigation #navigation__composition:hover li {
   background-color: #f2eafb;
+  box-shadow: 0.1em 0.1em 1em 1em gray;
 }
 #navigation #navigation__dégustation {
   display: flex;
@@ -6737,6 +6739,7 @@ footer #line1 h6::before {
 }
 #navigation #navigation__dégustation:hover li {
   background-color: #f2eafb;
+  box-shadow: 0.1em 0.1em 1em 1em gray;
 }
 
 header {
@@ -6805,6 +6808,7 @@ header .button-pink button:hover {
   -webkit-filter: opacity(85%);
   filter: opacity(85%);
   /*this make the button lighter*/
+  box-shadow: 0.1em 0.1em 1em 1em gray;
 }
 
 #logo {
@@ -8448,7 +8452,156 @@ footer #contact a {
     height: 22em;
   }
 }
-@media screen and (min-width: 1224.1px) and (max-width: 1440px) {
+@media screen and (min-width: 1224.1px) and (max-width: 1340px) {
+  h5 {
+    width: 4em;
+    font-size: 1.2em;
+    margin-left: 75%;
+    /*erased it from the mixins and put it here to manipulate for each querries*/
+  }
+
+  body {
+    padding-top: 1.5em;
+    padding-left: 5em;
+  }
+
+  #logo {
+    transform: scale(1.2);
+    margin-right: 9em;
+    padding-top: 1.5em;
+    padding-bottom: 2.5em;
+    margin-left: 1em;
+    /*to fix the logo ?*/
+  }
+
+  header {
+    margin-left: 15.4em;
+    transform: scale(1.4);
+    margin-top: 1em;
+    width: 40em;
+  }
+  header #search-bar {
+    width: 39em;
+  }
+  header #search-bar .fas, header #search-bar footer #line1 h6::before, footer #line1 header #search-bar h6::before, header #search-bar footer #line2 h6::before, footer #line2 header #search-bar h6::before, header #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 header #search-bar input:checked + label::before {
+    margin-left: 25%;
+  }
+  header #search-bar .search {
+    margin-left: 30%;
+    /*erase it from the header and put it here to manipulate for each querries*/
+  }
+  header .button-pink button {
+    margin-left: 35%;
+  }
+
+  #navigation {
+    transform: scale(1.2);
+    margin-top: 3em;
+    margin-left: 10.7em;
+  }
+
+  section {
+    transform: scale(1.18);
+    margin-top: 15em;
+    width: 50em;
+    margin-left: 10em;
+  }
+  section a {
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /*i disabled the on hit effect for this exemple specificaly. But, to allow :active styles to work in your CSS on a page in Mobile Safari i need to enter this: document.addEventListener("touchstart", function(){}, true);*/
+  }
+
+  footer {
+    transform: scale(1.08);
+    margin-top: 9em;
+    margin-left: 5.9em;
+    width: 40em;
+  }
+  footer #logo__footer {
+    margin-left: -0.8em;
+  }
+  footer h6 {
+    padding-left: 4em;
+  }
+
+  #loader {
+    -webkit-animation-name: loader-background;
+    animation-name: loader-background;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: -5em;
+    margin-top: 2.5em;
+  }
+
+  .grower {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    margin-left: 0em;
+  }
+
+  .grower div {
+    -webkit-animation-iteration-count: 4;
+    animation-iteration-count: 4;
+    margin-top: 19em;
+    margin-left: 35em;
+  }
+
+  .spinner {
+    margin-left: 33.2em;
+    margin-top: 14em;
+  }
+
+  .spinner div {
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+
+  .overlay__text--1 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--2 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--3 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  .overlay__text--4 {
+    margin-top: 13.8em;
+    font-size: 1.2em;
+  }
+
+  #restaurants__palette article {
+    background-position-y: -7em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__délice article {
+    background-position-y: -9em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__alafrançaise article {
+    background-position-y: -9em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+
+  #restaurants__lanote article {
+    background-position-y: -21.5em;
+    background-position-x: 0em;
+    height: 22em;
+  }
+}
+@media screen and (min-width: 1340.1px) and (max-width: 1440px) {
   h5 {
     width: 4em;
     font-size: 1.2em;
@@ -8480,7 +8633,7 @@ footer #contact a {
     width: 39em;
   }
   header #search-bar .fas, header #search-bar footer #line1 h6::before, footer #line1 header #search-bar h6::before, header #search-bar footer #line2 h6::before, footer #line2 header #search-bar h6::before, header #search-bar #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 input:checked + label::before, #restaurants #restaurants__lanote .overlay__text--2 .overlay__heart--2 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 input:checked + label::before, #restaurants #restaurants__alafrançaise .overlay__text--3 .overlay__heart--3 header #search-bar input:checked + label::before, header #search-bar #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 input:checked + label::before, #restaurants #restaurants__délice .overlay__text--4 .overlay__heart--4 header #search-bar input:checked + label::before {
-    margin-left: 30%;
+    margin-left: 32%;
   }
   header #search-bar .search {
     margin-left: 30%;

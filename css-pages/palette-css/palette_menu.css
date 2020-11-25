@@ -7587,6 +7587,7 @@ footer #line1 h6::before,
   -webkit-filter: opacity(85%);
   filter: opacity(85%);
   /*this make the button lighter*/
+  box-shadow: 0.1em 0.1em 1em 1em gray;
 }
 
 #logo {

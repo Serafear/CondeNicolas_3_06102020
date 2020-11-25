@@ -16,7 +16,7 @@
         }
         li {
             background-color: lighten($purple, $amount: 35);
-            
+            box-shadow: 0.1em 0.1em 1em 1em gray;
         }
         cursor: pointer;
     } 
@@ -33,7 +33,7 @@
             }
             li {
                 background-color: lighten($purple, $amount: 35);
-                
+                box-shadow: 0.1em 0.1em 1em 1em gray;
             }
             cursor: pointer;
         } 
@@ -49,7 +49,7 @@
             }
             li {
                 background-color: lighten($purple, $amount: 35);
-                
+                box-shadow: 0.1em 0.1em 1em 1em gray;
             }
             cursor: pointer;
         } 
