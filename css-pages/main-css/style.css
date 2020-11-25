@@ -538,8 +538,8 @@ footer #line1 h6::before {
 
 .grower div:nth-child(3) {
   left: 56px;
-  -webkit-animation-delay: 0;
-  animation-delay: 0;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .spinner {
