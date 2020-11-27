@@ -2,73 +2,67 @@ header {
     background-color: $gray-light;
     padding: 0.5em 0em 0.5em 0em;
     display: flex;
-     
-     .button-pink {
-         padding-bottom: 3em;
-         #search-bar {
-             padding-left: 1em;
-             margin-top: -0.5em;
-             background-color: $gray-darker;  
-             border-top-style: hidden;
-             box-shadow: 0em -0.1em 0em 0em gray;  
-              
-             .search {
-                 background-color: $gray-darker;
-                 height: 3em;
-                 border-style: none;
-                 font-weight: bolder;
-                 padding-left: 2em;
-                 
-             }
-                 textarea:focus, input:focus {
-                     outline: none
-                 }
-             
-             .fas {
-                 color: #323232;
-                 font-size: 1.3em;    
-                 position: absolute;
-                 padding-top: 0.5em;
-                
-             }
-         }
+    .button-pink {
+        padding-bottom: 3em;
+        #search-bar {
+            padding-left: 1em;
+            margin-top: -0.5em;
+            background-color: $gray-darker;  
+            border-top-style: hidden;
+            box-shadow: 0em -0.1em 0em 0em gray;   
+            .search {
+                background-color: $gray-darker;
+                height: 3em;
+                border-style: none;
+                font-weight: bolder;
+                padding-left: 2em;  
+            }
+            textarea:focus, input:focus {
+                outline: none
+            }
+            .fas {
+                color: #323232;
+                font-size: 1.3em;    
+                position: absolute;
+                padding-top: 0.5em;
+            }
+        }
          
          
-         h1 {
-             font-size: 1.5em;
-             font-weight: bolder;
-             text-align: center;
-             padding-bottom: 0.7em;
-             padding-top: 1em;
-             font-family: $font-text;
-             padding-right: 1em;
-             padding-left: 1em;
-         }
-         h3 {
-             text-align: center;
-             font-size: 1.1em;
-             font-weight: lighter;
-             padding-bottom: 2em;
-             padding-left: 0.7em;
-             padding-right: 0.7em;
-             font-family: $font-text;
-         }
- 
-         button {
-             display: flex;
-             margin-left: 22%;  /*here im trying to automate the screens transitions with %. I dont know if it will work*/
-             font-size: 1em;
-             color: white;
-             border-radius: 25px;
-             border-style: hidden;
-             padding: 0.8em 0.8em 0.8em 0.8em;
-             background: linear-gradient(-10deg, $purple 30%, $pink);
-             &:hover {
-                 cursor: pointer;
-                 -webkit-filter: opacity(85%);
-                         filter: opacity(85%); /*this make the button lighter*/
-                         box-shadow: 0.1em 0.1em 1em 1em gray;
-             }
-         }   
-     }   
- }
+        h1 {
+            font-size: 1.5em;
+            font-weight: bolder;
+            text-align: center;
+            padding-bottom: 0.7em;
+            padding-top: 1em;
+            font-family: $font-text;
+            padding-right: 1em;
+            padding-left: 1em;
+        }
+        h3 {
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: lighter;
+            padding-bottom: 2em;
+            padding-left: 0.7em;
+            padding-right: 0.7em;
+            font-family: $font-text;
+        }
+        button {
+            display: flex;
+            margin-left: 22%;  /*here im trying to automate the screens transitions with %. I dont know if it will work*/
+            font-size: 1em;
+            color: white;
+            border-radius: 25px;
+            border-style: hidden;
+            padding: 0.8em 0.8em 0.8em 0.8em;
+            background: linear-gradient(-10deg, $purple 30%, $pink);
+            &:hover {
+                cursor: pointer;
+                -webkit-filter: opacity(85%);
+                filter: opacity(85%); /*this make the button lighter*/
+                box-shadow: 0.1em 0.1em 1em 1em gray;
+            }
+        }   
+    }   
+}

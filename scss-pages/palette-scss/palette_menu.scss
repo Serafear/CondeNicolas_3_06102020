@@ -20,23 +20,13 @@
 @import "../../Pages/palette/_menu--palette";
 
 
-
-
-
-
-
-
-
 #logo {
     @include logo-back
 }
 
-
 footer {
     @include footer__settings
 }
-
-
 
 @media screen and (min-width: 250px) and (max-width: 320px)
 {
@@ -183,7 +173,6 @@ footer {
 {
     body {
         padding-left: 9em;
-        
     }
     header {
         transform: scale(2.1);
@@ -215,14 +204,12 @@ footer {
         width: 365px;
         margin-top: 30em;
         margin-left: 3.1em;
-        
     }
     footer {
         transform: scale(1.65);    /*scale, font size and width, mostly, fixed the issue where the width in the ipad was not the same for the desktop. I think the issue was the font size*/
         width: 16.5em;
         margin-top: 19em;
         margin-left: 2.15em;
-        
         #footer__nav {
             display: flex;
             flex-direction: row;

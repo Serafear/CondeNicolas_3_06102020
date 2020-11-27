@@ -57,18 +57,18 @@
             <div id="restaurants__palette">   <!--élément ?-->
                 <article>
                     <h5>Nouveau</h5>
-                        <div class="overlay__text--1">   <!--BEM test. Ici, si on peut effectivement considerer l'overlay comme un modificateur il s'agira de l'écrire en conséquence-->
-                            <a href="html-pages/palette-html/palette_menu.html">
-                                <div id="text--1">
-                                    <h3>La palette du goût</h3>               <!--update ! On this specific project, to use a mixin and syntetize the amount of scss code, i will need to remove the naming and just put overlay-->
-                                    <h4>Ménilmontant</h4>          <!--ici, il me semble que la ville doit être tirée de la base de donnée. En l'absence de cette possibilité, j'utiliserai simplement un h-->
-                                </div>
-                            </a>
-                            <div class="overlay__heart--1">
-                                <input id="toggle__heart--1" type="checkbox"/> <!-- de ce que j'ai vu, le seul moyen de simuler des effets de click sans javascript est à travers le type checkbox et le label. Suite du commentaire dans le sass-->
-                                <label for="toggle__heart--1"></label>
+                    <div class="overlay__text--1">   <!--BEM test. Ici, si on peut effectivement considerer l'overlay comme un modificateur il s'agira de l'écrire en conséquence-->
+                        <a href="html-pages/palette-html/palette_menu.html">
+                            <div id="text--1">
+                                <h3>La palette du goût</h3>               <!--update ! On this specific project, to use a mixin and syntetize the amount of scss code, i will need to remove the naming and just put overlay-->
+                                <h4>Ménilmontant</h4>          <!--ici, il me semble que la ville doit être tirée de la base de donnée. En l'absence de cette possibilité, j'utiliserai simplement un h-->
                             </div>
+                        </a>
+                        <div class="overlay__heart--1">
+                            <input id="toggle__heart--1" type="checkbox"/> <!-- de ce que j'ai vu, le seul moyen de simuler des effets de click sans javascript est à travers le type checkbox et le label. Suite du commentaire dans le sass-->
+                            <label for="toggle__heart--1"></label>
                         </div>
+                    </div>
                 </article>
             </div>
             <div id="restaurants__lanote">
@@ -124,7 +124,6 @@
                 </article>
             </div> 
         </section>
-
         <footer>
             <div id="logo__footer">
                 <h6>ohmyfood</h6>

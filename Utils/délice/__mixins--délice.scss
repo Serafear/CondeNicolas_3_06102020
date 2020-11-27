@@ -26,7 +26,6 @@
         width: auto;
     }
 }
-
 @mixin div-principal-menus {
     border-style: hidden;
     background-color: white;
@@ -49,7 +48,6 @@
     overflow-y: hidden;
     height: 4.2em;
 }
-
 @mixin label-settings-menus {
     span.bold,span.normal {
         display: flex;
@@ -86,7 +84,6 @@
         cursor: pointer;
     }
 }
-
 @mixin checked-ok {
     span.green {
         background-color: $green;
@@ -154,8 +151,6 @@
         }
     }
 }
-
-
 @mixin toggle__heart--menu {
     font-size: 1.7rem;
     padding-right: 1em;
@@ -188,7 +183,7 @@
     font-family: $font-text;
     font-weight: bold;
     -webkit-filter: blur(0);
-            filter: blur(0);
+    filter: blur(0);
     @include fa-icon;
     #logo__footer {
         font-size: 1.5em;

@@ -46,8 +46,6 @@
         -webkit-text-fill-color: transparent;
     }
 }
-
-
 @keyframes color-swap {
     0% {
         font-weight: normal;  /*i dont need to tell anything about the fa content because it is sayed in the ::before, below in the css code*/
@@ -96,10 +94,6 @@
         -webkit-text-fill-color: transparent;
     }
 }
-
-
-
-
 @-webkit-keyframes loader-background {
     0% {
         background-color: white;
@@ -123,7 +117,6 @@
         background-color: transparent;
     }
 }
-
 @keyframes loader-background {
     0% {
         background-color: white;
@@ -147,7 +140,6 @@
         background-color: transparent;
     }
 }
-
 @-webkit-keyframes loader-growth {
     0% {
       top: 8px;
@@ -157,8 +149,8 @@
       top: 24px;
       height: 32px;
     }
-  }
-  @keyframes loader-growth {
+}
+@keyframes loader-growth {
     0% {
       top: 8px;
       height: 64px;
@@ -167,4 +159,4 @@
       top: 24px;
       height: 32px;
     }
-  }
+}

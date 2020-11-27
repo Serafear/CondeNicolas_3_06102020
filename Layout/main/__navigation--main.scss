@@ -3,32 +3,30 @@
     padding-bottom: 2em;
     font-family: $font-text;
     list-style-type: none;
-    
     h2 {
         font-weight: bolder;
         padding-left: 1em;
     }
     #navigation__choix {
-    @include nav-settings;
-    &:hover {
-        .fas {
-            color: $purple;
-        }
-        li {
-            background-color: lighten($purple, $amount: 35);
-            box-shadow: 0.1em 0.1em 1em 1em gray;
-        }
-        cursor: pointer;
-    } 
-    }
-    
+        @include nav-settings;
+        &:hover {
+            .fas {
+                color: $purple;
+            }
+            li {
+                background-color: lighten($purple, $amount: 35);
+                box-shadow: 0.1em 0.1em 1em 1em gray;
+            }
+            cursor: pointer;
+        } 
+    }   
     #navigation__composition {
         @include nav-settings;
         a {
             padding-right: 0.6em;
         }
         &:hover {
-            .fas {
+           .fas {
                 color: $purple;
             }
             li {

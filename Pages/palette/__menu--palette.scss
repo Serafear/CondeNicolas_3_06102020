@@ -5,27 +5,26 @@
     font-family: $font-text;
     #palette__entrées {
         padding-bottom: 0.5em;
-            h2 {
-                border-bottom: solid $green;
-                border-width: 0.3em;
-                margin-right: 15em;
-                font-weight: lighter;
-                font-size: 1.3em;
-                padding-bottom: 0.3em;
-            }
+        h2 {
+            border-bottom: solid $green;
+            border-width: 0.3em;
+            margin-right: 15em;
+            font-weight: lighter;
+            font-size: 1.3em;
+            padding-bottom: 0.3em;
         }
+    }
     #palette__entrées--all {
         padding-bottom: 2em;
         overflow-y: hidden;
         overflow-x: hidden;
         height: 17em;
         padding-left: 0.5em;
-        
         #palette__entrées--1 {
             margin-top: 0.95em;  /*not 1em, for some reason there is a very small space betweel the green and he top of the div if i set margin to 1*/
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
+            animation: loading-menus 0.5s ease-in-out;
             input {
                 @include fa-icon;
                 display: none;   
@@ -36,6 +35,12 @@
                     }
                     span.normal {
                         margin-left: 0.5em;
+                    }
+                    span.price {
+                        z-index: 100;
+                       background: white;
+                       padding-left: 0.5em;
+                       margin-left: 17.5rem;
                     }  
                 }
                 &:checked+label { 
@@ -47,10 +52,24 @@
                         margin-left: 14rem;
                         padding-left: 0em;
                         -webkit-animation-name: price-animation;
-                                animation-name: price-animation;
+                        animation-name: price-animation;
                         -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
+                        animation-duration: 2s;
                         transition: ease-in-out;
+                        &::before {
+                            content: "...";
+                            padding-right: 0.5em;
+                        }
+                        &::after {
+                            content: "...";
+                            position: absolute;
+                            font-size: 2em;
+                            margin-left: -0.1em;
+                            margin-top: -1.35em;
+                            z-index: 90;
+                            background: white;
+                            padding-right: 1.5em;
+                        } 
                     }
                 }
             }
@@ -59,7 +78,7 @@
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
+            animation: loading-menus 0.5s ease-in-out;
             input {
                 @include fa-icon;
                 display: none;
@@ -84,9 +103,9 @@
                         margin-left: 12.6rem;
                         padding-right: 1em;
                         -webkit-animation-name: price-animation--short;
-                                animation-name: price-animation--short;
+                        animation-name: price-animation--short;
                         -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
+                        animation-duration: 2s;
                         transition: ease-in-out;
                         z-index: 100;
                         background: white;
@@ -102,7 +121,7 @@
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
+            animation: loading-menus 0.5s ease-in-out;
             input {
                 @include fa-icon;
                 display: none;
@@ -127,9 +146,9 @@
                         margin-left: 12.6rem;
                         padding-right: 1.5em;   /*mask the text ont some menus*/
                         -webkit-animation-name: price-animation--short;
-                                animation-name: price-animation--short;
+                        animation-name: price-animation--short;
                         -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
+                        animation-duration: 2s;
                         transition: ease-in-out;
                         z-index: 100;
                         background: white;
@@ -145,26 +164,26 @@
     
     #palette__plats {
         padding-bottom: 0.5em; /*distance between the last div and the desserts*/
-            h2 {
-                border-bottom: solid $green;
-                border-width: 0.3em;
-                margin-right: 15em;
-                font-weight: lighter;
-                font-size: 1.3em;
-                padding-bottom: 0.3em;
-            }
+        h2 {
+            border-bottom: solid $green;
+            border-width: 0.3em;
+            margin-right: 15em;
+            font-weight: lighter;
+            font-size: 1.3em;
+            padding-bottom: 0.3em;
         }
-        #palette__plats--all {
-            padding-bottom: 2em;
-            overflow-y: hidden;
-            overflow-x: hidden;
-            height: 17.5em;
-            padding-left: 0.5em;
+    }
+    #palette__plats--all {
+        padding-bottom: 2em;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: 17.5em;
+        padding-left: 0.5em;
         #palette__plats--1 {
             @include div-principal-menus;
             height: 3.5em;
             -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
+            animation: loading-menus 0.5s ease-in-out;
             margin-top: 1em;
             input {
                 @include fa-icon;
@@ -196,9 +215,9 @@
                         margin-left: 14rem;
                         padding-right: 4em;  /*mask the text ont some menus*/
                         -webkit-animation-name: price-animation;
-                                animation-name: price-animation;
+                        animation-name: price-animation;
                         -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
+                        animation-duration: 2s;
                         transition: ease-in-out;
                         font-weight: 600;
                     }
@@ -209,7 +228,7 @@
             margin-top: 0.9em;   /*here too, something is strange with the distance*/
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
+            animation: loading-menus 0.5s ease-in-out;
             input {
                 @include fa-icon;
                 display: none;
@@ -234,9 +253,9 @@
                         margin-left: 12.6rem;
                         padding-right: 2em;   /*mask the text ont some menus*/
                         -webkit-animation-name: price-animation--short;
-                                animation-name: price-animation--short;
+                        animation-name: price-animation--short;
                         -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
+                        animation-duration: 2s;
                         transition: ease-in-out;
                         z-index: 100;
                         background: white;
@@ -252,7 +271,7 @@
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
+            animation: loading-menus 0.5s ease-in-out;
             input {
                 @include fa-icon;
                 display: none;
@@ -274,9 +293,9 @@
                         margin-left: 14rem;
                         padding-left: 0em;
                         -webkit-animation-name: price-animation;
-                                animation-name: price-animation;
+                        animation-name: price-animation;
                         -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
+                        animation-duration: 2s;
                         transition: ease-out;
                     }
                 }
@@ -300,11 +319,10 @@
         overflow-x: hidden;
         height: 17.5em;
         padding-left: 0.5em;
-        
         #palette__desserts--1 {
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
+            animation: loading-menus 0.5s ease-in-out;
             margin-top: 1em;
             input {
                 @include fa-icon;
@@ -327,9 +345,9 @@
                         margin-left: 14rem;
                         padding-left: 0em;
                         -webkit-animation-name: price-animation;
-                                animation-name: price-animation;
+                        animation-name: price-animation;
                         -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
+                        animation-duration: 2s;
                         transition: ease-out;
                     }
                 }
@@ -339,7 +357,7 @@
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
+            animation: loading-menus 0.5s ease-in-out;
             input {
                 @include fa-icon;
                 display: none;
@@ -367,9 +385,9 @@
                         margin-left: 12.6rem;
                         padding-right: 2em;   /*mask the text ont some menus*/
                         -webkit-animation-name: price-animation--short;
-                                animation-name: price-animation--short;
+                        animation-name: price-animation--short;
                         -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
+                        animation-duration: 2s;
                         transition: ease-in-out;
                         z-index: 100;
                         background: white;
@@ -377,7 +395,6 @@
                             content: "...";
                             padding-right: 0.5em;
                         }
-                    
                         &::after {
                             content: "...";
                             position: absolute;
@@ -396,7 +413,7 @@
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
+            animation: loading-menus 0.5s ease-in-out;
             input {
                 @include fa-icon;
                 display: none;
@@ -408,7 +425,6 @@
                     span.normal {
                         margin-left: 0.5em;
                         font-size: 0.95em;
-                        
                     } 
                     span.price {
                         margin-left: 18em;
@@ -425,9 +441,9 @@
                         margin-left: 12.6rem;
                         padding-right: 2em;   /*mask the text ont some menus*/
                         -webkit-animation-name: price-animation--short;
-                                animation-name: price-animation--short;
+                        animation-name: price-animation--short;
                         -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
+                        animation-duration: 2s;
                         transition: ease-in-out;
                         z-index: 100;
                         background: white;
@@ -453,8 +469,8 @@
             &:hover {
                 cursor: pointer;
                 -webkit-filter: opacity(85%);
-                        filter: opacity(85%); /*this make the button lighter*/
-                        box-shadow: 0.1em 0.1em 1em 1em gray;
+                filter: opacity(85%); /*this make the button lighter*/
+                box-shadow: 0.1em 0.1em 1em 1em gray;
             }
         } 
     }

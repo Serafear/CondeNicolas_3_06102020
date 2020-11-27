@@ -6,28 +6,27 @@
     font-family: $font-text;
     #délice__entrées {
         padding-bottom: 0.5em;
-            h2 {
-                border-bottom: solid $green;
-                border-width: 0.3em;
-                margin-right: 15em;
-                font-weight: lighter;
-                font-size: 1.3em;
-                padding-bottom: 0.3em;
-            }
+        h2 {
+            border-bottom: solid $green;
+            border-width: 0.3em;
+            margin-right: 15em;
+            font-weight: lighter;
+            font-size: 1.3em;
+            padding-bottom: 0.3em;
         }
+    }
     #délice__entrées--all {
         padding-bottom: 2em;
         overflow-y: hidden;
         overflow-x: hidden;
         height: 17.5em;
         padding-left: 0.5em;
-       
         #délice__entrées--1 {
             margin-top: 0.95em;  /*not 1em, for some reason there is a very small space betweel the green and he top of the div if i set margin to 1*/
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
-                    width: 20.5em;  /*fixes a minor visual imperfection*/
+            animation: loading-menus 0.5s ease-in-out;
+            width: 20.5em;  /*fixes a minor visual imperfection*/
             input {
                 @include fa-icon;
                 display: none;   
@@ -49,9 +48,9 @@
                         margin-left: 14rem;
                         padding-right: 2em;
                         -webkit-animation-name: price-animation;
-                                animation-name: price-animation;
+                        animation-name: price-animation;
                         -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
+                        animation-duration: 2s;
                         transition: ease-in-out;
                     }
                 }
@@ -61,8 +60,8 @@
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
-                    width: 20.5em;
+            animation: loading-menus 0.5s ease-in-out;
+            width: 20.5em;
             input {
                 @include fa-icon;
                 display: none;
@@ -86,11 +85,10 @@
                     span.price {
                         margin-left: 12.6rem;
                         padding-right: 1em;
-                        
                         -webkit-animation-name: price-animation--short;
-                                animation-name: price-animation--short;
+                        animation-name: price-animation--short;
                         -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
+                        animation-duration: 2s;
                         transition: ease-in-out;
                         z-index: 100;
                         background: white;
@@ -106,8 +104,8 @@
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
-                    width: 20.5em;
+            animation: loading-menus 0.5s ease-in-out;
+            width: 20.5em;
             input {
                 @include fa-icon;
                 display: none;
@@ -132,9 +130,9 @@
                         margin-left: 14rem;
                         padding-right: 1.5em;   /*mask the text ont some menus*/
                         -webkit-animation-name: price-animation;
-                                animation-name: price-animation;
+                        animation-name: price-animation;
                         -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
+                        animation-duration: 2s;
                         transition: ease-in-out;
                     }
                 }
@@ -144,29 +142,28 @@
     
     #délice__plats {
         padding-bottom: 0.5em; /*distance between the last div and the desserts*/
-            h2 {
-                border-bottom: solid $green;
-                border-width: 0.3em;
-                margin-right: 15em;
-                font-weight: lighter;
-                font-size: 1.3em;
-                padding-bottom: 0.3em;
-            }
+        h2 {
+            border-bottom: solid $green;
+            border-width: 0.3em;
+            margin-right: 15em;
+            font-weight: lighter;
+            font-size: 1.3em;
+            padding-bottom: 0.3em;
         }
-        #délice__plats--all {
-            padding-bottom: 2em;
-            overflow-y: hidden;
-            overflow-x: hidden;
-            height: 17.5em;
-            
-            padding-left: 0.5em;
+    }
+    #délice__plats--all {
+        padding-bottom: 2em;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: 17.5em;
+        padding-left: 0.5em;
         #délice__plats--1 {
             margin-top: 0.95em;  /*not 1em, for some reason there is a very small space betweel the green and he top of the div if i set margin to 1*/
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
-                    width: 20.5em;
-                    height: 4em;
+            animation: loading-menus 0.5s ease-in-out;
+            width: 20.5em;
+            height: 4em;
             input {
                 @include fa-icon;
                 display: none;   
@@ -188,9 +185,9 @@
                         margin-left: 14rem;
                         padding-right: 2em;
                         -webkit-animation-name: price-animation;
-                                animation-name: price-animation;
+                        animation-name: price-animation;
                         -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
+                        animation-duration: 2s;
                         transition: ease-in-out;
                     }
                 }
@@ -200,8 +197,8 @@
             margin-top: 0.9em;   /*here too, something is strange with the distance*/
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
-                    width: 20.5em;
+            animation: loading-menus 0.5s ease-in-out;
+            width: 20.5em;
             input {
                 @include fa-icon;
                 display: none;
@@ -226,9 +223,9 @@
                         margin-left: 12.6rem;
                         padding-right: 1em;   /*mask the text ont some menus*/
                         -webkit-animation-name: price-animation--short;
-                                animation-name: price-animation--short;
+                        animation-name: price-animation--short;
                         -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
+                        animation-duration: 2s;
                         transition: ease-in-out;
                     }
                 }
@@ -238,8 +235,8 @@
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
-                    width: 20.5em;
+            animation: loading-menus 0.5s ease-in-out;
+            width: 20.5em;
             input {
                 @include fa-icon;
                 display: none;
@@ -261,9 +258,9 @@
                         margin-left: 12.6rem;
                         padding-right: 2em;
                         -webkit-animation-name: price-animation--short;
-                                animation-name: price-animation--short;
+                        animation-name: price-animation--short;
                         -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
+                        animation-duration: 2s;
                         transition: ease-out;
                     }
                 }
@@ -272,14 +269,14 @@
     }
     #délice__desserts {
         padding-bottom: 0.5em;
-            h2 {
-                border-bottom: solid $green;
-                border-width: 0.3em;
-                margin-right: 15em;
-                font-weight: lighter;
-                font-size: 1.3em;
-                padding-bottom: 0.3em;
-            }
+        h2 {
+            border-bottom: solid $green;
+            border-width: 0.3em;
+            margin-right: 15em;
+            font-weight: lighter;
+            font-size: 1.3em;
+            padding-bottom: 0.3em;
+        }
     }
     #délice__desserts--all {      
         padding-bottom: 3em;
@@ -287,11 +284,10 @@
         overflow-x: hidden;
         height: 17.5em;
         padding-left: 0.5em;
-        
         #délice__desserts--1 {
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
+            animation: loading-menus 0.5s ease-in-out;
             margin-top: 1em;
             width: 20.5em;
             input {
@@ -315,9 +311,9 @@
                         margin-left: 14rem;
                         padding-right: 2em;
                         -webkit-animation-name: price-animation;
-                                animation-name: price-animation;
+                        animation-name: price-animation;
                         -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
+                        animation-duration: 2s;
                         transition: ease-out;
                     }
                 }
@@ -327,8 +323,8 @@
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
-                    width: 20.5em;
+            animation: loading-menus 0.5s ease-in-out;
+            width: 20.5em;
             input {
                 @include fa-icon;
                 display: none;
@@ -349,14 +345,13 @@
                     span.normal {
                         margin-left: 0.51em;
                     }
-                    
                     span.price {
                         margin-left: 14rem;
                         padding-right: 2em;   /*mask the text ont some menus*/
                         -webkit-animation-name: price-animation;
-                                animation-name: price-animation;
+                        animation-name: price-animation;
                         -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
+                        animation-duration: 2s;
                         transition: ease-in-out;
                     }
                 }
@@ -366,8 +361,8 @@
             margin-top: 1em;
             @include div-principal-menus;
             -webkit-animation: loading-menus 0.5s ease-in-out;
-                    animation: loading-menus 0.5s ease-in-out;
-                    width: 20.5em;
+            animation: loading-menus 0.5s ease-in-out;
+            width: 20.5em;
             input {
                 @include fa-icon;
                 display: none;
@@ -379,7 +374,6 @@
                     span.normal {
                         margin-left: 0.5em;
                         font-size: 0.95em;
-                        
                     } 
                     span.price {
                         margin-left: 19.7em;
@@ -395,9 +389,9 @@
                         margin-left: 14rem;
                         padding-right: 2em;   /*mask the text ont some menus*/
                         -webkit-animation-name: price-animation;
-                                animation-name: price-animation;
+                        animation-name: price-animation;
                         -webkit-animation-duration: 2s;
-                                animation-duration: 2s;
+                        animation-duration: 2s;
                         transition: ease-in-out;
                     }
                 }
@@ -417,8 +411,8 @@
             &:hover {
                 cursor: pointer;
                 -webkit-filter: opacity(85%);
-                        filter: opacity(85%); /*this make the button lighter*/
-                        box-shadow: 0.1em 0.1em 1em 1em gray;
+                filter: opacity(85%); /*this make the button lighter*/
+                box-shadow: 0.1em 0.1em 1em 1em gray;
             }
         } 
     }

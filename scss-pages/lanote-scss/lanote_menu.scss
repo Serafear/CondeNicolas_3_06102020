@@ -19,17 +19,13 @@
 
 
 
-
-
 #logo {
     @include logo-back
 }
 
-
 footer {
     @include footer__settings
 }
-
 
 @media screen and (min-width: 250px) and (max-width: 320px)
 {
@@ -98,7 +94,7 @@ footer {
             }
         }
     }
-    #palette-image {
+    #lanote-image {
         transform: scale(1.1);
         width: 24em; 
         margin-top: 1em;

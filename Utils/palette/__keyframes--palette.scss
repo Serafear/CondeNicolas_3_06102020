@@ -114,31 +114,25 @@
 }
 @-webkit-keyframes price-animation--lenghty {
     0% {
-        
         transform: translate(2.5rem); /*translate me permet de commencer l'animation à partir d'un certain niveau*/
-        
     }
     100% {
         margin-left: -7.3rem;
-        
     }
 }
 @keyframes price-animation--lenghty {
     0% {
         
         transform: translate(2.5rem); /*translate me permet de commencer l'animation à partir d'un certain niveau*/
-        
     }
     100% {
         margin-left: -7.3rem;
-        
     }
 }
 @-webkit-keyframes price-animation--large {
     0% {
         padding-left: 1em;
         transform: translate(2rem);
-        
     }
     100% {
         margin-left: -3.5rem;
@@ -148,7 +142,6 @@
     0% {
         padding-left: 1em;
         transform: translate(2rem);
-        
     }
     100% {
         margin-left: -3.5rem;
@@ -172,7 +165,6 @@
         margin-left: 12.6rem;
     }
 }
-
 @-webkit-keyframes checked-background-translate--menu {
     0% {
         transform: translate(-2em);
@@ -180,7 +172,6 @@
     }
     100% {
         margin-left: 17em;     /*this remove the blur effect on the animation. the blur is caused by the calculation of the position, i think*/
-        
     } 
 }
 @keyframes checked-background-translate--menu {
@@ -208,10 +199,8 @@
     100%{
         transform: rotate(2turn);
         transition: ease-in-out;
-        
     }
 }
-
 @-webkit-keyframes loading-menus {
     0% {
         margin-bottom: -3em;
