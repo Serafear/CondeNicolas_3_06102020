@@ -1126,7 +1126,8 @@
         margin-right: 9em;
         padding-top: 1.5em;
         padding-bottom: 2.5em;
-        margin-left: 1em; /*to fix the logo ?*/
+        margin-left: 23em; /*to fix the logo ?*/
+        width: 20em;
     }
     header {
         margin-left: 15.4em;
@@ -1152,6 +1153,7 @@
         transform: scale(1.2);
         margin-top: 3em;
         margin-left: 10.7em;
+        width: 50em;
     }
     section {
         transform: scale(1.18);
@@ -1263,7 +1265,8 @@
         margin-right: 9em;
         padding-top: 1.5em;
         padding-bottom: 2.5em;
-        margin-left: 1em; /*to fix the logo ?*/
+        margin-left: 27em; /*to fix the logo ?*/
+        width: 20em;
     }
     header {
         margin-left: 15.4em;
@@ -1289,6 +1292,7 @@
         transform: scale(1.2);
         margin-top: 3em;
         margin-left: 10.7em;
+        width: 50em;
     }
     section {
         transform: scale(1.18);
@@ -1401,7 +1405,7 @@
         margin-right: 9em;
         padding-top: 1.5em;
         padding-bottom: 2.5em;
-        margin-left: 1em; /*to fix the logo ?*/
+        margin-left: 26em; /*to fix the logo ?*/
     }
     header {
         margin-left: 15.4em;
@@ -1532,14 +1536,15 @@
     }
     body {
         padding-top: 1.5em;
-        padding-left: 8em;
+        padding-left: 12em;
     }
     #logo {
+        width: 20em;
         transform: scale(1.2);
         margin-right: 9em;
         padding-top: 1.5em;
         padding-bottom: 2.5em;
-        margin-left: 1em; /*to fix the logo ?*/
+        margin-left: 26em; /*to fix the logo ?*/
     }
     header {
         margin-left: 15.4em;
@@ -1559,12 +1564,13 @@
             button {
                 margin-left: 35%;
             }
-        } 
+        }
     }
     #navigation {
         transform: scale(1.2);
         margin-top: 3em;
         margin-left: 10.7em;
+        width: 50em;
     }
     section {
         transform: scale(1.18);
@@ -1613,7 +1619,7 @@
     }
     .spinner div {
         margin-top: 25%;
-        margin-left: 20%;
+         margin-left: 20%;
     }
     .overlay__text--1 {
         margin-top: 13.8em;

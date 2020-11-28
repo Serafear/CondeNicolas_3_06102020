@@ -538,8 +538,8 @@ footer #line1 h6::before {
 
 .grower div:nth-child(3) {
   left: 56px;
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
+  -webkit-animation-delay: 0;
+  animation-delay: 0;
 }
 
 .spinner {
@@ -1113,6 +1113,7 @@ footer #contact a {
   will-change: font-size;
   background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation-name: color-swap;
   animation-name: color-swap;
@@ -1209,6 +1210,7 @@ footer #contact a {
   transform: scale(1.1);
   background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation-name: color-swap;
   animation-name: color-swap;
@@ -1304,6 +1306,7 @@ footer #contact a {
   transform: scale(1.1);
   background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation-name: color-swap;
   animation-name: color-swap;
@@ -1399,6 +1402,7 @@ footer #contact a {
   transform: scale(1.1);
   background: -webkit-linear-gradient(240deg, #9356DC 40%, #FF79DA);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation-name: color-swap;
   animation-name: color-swap;
@@ -2610,8 +2614,9 @@ footer #contact a {
     margin-right: 9em;
     padding-top: 1.5em;
     padding-bottom: 2.5em;
-    margin-left: 1em;
+    margin-left: 23em;
     /*to fix the logo ?*/
+    width: 20em;
   }
 
   header {
@@ -2638,6 +2643,7 @@ footer #contact a {
     transform: scale(1.2);
     margin-top: 3em;
     margin-left: 10.7em;
+    width: 50em;
   }
 
   section {
@@ -2759,8 +2765,9 @@ footer #contact a {
     margin-right: 9em;
     padding-top: 1.5em;
     padding-bottom: 2.5em;
-    margin-left: 1em;
+    margin-left: 27em;
     /*to fix the logo ?*/
+    width: 20em;
   }
 
   header {
@@ -2787,6 +2794,7 @@ footer #contact a {
     transform: scale(1.2);
     margin-top: 3em;
     margin-left: 10.7em;
+    width: 50em;
   }
 
   section {
@@ -2909,7 +2917,7 @@ footer #contact a {
     margin-right: 9em;
     padding-top: 1.5em;
     padding-bottom: 2.5em;
-    margin-left: 1em;
+    margin-left: 26em;
     /*to fix the logo ?*/
   }
 
@@ -3051,15 +3059,16 @@ footer #contact a {
 
   body {
     padding-top: 1.5em;
-    padding-left: 8em;
+    padding-left: 12em;
   }
 
   #logo {
+    width: 20em;
     transform: scale(1.2);
     margin-right: 9em;
     padding-top: 1.5em;
     padding-bottom: 2.5em;
-    margin-left: 1em;
+    margin-left: 26em;
     /*to fix the logo ?*/
   }
 
@@ -3087,6 +3096,7 @@ footer #contact a {
     transform: scale(1.2);
     margin-top: 3em;
     margin-left: 10.7em;
+    width: 50em;
   }
 
   section {
